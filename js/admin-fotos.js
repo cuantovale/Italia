@@ -32,11 +32,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 listItem.dataset.productName = product.nombre;
                 listItem.dataset.categoryName = category.categoria;
 
-                if (product.img !== '/italia/images/productos/default.svg') {
+                if (product.img !== 'images/productos/default.svg') {
                     listItem.classList.add('assigned');
                 }
 
-                const buttonText = product.img === '/italia/images/productos/default.svg' ? 'Asignar Imagen' : 'Editar Foto';
+                const buttonText = product.img === 'images/productos/default.svg' ? 'Asignar Imagen' : 'Editar Foto';
                 const imgSrc = product.img;
 
                 listItem.innerHTML = `
@@ -123,7 +123,7 @@ document.addEventListener('DOMContentLoaded', () => {
             // Para simplificar, actualizaremos la UI con la imagen recortada (como DataURL)
             // y mantendremos el nombre del archivo original en los datos.
             const croppedImageDataUrl = canvas.toDataURL(originalFile.type);
-            const imagePath = `/italia/images/productos/${originalFile.name}`;
+            const imagePath = `images/productos/${originalFile.name}`;
 
             // Actualizar el modelo de datos
             const category = currentMenuData.find(cat => cat.categoria === productToUpdate.categoryName);
@@ -141,7 +141,7 @@ document.addEventListener('DOMContentLoaded', () => {
             productToUpdate.element.querySelector('.assign-btn').textContent = 'Editar Foto';
             updateOutputData();
 
-            alert(`Imagen asignada. Recuerda subir el archivo "${originalFile.name}" (ya recortado si es necesario) a la carpeta /italia/images/productos/ para que se vea en el menú final.`);
+            alert(`Imagen asignada. Recuerda subir el archivo "${originalFile.name}" (ya recortado si es necesario) a la carpeta images/productos/ para que se vea en el menú final.`);
 
             hideCropper();
             productToUpdate = null;

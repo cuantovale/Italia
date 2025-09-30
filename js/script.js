@@ -6,133 +6,133 @@ var MENU_DATA = [
         nombre: "Café Espresso",
         descripcion: "",
         precio: 2500,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Café Jarrita",
         descripcion: "",
         precio: 2500,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Café Doble",
         descripcion: "",
         precio: 3800,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Café con Leche",
         descripcion: "",
         precio: 2800,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Café Cortado",
         descripcion: "",
         precio: 2800,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Café Lágrima",
         descripcion: "",
         precio: 2900,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Café con Crema",
         descripcion: "",
         precio: 5700,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Café Irlandés",
         descripcion: "",
         precio: 6900,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Café Affogato",
         descripcion: "",
         precio: 5500,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Iced coffee",
         descripcion: "",
         precio: 3800,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Iced latte",
         descripcion: "",
         precio: 4500,
-        img: "/italia/images/productos/icedlatte.png"
+        img: "images/productos/icedlatte.png"
       },
       {
         nombre: "Café bombón",
         descripcion: "",
         precio: 6200,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Capuccino",
         descripcion: "",
         precio: 5200,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Café Freddo",
         descripcion: "",
         precio: 5800,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Chocolatada (fría o caliente)",
         descripcion: "",
         precio: 3600,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Café Submarino",
         descripcion: "",
         precio: 4700,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Té negro",
         descripcion: "",
         precio: 3200,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Té con leche",
         descripcion: "",
         precio: 3800,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Té especiales",
         descripcion: "",
         precio: 4300,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Mate cocido",
         descripcion: "",
         precio: 2700,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Mate cocido con leche",
         descripcion: "",
         precio: 3200,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Yogurt con granola, frutas y miel",
         descripcion: "",
         precio: 6300,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
     ],
   },
@@ -143,73 +143,73 @@ var MENU_DATA = [
         nombre: "Combo 1",
         descripcion: "Café o té + 2 Medialunas",
         precio: 6500,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Combo 2",
         descripcion: "Café o té + 1 Waffle con miel o salsa",
         precio: 6500,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Combo 3",
         descripcion: "Café o té + Pastafrola o coco con dulce de leche",
         precio: 7000,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Combo 4",
         descripcion: "Café o té + 2 Tostadas con 2 dips",
         precio: 6500,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Combo 5",
         descripcion: "Café o té + 100gr de chipá",
         precio: 4800,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Combo 6",
         descripcion: "Café o té + Medialuna de jamón y queso",
         precio: 6500,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Combo 7",
         descripcion: "Café o té + Tostada con 1 feta de jamón y queso",
         precio: 6500,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Combo 8",
         descripcion: "Café o té + Tostada con rúcula y jamón crudo",
         precio: 6500,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Combo 9",
         descripcion: "Café o té + Huevo revuelto con o sin semillas",
         precio: 5400,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Combo 10",
         descripcion: "Café o té + Yogurt con granola, frutas y miel (sin infusión)",
         precio: 5400,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Combo 11",
         descripcion: "Café o té + 150gr bizcochos",
         precio: 4800,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Cambio de infusión por jugo de naranja mediano",
         descripcion: "",
         precio: 1100,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
     ],
   },
@@ -220,67 +220,67 @@ var MENU_DATA = [
         nombre: "Sandwich Génova",
         descripcion: "Pan de Molde Casero, Jamón, Queso y Huevo Revuelto)",
         precio: 7600,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Opción Keto",
         descripcion: "",
         precio: 9000,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Brusqueta Sicilia",
         descripcion: "Pan de Campo, Queso Crema con Cebollita de Verdeo, Cerdo Ahumado, Rúcula y Tomate)",
         precio: 6500,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Opción Keto",
         descripcion: "",
         precio: 7200,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Brusqueta Turín",
         descripcion: "Pan de Campo, Queso Cremama, Palta, Tomate y Huevo Revuelto)",
         precio: 7600,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Opción Keto",
         descripcion: "",
         precio: 8300,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Brusqueta Capri",
         descripcion: "Pan de Campo, Queso Crema, Frutas de Estación y Miel)",
         precio: 6000,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Opción Keto",
         descripcion: "",
         precio: 6700,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Brusqueta Siena",
         descripcion: "Pan de campo, Crema de nuestro Cheesecake con Reducción de Frutos Rojos",
         precio: 5700,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Opción Keto",
         descripcion: "",
         precio: 6400,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Pancakes Roma",
         descripcion: "2 Panqueques Tibios con Miel, Salsa y Frutas de Estación)",
         precio: 6700,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
     ],
   },
@@ -291,85 +291,85 @@ var MENU_DATA = [
         nombre: "Jugo de naranja mediano",
         descripcion: "",
         precio: 3600,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Jarra de limonada (2lts)",
         descripcion: "",
         precio: 11500,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Jugo de naranja grande",
         descripcion: "",
         precio: 4300,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Limonada mediana",
         descripcion: "",
         precio: 3300,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Limonada grande",
         descripcion: "",
         precio: 3800,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Licuado con agua",
         descripcion: "",
         precio: 4300,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Licuado con leche",
         descripcion: "",
         precio: 4900,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Milkshake (sabores varios)",
         descripcion: "",
         precio: 5400,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Smoothies (sabores varios)",
         descripcion: "",
         precio: 5400,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Agua 600 ml",
         descripcion: "",
         precio: 1800,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Agua con gas 500 ml",
         descripcion: "",
         precio: 2000,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Agua saborizada 500 ml",
         descripcion: "",
         precio: 2400,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Agua tónica 375 ml",
         descripcion: "",
         precio: 2700,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Gaseosa 500 ml",
         descripcion: "",
         precio: 2700,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
     ],
   },
@@ -380,43 +380,43 @@ var MENU_DATA = [
         nombre: "Combo Clásico",
         descripcion: "",
         precio: 7000,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Combo Chipá",
         descripcion: "",
         precio: 6900,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Combo Proteico",
         descripcion: "",
         precio: 13000,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Combo Fit",
         descripcion: "",
         precio: 10800,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Combo Italia",
         descripcion: "",
         precio: 12400,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Combo Mbejú",
         descripcion: "",
         precio: 11300,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Combo Para dos",
         descripcion: "",
         precio: 23700,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
     ],
   },
@@ -427,61 +427,61 @@ var MENU_DATA = [
         nombre: "Medialunas",
         descripcion: "",
         precio: 1600,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Porción de Pepas",
         descripcion: "",
         precio: 3500,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Tostadas pan casero con 2 dips",
         descripcion: "",
         precio: 6000,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Alfajores de la casa (2 unidades)",
         descripcion: "",
         precio: 3300,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Porción de Cheesecake",
         descripcion: "",
         precio: 7500,
-        img: "/italia/images/productos/cheesecake.png"
+        img: "images/productos/cheesecake.png"
       },
       {
         nombre: "Porción de tarta",
         descripcion: "",
         precio: 6500,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Pastafrola",
         descripcion: "",
         precio: 5400,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Bowl frutas estación, coco y miel",
         descripcion: "",
         precio: 6500,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Waffles con miel o salsa",
         descripcion: "",
         precio: 4300,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Waffles con frutas o helado",
         descripcion: "",
         precio: 6700,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
     ],
   },
@@ -492,49 +492,49 @@ var MENU_DATA = [
         nombre: "Chipá",
         descripcion: "",
         precio: 3000,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Bizcochitos",
         descripcion: "",
         precio: 3800,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Sandwich J&Q pan casero",
         descripcion: "",
         precio: 6800,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Tostón con huevo revuelto J&Q",
         descripcion: "",
         precio: 7000,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Medialunas con J&Q",
         descripcion: "",
         precio: 4800,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Sandwich jamón crudo y rúcula",
         descripcion: "",
         precio: 10000,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Tostón con revuelto de J&Q",
         descripcion: "",
         precio: 6600,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Mbejú relleno",
         descripcion: "",
         precio: 8600,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
     ],
   },
@@ -545,67 +545,67 @@ var MENU_DATA = [
         nombre: "Huevo",
         descripcion: "",
         precio: 860,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Queso",
         descripcion: "",
         precio: 1100,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Jamón",
         descripcion: "",
         precio: 1100,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Jamón crudo",
         descripcion: "",
         precio: 1700,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Dip",
         descripcion: "",
         precio: 1400,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Crema chantilly",
         descripcion: "",
         precio: 1200,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Jugo de naranja en combo",
         descripcion: "",
         precio: 2200,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Vaso de soda mediano",
         descripcion: "",
         precio: 1100,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Helado / Frutas",
         descripcion: "",
         precio: 1600,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Miel / Salsa",
         descripcion: "",
         precio: 650,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Pan Keto (unidad)",
         descripcion: "",
         precio: 1700,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
     ],
   },
@@ -616,43 +616,43 @@ var MENU_DATA = [
         nombre: "Mbejú de Jamón y Queso",
         descripcion: "",
         precio: 9000,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Mbejú de Rúcula y Jamón Crudo",
         descripcion: "",
         precio: 10500,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Mbejú de Rúcula, Palta, Huevo Revuelto y Tomates Confitados",
         descripcion: "",
         precio: 10500,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Mbejú de Rúcula, Cerdo Ahumado y Tomates Confitados",
         descripcion: "",
         precio: 10500,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Mbejú de Palta y Huevo Revuelto",
         descripcion: "",
         precio: 9000,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Mbejú de Jamón, Rúcula y Tomates Confitados",
         descripcion: "",
         precio: 9000,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
       {
         nombre: "Mbejú Italia",
         descripcion: "Masa de Mbejú + 3 Ingredientes a Elección",
         precio: 10500,
-        img: "/italia/images/productos/default.svg"
+        img: "images/productos/default.svg"
       },
     ],
   },
@@ -790,7 +790,7 @@ function createProductItem({ nombre, descripcion, precio, img }) {
     attrs: { tabindex: "0", role: "button", "aria-label": `Ver imagen del producto ${nombre}` },
   });
 
-  if (img === "/italia/images/productos/default.svg") {
+  if (img === "images/productos/default.svg") {
     imgContainer.classList.add("nozoom");
   }
 
@@ -799,7 +799,7 @@ function createProductItem({ nombre, descripcion, precio, img }) {
     attrs: {
       src: img,
       alt:
-        img === "/italia/images/productos/default.svg"
+        img === "images/productos/default.svg"
           ? "Imagen genérica de producto sin foto con bordes redondeados"
           : `Foto del producto ${nombre} con bordes redondeados`,
       loading: "lazy",
@@ -809,7 +809,7 @@ function createProductItem({ nombre, descripcion, precio, img }) {
   imgContainer.appendChild(imgEl);
   item.appendChild(imgContainer);
 
-  if (img !== "/italia/images/productos/default.svg") {
+  if (img !== "images/productos/default.svg") {
     imgContainer.addEventListener("click", () => openLightbox(img, nombre));
     imgContainer.addEventListener("keydown", (e) => {
       if (e.key === "Enter" || e.key === " ") {
