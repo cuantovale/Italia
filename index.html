@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Menú - Italia Café | Resistencia</title>
+
+<meta name="description" content="Explora el menú digital de Italia Café. Descubre nuestra variedad de cafetería, desayunos, especialidades, combos y más." />
+<meta name="keywords" content="cafetería, menú digital, Italia Café, Resistencia, Chaco, desayuno, combos, after office" />
+<meta name="author" content="Italia Café" />
+<meta property="og:locale" content="es_AR">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="Menú - Italia Café">
+<meta name="twitter:description" content="Descubre nuestra variedad de cafetería, desayunos, especialidades y más.">
+<meta name="twitter:image" content="https://clewbot.space/italia/images/logo.png">
+<meta property="og:title" content="Menú - Italia Café" />
+<meta property="og:description" content="Descubre nuestra variedad de cafetería, desayunos, especialidades y más." />
+<meta property="og:image" content="/italia/images/logo.png" />
+<link rel="icon" href="/italia/images/logo.png" type="image/png" />
+
+<link
+  href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap"
+  rel="stylesheet"
+/>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="stylesheet" href="/italia/css/style.css" />
+</head>
+<body>
+<header class="header">
+  <div class="header-brand">
+    <img src="/italia/images/logo.png" alt="italia cafe" class="logo" draggable="false" oncontextmenu="return false;" />
+    <h1 class="title">Italia Café</h1>
+  </div>
+
+  <div class="contact-channels-desktop">
+    <div class="location-hours-info">
+      <div class="location-info">
+        <i class="fas fa-map-marker-alt"></i>
+        <span>C. Don Bosco 485</span>
+      </div>
+      <div class="hours-info">
+        <button id="desktop-hours-toggle" type="button" class="hours-toggle-desktop" aria-expanded="false">
+          <i class="fas fa-clock"></i>
+          <span>Ver Horarios</span>
+          <i class="fas fa-chevron-down"></i>
+        </button>
+        <div id="desktop-hours-panel" class="hours-panel-desktop">
+          <button id="close-desktop-hours" class="close-panel-btn" type="button" aria-label="Cerrar horarios">&times;</button>
+          <div id="open-status-indicator" class="open-status"></div>
+          <ul>
+            <li><i class="fas fa-clock"></i><strong>DO:</strong><span>Cerrado</span></li>
+            <li><i class="fas fa-clock"></i><strong>LU:</strong><span>07:00 a 12:30</span><span class="separator">|</span><span>17:00 a 21:00</span></li>
+            <li><i class="fas fa-clock"></i><strong>MA:</strong><span>07:00 a 12:30</span><span class="separator">|</span><span>17:00 a 21:00</span></li>
+            <li><i class="fas fa-clock"></i><strong>MI:</strong><span>07:00 a 12:30</span><span class="separator">|</span><span>17:00 a 21:00</span></li>
+            <li><i class="fas fa-clock"></i><strong>JU:</strong><span>07:00 a 12:30</span><span class="separator">|</span><span>17:00 a 21:00</span></li>
+            <li><i class="fas fa-clock"></i><strong>VI:</strong><span>07:00 a 12:30</span><span class="separator">|</span><span>17:00 a 21:00</span></li>
+            <li><i class="fas fa-clock"></i><strong>SA:</strong><span>09:00 a 12:30</span><span class="separator">|</span><span>17:00 a 21:00</span></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+
+    <div class="divider"></div>
+
+    <div class="social-info">
+      <h4 class="contact-title">Contactanos</h4>
+      <div class="contact-row">
+        <div class="social-icons">
+          <a href="https://wa.me/5493624688355" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+          <a href="https://www.instagram.com/italiacafe.resistencia/" target="_blank" rel="noopener noreferrer" aria-label="Visitar nuestro Instagram"><i class="fa-brands fa-instagram"></i></a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="header-more-info-mobile">
+    <button id="more-info-toggle" class="more-info-toggle" type="button" aria-expanded="false">
+      Ver Info <i class="fas fa-chevron-down"></i>
+    </button>
+    <div id="more-info-panel" class="more-info-panel">
+      <button id="close-more-info" class="close-panel-btn" type="button" aria-label="Cerrar información">&times;</button>
+      <div class="panel-header">
+        <h3 class="panel-title">Italia Café</h3>
+      </div>
+      <ul class="panel-list">
+        <li><a href="https://www.google.com/maps?ll=-27.452379,-58.979492&z=15&t=m&hl=en-US&gl=US&mapclient=embed&q=C.+Don+Bosco+485+H3500+Resistencia+Chaco" target="_blank" rel="noopener noreferrer"><i class="fas fa-map-marker-alt"></i> C. Don Bosco 485</a></li>
+        <li>
+          <button id="mobile-hours-toggle" type="button" class="hours-toggle-mobile" aria-expanded="false">
+            <i class="fas fa-clock"></i><span>Ver Horarios</span><i class="fas fa-chevron-down"></i>
+          </button>
+        </li>
+        <li><i class="fas fa-motorcycle"></i> Envío gratis de 7:30 a 9:30 (Zona Centro)</li>
+        <li><i class="fas fa-phone"></i> 3624688355</a></li>
+      </ul>
+      <div class="contact-channels-mobile">
+        <h4 class="contact-title">Contactanos</h4>
+        <div class="social-icons">
+          <a href="https://wa.me/5493624688355" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp">
+            <i class="fa-brands fa-whatsapp"></i>
+          </a>
+          <a href="https://www.instagram.com/italiacafe.resistencia/" target="_blank" rel="noopener noreferrer" aria-label="Visitar nuestro Instagram">
+            <i class="fa-brands fa-instagram"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div id="mobile-hours-panel" class="mobile-hours-panel">
+    <button id="close-mobile-hours" class="close-panel-btn" type="button" aria-label="Cerrar horarios">&times;</button>
+    <div id="mobile-open-status-indicator" class="open-status"></div>
+    <ul>
+      <li><i class="fas fa-clock"></i><strong>DO:</strong><span>Cerrado</span></li>
+      <li><i class="fas fa-clock"></i><strong>LU:</strong><span>07:00 a 12:30</span><span class="separator">|</span><span>17:00 a 21:00</span></li>
+      <li><i class="fas fa-clock"></i><strong>MA:</strong><span>07:00 a 12:30</span><span class="separator">|</span><span>17:00 a 21:00</span></li>
+      <li><i class="fas fa-clock"></i><strong>MI:</strong><span>07:00 a 12:30</span><span class="separator">|</span><span>17:00 a 21:00</span></li>
+      <li><i class="fas fa-clock"></i><strong>JU:</strong><span>07:00 a 12:30</span><span class="separator">|</span><span>17:00 a 21:00</span></li>
+      <li><i class="fas fa-clock"></i><strong>VI:</strong><span>07:00 a 12:30</span><span class="separator">|</span><span>17:00 a 21:00</span></li>
+      <li><i class="fas fa-clock"></i><strong>SA:</strong><span>09:00 a 12:30</span><span class="separator">|</span><span>17:00 a 21:00</span></li>
+    </ul>
+  </div>
+
+</header>
+
+<div id="sticky-controls" class="sticky-controls">
+  <div class="search-wrapper">
+    <input type="search" id="search-input" placeholder="Buscar producto..." aria-label="Buscar producto en el menú" />
+  </div>
+  <nav class="category-bar" aria-label="Categorías del menú">
+    <button class="category" type="button" data-category-name="Cafetería">
+      <span class="category-icon-wrapper"><img src="/italia/images/category/cafeteria.jpg" alt="Icono de Cafetería" draggable="false"></span>
+      <span class="category-text">Cafetería</span>
+    </button>
+    <button class="category" type="button" data-category-name="Desayuno Ejecutivo">
+      <span class="category-icon-wrapper"><img src="/italia/images/category/desayuno.jpg" alt="Icono de Desayuno Ejecutivo" draggable="false"></span>
+      <span class="category-text">Desayuno Ejecutivo</span>
+    </button>
+    <button class="category" type="button" data-category-name="Especialidades">
+      <span class="category-icon-wrapper"><img src="/italia/images/category/especialidades.jpg" alt="Icono de Especialidades" draggable="false"></span>
+      <span class="category-text">Especialidades</span>
+    </button>
+    <button class="category" type="button" data-category-name="Bebidas">
+      <span class="category-icon-wrapper"><img src="/italia/images/category/bebidas.jpg" alt="Icono de Bebidas" draggable="false"></span>
+      <span class="category-text">Bebidas</span>
+    </button>
+    <button class="category" type="button" data-category-name="Combos">
+      <span class="category-icon-wrapper"><img src="/italia/images/category/combos.jpg" alt="Icono de Combos" draggable="false"></span>
+      <span class="category-text">Combos</span>
+    </button>
+    <button class="category" type="button" data-category-name="Dulces">
+      <span class="category-icon-wrapper"><img src="/italia/images/category/dulces.jpg" alt="Icono de Dulces" draggable="false"></span>
+      <span class="category-text">Dulces</span>
+    </button>
+    <button class="category" type="button" data-category-name="Salados">
+      <span class="category-icon-wrapper"><img src="/italia/images/category/salados.jpg" alt="Icono de Salados" draggable="false"></span>
+      <span class="category-text">Salados</span>
+    </button>
+    <button class="category" type="button" data-category-name="Adicionales">
+      <span class="category-icon-wrapper"><img src="/italia/images/category/adicionales.jpg" alt="Icono de Adicionales" draggable="false"></span>
+      <span class="category-text">Adicionales</span>
+    </button>
+    <button class="category" type="button" data-category-name="Mbejú">
+      <span class="category-icon-wrapper"><img src="/italia/images/category/mbeju.jpg" alt="Icono de Mbejú" draggable="false"></span>
+      <span class="category-text">Mbejú</span>
+    </button>
+  </nav>
+</div>
+
+<main id="menu-container" class="menu-container" tabindex="0" aria-live="polite" aria-atomic="true">
+  <div id="closed-store-message" class="closed-store-message hidden">
+    <i class="fas fa-door-closed"></i>
+    <p>El local se encuentra cerrado. No se pueden agregar productos al carrito en este momento.</p>
+  </div>
+</main>
+
+<footer class="footer">
+  <div class="footer-content">
+    <div class="footer-info">
+      <div class="footer-brand">
+        <img src="images/logo.png" alt="Logo Italia Café" class="footer-logo" draggable="false" oncontextmenu="return false;" />
+        <h3 class="footer-title">Italia Café</h3>
+      </div>
+      <p class="footer-address">
+        <i class="fas fa-map-marker-alt"></i>
+        C. Don Bosco 485, Resistencia, Chaco
+      </p>
+      <p class="footer-phone">
+        <i class="fas fa-phone"></i>
+        362 468-8355
+      </p>
+      <div class="footer-social">
+        <a href="https://wa.me/5493624688355" target="_blank" rel="noopener noreferrer" aria-label="Contactar por WhatsApp"><i class="fa-brands fa-whatsapp"></i></a>
+        <a href="https://www.instagram.com/italiacafe.resistencia/" target="_blank" rel="noopener noreferrer" aria-label="Visitar nuestro Instagram"><i class="fa-brands fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="footer-map">
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14643.821669070395!2d-58.979492!3d-27.452379!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9458edaeec798f5f%3A0x0!2sC.%20Don%20Bosco%20485%2C%20Resistencia%2C%20Chaco!5e0!3m2!1ses!2sar!4v1695670000000" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
+  </div>
+  <div class="footer-copyright">
+    <p>Italia Café © 2024-2025. Todos los derechos reservados. Made by @fmsfeli.</p>
+  </div>
+</footer>
+
+<div
+  id="lightbox"
+  class="lightbox hidden"
+  role="dialog"
+  aria-modal="true"
+  aria-label="Imagen del producto ampliada"
+>
+  <button id="lightbox-close" class="lightbox-close" aria-label="Cerrar imagen ampliada">&times;</button>
+  <img id="lightbox-img" src="" alt="Imagen ampliada del producto con bordes redondeados" />
+</div>
+
+<div id="mobile-info-overlay" class="mobile-info-overlay"></div>
+
+<a href="#" class="scroll-up" id="scroll-up" aria-label="Volver arriba">
+  <i class="fas fa-arrow-up"></i>
+</a>
+
+<a href="carrito.html" id="cart-bar" class="cart-float-button hidden" aria-label="Ver carrito de compras">
+  <i class="fas fa-shopping-cart"></i>
+  <span id="cart-item-count-text">Ver Carrito (0)</span>
+</a>
+
+<script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+<script src="js/script.js"></script>
+</body>
+</html>

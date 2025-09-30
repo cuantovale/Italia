@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Carrito de Compras - Italia Café</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="stylesheet" href="/italia/css/style.css"/>
+  <link rel="stylesheet" href="/italia/css/carrito.css"/>
+  <link rel="icon" href="/italia/images/logo.png" type="image/png" />
+</head>
+<body>
+
+<div class="cart-container">
+  <div class="cart-header">
+    <i class="fas fa-shopping-cart" style="font-size: 1.8rem; color: var(--color-price);"></i>
+    <h1>Tu Carrito</h1>
+  </div>
+
+  <div id="closed-store-overlay" class="closed-store-overlay hidden">
+    <i class="fas fa-door-closed"></i>
+    <h2>Local Cerrado</h2>
+    <p>En este momento no podemos tomar pedidos. Por favor, vuelve a intentarlo durante nuestro horario de atención.</p>
+    <p class="horarios-link">Puedes consultar nuestros horarios en el menú principal.</p>
+  </div>
+
+  <div class="form-group" style="padding: 0.5rem 0 1.5rem; border-bottom: 1px solid #eee; margin-bottom: 1.5rem;">
+    <label>Opción de Entrega</label>
+    <div class="delivery-options-container">
+      <div class="delivery-slider"></div>
+      <button type="button" class="delivery-option-btn active" data-value="pickup">Retirar</button>
+      <button type="button" class="delivery-option-btn" data-value="delivery">Envío</button>
+    </div>
+    <div id="delivery-time-notice" class="delivery-notice"></div> 
+    <div class="delivery-notice" style="margin-top: 10px; border-left-color: var(--color-price);"><i class="fas fa-motorcycle" style="margin-right: 8px;"></i>Los envíos gratis solo disponibles en Resistencia (Zona Centro).</div>
+  </div>
+
+  <div id="cart-items-container">
+  </div>
+
+  <div id="cart-summary" class="hidden">
+    <div id="cart-total" class="cart-total"></div>
+
+    <form id="checkout-form" class="checkout-form">
+      <h2>Completa tus datos para pedir</h2>
+      <div class="form-group">
+        <label for="customer-name">Nombre y Apellido</label>
+        <input type="text" id="customer-name" required>
+      </div>
+      <div id="pickup-fields" class="address-details">
+        <div class="form-group">
+          <label for="pickup-details">Aclaraciones (opcional)</label>
+          <textarea id="pickup-details" rows="2" placeholder="Ej: Retira otra persona, que mi pedido no tenga..."></textarea>
+        </div>
+      </div>
+      <div id="address-fields" class="address-details hidden">
+        <div class="form-group">
+          <label for="address">Dirección</label>
+          <input type="text" id="address">
+        </div>
+        <div class="form-group">
+          <label for="address-details">Aclaraciones (opcional)</label>
+          <textarea id="address-details" rows="2" placeholder="Ej: Casa verde en la esquina, que mi pedido no tenga..."></textarea>
+        </div>
+      </div>
+      <button type="submit" id="send-order-btn" class="checkout-btn">
+        <i class="fab fa-whatsapp"></i> Pedir por WhatsApp
+      </button>
+    </form>
+  </div>
+
+  <div id="empty-cart-message" class="empty-cart hidden">
+    <i class="fas fa-shopping-cart"></i>
+    <p>Tu carrito está vacío.</p>
+  </div>
+
+  <a href="index.html" class="back-btn">
+    <i class="fas fa-arrow-left"></i> Volver al Menú
+  </a>
+</div>
+
+<script src="js/carrito.js"></script>
+
+</body>
+</html>
