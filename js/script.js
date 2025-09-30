@@ -800,7 +800,7 @@ function createProductItem({ nombre, descripcion, precio, img }) {
       src: img,
       alt:
         img === "images/productos/default.svg"
-          ? "Imagen genérica de producto sin foto con bordes redondeados"
+          ? "default"
           : `Foto del producto ${nombre} con bordes redondeados`,
       loading: "lazy",
       draggable: "false",
