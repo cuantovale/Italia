@@ -460,6 +460,18 @@ var MENU_DATA = [
         img: "/images/productos/default.svg"
       },
       {
+        nombre: "Tortas Enteras",
+        descripcion: "",
+        precio: 45000,
+        img: "/images/productos/default.svg"
+      },
+      {
+        nombre: "Tartas Enteras",
+        descripcion: "",
+        precio: 45000,
+        img: "/images/productos/default.svg"
+      },
+      {
         nombre: "Pastafrola",
         descripcion: "",
         precio: 5400,
