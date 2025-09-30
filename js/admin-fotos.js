@@ -32,11 +32,11 @@ document.addEventListener('DOMContentLoaded', () => {
                 listItem.dataset.productName = product.nombre;
                 listItem.dataset.categoryName = category.categoria;
 
-                if (product.img !== 'images/productos/default.svg') {
+                if (product.img !== '/images/productos/default.svg') {
                     listItem.classList.add('assigned');
                 }
 
-                const buttonText = product.img === 'images/productos/default.svg' ? 'Asignar Imagen' : 'Editar Foto';
+                const buttonText = product.img === '/images/productos/default.svg' ? 'Asignar Imagen' : 'Editar Foto';
                 const imgSrc = product.img;
 
                 listItem.innerHTML = `
