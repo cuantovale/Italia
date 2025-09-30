@@ -378,7 +378,7 @@ var MENU_DATA = [
     productos: [
       {
         nombre: "Combo Clásico",
-        descripcion: "Café + 2 Medialunas / 150gr bizcochos +  jugo de naranja",
+        descripcion: "Café + 2 Medialunas o 150gr bizcochos +  jugo de naranja",
         precio: 7000,
         img: "/images/productos/default.svg"
       },
