@@ -153,7 +153,7 @@ var MENU_DATA = [
       },
       {
         nombre: "Combo 3",
-        descripcion: "Café o té + Pastafrola o coco con dulce de leche",
+        descripcion: "Café o té + Pastafrola o tarta de coco con dulce de leche",
         precio: 7000,
         img: "/images/productos/default.svg"
       },
@@ -171,19 +171,19 @@ var MENU_DATA = [
       },
       {
         nombre: "Combo 6",
-        descripcion: "Café o té + Medialuna de jamón y queso",
+        descripcion: "Café o té + 1 Medialuna de jamón y queso",
         precio: 6500,
         img: "/images/productos/default.svg"
       },
       {
         nombre: "Combo 7",
-        descripcion: "Café o té + Tostada con 1 feta de jamón y queso",
+        descripcion: "Café o té + 1 Tostada con 1 feta de jamón y queso",
         precio: 6500,
         img: "/images/productos/default.svg"
       },
       {
         nombre: "Combo 8",
-        descripcion: "Café o té + Tostada con rúcula y jamón crudo",
+        descripcion: "Café o té + 1 Tostada con rúcula y jamón crudo",
         precio: 6500,
         img: "/images/productos/default.svg"
       },
@@ -195,7 +195,7 @@ var MENU_DATA = [
       },
       {
         nombre: "Combo 10",
-        descripcion: "Café o té + Yogurt con granola, frutas y miel (sin infusión)",
+        descripcion: "Yogurt con granola, frutas y miel (sin infusión)",
         precio: 5400,
         img: "/images/productos/default.svg"
       },
@@ -218,7 +218,7 @@ var MENU_DATA = [
     productos: [
       {
         nombre: "Sandwich Génova",
-        descripcion: "Pan de Molde Casero, Jamón, Queso y Huevo Revuelto)",
+        descripcion: "Pan de Molde, Queso Crema, Jamón, Queso y Omelet de Huevo",
         precio: 7600,
         img: "/images/productos/default.svg"
       },
@@ -230,7 +230,7 @@ var MENU_DATA = [
       },
       {
         nombre: "Brusqueta Sicilia",
-        descripcion: "Pan de Campo, Queso Crema con Cebollita de Verdeo, Cerdo Ahumado, Rúcula y Tomate)",
+        descripcion: "Pan de Campo, Queso Crema con Cebollita de Verdeo, Rúcula, Tomates Confitados y Cerdo Ahumado",
         precio: 6500,
         img: "/images/productos/default.svg"
       },
@@ -242,7 +242,7 @@ var MENU_DATA = [
       },
       {
         nombre: "Brusqueta Turín",
-        descripcion: "Pan de Campo, Queso Cremama, Palta, Tomate y Huevo Revuelto)",
+        descripcion: "Pan de Campo, Queso Crema, Palta, Tomates Confitados y Huevo",
         precio: 7600,
         img: "/images/productos/default.svg"
       },
@@ -254,7 +254,7 @@ var MENU_DATA = [
       },
       {
         nombre: "Brusqueta Capri",
-        descripcion: "Pan de Campo, Queso Crema, Frutas de Estación y Miel)",
+        descripcion: "Pan de Campo, Queso Crema, Frutas de Estación, Miel y Granola",
         precio: 6000,
         img: "/images/productos/default.svg"
       },
@@ -278,7 +278,7 @@ var MENU_DATA = [
       },
       {
         nombre: "Pancakes Roma",
-        descripcion: "2 Panqueques Tibios con Miel, Salsa y Frutas de Estación)",
+        descripcion: "2 Pancakes Tibios con Frutas de Estación, Miel o Salsa y Coco",
         precio: 6700,
         img: "/images/productos/default.svg"
       },
@@ -289,55 +289,55 @@ var MENU_DATA = [
     productos: [
       {
         nombre: "Jugo de naranja mediano",
-        descripcion: "",
+        descripcion: "360ml",
         precio: 3600,
         img: "/images/productos/default.svg"
       },
       {
-        nombre: "Jarra de limonada (2lts)",
-        descripcion: "",
+        nombre: "Jarra de limonada",
+        descripcion: "2 litros (Opcional: Menta y Jengibre)",
         precio: 11500,
         img: "/images/productos/default.svg"
       },
       {
         nombre: "Jugo de naranja grande",
-        descripcion: "",
+        descripcion: "500ml",
         precio: 4300,
         img: "/images/productos/default.svg"
       },
       {
         nombre: "Limonada mediana",
-        descripcion: "",
+        descripcion: "360ml",
         precio: 3300,
         img: "/images/productos/default.svg"
       },
       {
         nombre: "Limonada grande",
-        descripcion: "",
+        descripcion: "500ml",
         precio: 3800,
         img: "/images/productos/default.svg"
       },
       {
         nombre: "Licuado con agua",
-        descripcion: "",
+        descripcion: "500ml (Sabores: Frutilla, Durazno o Banana)",
         precio: 4300,
         img: "/images/productos/default.svg"
       },
       {
         nombre: "Licuado con leche",
-        descripcion: "",
+        descripcion: "500ml (Sabores: Frutilla, Durazno o Banana)",
         precio: 4900,
         img: "/images/productos/default.svg"
       },
       {
-        nombre: "Milkshake (sabores varios)",
-        descripcion: "",
+        nombre: "Milkshake",
+        descripcion: "500ml (Sabores: Vainilla, Dulce de Leche o Frutilla. Con salsa de chocolate o caramelo y crema chantilly)",
         precio: 5400,
         img: "/images/productos/default.svg"
       },
       {
-        nombre: "Smoothies (sabores varios)",
-        descripcion: "",
+        nombre: "Smoothies",
+        descripcion: "360ml (Sabores Varios)",
         precio: 5400,
         img: "/images/productos/default.svg"
       },
@@ -378,43 +378,43 @@ var MENU_DATA = [
     productos: [
       {
         nombre: "Combo Clásico",
-        descripcion: "",
+        descripcion: "Café + 2 Medialunas / 150gr bizcochos +  jugo de naranja",
         precio: 7000,
         img: "/images/productos/default.svg"
       },
       {
         nombre: "Combo Chipá",
-        descripcion: "",
+        descripcion: "Café + 100g de chipá + jugo de naranja",
         precio: 6900,
         img: "/images/productos/default.svg"
       },
       {
         nombre: "Combo Proteico",
-        descripcion: "",
+        descripcion: "Café + tostón de J&Q y huevo revuelto + jugo de naranja mediano",
         precio: 13000,
         img: "/images/productos/default.svg"
       },
       {
         nombre: "Combo Fit",
-        descripcion: "",
+        descripcion: "Café + yogurt con granola y frutas + jugo de naranja",
         precio: 10800,
         img: "/images/productos/default.svg"
       },
       {
         nombre: "Combo Italia",
-        descripcion: "",
+        descripcion: "Café + porción de torta/tarta + jugo de naranja",
         precio: 12400,
         img: "/images/productos/default.svg"
       },
       {
         nombre: "Combo Mbejú",
-        descripcion: "",
+        descripcion: "Café + Mbejú relleno de J&Q",
         precio: 11300,
         img: "/images/productos/default.svg"
       },
       {
         nombre: "Combo Para dos",
-        descripcion: "",
+        descripcion: "Café + 2 medialunas + 2 tostadas con dip + porción de tarta (pastafrola o tarta de coco con dulce de leche) + 100g de chipá + jugo de naranja",
         precio: 23700,
         img: "/images/productos/default.svg"
       },
@@ -424,7 +424,7 @@ var MENU_DATA = [
     categoria: "Dulces",
     productos: [
       {
-        nombre: "Medialunas",
+        nombre: "Medialuna Dulce",
         descripcion: "",
         precio: 1600,
         img: "/images/productos/default.svg"
@@ -436,14 +436,14 @@ var MENU_DATA = [
         img: "/images/productos/default.svg"
       },
       {
-        nombre: "Tostadas pan casero con 2 dips",
-        descripcion: "",
+        nombre: "Tostadas de pan de molde con 2 dips",
+        descripcion: "Mermelada de frutilla/naranja, dulce de leche y queso crema",
         precio: 6000,
         img: "/images/productos/default.svg"
       },
       {
-        nombre: "Alfajores de la casa (2 unidades)",
-        descripcion: "",
+        nombre: "Alfajores de la casa",
+        descripcion: "(2 unidades)",
         precio: 3300,
         img: "/images/productos/default.svg"
       },
@@ -452,12 +452,6 @@ var MENU_DATA = [
         descripcion: "",
         precio: 7500,
         img: "/images/productos/cheesecake.png"
-      },
-      {
-        nombre: "Porción de tarta",
-        descripcion: "",
-        precio: 6500,
-        img: "/images/productos/default.svg"
       },
       {
         nombre: "Tortas Enteras",
@@ -478,20 +472,20 @@ var MENU_DATA = [
         img: "/images/productos/default.svg"
       },
       {
-        nombre: "Bowl frutas estación, coco y miel",
+        nombre: "Bowl frutas de estación, coco y miel",
         descripcion: "",
         precio: 6500,
         img: "/images/productos/default.svg"
       },
       {
         nombre: "Waffles con miel o salsa",
-        descripcion: "",
+        descripcion: "(2 Unidades)",
         precio: 4300,
         img: "/images/productos/default.svg"
       },
       {
-        nombre: "Waffles con frutas o helado",
-        descripcion: "",
+        nombre: "Waffles con frutas o 2 bochas de helado",
+        descripcion: "(2 Unidades)",
         precio: 6700,
         img: "/images/productos/default.svg"
       },
@@ -501,32 +495,44 @@ var MENU_DATA = [
     categoria: "Salados",
     productos: [
       {
-        nombre: "Chipá",
+        nombre: "Chipá (100gr)",
         descripcion: "",
         precio: 3000,
         img: "/images/productos/default.svg"
       },
       {
-        nombre: "Bizcochitos",
+        nombre: "Bizcochitos (100gr)",
+        descripcion: "",
+        precio: 1800,
+        img: "/images/productos/default.svg"
+      },
+      {
+        nombre: "Bizcochitos (250gr)",
         descripcion: "",
         precio: 3800,
         img: "/images/productos/default.svg"
       },
       {
-        nombre: "Sandwich J&Q pan casero",
+        nombre: "Sandwich J&Q + Queso Crema en pan de campo",
         descripcion: "",
         precio: 6800,
         img: "/images/productos/default.svg"
       },
       {
         nombre: "Tostón con huevo revuelto J&Q",
-        descripcion: "",
+        descripcion: "1 Tostada +  1 Huevo revuelto +  Rollitos de J&Q",
         precio: 7000,
         img: "/images/productos/default.svg"
       },
       {
-        nombre: "Medialunas con J&Q",
+        nombre: "Medialuna Salada",
         descripcion: "",
+        precio: 1600,
+        img: "/images/productos/default.svg"
+      },
+      {
+        nombre: "Medialuna con J&Q",
+        descripcion: "Opcional: Medialuna salada/dulce",
         precio: 4800,
         img: "/images/productos/default.svg"
       },
@@ -537,13 +543,13 @@ var MENU_DATA = [
         img: "/images/productos/default.svg"
       },
       {
-        nombre: "Tostón con revuelto de J&Q",
+        nombre: "Tostón de huevo revuelto con J&Q integrado",
         descripcion: "",
         precio: 6600,
         img: "/images/productos/default.svg"
       },
       {
-        nombre: "Mbejú relleno",
+        nombre: "Mbejú relleno de J&Q",
         descripcion: "",
         precio: 8600,
         img: "/images/productos/default.svg"
@@ -597,7 +603,7 @@ var MENU_DATA = [
       },
       {
         nombre: "Vaso de soda mediano",
-        descripcion: "",
+        descripcion: "360ml",
         precio: 1100,
         img: "/images/productos/default.svg"
       },
