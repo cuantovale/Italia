@@ -414,7 +414,7 @@ var MENU_DATA = [
       },
       {
         nombre: "Combo Para dos",
-        descripcion: "Café + 2 medialunas + 2 tostadas con dip + porción de tarta (pastafrola o tarta de coco con dulce de leche) + 100g de chipá + jugo de naranja",
+        descripcion: "Café + 2 medialunas + 2 tostadas con dips + porción de pastafrola o tarta de coco con dulce de leche + 100g de chipá + jugo de naranja",
         precio: 23700,
         img: "/images/productos/default.svg"
       },
@@ -436,7 +436,7 @@ var MENU_DATA = [
         img: "/images/productos/default.svg"
       },
       {
-        nombre: "Tostadas de pan de molde con 2 dips",
+        nombre: "Tostadas pan de molde con 2 dips",
         descripcion: "Mermelada de frutilla/naranja, dulce de leche y queso crema",
         precio: 6000,
         img: "/images/productos/default.svg"
@@ -466,7 +466,7 @@ var MENU_DATA = [
         img: "/images/productos/default.svg"
       },
       {
-        nombre: "Pastafrola",
+        nombre: "Porción de Pastafrola",
         descripcion: "",
         precio: 5400,
         img: "/images/productos/default.svg"
@@ -501,13 +501,13 @@ var MENU_DATA = [
         img: "/images/productos/default.svg"
       },
       {
-        nombre: "Bizcochitos (100gr)",
+        nombre: "Bizcochos de grasa (100gr)",
         descripcion: "",
         precio: 1800,
         img: "/images/productos/default.svg"
       },
       {
-        nombre: "Bizcochitos (250gr)",
+        nombre: "Bizcochos de grasa (250gr)",
         descripcion: "",
         precio: 3800,
         img: "/images/productos/default.svg"
@@ -519,8 +519,8 @@ var MENU_DATA = [
         img: "/images/productos/default.svg"
       },
       {
-        nombre: "Tostón con huevo revuelto J&Q",
-        descripcion: "1 Tostada +  1 Huevo revuelto +  Rollitos de J&Q",
+        nombre: "Tostón con huevos revueltos J&Q",
+        descripcion: "1 Tostada +  2 Huevos revueltos +  Rollitos de J&Q",
         precio: 7000,
         img: "/images/productos/default.svg"
       },
