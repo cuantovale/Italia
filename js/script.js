@@ -144,7 +144,7 @@ const MENU_DATA = [
         "nombre": "Té especiales",
         "descripcion": "",
         "precio": 4300,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/IMG_1287.JPEG"
       },
       {
         "nombre": "Mate cocido",
@@ -260,7 +260,7 @@ const MENU_DATA = [
         "nombre": "Opción Keto",
         "descripcion": "",
         "precio": 9000,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/opci_n_keto_1759338229231.JPEG"
       },
       {
         "nombre": "Brusqueta Sicilia",
@@ -272,7 +272,7 @@ const MENU_DATA = [
         "nombre": "Opción Keto",
         "descripcion": "",
         "precio": 7200,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/opci_n_keto_1759338229231.JPEG"
       },
       {
         "nombre": "Brusqueta Turín",
@@ -284,7 +284,7 @@ const MENU_DATA = [
         "nombre": "Opción Keto",
         "descripcion": "",
         "precio": 8300,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/opci_n_keto_1759338229231.JPEG"
       },
       {
         "nombre": "Brusqueta Capri",
@@ -296,7 +296,7 @@ const MENU_DATA = [
         "nombre": "Opción Keto",
         "descripcion": "",
         "precio": 6700,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/opci_n_keto_1759338229231.JPEG"
       },
       {
         "nombre": "Brusqueta Siena",
@@ -308,7 +308,7 @@ const MENU_DATA = [
         "nombre": "Opción Keto",
         "descripcion": "",
         "precio": 6400,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/opci_n_keto_1759338229231.JPEG"
       },
       {
         "nombre": "Pancakes Roma",
@@ -506,8 +506,8 @@ const MENU_DATA = [
         "img": "/images/productos/porci_n_de_lemon_pie_1759338049884.JPEG"
       },
       {
-        "nombre": "Porción de no se que de frutos rojos",
-        "descripcion": "",
+        "nombre": "Porción de Patagonia",
+        "descripcion": "Chocolate blanco con frutos rojos",
         "precio": 7500,
         "img": "/images/productos/porci_n_de_no_se_que_de_frutos_rojos_1759338036959.JPEG"
       },
@@ -524,7 +524,7 @@ const MENU_DATA = [
         "img": "/images/productos/porci_n_de_tiramis_1759338099812.JPEG"
       },
       {
-        "nombre": "Porción de el coso de dulce de leche",
+        "nombre": "Porción de Havannet",
         "descripcion": "",
         "precio": 7500,
         "img": "/images/productos/porci_n_de_el_coso_de_dulce_de_leche_1759338158027.JPEG"
@@ -699,7 +699,7 @@ const MENU_DATA = [
         "nombre": "Pan Keto (unidad)",
         "descripcion": "",
         "precio": 1700,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/opci_n_keto_1759338229231.JPEG"
       }
     ]
   },
