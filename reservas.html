@@ -24,107 +24,32 @@
   <div class="info-section">
     <div class="info-card">
       <h3><i class="fas fa-birthday-cake"></i> Cumpleaños</h3>
-      <ul>
-        <li>Espacio reservado en planta alta con mesa central para 12-14 personas.</li>
-        <li>TV con conectividad para música o presentaciones y aire acondicionado.</li>
-        <li>Disponibilidad durante la jornada de cafetería (mañana o tarde).</li>
-        <li><strong>¡Si es tu cumpleaños, el uso del salón es nuestro regalo!</strong> No cobramos el alquiler.</li>
-        <li>Puedes hacer un pedido previo de la carta o consumir en el momento.</li>
-        <li>Se generará un solo ticket al final del evento a nombre de quien reserva.</li>
-        <li>Contamos con pastelería de excelencia. ¡Consulta por tu torta personalizada! (Requiere seña).</li>
-        <li>Está prohibido el ingreso de alimentos o bebidas ajenos al local.</li>
-        <li>Puedes decorar el espacio siempre que no se dañen las paredes.</li>
-      </ul>
+      <p>Contamos con espacio reservado en planta alta, con mesa grande central para 12 a 14 personas sentadas alrededor, con posibilidad de agregar mesa individual si necesitaras más espacio.</p>
+      <p>Cuenta con televisión con conectividad para reproducir música, videos o lo que prefieras, o conectarte para reproducir alguna presentación.</p>
+      <p>Cuenta con aire acondicionado.</p>
+      <p>Su disponibilidad es jornada de cafetería, tanto de mañana como de tarde.</p>
+      <p><strong>Si tu reserva es por natalicio, no cobramos la hora de uso, te regalamos la jornada, mañana o tarde completa.</strong></p>
+      <p>Podés hacer un pedido previo de la carta con una base previa estimada, o sugerencia si necesitaras con un monto que quieras abonar, o también podés consumir en el momento y hacer la cuenta al cierre del evento o festejo. Al solicitar el cierre de cuenta se generará solo un ticket de pago con la suma total de la consumición de dicho evento, la cual él/la persona que realizó la reserva será el responsable de efectuar el pago por cualquiera de los medios en su totalidad. Agradecemos su consideración.</p>
+      <p>Por otro lado, contamos con pastelería de excelencia, podés elegir las tortas que tenemos en la carta, o pedir lo que quieras, se hace una seña de esa torta para poder tomarte el pedido y confirmarlo. <strong>Esta prohibido el ingreso de tortas/alimentos fuera del local.</strong></p>
+      <p>Si festejás tu cumple, podés adornarlo como quieras, siempre que uses hilo y no arruine la pintura de las paredes.</p>
     </div>
 
     <div class="info-card">
       <h3><i class="fas fa-users"></i> Reuniones y Capacitaciones</h3>
-      <ul>
-        <li>Costo del salón por hora: <strong>$15.000</strong>.</li>
-        <li>Incluye una jarra de agua de cortesía.</li>
-        <li>Ideal para reuniones de trabajo, capacitaciones o presentaciones.</li>
-        <li>Consulta nuestro <a href="index.html">menú general</a> para opciones de catering.</li>
-      </ul>
+      <p>Para <strong>Reuniones o Capacitaciones</strong> el costo del salón por hora es de <strong>$15.000</strong> y de cortesía incluye una jarra de agua.</p>
+      <p>A continuación te pasamos link de <a href="index.html">menú</a>, y si querés precio de alguna torta en especial, nos consultas idea y te pasamos el monto por este medio.</p>
     </div>
   </div>
 
-  <div class="form-container">
-    <h2>Formulario de Consulta</h2>
-    <p class="form-reminder"><i class="fas fa-info-circle"></i> Antes de completar, por favor lee las condiciones para <strong>Cumpleaños</strong> y <strong>Reuniones</strong> detalladas arriba.</p>
-    <form id="reservation-form" class="checkout-form">
-      <div class="form-group">
-        <label for="customer-name">Nombre y Apellido</label>
-        <input type="text" id="customer-name">
-        <div class="error-message"></div>
-      </div>
+<a href="https://wa.me/5493624688355?text=Hola%20Italia%20Café!%20Quisiera%20consultar%20por%20una%20reserva%20para%20el%20salón%20de%20eventos." target="_blank" rel="noopener noreferrer" class="checkout-btn" style="text-align: center; text-decoration: none; display: block; margin: 2rem 0;">
+  <i class="fab fa-whatsapp"></i> Consultar Disponibilidad
+</a>
 
-      <div class="form-group">
-        <label for="customer-phone">Teléfono de Contacto</label>
-        <input type="tel" id="customer-phone" placeholder="Ej: 3624123456">
-        <div class="error-message"></div>
-      </div>
-
-      <div class="form-group">
-        <label for="event-type">Tipo de Evento</label>
-        <select id="event-type">
-          <option value="" disabled selected>Selecciona una opción...</option>
-          <option value="Cumpleaños">Cumpleaños</option>
-          <option value="Reunión/Capacitación">Reunión / Capacitación</option>
-          <option value="Otro">Otro</option>
-        </select>
-        <div class="error-message"></div>
-      </div>
-
-      <div class="form-row">
-        <div class="form-group">
-          <label for="event-date">Fecha</label>
-          <input type="text" id="event-date" placeholder="dd/mm/aaaa">
-          <div class="error-message"></div>
-        </div>
-        <div class="form-group">
-          <label for="guest-count">Cantidad de Personas</label>
-          <input type="number" id="guest-count" min="1" placeholder="Ej: 12">
-          <div class="error-message"></div>
-        </div>
-      </div>
-
-      <div class="form-row">
-        <div class="form-group time-group">
-          <label for="event-time">Hora de Inicio</label>
-          <select id="event-time-start">
-            <option>Selecciona una fecha primero</option>
-          </select>
-          <div class="error-message"></div>
-        </div>
-        <div class="form-group time-group">
-          <label for="event-time">Hora de Finalización</label>
-          <select id="event-time-end">
-            <option>Selecciona una hora de inicio</option>
-          </select>
-          <div class="error-message"></div>
-        </div>
-      </div>
-
-      <div class="form-group">
-        <label for="additional-comments">Consulta Adicional (opcional)</label>
-        <textarea id="additional-comments" rows="3" placeholder="Ej: Necesito una torta de chocolate, consultar por opciones sin TACC, etc."></textarea>
-      </div>
-
-      <button type="submit" id="send-reservation-btn" class="checkout-btn">
-        <i class="fab fa-whatsapp"></i> Consultar por WhatsApp
-      </button>
-    </form>
-  </div>
 
   <a href="index.html" class="back-btn">
     <i class="fas fa-arrow-left"></i> Volver al Menú
   </a>
 </div>
-
-<script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
-<script src="https://npmcdn.com/flatpickr/dist/l10n/es.js"></script>
-<script src="js/reservas.js"></script>
 
 </body>
 </html>

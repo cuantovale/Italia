@@ -630,12 +630,6 @@ const MENU_DATA = [
         "precio": 6600,
         "img": "/images/productos/default.svg"
       },
-      {
-        "nombre": "Mbejú relleno de J&Q",
-        "descripcion": "",
-        "precio": 8600,
-        "img": "/images/productos/mbej_relleno_de_j_q_1759335335454.JPEG"
-      }
     ]
   },
   {
@@ -717,6 +711,12 @@ const MENU_DATA = [
         "descripcion": "",
         "precio": 9000,
         "img": "/images/productos/default.svg"
+      },
+      {
+        "nombre": "Mbejú relleno de J&Q",
+        "descripcion": "",
+        "precio": 8600,
+        "img": "/images/productos/mbej_relleno_de_j_q_1759335335454.JPEG"
       },
       {
         "nombre": "Mbejú de Rúcula y Jamón Crudo",
