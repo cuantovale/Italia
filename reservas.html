@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Reservas de Salón - Italia Café</title>
+  <meta name="robots" content="noindex, nofollow">
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" />
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+  <link rel="stylesheet" href="css/style.css"/>
+  <link rel="stylesheet" href="css/reservas.css"/>
+  <link rel="icon" href="images/logo.png" type="image/png" />
+</head>
+<body>
+
+<div class="reservas-container">
+  <div class="reservas-header">
+    <i class="fas fa-calendar-alt"></i>
+    <h1>Reserva de Salón de Eventos</h1>
+    <p>Consulta la disponibilidad y condiciones de nuestro espacio para tu próximo evento.</p>
+  </div>
+
+  <div class="info-section">
+    <div class="info-card">
+      <h3><i class="fas fa-birthday-cake"></i> Cumpleaños</h3>
+      <ul>
+        <li>Espacio reservado en planta alta con mesa central para 12-14 personas.</li>
+        <li>TV con conectividad para música o presentaciones y aire acondicionado.</li>
+        <li>Disponibilidad durante la jornada de cafetería (mañana o tarde).</li>
+        <li><strong>¡Si es tu cumpleaños, el uso del salón es nuestro regalo!</strong> No cobramos el alquiler.</li>
+        <li>Puedes hacer un pedido previo de la carta o consumir en el momento.</li>
+        <li>Se generará un solo ticket al final del evento a nombre de quien reserva.</li>
+        <li>Contamos con pastelería de excelencia. ¡Consulta por tu torta personalizada! (Requiere seña).</li>
+        <li>Está prohibido el ingreso de alimentos o bebidas ajenos al local.</li>
+        <li>Puedes decorar el espacio siempre que no se dañen las paredes.</li>
+      </ul>
+    </div>
+
+    <div class="info-card">
+      <h3><i class="fas fa-users"></i> Reuniones y Capacitaciones</h3>
+      <ul>
+        <li>Costo del salón por hora: <strong>$15.000</strong>.</li>
+        <li>Incluye una jarra de agua de cortesía.</li>
+        <li>Ideal para reuniones de trabajo, capacitaciones o presentaciones.</li>
+        <li>Consulta nuestro <a href="index.html">menú general</a> para opciones de catering.</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="form-container">
+    <h2>Formulario de Consulta</h2>
+    <p class="form-reminder"><i class="fas fa-info-circle"></i> Antes de completar, por favor lee las condiciones para <strong>Cumpleaños</strong> y <strong>Reuniones</strong> detalladas arriba.</p>
+    <form id="reservation-form" class="checkout-form">
+      <div class="form-group">
+        <label for="customer-name">Nombre y Apellido</label>
+        <input type="text" id="customer-name">
+        <div class="error-message"></div>
+      </div>
+
+      <div class="form-group">
+        <label for="customer-phone">Teléfono de Contacto</label>
+        <input type="tel" id="customer-phone" placeholder="Ej: 3624123456">
+        <div class="error-message"></div>
+      </div>
+
+      <div class="form-group">
+        <label for="event-type">Tipo de Evento</label>
+        <select id="event-type">
+          <option value="" disabled selected>Selecciona una opción...</option>
+          <option value="Cumpleaños">Cumpleaños</option>
+          <option value="Reunión/Capacitación">Reunión / Capacitación</option>
+          <option value="Otro">Otro</option>
+        </select>
+        <div class="error-message"></div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="event-date">Fecha</label>
+          <input type="text" id="event-date" placeholder="dd/mm/aaaa">
+          <div class="error-message"></div>
+        </div>
+        <div class="form-group">
+          <label for="guest-count">Cantidad de Personas</label>
+          <input type="number" id="guest-count" min="1" placeholder="Ej: 12">
+          <div class="error-message"></div>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group time-group">
+          <label for="event-time">Hora de Inicio</label>
+          <select id="event-time-start">
+            <option>Selecciona una fecha primero</option>
+          </select>
+          <div class="error-message"></div>
+        </div>
+        <div class="form-group time-group">
+          <label for="event-time">Hora de Finalización</label>
+          <select id="event-time-end">
+            <option>Selecciona una hora de inicio</option>
+          </select>
+          <div class="error-message"></div>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="additional-comments">Consulta Adicional (opcional)</label>
+        <textarea id="additional-comments" rows="3" placeholder="Ej: Necesito una torta de chocolate, consultar por opciones sin TACC, etc."></textarea>
+      </div>
+
+      <button type="submit" id="send-reservation-btn" class="checkout-btn">
+        <i class="fab fa-whatsapp"></i> Consultar por WhatsApp
+      </button>
+    </form>
+  </div>
+
+  <a href="index.html" class="back-btn">
+    <i class="fas fa-arrow-left"></i> Volver al Menú
+  </a>
+</div>
+
+<script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+<script src="https://npmcdn.com/flatpickr/dist/l10n/es.js"></script>
+<script src="js/reservas.js"></script>
+
+</body>
+</html>

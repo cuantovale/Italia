@@ -230,8 +230,8 @@ document.addEventListener("DOMContentLoaded", () => {
     const name = document.getElementById("customer-name").value;
     const deliveryType = currentDeliveryOption === 'pickup' ? 'Retirar en el local' : 'Envío a domicilio';
 
-    let message = `¡Hola Italia Café! Quisiera hacer un pedido:\n\n`;
-    message += `*Cliente:* ${name}\n`;
+    let message = `¡Hola! Quisiera hacer un pedido:\n\n`;
+    message += `*Nombre y Apellido:* ${name}\n`;
     message += `*Tipo de entrega:* ${deliveryType}\n`;
 
     if (currentDeliveryOption === "pickup") {

@@ -541,6 +541,24 @@ body::-webkit-scrollbar-thumb {
   padding-bottom: 4px;
 }
 
+.menu-subcategory {
+  font-size: 1.25rem;
+  font-weight: 600;
+  color: var(--color-price);
+  margin-top: 2.5rem;
+  margin-bottom: 1rem;
+  padding-bottom: 5px;
+  border-bottom: 1px solid #e0e0e0;
+}
+
+.menu-sub-subcategory {
+  font-size: 1rem;
+  font-weight: 600;
+  color: #444;
+  margin-top: 1.8rem;
+  margin-bottom: 0.8rem;
+}
+
 .menu-item {
   display: flex;
   align-items: center;

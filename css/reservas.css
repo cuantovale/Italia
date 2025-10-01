@@ -1,0 +1,282 @@
+/* Estilos para la página de Reservas */
+body {
+  background-color: #f8f6f1;
+  color: #333;
+}
+
+.reservas-container {
+  max-width: 800px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+}
+
+.reservas-header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+  border-bottom: 1px solid #eee;
+  padding-bottom: 1.5rem;
+}
+
+.reservas-header i {
+  font-size: 2.5rem;
+  color: var(--color-price);
+  margin-bottom: 0.5rem;
+}
+
+.reservas-header h1 {
+  margin: 0.5rem 0;
+  font-size: 1.8rem;
+}
+
+.reservas-header p {
+  font-size: 1rem;
+  color: #666;
+  max-width: 600px;
+  margin: 0.5rem auto 0;
+}
+
+.info-section {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1.5rem;
+  margin-bottom: 2.5rem;
+}
+
+@media (min-width: 768px) {
+  .info-section {
+    grid-template-columns: 1fr 1fr;
+  }
+}
+
+.info-card {
+  background-color: #fdfcf9;
+  border: 1px solid #eee;
+  padding: 1.5rem;
+  border-radius: 12px;
+}
+
+.info-card h3 {
+  font-size: 1.2rem;
+  color: var(--color-price);
+  margin-top: 0;
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.75rem;
+}
+
+.info-card ul {
+  padding-left: 20px;
+  margin: 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.info-card li {
+  margin-bottom: 0.75rem;
+  line-height: 1.5;
+}
+
+.form-container h2 {
+  text-align: center;
+  margin-bottom: 1.5rem;
+}
+
+/* --- ESTILOS MEJORADOS PARA EL FORMULARIO --- */
+
+.form-reminder {
+  background-color: #f8f6f1;
+  border-left: 4px solid var(--color-price);
+  padding: 1rem;
+  margin-bottom: 2rem;
+  border-radius: 0 8px 8px 0;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.form-reminder i {
+  margin-right: 8px;
+  color: var(--color-price);
+}
+
+/* Reutilizamos estilos de carrito.css para el formulario */
+.checkout-form {
+  margin-top: 0;
+}
+
+.checkout-form .form-group {
+  margin-bottom: 1.25rem;
+}
+
+.checkout-form label {
+  display: block;
+  margin-bottom: 0.5rem;
+  font-weight: 600;
+  font-size: 0.9rem;
+  color: #444;
+}
+
+.checkout-form input[type="text"],
+.checkout-form input[type="tel"],
+.checkout-form input[type="date"],
+.checkout-form input[type="number"],
+.checkout-form select,
+.checkout-form textarea {
+  width: 100%;
+  padding: 12px 20px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-family: var(--font-family);
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.checkout-form input,
+.checkout-form select {
+  border-radius: 50px; /* Bordes completamente redondeados */
+}
+
+/* Estilo para el input de fecha personalizado */
+.checkout-form input#event-date {
+  background-color: #fff; /* Asegura que el fondo sea blanco */
+  cursor: pointer;
+}
+
+.checkout-form input.is-invalid,
+.checkout-form select.is-invalid,
+.checkout-form textarea.is-invalid {
+  border-color: #e74c3c;
+  background-color: #fff6f5;
+}
+
+.error-message {
+  color: #e74c3c;
+  font-size: 0.85rem;
+  font-weight: 600;
+  margin-top: 6px;
+  padding-left: 20px;
+  display: block;
+}
+
+
+.checkout-form input:focus,
+.checkout-form select:focus,
+.checkout-form textarea:focus {
+  border-color: var(--color-price);
+  box-shadow: 0 0 0 3px rgba(48, 77, 58, 0.1);
+  outline: none;
+}
+
+.checkout-form select {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='16' height='16' fill='%23304d3a' viewBox='0 0 16 16'%3E%3Cpath fill-rule='evenodd' d='M1.646 4.646a.5.5 0 0 1 .708 0L8 10.293l5.646-5.647a.5.5 0 0 1 .708.708l-6 6a.5.5 0 0 1-.708 0l-6-6a.5.5 0 0 1 0-.708z'/%3E%3C/svg%3E");
+  background-repeat: no-repeat;
+  background-position: right 20px center;
+  background-size: 16px;
+}
+
+.form-row {
+  display: flex;
+  gap: 1rem;
+}
+
+.form-row .form-group {
+  flex: 1;
+}
+
+.back-btn {
+  margin-top: 2rem;
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  padding: 10px 20px;
+  background-color: #f1f1f1;
+  color: #444;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 0.95rem;
+  border: 1px solid #ddd;
+  transition: all 0.3s ease;
+}
+
+.back-btn i {
+  transition: transform 0.3s ease;
+}
+
+.back-btn:hover {
+  background-color: #e9e9e9;
+  border-color: #ccc;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+.back-btn:hover i {
+  transform: translateX(-4px);
+}
+
+/* Estilos para el botón de envío (heredado de carrito.css pero con mejoras) */
+.checkout-btn {
+  width: 100%;
+  padding: 15px;
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  background: linear-gradient(45deg, var(--color-price), #4a6b55);
+  border: none;
+  border-radius: 50px; /* Bordes completamente redondeados */
+  transition: background-color 0.3s, transform 0.2s, box-shadow 0.3s;
+}
+
+.checkout-btn:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 8px 15px rgba(48, 77, 58, 0.25);
+}
+
+.checkout-btn i {
+  margin-right: 8px;
+  transition: transform 0.3s cubic-bezier(0.68, -0.55, 0.27, 1.55);
+}
+
+.checkout-btn:hover i {
+  transform: scale(1.2) rotate(-10deg);
+}
+
+/* --- ESTILOS PARA EL CALENDARIO (FLATPICKR) --- */
+.flatpickr-calendar {
+  background: #ffffff;
+  border-radius: 12px;
+  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+  border: 1px solid #eee;
+  font-family: var(--font-family);
+}
+
+.flatpickr-months .flatpickr-month {
+  color: var(--color-price);
+  fill: var(--color-price);
+}
+
+.flatpickr-months .flatpickr-prev-month:hover svg,
+.flatpickr-months .flatpickr-next-month:hover svg {
+  fill: var(--color-price-dark);
+}
+
+.flatpickr-weekdays {
+  background: #f8f6f1;
+}
+
+.flatpickr-day.selected, .flatpickr-day.startRange, .flatpickr-day.endRange,
+.flatpickr-day.selected.inRange, .flatpickr-day.startRange.inRange, .flatpickr-day.endRange.inRange,
+.flatpickr-day.selected:focus, .flatpickr-day.startRange:focus, .flatpickr-day.endRange:focus,
+.flatpickr-day.selected:hover, .flatpickr-day.startRange:hover, .flatpickr-day.endRange:hover {
+  background: var(--color-price);
+  border-color: var(--color-price);
+}
+
+.flatpickr-day.today {
+  border-color: var(--color-price);
+}

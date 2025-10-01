@@ -3,100 +3,130 @@ const MENU_DATA = [
     "categoria": "Cafetería",
     "productos": [
       {
-        "nombre": "Café Espresso",
+        "subcategoria": "Café"
+      },
+      {
+        "sub_subcategoria": "Tamaño Jarrita"
+      },
+      {
+        "nombre": "Café - Jarrita",
         "descripcion": "",
         "precio": 2500,
         "img": "/images/productos/default.svg"
       },
       {
-        "nombre": "Café Jarrita",
-        "descripcion": "",
-        "precio": 2500,
-        "img": "/images/productos/default.svg"
-      },
-      {
-        "nombre": "Café Doble",
-        "descripcion": "",
-        "precio": 3800,
-        "img": "/images/productos/default.svg"
-      },
-      {
-        "nombre": "Café con Leche",
+        "nombre": "Café con Leche - Jarrita",
         "descripcion": "",
         "precio": 2800,
         "img": "/images/productos/caf_con_leche_1759338139087.JPEG"
       },
       {
-        "nombre": "Café Cortado",
+        "nombre": "Café Cortado - Jarrita",
         "descripcion": "",
         "precio": 2800,
         "img": "/images/productos/default.svg"
       },
       {
-        "nombre": "Café Lágrima",
-        "descripcion": "",
+        "nombre": "Café Lágrima - Jarrita",
+        "descripcion": "Leche caliente con un suave toque de café.",
         "precio": 2900,
         "img": "/images/productos/default.svg"
       },
       {
-        "nombre": "Café con Crema",
+        "sub_subcategoria": "Tamaño Doble"
+      },
+      {
+        "nombre": "Café - Doble",
         "descripcion": "",
+        "precio": 2500,
+        "img": "/images/productos/default.svg"
+      },
+      {
+        "nombre": "Café con Leche - Doble",
+        "descripcion": "",
+        "precio": 4500,
+        "img": "/images/productos/default.svg"
+      },
+      {
+        "nombre": "Café Cortado - Doble",
+        "descripcion": "",
+        "precio": 4500,
+        "img": "/images/productos/default.svg"
+      },
+      {
+        "nombre": "Café Lágrima - Doble",
+        "descripcion": "Leche caliente con un suave toque de café.",
+        "precio": 4700,
+        "img": "/images/productos/default.svg"
+      },
+      {
+        "nombre": "Café con Crema - Doble",
+        "descripcion": "Café negro acompañado de crema chantilly.",
         "precio": 5700,
         "img": "/images/productos/default.svg"
       },
       {
+        "sub_subcategoria": "Otras Variedades"
+      },
+      {
         "nombre": "Café Irlandés",
-        "descripcion": "",
+        "descripcion": "Espresso con whisky de miel, crema chantilly y salsa de caramelo.",
         "precio": 6900,
         "img": "/images/productos/default.svg"
       },
       {
         "nombre": "Café Affogato",
-        "descripcion": "",
+        "descripcion": "Espresso servido con helado a elección (vainilla o dulce de leche), garrapiñada y salsa de caramelo.",
         "precio": 5500,
         "img": "/images/productos/default.svg"
       },
       {
         "nombre": "Iced coffee",
-        "descripcion": "",
+        "descripcion": "Doble café frío con base de salsa de caramelo. (240ml)",
         "precio": 3800,
         "img": "/images/productos/default.svg"
       },
       {
         "nombre": "Iced latte",
-        "descripcion": "",
+        "descripcion": "Leche fría con café batido y salsa de caramelo. (360ml)",
         "precio": 4500,
         "img": "/images/productos/icedlatte.png"
       },
       {
         "nombre": "Café bombón",
-        "descripcion": "",
+        "descripcion": "Café batido con leche condensada y leche fría.",
         "precio": 6200,
         "img": "/images/productos/default.svg"
       },
       {
-        "nombre": "Capuccino",
-        "descripcion": "",
+        "nombre": "Cappuccino",
+        "descripcion": "Espresso con leche caliente, terminado con canela o cacao amargo.",
         "precio": 5200,
         "img": "/images/productos/default.svg"
       },
       {
         "nombre": "Café Freddo",
-        "descripcion": "",
+        "descripcion": "Leche fría con chocolate Águila, café batido, crema chantilly y salsa de chocolate.",
         "precio": 5800,
         "img": "/images/productos/default.svg"
       },
       {
+        "subcategoria": "Chocolate"
+      },
+      {
         "nombre": "Chocolatada (fría o caliente)",
-        "descripcion": "",
+        "descripcion": "360ml",
         "precio": 3600,
         "img": "/images/productos/default.svg"
       },
       {
-        "nombre": "Chocolate Submarino",
-        "descripcion": "",
+        "nombre": "Submarino",
+        "descripcion": "Barra de chocolate Águila con leche caliente.",
         "precio": 4700,
         "img": "/images/productos/default.svg"
+      },
+      {
+        "subcategoria": "Té"
       },
       {
         "nombre": "Té negro",
@@ -129,12 +159,16 @@ const MENU_DATA = [
         "img": "/images/productos/default.svg"
       },
       {
+        "subcategoria": "Otros"
+      },
+      {
         "nombre": "Yogurt con granola, frutas y miel",
         "descripcion": "",
         "precio": 6300,
         "img": "/images/productos/default.svg"
       }
-    ]
+    ],
+    "hasSubcategories": true
   },
   {
     "categoria": "Desayuno Ejecutivo",
@@ -549,6 +583,12 @@ const MENU_DATA = [
         "img": "/images/productos/default.svg"
       },
       {
+        "nombre": "Bizcochos de grasa (150)",
+        "descripcion": "",
+        "precio": 2500,
+        "img": "/images/productos/default.svg"
+      },
+      {
         "nombre": "Bizcochos de grasa (250gr)",
         "descripcion": "",
         "precio": 3800,
@@ -639,7 +679,7 @@ const MENU_DATA = [
       },
       {
         "nombre": "Jugo de naranja en combo",
-        "descripcion": "",
+        "descripcion": "100ml",
         "precio": 2200,
         "img": "/images/productos/jugo_de_naranja_en_combo_1759338067307.JPEG"
       },
@@ -710,7 +750,7 @@ const MENU_DATA = [
       },
       {
         "nombre": "Mbejú Italia",
-        "descripcion": "Masa de Mbejú + 3 Ingredientes a Elección",
+        "descripcion": "Masa de Mbejú + 3 Ingredientes a Elección (tomates confitados, huevo revuelto, palta, jamón, rúcula, cerdo ahumado, queso o jamón crudo)",
         "precio": 10500,
         "img": "/images/productos/default.svg"
       }
@@ -791,10 +831,25 @@ function createProductSection(catData) {
   const h2 = createElement("h2", { text: catData.categoria });
   section.appendChild(h2);
 
-  catData.productos.forEach((product) => {
-    const item = createProductItem(product);
-    section.appendChild(item);
-  });
+  if (catData.hasSubcategories) {
+    catData.productos.forEach(item => {
+      if (item.subcategoria) {
+        const subheader = createElement("h3", { className: "menu-subcategory", text: item.subcategoria });
+        section.appendChild(subheader);
+      } else if (item.sub_subcategoria) {
+        const subSubheader = createElement("h4", { className: "menu-sub-subcategory", text: item.sub_subcategoria });
+        section.appendChild(subSubheader);
+      } else {
+        const productItem = createProductItem(item);
+        section.appendChild(productItem);
+      }
+    });
+  } else {
+    catData.productos.forEach((product) => {
+      const item = createProductItem(product);
+      section.appendChild(item);
+    });
+  }
 
   return section;
 }
@@ -824,7 +879,7 @@ function createAddToCartButton(product) {
   return button;
 }
 
-function createProductItem({ nombre, descripcion, precio, img }) {
+function createProductItem({ nombre, descripcion, precio, img } = {}) {
   const item = createElement("article", { className: "menu-item" });
 
   const info = createElement("div", { className: "product-info" });
@@ -861,7 +916,7 @@ function createProductItem({ nombre, descripcion, precio, img }) {
       alt:
         img === "/images/productos/default.svg"
           ? "default"
-          : `Foto del producto ${nombre} con bordes redondeados`,
+          : `foto`,
       loading: "lazy",
       draggable: "false",
     },
@@ -899,7 +954,10 @@ function filterProducts() {
     let sectionHasVisibleItems = false;
 
     items.forEach((item) => {
-      const name = normalizeText(item.querySelector(".product-name").textContent);
+      const nameEl = item.querySelector(".product-name");
+      if (!nameEl) return; // Skip subcategory headers
+
+      const name = normalizeText(nameEl.textContent);
       const desc = normalizeText(item.querySelector(".product-desc")?.textContent);
       const isVisible = name.includes(searchTerm) || desc.includes(searchTerm);
       item.style.display = isVisible ? "" : "none";
