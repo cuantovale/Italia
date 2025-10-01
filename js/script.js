@@ -1,679 +1,721 @@
-var MENU_DATA = [
+const MENU_DATA = [
   {
-    categoria: "Cafetería",
-    productos: [
+    "categoria": "Cafetería",
+    "productos": [
       {
-        nombre: "Café Espresso",
-        descripcion: "",
-        precio: 2500,
-        img: "/images/productos/default.svg"
+        "nombre": "Café Espresso",
+        "descripcion": "",
+        "precio": 2500,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Café Jarrita",
-        descripcion: "",
-        precio: 2500,
-        img: "/images/productos/default.svg"
+        "nombre": "Café Jarrita",
+        "descripcion": "",
+        "precio": 2500,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Café Doble",
-        descripcion: "",
-        precio: 3800,
-        img: "/images/productos/default.svg"
+        "nombre": "Café Doble",
+        "descripcion": "",
+        "precio": 3800,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Café con Leche",
-        descripcion: "",
-        precio: 2800,
-        img: "/images/productos/default.svg"
+        "nombre": "Café con Leche",
+        "descripcion": "",
+        "precio": 2800,
+        "img": "/images/productos/caf_con_leche_1759338139087.JPEG"
       },
       {
-        nombre: "Café Cortado",
-        descripcion: "",
-        precio: 2800,
-        img: "/images/productos/default.svg"
+        "nombre": "Café Cortado",
+        "descripcion": "",
+        "precio": 2800,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Café Lágrima",
-        descripcion: "",
-        precio: 2900,
-        img: "/images/productos/default.svg"
+        "nombre": "Café Lágrima",
+        "descripcion": "",
+        "precio": 2900,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Café con Crema",
-        descripcion: "",
-        precio: 5700,
-        img: "/images/productos/default.svg"
+        "nombre": "Café con Crema",
+        "descripcion": "",
+        "precio": 5700,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Café Irlandés",
-        descripcion: "",
-        precio: 6900,
-        img: "/images/productos/default.svg"
+        "nombre": "Café Irlandés",
+        "descripcion": "",
+        "precio": 6900,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Café Affogato",
-        descripcion: "",
-        precio: 5500,
-        img: "/images/productos/default.svg"
+        "nombre": "Café Affogato",
+        "descripcion": "",
+        "precio": 5500,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Iced coffee",
-        descripcion: "",
-        precio: 3800,
-        img: "/images/productos/default.svg"
+        "nombre": "Iced coffee",
+        "descripcion": "",
+        "precio": 3800,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Iced latte",
-        descripcion: "",
-        precio: 4500,
-        img: "/images/productos/icedlatte.png"
+        "nombre": "Iced latte",
+        "descripcion": "",
+        "precio": 4500,
+        "img": "/images/productos/icedlatte.png"
       },
       {
-        nombre: "Café bombón",
-        descripcion: "",
-        precio: 6200,
-        img: "/images/productos/default.svg"
+        "nombre": "Café bombón",
+        "descripcion": "",
+        "precio": 6200,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Capuccino",
-        descripcion: "",
-        precio: 5200,
-        img: "/images/productos/default.svg"
+        "nombre": "Capuccino",
+        "descripcion": "",
+        "precio": 5200,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Café Freddo",
-        descripcion: "",
-        precio: 5800,
-        img: "/images/productos/default.svg"
+        "nombre": "Café Freddo",
+        "descripcion": "",
+        "precio": 5800,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Chocolatada (fría o caliente)",
-        descripcion: "",
-        precio: 3600,
-        img: "/images/productos/default.svg"
+        "nombre": "Chocolatada (fría o caliente)",
+        "descripcion": "",
+        "precio": 3600,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Café Submarino",
-        descripcion: "",
-        precio: 4700,
-        img: "/images/productos/default.svg"
+        "nombre": "Chocolate Submarino",
+        "descripcion": "",
+        "precio": 4700,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Té negro",
-        descripcion: "",
-        precio: 3200,
-        img: "/images/productos/default.svg"
+        "nombre": "Té negro",
+        "descripcion": "",
+        "precio": 3200,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Té con leche",
-        descripcion: "",
-        precio: 3800,
-        img: "/images/productos/default.svg"
+        "nombre": "Té con leche",
+        "descripcion": "",
+        "precio": 3800,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Té especiales",
-        descripcion: "",
-        precio: 4300,
-        img: "/images/productos/default.svg"
+        "nombre": "Té especiales",
+        "descripcion": "",
+        "precio": 4300,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Mate cocido",
-        descripcion: "",
-        precio: 2700,
-        img: "/images/productos/default.svg"
+        "nombre": "Mate cocido",
+        "descripcion": "",
+        "precio": 2700,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Mate cocido con leche",
-        descripcion: "",
-        precio: 3200,
-        img: "/images/productos/default.svg"
+        "nombre": "Mate cocido con leche",
+        "descripcion": "",
+        "precio": 3200,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Yogurt con granola, frutas y miel",
-        descripcion: "",
-        precio: 6300,
-        img: "/images/productos/default.svg"
-      },
-    ],
+        "nombre": "Yogurt con granola, frutas y miel",
+        "descripcion": "",
+        "precio": 6300,
+        "img": "/images/productos/default.svg"
+      }
+    ]
   },
   {
-    categoria: "Desayuno Ejecutivo",
-    productos: [
+    "categoria": "Desayuno Ejecutivo",
+    "productos": [
       {
-        nombre: "Combo 1",
-        descripcion: "Café o té + 2 Medialunas",
-        precio: 6500,
-        img: "/images/productos/default.svg"
+        "nombre": "Combo 1",
+        "descripcion": "Café o té + 2 Medialunas",
+        "precio": 6500,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Combo 2",
-        descripcion: "Café o té + 1 Waffle con miel o salsa",
-        precio: 6500,
-        img: "/images/productos/default.svg"
+        "nombre": "Combo 2",
+        "descripcion": "Café o té + 1 Waffle con miel o salsa",
+        "precio": 6500,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Combo 3",
-        descripcion: "Café o té + Pastafrola o tarta de coco con dulce de leche",
-        precio: 7000,
-        img: "/images/productos/default.svg"
+        "nombre": "Combo 3",
+        "descripcion": "Café o té + Pastafrola o tarta de coco con dulce de leche",
+        "precio": 7000,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Combo 4",
-        descripcion: "Café o té + 2 Tostadas con 2 dips",
-        precio: 6500,
-        img: "/images/productos/default.svg"
+        "nombre": "Combo 4",
+        "descripcion": "Café o té + 2 Tostadas con 2 dips",
+        "precio": 6500,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Combo 5",
-        descripcion: "Café o té + 100gr de chipá",
-        precio: 4800,
-        img: "/images/productos/default.svg"
+        "nombre": "Combo 5",
+        "descripcion": "Café o té + 100gr de chipá",
+        "precio": 4800,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Combo 6",
-        descripcion: "Café o té + 1 Medialuna de jamón y queso",
-        precio: 6500,
-        img: "/images/productos/default.svg"
+        "nombre": "Combo 6",
+        "descripcion": "Café o té + 1 Medialuna de jamón y queso",
+        "precio": 6500,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Combo 7",
-        descripcion: "Café o té + 1 Tostada con 1 feta de jamón y queso",
-        precio: 6500,
-        img: "/images/productos/default.svg"
+        "nombre": "Combo 7",
+        "descripcion": "Café o té + 1 Tostada con 1 feta de jamón y queso",
+        "precio": 6500,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Combo 8",
-        descripcion: "Café o té + 1 Tostada con rúcula y jamón crudo",
-        precio: 6500,
-        img: "/images/productos/default.svg"
+        "nombre": "Combo 8",
+        "descripcion": "Café o té + 1 Tostada con rúcula y jamón crudo",
+        "precio": 6500,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Combo 9",
-        descripcion: "Café o té + Huevo revuelto con o sin semillas",
-        precio: 5400,
-        img: "/images/productos/default.svg"
+        "nombre": "Combo 9",
+        "descripcion": "Café o té + Huevo revuelto con o sin semillas",
+        "precio": 5400,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Combo 10",
-        descripcion: "Yogurt con granola, frutas y miel (sin infusión)",
-        precio: 5400,
-        img: "/images/productos/default.svg"
+        "nombre": "Combo 10",
+        "descripcion": "Yogurt con granola, frutas y miel (sin infusión)",
+        "precio": 5400,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Combo 11",
-        descripcion: "Café o té + 150gr bizcochos",
-        precio: 4800,
-        img: "/images/productos/default.svg"
+        "nombre": "Combo 11",
+        "descripcion": "Café o té + 150gr bizcochos",
+        "precio": 4800,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Cambio de infusión por jugo de naranja mediano",
-        descripcion: "",
-        precio: 1100,
-        img: "/images/productos/default.svg"
-      },
-    ],
+        "nombre": "Cambio de infusión por jugo de naranja mediano",
+        "descripcion": "",
+        "precio": 1100,
+        "img": "/images/productos/default.svg"
+      }
+    ]
   },
   {
-    categoria: "Especialidades",
-    productos: [
+    "categoria": "Especialidades",
+    "productos": [
       {
-        nombre: "Sandwich Génova",
-        descripcion: "Pan de Molde, Queso Crema, Jamón, Queso y Omelet de Huevo",
-        precio: 7600,
-        img: "/images/productos/default.svg"
+        "nombre": "Sandwich Génova",
+        "descripcion": "Pan de Molde, Queso Crema, Jamón, Queso y Omelet de Huevo",
+        "precio": 7600,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Opción Keto",
-        descripcion: "",
-        precio: 9000,
-        img: "/images/productos/default.svg"
+        "nombre": "Opción Keto",
+        "descripcion": "",
+        "precio": 9000,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Brusqueta Sicilia",
-        descripcion: "Pan de Campo, Queso Crema con Cebollita de Verdeo, Rúcula, Tomates Confitados y Cerdo Ahumado",
-        precio: 6500,
-        img: "/images/productos/default.svg"
+        "nombre": "Brusqueta Sicilia",
+        "descripcion": "Pan de Campo, Queso Crema con Cebollita de Verdeo, Rúcula, Tomates Confitados y Cerdo Ahumado",
+        "precio": 6500,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Opción Keto",
-        descripcion: "",
-        precio: 7200,
-        img: "/images/productos/default.svg"
+        "nombre": "Opción Keto",
+        "descripcion": "",
+        "precio": 7200,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Brusqueta Turín",
-        descripcion: "Pan de Campo, Queso Crema, Palta, Tomates Confitados y Huevo",
-        precio: 7600,
-        img: "/images/productos/default.svg"
+        "nombre": "Brusqueta Turín",
+        "descripcion": "Pan de Campo, Queso Crema, Palta, Tomates Confitados y Huevo",
+        "precio": 7600,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Opción Keto",
-        descripcion: "",
-        precio: 8300,
-        img: "/images/productos/default.svg"
+        "nombre": "Opción Keto",
+        "descripcion": "",
+        "precio": 8300,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Brusqueta Capri",
-        descripcion: "Pan de Campo, Queso Crema, Frutas de Estación, Miel y Granola",
-        precio: 6000,
-        img: "/images/productos/default.svg"
+        "nombre": "Brusqueta Capri",
+        "descripcion": "Pan de Campo, Queso Crema, Frutas de Estación, Miel y Granola",
+        "precio": 6000,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Opción Keto",
-        descripcion: "",
-        precio: 6700,
-        img: "/images/productos/default.svg"
+        "nombre": "Opción Keto",
+        "descripcion": "",
+        "precio": 6700,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Brusqueta Siena",
-        descripcion: "Pan de campo, Crema de nuestro Cheesecake con Reducción de Frutos Rojos",
-        precio: 5700,
-        img: "/images/productos/default.svg"
+        "nombre": "Brusqueta Siena",
+        "descripcion": "Pan de campo, Crema de nuestro Cheesecake con Reducción de Frutos Rojos",
+        "precio": 5700,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Opción Keto",
-        descripcion: "",
-        precio: 6400,
-        img: "/images/productos/default.svg"
+        "nombre": "Opción Keto",
+        "descripcion": "",
+        "precio": 6400,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Pancakes Roma",
-        descripcion: "2 Pancakes Tibios con Frutas de Estación, Miel o Salsa y Coco",
-        precio: 6700,
-        img: "/images/productos/default.svg"
-      },
-    ],
+        "nombre": "Pancakes Roma",
+        "descripcion": "2 Pancakes Tibios con Frutas de Estación, Miel o Salsa y Coco",
+        "precio": 6700,
+        "img": "/images/productos/default.svg"
+      }
+    ]
   },
   {
-    categoria: "Bebidas",
-    productos: [
+    "categoria": "Bebidas",
+    "productos": [
       {
-        nombre: "Jugo de naranja mediano",
-        descripcion: "360ml",
-        precio: 3600,
-        img: "/images/productos/default.svg"
+        "nombre": "Jugo de naranja mediano",
+        "descripcion": "360ml",
+        "precio": 3600,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Jarra de limonada",
-        descripcion: "2 litros (Opcional: Menta y Jengibre)",
-        precio: 11500,
-        img: "/images/productos/default.svg"
+        "nombre": "Jarra de limonada",
+        "descripcion": "2 litros (Opcional: Menta y Jengibre)",
+        "precio": 11500,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Jugo de naranja grande",
-        descripcion: "500ml",
-        precio: 4300,
-        img: "/images/productos/default.svg"
+        "nombre": "Jugo de naranja grande",
+        "descripcion": "500ml",
+        "precio": 4300,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Limonada mediana",
-        descripcion: "360ml",
-        precio: 3300,
-        img: "/images/productos/default.svg"
+        "nombre": "Limonada mediana",
+        "descripcion": "360ml",
+        "precio": 3300,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Limonada grande",
-        descripcion: "500ml",
-        precio: 3800,
-        img: "/images/productos/default.svg"
+        "nombre": "Limonada grande",
+        "descripcion": "500ml",
+        "precio": 3800,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Licuado con agua",
-        descripcion: "500ml (Sabores: Frutilla, Durazno o Banana)",
-        precio: 4300,
-        img: "/images/productos/default.svg"
+        "nombre": "Licuado con agua",
+        "descripcion": "500ml (Sabores: Frutilla, Durazno o Banana)",
+        "precio": 4300,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Licuado con leche",
-        descripcion: "500ml (Sabores: Frutilla, Durazno o Banana)",
-        precio: 4900,
-        img: "/images/productos/default.svg"
+        "nombre": "Licuado con leche",
+        "descripcion": "500ml (Sabores: Frutilla, Durazno o Banana)",
+        "precio": 4900,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Milkshake",
-        descripcion: "500ml (Sabores: Vainilla, Dulce de Leche o Frutilla. Con salsa de chocolate o caramelo y crema chantilly)",
-        precio: 5400,
-        img: "/images/productos/default.svg"
+        "nombre": "Milkshake",
+        "descripcion": "500ml (Sabores: Vainilla, Dulce de Leche o Frutilla. Con salsa de chocolate o caramelo y crema chantilly)",
+        "precio": 5400,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Smoothies",
-        descripcion: "360ml (Sabores Varios)",
-        precio: 5400,
-        img: "/images/productos/default.svg"
+        "nombre": "Smoothies",
+        "descripcion": "360ml (Sabores Varios)",
+        "precio": 5400,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Agua 600 ml",
-        descripcion: "",
-        precio: 1800,
-        img: "/images/productos/default.svg"
+        "nombre": "Agua 600 ml",
+        "descripcion": "",
+        "precio": 1800,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Agua con gas 500 ml",
-        descripcion: "",
-        precio: 2000,
-        img: "/images/productos/default.svg"
+        "nombre": "Agua con gas 500 ml",
+        "descripcion": "",
+        "precio": 2000,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Agua saborizada 500 ml",
-        descripcion: "",
-        precio: 2400,
-        img: "/images/productos/default.svg"
+        "nombre": "Agua saborizada 500 ml",
+        "descripcion": "",
+        "precio": 2400,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Agua tónica 375 ml",
-        descripcion: "",
-        precio: 2700,
-        img: "/images/productos/default.svg"
+        "nombre": "Agua tónica 375 ml",
+        "descripcion": "",
+        "precio": 2700,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Gaseosa 500 ml",
-        descripcion: "",
-        precio: 2700,
-        img: "/images/productos/default.svg"
-      },
-    ],
+        "nombre": "Gaseosa 500 ml",
+        "descripcion": "",
+        "precio": 2700,
+        "img": "/images/productos/default.svg"
+      }
+    ]
   },
   {
-    categoria: "Combos",
-    productos: [
+    "categoria": "Combos",
+    "productos": [
       {
-        nombre: "Combo Clásico",
-        descripcion: "Café + 2 Medialunas o 150gr bizcochos +  jugo de naranja",
-        precio: 7000,
-        img: "/images/productos/default.svg"
+        "nombre": "Combo Clásico",
+        "descripcion": "Café + 2 Medialunas o 150gr bizcochos +  jugo de naranja",
+        "precio": 7000,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Combo Chipá",
-        descripcion: "Café + 100g de chipá + jugo de naranja",
-        precio: 6900,
-        img: "/images/productos/default.svg"
+        "nombre": "Combo Chipá",
+        "descripcion": "Café + 100g de chipá + jugo de naranja",
+        "precio": 6900,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Combo Proteico",
-        descripcion: "Café + tostón de J&Q y huevo revuelto + jugo de naranja mediano",
-        precio: 13000,
-        img: "/images/productos/default.svg"
+        "nombre": "Combo Proteico",
+        "descripcion": "Café + tostón de J&Q y huevo revuelto + jugo de naranja mediano",
+        "precio": 13000,
+        "img": "/images/productos/combo_proteico_1759337968932.JPEG"
       },
       {
-        nombre: "Combo Fit",
-        descripcion: "Café + yogurt con granola y frutas + jugo de naranja",
-        precio: 10800,
-        img: "/images/productos/default.svg"
+        "nombre": "Combo Fit",
+        "descripcion": "Café + yogurt con granola y frutas + jugo de naranja",
+        "precio": 10800,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Combo Italia",
-        descripcion: "Café + porción de torta/tarta + jugo de naranja",
-        precio: 12400,
-        img: "/images/productos/default.svg"
+        "nombre": "Combo Italia",
+        "descripcion": "Café + porción de torta/tarta + jugo de naranja",
+        "precio": 12400,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Combo Mbejú",
-        descripcion: "Café + Mbejú relleno de J&Q",
-        precio: 11300,
-        img: "/images/productos/default.svg"
+        "nombre": "Combo Mbejú",
+        "descripcion": "Café + Mbejú relleno de J&Q",
+        "precio": 11300,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Combo Para dos",
-        descripcion: "Café + 2 medialunas + 2 tostadas con dips + porción de pastafrola o tarta de coco con dulce de leche + 100g de chipá + jugo de naranja",
-        precio: 23700,
-        img: "/images/productos/default.svg"
-      },
-    ],
+        "nombre": "Combo Para dos",
+        "descripcion": "Café + 2 medialunas + 2 tostadas con dips + porción de pastafrola o tarta de coco con dulce de leche + 100g de chipá + jugo de naranja",
+        "precio": 23700,
+        "img": "/images/productos/default.svg"
+      }
+    ]
   },
   {
-    categoria: "Dulces",
-    productos: [
+    "categoria": "Dulces",
+    "productos": [
       {
-        nombre: "Medialuna Dulce",
-        descripcion: "",
-        precio: 1600,
-        img: "/images/productos/default.svg"
+        "nombre": "Medialuna Dulce",
+        "descripcion": "",
+        "precio": 1600,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Porción de Pepas",
-        descripcion: "",
-        precio: 3500,
-        img: "/images/productos/default.svg"
+        "nombre": "Porción de Pepas",
+        "descripcion": "Porción de 5 unidades.",
+        "precio": 3500,
+        "img": "/images/productos/porci_n_de_pepas_1759338017636.JPEG"
       },
       {
-        nombre: "Tostadas pan de molde con 2 dips",
-        descripcion: "Mermelada de frutilla/naranja, dulce de leche y queso crema",
-        precio: 6000,
-        img: "/images/productos/default.svg"
+        "nombre": "Tostadas pan de molde con 2 dips",
+        "descripcion": "Mermelada de frutilla/naranja, dulce de leche y queso crema",
+        "precio": 6000,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Alfajores de la casa",
-        descripcion: "(2 unidades)",
-        precio: 3300,
-        img: "/images/productos/default.svg"
+        "nombre": "Alfajores de la casa",
+        "descripcion": "(2 unidades)",
+        "precio": 3300,
+        "img": "/images/productos/alfajores_de_la_casa_1759337949426.JPEG"
       },
       {
-        nombre: "Porción de Cheesecake",
-        descripcion: "",
-        precio: 7500,
-        img: "/images/productos/cheesecake.png"
+        "nombre": "Porción de Cheesecake",
+        "descripcion": "",
+        "precio": 7500,
+        "img": "/images/productos/cheesecake.png"
       },
       {
-        nombre: "Tortas Enteras",
-        descripcion: "",
-        precio: 45000,
-        img: "/images/productos/default.svg"
+        "nombre": "Porción de Pastafrola",
+        "descripcion": "",
+        "precio": 7500,
+        "img": "/images/productos/porci_n_de_pastafrola_1759337916810.JPEG"
       },
       {
-        nombre: "Tartas Enteras",
-        descripcion: "",
-        precio: 45000,
-        img: "/images/productos/default.svg"
+        "nombre": "Porción de Alfajores de Maicena",
+        "descripcion": "",
+        "precio": 7500,
+        "img": "/images/productos/porci_n_de_alfajores_de_maicena_1759337932431.JPEG"
       },
       {
-        nombre: "Porción de Pastafrola",
-        descripcion: "",
-        precio: 5400,
-        img: "/images/productos/default.svg"
+        "nombre": "Porción de Lemon Pie",
+        "descripcion": "",
+        "precio": 7500,
+        "img": "/images/productos/porci_n_de_lemon_pie_1759338049884.JPEG"
       },
       {
-        nombre: "Bowl frutas de estación, coco y miel",
-        descripcion: "",
-        precio: 6500,
-        img: "/images/productos/default.svg"
+        "nombre": "Porción de no se que de frutos rojos",
+        "descripcion": "",
+        "precio": 7500,
+        "img": "/images/productos/porci_n_de_no_se_que_de_frutos_rojos_1759338036959.JPEG"
       },
       {
-        nombre: "Waffles con miel o salsa",
-        descripcion: "(2 Unidades)",
-        precio: 4300,
-        img: "/images/productos/default.svg"
+        "nombre": "Porción de Chocotorta",
+        "descripcion": "",
+        "precio": 7500,
+        "img": "/images/productos/porci_n_de_chocotorta_1759338083767.JPEG"
       },
       {
-        nombre: "Waffles con frutas o 2 bochas de helado",
-        descripcion: "(2 Unidades)",
-        precio: 6700,
-        img: "/images/productos/default.svg"
+        "nombre": "Porción de Tiramisú",
+        "descripcion": "",
+        "precio": 7500,
+        "img": "/images/productos/porci_n_de_tiramis_1759338099812.JPEG"
       },
-    ],
+      {
+        "nombre": "Porción de el coso de dulce de leche",
+        "descripcion": "",
+        "precio": 7500,
+        "img": "/images/productos/porci_n_de_el_coso_de_dulce_de_leche_1759338158027.JPEG"
+      },
+      {
+        "nombre": "Porción de Tarta de Coco",
+        "descripcion": "",
+        "precio": 7500,
+        "img": "/images/productos/porci_n_de_tarta_de_coco_1759337876968.JPEG"
+      },
+      {
+        "nombre": "Tortas Enteras",
+        "descripcion": "",
+        "precio": 45000,
+        "img": "/images/productos/default.svg"
+      },
+      {
+        "nombre": "Tartas Enteras",
+        "descripcion": "",
+        "precio": 45000,
+        "img": "/images/productos/tortas_enteras_1759335487429.JPEG"
+      },
+      {
+        "nombre": "Bowl frutas de estación, coco y miel",
+        "descripcion": "",
+        "precio": 6500,
+        "img": "/images/productos/default.svg"
+      },
+      {
+        "nombre": "Waffles con miel o salsa",
+        "descripcion": "(2 Unidades)",
+        "precio": 4300,
+        "img": "/images/productos/default.svg"
+      },
+      {
+        "nombre": "Waffles con frutas o 2 bochas de helado",
+        "descripcion": "(2 Unidades)",
+        "precio": 6700,
+        "img": "/images/productos/default.svg"
+      }
+    ]
   },
   {
-    categoria: "Salados",
-    productos: [
+    "categoria": "Salados",
+    "productos": [
       {
-        nombre: "Chipá (100gr)",
-        descripcion: "",
-        precio: 3000,
-        img: "/images/productos/default.svg"
+        "nombre": "Chipá (100gr)",
+        "descripcion": "",
+        "precio": 3000,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Bizcochos de grasa (100gr)",
-        descripcion: "",
-        precio: 1800,
-        img: "/images/productos/default.svg"
+        "nombre": "Bizcochos de grasa (100gr)",
+        "descripcion": "",
+        "precio": 1800,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Bizcochos de grasa (250gr)",
-        descripcion: "",
-        precio: 3800,
-        img: "/images/productos/default.svg"
+        "nombre": "Bizcochos de grasa (250gr)",
+        "descripcion": "",
+        "precio": 3800,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Sandwich J&Q + Queso Crema en pan de campo",
-        descripcion: "",
-        precio: 6800,
-        img: "/images/productos/default.svg"
+        "nombre": "Sandwich J&Q + Queso Crema en pan de campo",
+        "descripcion": "",
+        "precio": 6800,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Tostón con huevos revueltos J&Q",
-        descripcion: "1 Tostada +  2 Huevos revueltos +  Rollitos de J&Q",
-        precio: 7000,
-        img: "/images/productos/default.svg"
+        "nombre": "Tostón con huevos revueltos J&Q",
+        "descripcion": "1 Tostada +  2 Huevos revueltos +  Rollitos de J&Q",
+        "precio": 7000,
+        "img": "/images/productos/tost_n_con_huevos_revueltos_j_q_1759338003337.JPEG"
       },
       {
-        nombre: "Medialuna Salada",
-        descripcion: "",
-        precio: 1600,
-        img: "/images/productos/default.svg"
+        "nombre": "Medialuna Salada",
+        "descripcion": "",
+        "precio": 1600,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Medialuna con J&Q",
-        descripcion: "Opcional: Medialuna salada/dulce",
-        precio: 4800,
-        img: "/images/productos/default.svg"
+        "nombre": "Medialuna con J&Q",
+        "descripcion": "Opcional: Medialuna salada/dulce",
+        "precio": 4800,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Sandwich jamón crudo y rúcula",
-        descripcion: "",
-        precio: 10000,
-        img: "/images/productos/default.svg"
+        "nombre": "Sandwich jamón crudo y rúcula",
+        "descripcion": "",
+        "precio": 10000,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Tostón de huevo revuelto con J&Q integrado",
-        descripcion: "",
-        precio: 6600,
-        img: "/images/productos/default.svg"
+        "nombre": "Tostón de huevo revuelto con J&Q integrado",
+        "descripcion": "",
+        "precio": 6600,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Mbejú relleno de J&Q",
-        descripcion: "",
-        precio: 8600,
-        img: "/images/productos/default.svg"
-      },
-    ],
+        "nombre": "Mbejú relleno de J&Q",
+        "descripcion": "",
+        "precio": 8600,
+        "img": "/images/productos/mbej_relleno_de_j_q_1759335335454.JPEG"
+      }
+    ]
   },
   {
-    categoria: "Adicionales",
-    productos: [
+    "categoria": "Adicionales",
+    "productos": [
       {
-        nombre: "Huevo",
-        descripcion: "",
-        precio: 860,
-        img: "/images/productos/default.svg"
+        "nombre": "Huevo",
+        "descripcion": "",
+        "precio": 860,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Queso",
-        descripcion: "",
-        precio: 1100,
-        img: "/images/productos/default.svg"
+        "nombre": "Queso",
+        "descripcion": "",
+        "precio": 1100,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Jamón",
-        descripcion: "",
-        precio: 1100,
-        img: "/images/productos/default.svg"
+        "nombre": "Jamón",
+        "descripcion": "",
+        "precio": 1100,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Jamón crudo",
-        descripcion: "",
-        precio: 1700,
-        img: "/images/productos/default.svg"
+        "nombre": "Jamón crudo",
+        "descripcion": "",
+        "precio": 1700,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Dip",
-        descripcion: "",
-        precio: 1400,
-        img: "/images/productos/default.svg"
+        "nombre": "Dip",
+        "descripcion": "",
+        "precio": 1400,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Crema chantilly",
-        descripcion: "",
-        precio: 1200,
-        img: "/images/productos/default.svg"
+        "nombre": "Crema chantilly",
+        "descripcion": "",
+        "precio": 1200,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Jugo de naranja en combo",
-        descripcion: "",
-        precio: 2200,
-        img: "/images/productos/default.svg"
+        "nombre": "Jugo de naranja en combo",
+        "descripcion": "",
+        "precio": 2200,
+        "img": "/images/productos/jugo_de_naranja_en_combo_1759338067307.JPEG"
       },
       {
-        nombre: "Vaso de soda mediano",
-        descripcion: "360ml",
-        precio: 1100,
-        img: "/images/productos/default.svg"
+        "nombre": "Vaso de soda mediano",
+        "descripcion": "360ml",
+        "precio": 1100,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Helado / Frutas",
-        descripcion: "",
-        precio: 1600,
-        img: "/images/productos/default.svg"
+        "nombre": "Helado / Frutas",
+        "descripcion": "",
+        "precio": 1600,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Miel / Salsa",
-        descripcion: "",
-        precio: 650,
-        img: "/images/productos/default.svg"
+        "nombre": "Miel / Salsa",
+        "descripcion": "",
+        "precio": 650,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Pan Keto (unidad)",
-        descripcion: "",
-        precio: 1700,
-        img: "/images/productos/default.svg"
-      },
-    ],
+        "nombre": "Pan Keto (unidad)",
+        "descripcion": "",
+        "precio": 1700,
+        "img": "/images/productos/default.svg"
+      }
+    ]
   },
   {
-    categoria: "Mbejú",
-    productos: [
+    "categoria": "Mbejú",
+    "productos": [
       {
-        nombre: "Mbejú de Jamón y Queso",
-        descripcion: "",
-        precio: 9000,
-        img: "/images/productos/default.svg"
+        "nombre": "Mbejú de Jamón y Queso",
+        "descripcion": "",
+        "precio": 9000,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Mbejú de Rúcula y Jamón Crudo",
-        descripcion: "",
-        precio: 10500,
-        img: "/images/productos/default.svg"
+        "nombre": "Mbejú de Rúcula y Jamón Crudo",
+        "descripcion": "",
+        "precio": 10500,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Mbejú de Rúcula, Palta, Huevo Revuelto y Tomates Confitados",
-        descripcion: "",
-        precio: 10500,
-        img: "/images/productos/default.svg"
+        "nombre": "Mbejú de Rúcula, Palta, Huevo Revuelto y Tomates Confitados",
+        "descripcion": "",
+        "precio": 10500,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Mbejú de Rúcula, Cerdo Ahumado y Tomates Confitados",
-        descripcion: "",
-        precio: 10500,
-        img: "/images/productos/default.svg"
+        "nombre": "Mbejú de Rúcula, Cerdo Ahumado y Tomates Confitados",
+        "descripcion": "",
+        "precio": 10500,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Mbejú de Palta y Huevo Revuelto",
-        descripcion: "",
-        precio: 9000,
-        img: "/images/productos/default.svg"
+        "nombre": "Mbejú de Palta y Huevo Revuelto",
+        "descripcion": "",
+        "precio": 9000,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Mbejú de Jamón, Rúcula y Tomates Confitados",
-        descripcion: "",
-        precio: 9000,
-        img: "/images/productos/default.svg"
+        "nombre": "Mbejú de Jamón, Rúcula y Tomates Confitados",
+        "descripcion": "",
+        "precio": 9000,
+        "img": "/images/productos/default.svg"
       },
       {
-        nombre: "Mbejú Italia",
-        descripcion: "Masa de Mbejú + 3 Ingredientes a Elección",
-        precio: 10500,
-        img: "/images/productos/default.svg"
-      },
-    ],
-  },
+        "nombre": "Mbejú Italia",
+        "descripcion": "Masa de Mbejú + 3 Ingredientes a Elección",
+        "precio": 10500,
+        "img": "/images/productos/default.svg"
+      }
+    ]
+  }
 ];
 
 function formatPrice(num) {
