@@ -26,6 +26,10 @@ body {
   color: #222;
 }
 
+.hidden {
+  display: none !important;
+}
+
 body::-webkit-scrollbar {
   width: 12px;
   background-color: #f1f1f1;
@@ -935,4 +939,55 @@ body::-webkit-scrollbar-thumb {
 }
 .cart-float-button i {
   font-size: 1.2rem;
+}
+
+.no-results-message, .closed-store-message {
+  text-align: center;
+  padding: 3rem 1rem;
+  color: #777;
+  border: 2px dashed #e0e0e0;
+  border-radius: 16px;
+  margin: 2rem 0;
+  overflow: hidden; /* Para contener las animaciones */
+}
+
+.no-results-message i, .closed-store-message i {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+  display: block;
+}
+
+/* --- Animación para "No se encontraron productos" --- */
+
+/* Estado inicial de los elementos a animar */
+.no-results-message i, .no-results-message p {
+  opacity: 0;
+}
+
+/* Cuando el mensaje es visible, aplicamos las animaciones */
+.no-results-message:not(.hidden) {
+  animation: fadeInContainer 0.4s ease-out forwards;
+}
+
+.no-results-message:not(.hidden) i {
+  animation: slideInIcon 0.6s cubic-bezier(0.25, 0.8, 0.25, 1.2) 0.2s forwards;
+}
+
+.no-results-message:not(.hidden) p {
+  animation: fadeInText 0.5s ease-in 0.6s forwards;
+}
+
+@keyframes fadeInContainer {
+  from { opacity: 0; transform: scale(0.98); }
+  to { opacity: 1; transform: scale(1); }
+}
+
+@keyframes slideInIcon {
+  from { opacity: 0; transform: translateY(-50px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes fadeInText {
+  from { opacity: 0; }
+  to { opacity: 1; }
 }

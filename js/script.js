@@ -91,13 +91,13 @@ const MENU_DATA = [
       },
       {
         "nombre": "Iced coffee",
-        "descripcion": "Doble café frío con base de salsa de caramelo. (240ml)",
+        "descripcion": "Doble café frío con base de salsa de caramelo. (Medida: 240 ml)",
         "precio": 3800,
         "img": "/images/productos/default.svg"
       },
       {
         "nombre": "Iced latte",
-        "descripcion": "Leche fría con café batido y salsa de caramelo. (360ml)",
+        "descripcion": "Leche fría con café batido y salsa de caramelo. (Medida: 360 ml)",
         "precio": 4500,
         "img": "/images/productos/IMG_1399.JPEG"
       },
@@ -124,7 +124,7 @@ const MENU_DATA = [
       },
       {
         "nombre": "Chocolatada (fría o caliente)",
-        "descripcion": "360ml",
+        "descripcion": "Medida: 360 ml",
         "precio": 3600,
         "img": "/images/productos/default.svg"
       },
@@ -331,8 +331,32 @@ const MENU_DATA = [
     "categoria": "Bebidas",
     "productos": [
       {
+        "nombre": "Licuado con agua",
+        "descripcion": "Medida: 500 ml (Sabores: Frutilla, Durazno o Banana)",
+        "precio": 4300,
+        "img": "/images/productos/default.svg"
+      },
+      {
+        "nombre": "Licuado con leche",
+        "descripcion": "Medida: 500 ml (Sabores: Frutilla, Durazno o Banana)",
+        "precio": 4900,
+        "img": "/images/productos/default.svg"
+      },
+      {
+        "nombre": "Milkshake",
+        "descripcion": "Medida: 500 ml (Sabores: Vainilla, Dulce de Leche o Frutilla. Con salsa de chocolate o caramelo y crema chantilly)",
+        "precio": 5400,
+        "img": "/images/productos/default.svg"
+      },
+      {
+        "nombre": "Smoothies",
+        "descripcion": "Medida: 360 ml (Sabores Varios)",
+        "precio": 5400,
+        "img": "/images/productos/default.svg"
+      },
+      {
         "nombre": "Jugo de naranja mediano",
-        "descripcion": "360ml",
+        "descripcion": "Medida: 360 ml",
         "precio": 3600,
         "img": "/images/productos/default.svg"
       },
@@ -344,44 +368,20 @@ const MENU_DATA = [
       },
       {
         "nombre": "Jugo de naranja grande",
-        "descripcion": "500ml",
+        "descripcion": "Medida: 500 ml",
         "precio": 4300,
         "img": "/images/productos/default.svg"
       },
       {
         "nombre": "Limonada mediana",
-        "descripcion": "360ml",
+        "descripcion": "Medida: 360 ml",
         "precio": 3300,
         "img": "/images/productos/default.svg"
       },
       {
         "nombre": "Limonada grande",
-        "descripcion": "500ml",
+        "descripcion": "Medida: 500 ml",
         "precio": 3800,
-        "img": "/images/productos/default.svg"
-      },
-      {
-        "nombre": "Licuado con agua",
-        "descripcion": "500ml (Sabores: Frutilla, Durazno o Banana)",
-        "precio": 4300,
-        "img": "/images/productos/default.svg"
-      },
-      {
-        "nombre": "Licuado con leche",
-        "descripcion": "500ml (Sabores: Frutilla, Durazno o Banana)",
-        "precio": 4900,
-        "img": "/images/productos/default.svg"
-      },
-      {
-        "nombre": "Milkshake",
-        "descripcion": "500ml (Sabores: Vainilla, Dulce de Leche o Frutilla. Con salsa de chocolate o caramelo y crema chantilly)",
-        "precio": 5400,
-        "img": "/images/productos/default.svg"
-      },
-      {
-        "nombre": "Smoothies",
-        "descripcion": "360ml (Sabores Varios)",
-        "precio": 5400,
         "img": "/images/productos/default.svg"
       },
       {
@@ -693,13 +693,13 @@ const MENU_DATA = [
       },
       {
         "nombre": "Jugo de naranja en combo Adicional",
-        "descripcion": "100ml",
+        "descripcion": "Medida: 100 ml",
         "precio": 2200,
         "img": "/images/productos/jugo_de_naranja_en_combo_1759338067307-Photoroom.png"
       },
       {
         "nombre": "Vaso de soda mediano Adicional",
-        "descripcion": "360ml",
+        "descripcion": "Medida: 360 ml",
         "precio": 1100,
         "img": "/images/productos/Generated Image October 01, 2025 - 11_40PM-Photoroom.png"
       },
@@ -822,8 +822,13 @@ function isStoreOpen() {
 
 function renderAllProducts() {
   const container = document.getElementById("menu-container");
-  container.innerHTML = "";
-
+  // Guardamos los mensajes persistentes
+  const persistentMessages = container.querySelectorAll('.no-results-message, .closed-store-message');
+  // Limpiamos solo los productos, no los mensajes
+  container.innerHTML = '';
+  // Re-insertamos los mensajes al principio
+  persistentMessages.forEach(msg => container.appendChild(msg));
+  
   MENU_DATA.forEach((catData) => {
     if (catData.categoria.includes("Nuestra Cocina") && catData.productos.length === 0) {
       const note = createElement("section", { className: "menu-section" });
@@ -843,7 +848,7 @@ function renderAllProducts() {
 }
 
 function createProductSection(catData) {
-  const sectionId = catData.categoria.replace(/\s+/g, "-").toLowerCase();
+  const sectionId = catData.categoria.replace(/\s+/g, "-").replace(/\//g, "-").toLowerCase();
   const section = createElement("section", {
     className: "menu-section",
     attrs: { id: sectionId, "data-category": catData.categoria },
@@ -971,26 +976,58 @@ function normalizeText(text) {
 
 function filterProducts() {
   const searchTerm = normalizeText(document.getElementById("search-input").value);
+  const noResultsMessage = document.getElementById("no-results-message");
+
+  if (searchTerm.length === 0) {
+    showAllProductsAndCategories();
+    noResultsMessage.classList.add("hidden");
+    return;
+  }
+
   const sections = document.querySelectorAll(".menu-section");
+  let anyProductVisible = false;
 
   sections.forEach((section) => {
-    const items = section.querySelectorAll(".menu-item");
+    const children = Array.from(section.children);
     let sectionHasVisibleItems = false;
 
-    items.forEach((item) => {
-      const nameEl = item.querySelector(".product-name");
-      if (!nameEl) return; // Skip subcategory headers
+    children.forEach((child) => {
+      if (child.classList.contains("menu-item")) {
+        const nameEl = child.querySelector(".product-name");
+        if (!nameEl) return;
 
-      const name = normalizeText(nameEl.textContent);
-      const desc = normalizeText(item.querySelector(".product-desc")?.textContent);
-      const isVisible = name.includes(searchTerm) || desc.includes(searchTerm);
-      item.style.display = isVisible ? "" : "none";
-      if (isVisible) sectionHasVisibleItems = true;
+        const name = normalizeText(nameEl.textContent);
+        const desc = normalizeText(child.querySelector(".product-desc")?.textContent || "");
+        const isVisible = name.includes(searchTerm) || desc.includes(searchTerm);
+        child.style.display = isVisible ? "" : "none";
+        if (isVisible) {
+          sectionHasVisibleItems = true;
+          anyProductVisible = true;
+        }
+      }
+    });
+
+    children.forEach((child) => {
+      if (child.classList.contains("menu-subcategory") || child.classList.contains("menu-sub-subcategory")) {
+        let nextSibling = child.nextElementSibling;
+        let hasVisibleItemsFollowing = false;
+        while (nextSibling && !nextSibling.classList.contains("menu-subcategory") && !nextSibling.classList.contains("menu-sub-subcategory")) {
+          if (nextSibling.classList.contains("menu-item") && nextSibling.style.display !== 'none') {
+            hasVisibleItemsFollowing = true;
+            break;
+          }
+          nextSibling = nextSibling.nextElementSibling;
+        }
+        child.style.display = hasVisibleItemsFollowing ? "" : "none";
+      }
     });
 
     section.style.display = sectionHasVisibleItems ? "" : "none";
   });
+
+  noResultsMessage.classList.toggle("hidden", anyProductVisible);
 }
+
 
 let lastScrollY = window.scrollY;
 
@@ -1114,11 +1151,14 @@ categoryButtons.forEach((btn) => {
     const categoryName = btn.dataset.categoryName;
     if (!categoryName) return;
 
-    const sectionId = categoryName.replace(/\s+/g, "-").toLowerCase();
+    const sectionId = categoryName.replace(/\s+/g, "-").replace(/\//g, "-").toLowerCase();
     const sectionElement = document.getElementById(sectionId);
     if (sectionElement) {
       window.removeEventListener("scroll", handleScroll, { passive: true });
+      // Limpiamos la búsqueda para que no interfiera con el filtro de categoría
+      document.getElementById("search-input").value = "";
       lenis.scrollTo(sectionElement, { offset: -150 });
+      showAllProductsAndCategories(); // Mostramos todo antes de que el scrollspy actualice
       updateActiveCategory(categoryName);
       setTimeout(() => window.addEventListener("scroll", handleScroll, { passive: true }), 1000);
     }
@@ -1126,6 +1166,19 @@ categoryButtons.forEach((btn) => {
 });
 
 let lenis;
+
+function showAllProductsAndCategories() {
+  const sections = document.querySelectorAll(".menu-section");
+  sections.forEach(section => {
+    section.style.display = "";
+    const items = section.querySelectorAll(".menu-item, .menu-subcategory, .menu-sub-subcategory");
+    items.forEach(item => {
+      item.style.display = "";
+    });
+  });
+  document.getElementById("no-results-message").classList.add("hidden");
+}
+
 
 document.addEventListener("DOMContentLoaded", () => {
   renderAllProducts();
@@ -1137,7 +1190,12 @@ document.addEventListener("DOMContentLoaded", () => {
     if(closedMessage) closedMessage.classList.remove("hidden");
   }
 
-  document.getElementById("search-input").addEventListener("input", filterProducts);
+  const searchInput = document.getElementById("search-input");
+  searchInput.addEventListener("input", () => {
+    // Si el input está vacío, mostramos todo. Si no, filtramos.
+    const searchTerm = searchInput.value.trim();
+    filterProducts();
+  });
   window.addEventListener("scroll", handleScroll, { passive: true });
 
   lenis = new Lenis({
