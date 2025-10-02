@@ -6,19 +6,28 @@ const MENU_DATA = [
         "subcategoria": "Café"
       },
       {
+        "sub_subcategoria": "Tamaño Espresso"
+      },
+      {
+        "nombre": "Café - Espresso",
+        "descripcion": "",
+        "precio": 2500,
+        "img": "/images/productos/IMG_1382.JPEG"
+      },
+      {
         "sub_subcategoria": "Tamaño Jarrita"
       },
       {
         "nombre": "Café - Jarrita",
         "descripcion": "",
         "precio": 2500,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/IMG_1419.JPEG"
       },
       {
         "nombre": "Café con Leche - Jarrita",
         "descripcion": "",
         "precio": 2800,
-        "img": "/images/productos/caf_con_leche_1759338139087.JPEG"
+        "img": "/images/productos/IMG_1388.JPEG"
       },
       {
         "nombre": "Café Cortado - Jarrita",
@@ -45,7 +54,7 @@ const MENU_DATA = [
         "nombre": "Café con Leche - Doble",
         "descripcion": "",
         "precio": 4500,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/caf_con_leche_1759338139087.JPEG"
       },
       {
         "nombre": "Café Cortado - Doble",
@@ -78,7 +87,7 @@ const MENU_DATA = [
         "nombre": "Café Affogato",
         "descripcion": "Espresso servido con helado a elección (vainilla o dulce de leche), garrapiñada y salsa de caramelo.",
         "precio": 5500,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/WhatsApp Image 2025-09-30 at 19.11.27_70e3659d.jpg"
       },
       {
         "nombre": "Iced coffee",
@@ -90,7 +99,7 @@ const MENU_DATA = [
         "nombre": "Iced latte",
         "descripcion": "Leche fría con café batido y salsa de caramelo. (360ml)",
         "precio": 4500,
-        "img": "/images/productos/icedlatte.png"
+        "img": "/images/productos/IMG_1399.JPEG"
       },
       {
         "nombre": "Café bombón",
@@ -123,7 +132,7 @@ const MENU_DATA = [
         "nombre": "Submarino",
         "descripcion": "Barra de chocolate Águila con leche caliente.",
         "precio": 4700,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/IMG_1407.JPEG"
       },
       {
         "subcategoria": "Té"
@@ -165,7 +174,7 @@ const MENU_DATA = [
         "nombre": "Yogurt con granola, frutas y miel",
         "descripcion": "",
         "precio": 6300,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/Generated Image October 02, 2025 - 12_32AM.png"
       }
     ],
     "hasSubcategories": true
@@ -260,7 +269,7 @@ const MENU_DATA = [
         "nombre": "Opción Keto",
         "descripcion": "",
         "precio": 9000,
-        "img": "/images/productos/opci_n_keto_1759338229231.JPEG"
+        "img": "/images/productos/IMG_1463.JPEG"
       },
       {
         "nombre": "Brusqueta Sicilia",
@@ -272,7 +281,7 @@ const MENU_DATA = [
         "nombre": "Opción Keto",
         "descripcion": "",
         "precio": 7200,
-        "img": "/images/productos/opci_n_keto_1759338229231.JPEG"
+        "img": "/images/productos/opci_n_keto_1759338229231-Photoroom.png"
       },
       {
         "nombre": "Brusqueta Turín",
@@ -284,19 +293,19 @@ const MENU_DATA = [
         "nombre": "Opción Keto",
         "descripcion": "",
         "precio": 8300,
-        "img": "/images/productos/opci_n_keto_1759338229231.JPEG"
+        "img": "/images/productos/IMG_1450.JPEG"
       },
       {
         "nombre": "Brusqueta Capri",
         "descripcion": "Pan de Campo, Queso Crema, Frutas de Estación, Miel y Granola",
         "precio": 6000,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/Generated Image October 02, 2025 - 12_51AM.jpg"
       },
       {
         "nombre": "Opción Keto",
         "descripcion": "",
         "precio": 6700,
-        "img": "/images/productos/opci_n_keto_1759338229231.JPEG"
+        "img": "/images/productos/Generated Image October 02, 2025 - 12_04AM.jpg"
       },
       {
         "nombre": "Brusqueta Siena",
@@ -308,7 +317,7 @@ const MENU_DATA = [
         "nombre": "Opción Keto",
         "descripcion": "",
         "precio": 6400,
-        "img": "/images/productos/opci_n_keto_1759338229231.JPEG"
+        "img": "/images/productos/opci_n_keto_1759338229231-Photoroom.png"
       },
       {
         "nombre": "Pancakes Roma",
@@ -485,7 +494,7 @@ const MENU_DATA = [
         "nombre": "Porción de Cheesecake",
         "descripcion": "",
         "precio": 7500,
-        "img": "/images/productos/cheesecake.png"
+        "img": "/images/productos/IMG_1423.JPEG"
       },
       {
         "nombre": "Porción de Pastafrola",
@@ -536,16 +545,10 @@ const MENU_DATA = [
         "img": "/images/productos/porci_n_de_tarta_de_coco_1759337876968.JPEG"
       },
       {
-        "nombre": "Tortas Enteras",
+        "nombre": "Porción de Matilda",
         "descripcion": "",
-        "precio": 45000,
-        "img": "/images/productos/default.svg"
-      },
-      {
-        "nombre": "Tartas Enteras",
-        "descripcion": "",
-        "precio": 45000,
-        "img": "/images/productos/tortas_enteras_1759335487429.JPEG"
+        "precio": 7500,
+        "img": "/images/productos/IMG_1396.JPEG"
       },
       {
         "nombre": "Bowl frutas de estación, coco y miel",
@@ -563,6 +566,23 @@ const MENU_DATA = [
         "nombre": "Waffles con frutas o 2 bochas de helado",
         "descripcion": "(2 Unidades)",
         "precio": 6700,
+        "img": "/images/productos/Generated Image October 01, 2025 - 11_54PM.png"
+      }
+    ]
+  },
+  {
+    "categoria": "Tortas/Tartas Enteras",
+    "productos": [
+      {
+        "nombre": "Lemon Pie",
+        "descripcion": "",
+        "precio": 45000,
+        "img": "/images/productos/tortas_enteras_1759335487429.JPEG"
+      },
+      {
+        "nombre": "Tartas Enteras",
+        "descripcion": "",
+        "precio": 45000,
         "img": "/images/productos/default.svg"
       }
     ]
@@ -580,13 +600,13 @@ const MENU_DATA = [
         "nombre": "Bizcochos de grasa (100gr)",
         "descripcion": "",
         "precio": 1800,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/IMG_1437.JPEG"
       },
       {
         "nombre": "Bizcochos de grasa (150)",
         "descripcion": "",
         "precio": 2500,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/IMG_1431.JPEG"
       },
       {
         "nombre": "Bizcochos de grasa (250gr)",
@@ -610,7 +630,7 @@ const MENU_DATA = [
         "nombre": "Medialuna Salada",
         "descripcion": "",
         "precio": 1600,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/IMG_1444.JPEG"
       },
       {
         "nombre": "Medialuna con J&Q",
@@ -636,70 +656,70 @@ const MENU_DATA = [
     "categoria": "Adicionales",
     "productos": [
       {
-        "nombre": "Huevo",
+        "nombre": "Huevo Adicional",
         "descripcion": "",
         "precio": 860,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/image-Photoroom.png"
       },
       {
-        "nombre": "Queso",
+        "nombre": "Queso Adicional",
         "descripcion": "",
         "precio": 1100,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/IMG_1457-Photoroom.png"
       },
       {
-        "nombre": "Jamón",
+        "nombre": "Jamón Adicional",
         "descripcion": "",
         "precio": 1100,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/IMG_1458-Photoroom.png"
       },
       {
-        "nombre": "Jamón crudo",
+        "nombre": "Jamón crudo Adicional",
         "descripcion": "",
         "precio": 1700,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/IMG_1466-Photoroom.png"
       },
       {
-        "nombre": "Dip",
+        "nombre": "Dip Adicional",
         "descripcion": "",
         "precio": 1400,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/IMG_1465-Photoroom.png"
       },
       {
-        "nombre": "Crema chantilly",
+        "nombre": "Crema chantilly Adicional",
         "descripcion": "",
         "precio": 1200,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/Generated Image October 01, 2025 - 11_20PM-Photoroom.png"
       },
       {
-        "nombre": "Jugo de naranja en combo",
+        "nombre": "Jugo de naranja en combo Adicional",
         "descripcion": "100ml",
         "precio": 2200,
-        "img": "/images/productos/jugo_de_naranja_en_combo_1759338067307.JPEG"
+        "img": "/images/productos/jugo_de_naranja_en_combo_1759338067307-Photoroom.png"
       },
       {
-        "nombre": "Vaso de soda mediano",
+        "nombre": "Vaso de soda mediano Adicional",
         "descripcion": "360ml",
         "precio": 1100,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/Generated Image October 01, 2025 - 11_40PM-Photoroom.png"
       },
       {
-        "nombre": "Helado / Frutas",
+        "nombre": "Helado / Frutas Adicional",
         "descripcion": "",
         "precio": 1600,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/Generated Image October 01, 2025 - 11_22PM-Photoroom.png"
       },
       {
-        "nombre": "Miel / Salsa",
+        "nombre": "Miel / Salsa Adicional",
         "descripcion": "",
         "precio": 650,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/image-Photoroom (1).png"
       },
       {
-        "nombre": "Pan Keto (unidad)",
+        "nombre": "Pan Keto (unidad) Adicional",
         "descripcion": "",
         "precio": 1700,
-        "img": "/images/productos/opci_n_keto_1759338229231.JPEG"
+        "img": "/images/productos/opci_n_keto_1759338229231-Photoroom.png"
       }
     ]
   },
@@ -740,7 +760,7 @@ const MENU_DATA = [
         "nombre": "Mbejú de Palta y Huevo Revuelto",
         "descripcion": "",
         "precio": 9000,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/WhatsApp Image 2025-09-30 at 18.48.42_1ad85218.jpg"
       },
       {
         "nombre": "Mbejú de Jamón, Rúcula y Tomates Confitados",
@@ -752,7 +772,7 @@ const MENU_DATA = [
         "nombre": "Mbejú Italia",
         "descripcion": "Masa de Mbejú + 3 Ingredientes a Elección (tomates confitados, huevo revuelto, palta, jamón, rúcula, cerdo ahumado, queso o jamón crudo)",
         "precio": 10500,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/IMG_1439.JPEG"
       }
     ]
   }
@@ -904,6 +924,10 @@ function createProductItem({ nombre, descripcion, precio, img } = {}) {
     className: "product-img-container",
     attrs: { tabindex: "0", role: "button", "aria-label": `Ver imagen del producto ${nombre}` },
   });
+  
+  if (img && img.toLowerCase().endsWith('.png')) {
+    imgContainer.classList.add('is-png');
+  }
 
   if (img === "/images/productos/default.svg") {
     imgContainer.classList.add("nozoom");
@@ -1028,6 +1052,11 @@ function openLightbox(src, nombre) {
   lightboxImg.src = src;
   lightboxImg.alt = `Imagen ampliada del producto ${nombre} con bordes redondeados`;
   lightbox.classList.add("is-visible");
+  if (src && src.toLowerCase().endsWith('.png')) {
+    lightbox.classList.add('is-png-lightbox');
+  } else {
+    lightbox.classList.remove('is-png-lightbox');
+  }
   document.body.style.overflow = "hidden";
   lightboxClose.focus();
 }

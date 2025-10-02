@@ -611,6 +611,16 @@ body::-webkit-scrollbar-thumb {
   justify-content: center;
 }
 
+.product-img-container.is-png {
+  background: transparent;
+  box-shadow: none;
+}
+
+.product-img-container.is-png .product-img {
+  /* Sombra que respeta la transparencia del PNG */
+  filter: drop-shadow(0 2px 8px rgba(0, 0, 0, 0.12));
+}
+
 .product-img-container.nozoom {
   cursor: default;
 }
@@ -662,6 +672,12 @@ body::-webkit-scrollbar-thumb {
   cursor: default;
   transform: scale(0.95);
   transition: transform 0.3s ease;
+}
+
+.lightbox.is-png-lightbox img {
+  /* Para PNGs, usamos drop-shadow que respeta la transparencia */
+  box-shadow: none;
+  filter: drop-shadow(0 10px 25px rgba(0, 0, 0, 0.35));
 }
 
 .lightbox.is-visible img {
