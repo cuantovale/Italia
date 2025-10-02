@@ -117,7 +117,7 @@ const MENU_DATA = [
         "nombre": "Café Freddo",
         "descripcion": "Leche fría con chocolate Águila, café batido, crema chantilly y salsa de chocolate.",
         "precio": 5800,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/fredo.png"
       },
       {
         "subcategoria": "Chocolate"
@@ -287,7 +287,7 @@ const MENU_DATA = [
         "nombre": "Brusqueta Turín",
         "descripcion": "Pan de Campo, Queso Crema, Palta, Tomates Confitados y Huevo",
         "precio": 7600,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/Generated Image October 02, 2025 - 12_30AM.png"
       },
       {
         "nombre": "Opción Keto",
@@ -323,7 +323,7 @@ const MENU_DATA = [
         "nombre": "Pancakes Roma",
         "descripcion": "2 Pancakes Tibios con Frutas de Estación, Miel o Salsa y Coco",
         "precio": 6700,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/IMG_1414.JPEG"
       }
     ]
   },
@@ -560,7 +560,7 @@ const MENU_DATA = [
         "nombre": "Waffles con miel o salsa",
         "descripcion": "(2 Unidades)",
         "precio": 4300,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/Generated Image October 02, 2025 - 3_23PM.png"
       },
       {
         "nombre": "Waffles con frutas o 2 bochas de helado",
@@ -612,7 +612,7 @@ const MENU_DATA = [
         "nombre": "Bizcochos de grasa (250gr)",
         "descripcion": "",
         "precio": 3800,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/IMG_1426.JPEG"
       },
       {
         "nombre": "Sandwich J&Q + Queso Crema en pan de campo",
@@ -636,13 +636,13 @@ const MENU_DATA = [
         "nombre": "Medialuna con J&Q",
         "descripcion": "Opcional: Medialuna salada/dulce",
         "precio": 4800,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/medialuna.jpg"
       },
       {
         "nombre": "Sandwich jamón crudo y rúcula",
         "descripcion": "",
         "precio": 10000,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/WhatsApp Image 2025-09-30 at 19.11.31_6b4a5d80.jpg"
       },
       {
         "nombre": "Tostón de huevo revuelto con J&Q integrado",
