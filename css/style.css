@@ -644,6 +644,17 @@ body::-webkit-scrollbar-thumb {
   user-select: none;
 }
 
+
+/* efecto zoom foto */
+.product-img-container:hover .product-img {
+  transform: scale(1.05);
+}
+
+.product-img-container:not(.nozoom):hover {
+  cursor: zoom-out;
+  transform: scale(1.03);
+}
+
 .lightbox {
   position: fixed;
   inset: 0;
