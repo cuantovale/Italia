@@ -1,0 +1,267 @@
+/* Estilos para la página de Fidelización y Cajero */
+body {
+  background-color: #f8f6f1;
+}
+
+.loyalty-container {
+  max-width: 480px;
+  margin: 2rem auto;
+  padding: 2rem;
+  background-color: #fff;
+  border-radius: 16px;
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.08);
+  text-align: center;
+}
+
+.loyalty-header {
+  margin-bottom: 2rem;
+}
+
+.loyalty-header i {
+  font-size: 2.5rem;
+  color: var(--color-price);
+  margin-bottom: 0.5rem;
+}
+
+.loyalty-header h1 {
+  margin: 0.5rem 0;
+  font-size: 1.8rem;
+}
+
+.loyalty-header p {
+  font-size: 1rem;
+  color: #666;
+  max-width: 400px;
+  margin: 0.5rem auto 0;
+}
+
+.loyalty-logo {
+  width: 80px;
+  height: 80px;
+  margin-bottom: 1rem;
+}
+
+.loyalty-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.loyalty-form label {
+  font-weight: 600;
+  font-size: 1rem;
+  color: #444;
+}
+
+.loyalty-form input {
+  width: 100%;
+  padding: 14px 20px;
+  border: 1px solid #ddd;
+  border-radius: 50px;
+  font-size: 1rem;
+  text-align: center;
+  font-family: var(--font-family);
+  transition: border-color 0.3s, box-shadow 0.3s;
+}
+
+.loyalty-form input:focus {
+  border-color: var(--color-price);
+  box-shadow: 0 0 0 3px rgba(48, 77, 58, 0.1);
+  outline: none;
+}
+
+.loyalty-btn {
+  padding: 15px;
+  color: #ffffff;
+  font-size: 1.1rem;
+  font-weight: 600;
+  background: var(--color-price);
+  border: none;
+  border-radius: 50px;
+  cursor: pointer;
+  transition: background-color 0.3s, transform 0.2s;
+}
+
+.loyalty-btn:hover {
+  transform: translateY(-2px);
+  background-color: var(--color-price-dark);
+}
+
+.error-message {
+  color: #e74c3c;
+  font-size: 0.9rem;
+  font-weight: 600;
+  min-height: 1.2em;
+}
+
+.success-message {
+  color: #28a745;
+  font-size: 0.9rem;
+  font-weight: 600;
+  min-height: 1.2em;
+}
+
+.qr-container {
+  margin: 1.5rem 0;
+  display: flex;
+  justify-content: center;
+  padding: 1rem;
+  background: #fff;
+  border-radius: 16px;
+}
+
+.stamps-container {
+  margin-top: 2rem;
+}
+
+.stamps-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+  max-width: 300px;
+  margin: 1rem auto 0;
+}
+
+.stamp {
+  aspect-ratio: 1 / 1;
+  border: 3px dashed #ccc;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1.8rem;
+  font-weight: 600;
+  color: #ccc;
+  transition: all 0.4s ease;
+}
+
+.stamp.stamped {
+  border-style: solid;
+  border-color: var(--color-price);
+  background-color: var(--color-price);
+  color: #fff;
+  transform: scale(1.05);
+}
+
+.free-coffee-alert {
+  background-color: #fffbe6;
+  border: 2px solid #ffe58f;
+  color: #d48806;
+  padding: 1.5rem;
+  border-radius: 12px;
+  margin: 2rem 0;
+}
+.free-coffee-alert i { font-size: 2rem; }
+.free-coffee-alert h2 { margin: 0.5rem 0; }
+
+.logout-btn {
+  background: none;
+  border: none;
+  color: #777;
+  cursor: pointer;
+  margin-top: 2rem;
+  font-size: 0.9rem;
+  transition: color 0.3s ease;
+}
+
+.logout-btn:hover {
+  color: #e74c3c;
+}
+
+.cashier-actions {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+  margin-top: 1.5rem;
+}
+
+.redeem-btn {
+  background: #e74c3c;
+}
+
+.form-switcher {
+  margin-top: 1.5rem;
+  font-size: 0.9rem;
+  color: #555;
+}
+
+.form-switcher a {
+  color: var(--color-price);
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.scan-btn {
+  background: #3498db;
+  margin-bottom: 1rem;
+}
+
+.scan-btn.scanning {
+  background: #e74c3c; /* Rojo para indicar que está activo */
+}
+
+#qr-reader {
+  border-radius: 12px;
+  overflow: hidden;
+}
+
+.cashier-admin-actions {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+}
+
+.reset-btn {
+  background: none;
+  border: 1px solid #aaa;
+  color: #777;
+  font-size: 0.9rem;
+  padding: 8px 15px;
+}
+.reset-btn:hover {
+  background-color: #f1f1f1;
+  color: #333;
+  cursor: pointer;
+}
+
+.back-btn {
+  display: inline-block;
+  width: 100%;
+  text-align: center;
+  padding: 12px;
+  margin-top: 2rem;
+  border: 2px solid var(--color-price);
+  color: var(--color-price);
+  background-color: transparent;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  transition: all 0.3s ease;
+}
+
+.back-btn i {
+  margin-right: 8px;
+}
+
+.back-btn:hover {
+  background-color: var(--color-price);
+  color: #fff;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 10px rgba(48, 77, 58, 0.2);
+}
+
+.cashier-footer-actions {
+  margin-top: 2rem;
+  padding-top: 1rem;
+  border-top: 1px solid #eee;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.cashier-panel input[readonly] {
+  background-color: #f8f6f1;
+  font-weight: 600;
+  color: #333;
+  cursor: not-allowed;
+}
