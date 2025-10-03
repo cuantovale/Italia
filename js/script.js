@@ -33,13 +33,13 @@ const MENU_DATA = [
         "nombre": "Café Cortado - Jarrita",
         "descripcion": "",
         "precio": 2800,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/cortado jarrita.JPEG"
       },
       {
         "nombre": "Café Lágrima - Jarrita",
         "descripcion": "Leche caliente con un suave toque de café.",
         "precio": 2900,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/lagrima jarrita.JPEG"
       },
       {
         "sub_subcategoria": "Tamaño Doble"
@@ -48,7 +48,7 @@ const MENU_DATA = [
         "nombre": "Café - Doble",
         "descripcion": "",
         "precio": 2500,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/cafe doble.JPEG"
       },
       {
         "nombre": "Café con Leche - Doble",
@@ -60,19 +60,19 @@ const MENU_DATA = [
         "nombre": "Café Cortado - Doble",
         "descripcion": "",
         "precio": 4500,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/cortado doble.JPEG"
       },
       {
         "nombre": "Café Lágrima - Doble",
         "descripcion": "Leche caliente con un suave toque de café.",
         "precio": 4700,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/lagrima doble.JPEG"
       },
       {
         "nombre": "Café con Crema - Doble",
         "descripcion": "Café negro acompañado de crema chantilly.",
         "precio": 5700,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/cafe con crema.JPEG"
       },
       {
         "sub_subcategoria": "Otras Variedades"
@@ -81,7 +81,7 @@ const MENU_DATA = [
         "nombre": "Café Irlandés",
         "descripcion": "Espresso con whisky de miel, crema chantilly y salsa de caramelo.",
         "precio": 6900,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/irlandes.JPEG"
       },
       {
         "nombre": "Café Affogato",
@@ -93,25 +93,25 @@ const MENU_DATA = [
         "nombre": "Iced coffee",
         "descripcion": "Doble café frío con base de salsa de caramelo. (Medida: 240 ml)",
         "precio": 3800,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/iced coffee.JPEG"
       },
       {
         "nombre": "Iced latte",
         "descripcion": "Leche fría con café batido y salsa de caramelo. (Medida: 360 ml)",
         "precio": 4500,
-        "img": "/images/productos/IMG_1399.JPEG"
+        "img": "/images/productos/iced lattee.JPEG"
       },
       {
         "nombre": "Café bombón",
         "descripcion": "Café batido con leche condensada y leche fría.",
         "precio": 6200,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/cafe bombon.JPEG"
       },
       {
         "nombre": "Cappuccino",
         "descripcion": "Espresso con leche caliente, terminado con canela o cacao amargo.",
         "precio": 5200,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/IMG_1399.JPEG"
       },
       {
         "nombre": "Café Freddo",
@@ -126,7 +126,7 @@ const MENU_DATA = [
         "nombre": "Chocolatada (fría o caliente)",
         "descripcion": "Medida: 360 ml",
         "precio": 3600,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/chocolate.JPEG"
       },
       {
         "nombre": "Submarino",
@@ -186,49 +186,49 @@ const MENU_DATA = [
         "nombre": "Combo 1",
         "descripcion": "Café o té + 2 Medialunas",
         "precio": 6500,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/combo 1.jpg"
       },
       {
         "nombre": "Combo 2",
         "descripcion": "Café o té + 1 Waffle con miel o salsa",
         "precio": 6500,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/combo 2.jpg"
       },
       {
         "nombre": "Combo 3",
         "descripcion": "Café o té + Pastafrola o tarta de coco con dulce de leche",
         "precio": 7000,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/combo 3.jpg"
       },
       {
         "nombre": "Combo 4",
         "descripcion": "Café o té + 2 Tostadas con 2 dips",
         "precio": 6500,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/combo 4.jpg"
       },
       {
         "nombre": "Combo 5",
         "descripcion": "Café o té + 100gr de chipá",
         "precio": 4800,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/combo 5.jpg"
       },
       {
         "nombre": "Combo 6",
         "descripcion": "Café o té + 1 Medialuna de jamón y queso",
         "precio": 6500,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/combo 6.jpg"
       },
       {
         "nombre": "Combo 7",
         "descripcion": "Café o té + 1 Tostada con 1 feta de jamón y queso",
         "precio": 6500,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/combo 7.jpg"
       },
       {
         "nombre": "Combo 8",
         "descripcion": "Café o té + 1 Tostada con rúcula y jamón crudo",
         "precio": 6500,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/combo 8.jpg"
       },
       {
         "nombre": "Combo 9",
@@ -246,13 +246,13 @@ const MENU_DATA = [
         "nombre": "Combo 11",
         "descripcion": "Café o té + 150gr bizcochos",
         "precio": 4800,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/combo 11.jpg"
       },
       {
         "nombre": "Cambio de infusión por jugo de naranja mediano",
         "descripcion": "",
         "precio": 1100,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/cambio infusion.jpg"
       }
     ]
   },
@@ -355,22 +355,22 @@ const MENU_DATA = [
         "img": "/images/productos/default.svg"
       },
       {
-        "nombre": "Jugo de naranja mediano",
-        "descripcion": "Medida: 360 ml",
-        "precio": 3600,
-        "img": "/images/productos/default.svg"
-      },
-      {
         "nombre": "Jarra de limonada",
         "descripcion": "2 litros (Opcional: Menta y Jengibre)",
         "precio": 11500,
         "img": "/images/productos/default.svg"
       },
       {
+        "nombre": "Jugo de naranja mediano",
+        "descripcion": "Medida: 360 ml",
+        "precio": 3600,
+        "img": "/images/productos/jugo naranja 360.JPEG"
+      },      
+      {
         "nombre": "Jugo de naranja grande",
         "descripcion": "Medida: 500 ml",
         "precio": 4300,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/jugo naranja 500.JPEG"
       },
       {
         "nombre": "Limonada mediana",
@@ -388,13 +388,13 @@ const MENU_DATA = [
         "nombre": "Agua 600 ml",
         "descripcion": "",
         "precio": 1800,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/agua.JPEG"
       },
       {
         "nombre": "Agua con gas 500 ml",
         "descripcion": "",
         "precio": 2000,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/agua con gas.JPEG"
       },
       {
         "nombre": "Agua saborizada 500 ml",
@@ -406,7 +406,7 @@ const MENU_DATA = [
         "nombre": "Agua tónica 375 ml",
         "descripcion": "",
         "precio": 2700,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/agua tonica.JPEG"
       },
       {
         "nombre": "Gaseosa 500 ml",
@@ -423,13 +423,13 @@ const MENU_DATA = [
         "nombre": "Combo Clásico",
         "descripcion": "Café + 2 Medialunas o 150gr bizcochos +  jugo de naranja",
         "precio": 7000,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/combo clasi.JPEG"
       },
       {
         "nombre": "Combo Chipá",
         "descripcion": "Café + 100g de chipá + jugo de naranja",
         "precio": 6900,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/combo chipa.JPEG"
       },
       {
         "nombre": "Combo Proteico",
@@ -447,19 +447,19 @@ const MENU_DATA = [
         "nombre": "Combo Italia",
         "descripcion": "Café + porción de torta/tarta + jugo de naranja",
         "precio": 12400,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/combo italia.JPEG"
       },
       {
         "nombre": "Combo Mbejú",
         "descripcion": "Café + Mbejú relleno de J&Q",
         "precio": 11300,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/combo mbeju.JPEG"
       },
       {
         "nombre": "Combo Para dos",
         "descripcion": "Café + 2 medialunas + 2 tostadas con dips + porción de pastafrola o tarta de coco con dulce de leche + 100g de chipá + jugo de naranja",
         "precio": 23700,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/combo doble.JPEG"
       }
     ]
   },
@@ -470,7 +470,7 @@ const MENU_DATA = [
         "nombre": "Medialuna Dulce",
         "descripcion": "",
         "precio": 1600,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/medialuna dulce.JPEG"
       },
       {
         "nombre": "Porción de Pepas",
@@ -594,7 +594,7 @@ const MENU_DATA = [
         "nombre": "Chipá (100gr)",
         "descripcion": "",
         "precio": 3000,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/chipa.JPEG"
       },
       {
         "nombre": "Bizcochos de grasa (100gr)",
@@ -727,46 +727,40 @@ const MENU_DATA = [
     "categoria": "Mbejú",
     "productos": [
       {
-        "nombre": "Mbejú de Jamón y Queso",
-        "descripcion": "",
-        "precio": 9000,
-        "img": "/images/productos/default.svg"
-      },
-      {
-        "nombre": "Mbejú relleno de J&Q",
+        "nombre": "Mbejú Relleno de J&Q",
         "descripcion": "",
         "precio": 8600,
         "img": "/images/productos/mbej_relleno_de_j_q_1759335335454.JPEG"
       },
       {
-        "nombre": "Mbejú de Rúcula y Jamón Crudo",
+        "nombre": "Mbejú Relleno de Rúcula y Jamón Crudo",
         "descripcion": "",
         "precio": 10500,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/mbejú.JPEG"
       },
       {
-        "nombre": "Mbejú de Rúcula, Palta, Huevo Revuelto y Tomates Confitados",
+        "nombre": "Mbejú Relleno de Rúcula, Palta, Huevo Revuelto y Tomates Confitados",
         "descripcion": "",
         "precio": 10500,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/mbeju1.JPEG"
       },
       {
-        "nombre": "Mbejú de Rúcula, Cerdo Ahumado y Tomates Confitados",
+        "nombre": "Mbejú Relleno de Rúcula, Cerdo Ahumado y Tomates Confitados",
         "descripcion": "",
         "precio": 10500,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/mbeju2.JPEG"
       },
       {
-        "nombre": "Mbejú de Palta y Huevo Revuelto",
+        "nombre": "Mbejú Relleno de Palta y Huevo Revuelto",
         "descripcion": "",
         "precio": 9000,
         "img": "/images/productos/WhatsApp Image 2025-09-30 at 18.48.42_1ad85218.jpg"
       },
       {
-        "nombre": "Mbejú de Jamón, Rúcula y Tomates Confitados",
+        "nombre": "Mbejú Relleno de Jamón, Rúcula y Tomates Confitados",
         "descripcion": "",
         "precio": 9000,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/mbeju3.JPEG"
       },
       {
         "nombre": "Mbejú Italia",
