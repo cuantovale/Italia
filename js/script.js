@@ -79,13 +79,13 @@ const MENU_DATA = [
       },
       {
         "nombre": "Café Irlandés",
-        "descripcion": "Espresso con whisky de miel, crema chantilly y salsa de caramelo.",
+        "descripcion": "Espresso con whisky de miel, crema chantilly y salsa de caramelo. (Medida: 240 ml)",
         "precio": 6900,
         "img": "/images/productos/irlandes.JPEG"
       },
       {
         "nombre": "Café Affogato",
-        "descripcion": "Espresso servido con helado a elección (vainilla o dulce de leche), garrapiñada y salsa de caramelo.",
+        "descripcion": "Espresso servido con helado a elección (vainilla o dulce de leche), garrapiñada y salsa de caramelo. (Medida: 240 ml)",
         "precio": 5500,
         "img": "/images/productos/WhatsApp Image 2025-09-30 at 19.11.27_70e3659d.jpg"
       },
@@ -103,19 +103,19 @@ const MENU_DATA = [
       },
       {
         "nombre": "Café bombón",
-        "descripcion": "Café batido con leche condensada y leche fría.",
+        "descripcion": "Café batido con leche condensada y leche fría. (Medida: 240 ml)",
         "precio": 6200,
         "img": "/images/productos/cafe bombon.JPEG"
       },
       {
         "nombre": "Cappuccino",
-        "descripcion": "Espresso con leche caliente, terminado con canela o cacao amargo.",
+        "descripcion": "Espresso con leche caliente, terminado con canela o cacao amargo. (Medida: 240 ml)",
         "precio": 5200,
         "img": "/images/productos/IMG_1399.JPEG"
       },
       {
         "nombre": "Café Freddo",
-        "descripcion": "Leche fría con chocolate Águila, café batido, crema chantilly y salsa de chocolate.",
+        "descripcion": "Leche fría con chocolate Águila, café batido, crema chantilly y salsa de chocolate. (Medida: 240 ml)",
         "precio": 5800,
         "img": "/images/productos/fredo.png"
       },
@@ -124,13 +124,13 @@ const MENU_DATA = [
       },
       {
         "nombre": "Chocolatada (fría o caliente)",
-        "descripcion": "Medida: 360 ml",
+        "descripcion": "Medida: 240 ml",
         "precio": 3600,
         "img": "/images/productos/chocolate.JPEG"
       },
       {
         "nombre": "Submarino",
-        "descripcion": "Barra de chocolate Águila con leche caliente.",
+        "descripcion": "Barra de chocolate Águila con leche caliente. (Medida: 240 ml)",
         "precio": 4700,
         "img": "/images/productos/IMG_1407.JPEG"
       },
@@ -356,7 +356,7 @@ const MENU_DATA = [
       },
       {
         "nombre": "Jarra de limonada",
-        "descripcion": "2 litros (Opcional: Menta y Jengibre)",
+        "descripcion": "Medida: 2 lts (Opcional: Menta y Jengibre)",
         "precio": 11500,
         "img": "/images/productos/default.svg"
       },
