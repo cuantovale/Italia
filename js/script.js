@@ -216,13 +216,13 @@ const MENU_DATA = [
         "nombre": "Combo 6",
         "descripcion": "Café o té + 1 Medialuna de jamón y queso",
         "precio": 6500,
-        "img": "/images/productos/combo 6.jpg"
+        "img": "/images/productos/combo 7.jpg"
       },
       {
         "nombre": "Combo 7",
         "descripcion": "Café o té + 1 Tostada con 1 feta de jamón y queso",
         "precio": 6500,
-        "img": "/images/productos/combo 7.jpg"
+        "img": "/images/productos/combo 6.jpg"
       },
       {
         "nombre": "Combo 8",
