@@ -79,7 +79,7 @@ const MENU_DATA = [
       },
       {
         "nombre": "Café Irlandés",
-        "descripcion": "Espresso con whisky de miel, crema chantilly y salsa de caramelo. (Medida: 240 ml)",
+        "descripcion": "Espresso con whisky, crema chantilly y salsa de caramelo. (Medida: 240 ml)",
         "precio": 6900,
         "img": "/images/productos/irlandes.JPEG"
       },
@@ -190,7 +190,7 @@ const MENU_DATA = [
       },
       {
         "nombre": "Combo 2",
-        "descripcion": "Café o té + 1 Waffle con miel o salsa",
+        "descripcion": "Café o té + 2 Waffle con miel o salsa",
         "precio": 6500,
         "img": "/images/productos/combo 2.jpg"
       },
@@ -202,7 +202,7 @@ const MENU_DATA = [
       },
       {
         "nombre": "Combo 4",
-        "descripcion": "Café o té + 2 Tostadas con 2 dips",
+        "descripcion": "Café o té + 2 Tostadas con 2 dips (Queso crema y Mermelada)",
         "precio": 6500,
         "img": "/images/productos/combo 4.jpg"
       },
@@ -232,13 +232,13 @@ const MENU_DATA = [
       },
       {
         "nombre": "Combo 9",
-        "descripcion": "Café o té + Huevo revuelto con o sin semillas",
+        "descripcion": "Café o té + 1 Huevo revuelto con o sin semillas",
         "precio": 5400,
         "img": "/images/productos/default.svg"
       },
       {
         "nombre": "Combo 10",
-        "descripcion": "Yogurt con granola, frutas y miel (sin infusión)",
+        "descripcion": "Yogurt con granola, frutas, miel y coco (sin infusión)",
         "precio": 5400,
         "img": "/images/productos/default.svg"
       },
@@ -261,9 +261,9 @@ const MENU_DATA = [
     "productos": [
       {
         "nombre": "Sandwich Génova",
-        "descripcion": "Pan de Molde, Queso Crema, Jamón, Queso y Omelet de Huevo",
+        "descripcion": "Pan de Molde, Queso Crema, Jamón, Queso y Omelet de huevo, relleno de queso.",
         "precio": 7600,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/genova.JPEG"
       },
       {
         "nombre": "Opción Keto",
@@ -275,7 +275,7 @@ const MENU_DATA = [
         "nombre": "Brusqueta Sicilia",
         "descripcion": "Pan de Campo, Queso Crema con Cebollita de Verdeo, Rúcula, Tomates Confitados y Cerdo Ahumado",
         "precio": 6500,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/sicilia.png"
       },
       {
         "nombre": "Opción Keto",
@@ -439,7 +439,7 @@ const MENU_DATA = [
       },
       {
         "nombre": "Combo Fit",
-        "descripcion": "Café + yogurt con granola y frutas + jugo de naranja",
+        "descripcion": "Café + yogurt con granola, frutas, miel y coco + jugo de naranja",
         "precio": 10800,
         "img": "/images/productos/default.svg"
       },
@@ -551,7 +551,7 @@ const MENU_DATA = [
         "img": "/images/productos/IMG_1396.JPEG"
       },
       {
-        "nombre": "Bowl frutas de estación, coco y miel",
+        "nombre": "Bowl frutas de estación, miel y coco",
         "descripcion": "",
         "precio": 6500,
         "img": "/images/productos/default.svg"
@@ -563,8 +563,8 @@ const MENU_DATA = [
         "img": "/images/productos/Generated Image October 02, 2025 - 3_23PM.png"
       },
       {
-        "nombre": "Waffles con frutas o 2 bochas de helado",
-        "descripcion": "(2 Unidades)",
+        "nombre": "Waffles",
+        "descripcion": "Waffles con 2 bochas de helado, crema chantilly y salsa a elección (2 Unidades)",
         "precio": 6700,
         "img": "/images/productos/Generated Image October 01, 2025 - 11_54PM.png"
       }
@@ -621,6 +621,12 @@ const MENU_DATA = [
         "img": "/images/productos/default.svg"
       },
       {
+        "nombre": "Sandwich jamón crudo y rúcula",
+        "descripcion": "",
+        "precio": 10000,
+        "img": "/images/productos/WhatsApp Image 2025-09-30 at 19.11.31_6b4a5d80.jpg"
+      },
+      {
         "nombre": "Tostón con huevos revueltos J&Q",
         "descripcion": "1 Tostada +  2 Huevos revueltos +  Rollitos de J&Q",
         "precio": 7000,
@@ -637,12 +643,6 @@ const MENU_DATA = [
         "descripcion": "Opcional: Medialuna salada/dulce",
         "precio": 4800,
         "img": "/images/productos/medialuna.jpg"
-      },
-      {
-        "nombre": "Sandwich jamón crudo y rúcula",
-        "descripcion": "",
-        "precio": 10000,
-        "img": "/images/productos/WhatsApp Image 2025-09-30 at 19.11.31_6b4a5d80.jpg"
       },
       {
         "nombre": "Tostón de huevo revuelto con J&Q integrado",
