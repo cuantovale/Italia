@@ -141,13 +141,13 @@ const MENU_DATA = [
         "nombre": "Té negro",
         "descripcion": "",
         "precio": 3200,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/IMG_1731.JPEG"
       },
       {
         "nombre": "Té con leche",
         "descripcion": "",
         "precio": 3800,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/IMG_1733.JPEG"
       },
       {
         "nombre": "Té especiales",
@@ -159,13 +159,13 @@ const MENU_DATA = [
         "nombre": "Mate cocido",
         "descripcion": "",
         "precio": 2700,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/IMG_1730.JPEG"
       },
       {
         "nombre": "Mate cocido con leche",
         "descripcion": "",
         "precio": 3200,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/IMG_1728.JPEG"
       },
       {
         "subcategoria": "Otros"
@@ -234,13 +234,13 @@ const MENU_DATA = [
         "nombre": "Combo 9",
         "descripcion": "Café o té + 1 Huevo revuelto con o sin semillas",
         "precio": 5400,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/1d4b2ffd-e489-47b0-ae85-6bba2f5dc643.jpg"
       },
       {
         "nombre": "Combo 10",
         "descripcion": "Yogurt con granola, frutas, miel y coco (sin infusión)",
         "precio": 5400,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/cb0ab5ec-271b-4b66-be20-280b11e251de.jpg"
       },
       {
         "nombre": "Combo 11",
@@ -281,7 +281,7 @@ const MENU_DATA = [
         "nombre": "Opción Keto",
         "descripcion": "",
         "precio": 7200,
-        "img": "/images/productos/opci_n_keto_1759338229231-Photoroom.png"
+        "img": "/images/productos/IMG_1753.JPEG"
       },
       {
         "nombre": "Brusqueta Turín",
@@ -311,7 +311,7 @@ const MENU_DATA = [
         "nombre": "Brusqueta Siena",
         "descripcion": "Pan de campo, Crema de nuestro Cheesecake con Reducción de Frutos Rojos",
         "precio": 5700,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/IMG_1752.JPEG"
       },
       {
         "nombre": "Opción Keto",
@@ -346,21 +346,33 @@ const MENU_DATA = [
         "nombre": "Milkshake",
         "descripcion": "Medida: 500 ml (Sabores: Vainilla, Dulce de Leche o Frutilla. Con salsa de chocolate o caramelo y crema chantilly)",
         "precio": 5400,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/IMG_1736.JPEG"
       },
       {
         "nombre": "Smoothies",
         "descripcion": "Medida: 360 ml (Sabores Varios)",
         "precio": 5400,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/cf21e786-3179-4fe4-b5fb-b10031aa4aaf.jpg"
       },
       {
         "nombre": "Jarra de limonada",
         "descripcion": "Medida: 2 lts (Opcional: Menta y Jengibre)",
         "precio": 11500,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/jarralimonada.jpg"
       },
       {
+        "nombre": "Limonada mediana",
+        "descripcion": "Medida: 360 ml",
+        "precio": 3300,
+        "img": "/images/productos/limonada mediana.jpg"
+      },
+      {
+        "nombre": "Limonada grande",
+        "descripcion": "Medida: 500 ml",
+        "precio": 3800,
+        "img": "/images/productos/limonada grande.jpg"
+      },
+            {
         "nombre": "Jugo de naranja mediano",
         "descripcion": "Medida: 360 ml",
         "precio": 3600,
@@ -371,18 +383,6 @@ const MENU_DATA = [
         "descripcion": "Medida: 500 ml",
         "precio": 4300,
         "img": "/images/productos/jugo naranja 500.JPEG"
-      },
-      {
-        "nombre": "Limonada mediana",
-        "descripcion": "Medida: 360 ml",
-        "precio": 3300,
-        "img": "/images/productos/default.svg"
-      },
-      {
-        "nombre": "Limonada grande",
-        "descripcion": "Medida: 500 ml",
-        "precio": 3800,
-        "img": "/images/productos/default.svg"
       },
       {
         "nombre": "Agua 600 ml",
@@ -482,7 +482,7 @@ const MENU_DATA = [
         "nombre": "Tostadas pan de molde con 2 dips",
         "descripcion": "Mermelada de frutilla/naranja, dulce de leche y queso crema",
         "precio": 6000,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/IMG_1764.JPEG"
       },
       {
         "nombre": "Alfajores de la casa",
@@ -490,6 +490,36 @@ const MENU_DATA = [
         "precio": 3300,
         "img": "/images/productos/alfajores_de_la_casa_1759337949426.JPEG"
       },
+      {
+        "nombre": "Porción de Alfajores de Maicena",
+        "descripcion": "",
+        "precio": 7500,
+        "img": "/images/productos/porci_n_de_alfajores_de_maicena_1759337932431.JPEG"
+      },
+
+      {
+        "nombre": "Bowl frutas de estación, miel y coco",
+        "descripcion": "",
+        "precio": 6500,
+        "img": "/images/productos/default.svg"
+      },
+      {
+        "nombre": "Waffles con miel o salsa",
+        "descripcion": "(2 Unidades)",
+        "precio": 4300,
+        "img": "/images/productos/Generated Image October 02, 2025 - 3_23PM.png"
+      },
+      {
+        "nombre": "Waffles",
+        "descripcion": "Waffles con 2 bochas de helado, crema chantilly y salsa a elección (2 Unidades)",
+        "precio": 6700,
+        "img": "/images/productos/Generated Image October 01, 2025 - 11_54PM.png"
+      }
+    ]
+  },
+  {
+    "categoria": "Tortas/Tartas",
+    "productos": [
       {
         "nombre": "Porción de Cheesecake",
         "descripcion": "",
@@ -501,12 +531,6 @@ const MENU_DATA = [
         "descripcion": "",
         "precio": 7500,
         "img": "/images/productos/porci_n_de_pastafrola_1759337916810.JPEG"
-      },
-      {
-        "nombre": "Porción de Alfajores de Maicena",
-        "descripcion": "",
-        "precio": 7500,
-        "img": "/images/productos/porci_n_de_alfajores_de_maicena_1759337932431.JPEG"
       },
       {
         "nombre": "Porción de Lemon Pie",
@@ -550,29 +574,6 @@ const MENU_DATA = [
         "precio": 7500,
         "img": "/images/productos/IMG_1396.JPEG"
       },
-      {
-        "nombre": "Bowl frutas de estación, miel y coco",
-        "descripcion": "",
-        "precio": 6500,
-        "img": "/images/productos/default.svg"
-      },
-      {
-        "nombre": "Waffles con miel o salsa",
-        "descripcion": "(2 Unidades)",
-        "precio": 4300,
-        "img": "/images/productos/Generated Image October 02, 2025 - 3_23PM.png"
-      },
-      {
-        "nombre": "Waffles",
-        "descripcion": "Waffles con 2 bochas de helado, crema chantilly y salsa a elección (2 Unidades)",
-        "precio": 6700,
-        "img": "/images/productos/Generated Image October 01, 2025 - 11_54PM.png"
-      }
-    ]
-  },
-  {
-    "categoria": "Tortas/Tartas Enteras",
-    "productos": [
       {
         "nombre": "Lemon Pie",
         "descripcion": "",
@@ -618,7 +619,7 @@ const MENU_DATA = [
         "nombre": "Sandwich J&Q + Queso Crema en pan de campo",
         "descripcion": "",
         "precio": 6800,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/IMG_1769.JPEG"
       },
       {
         "nombre": "Sandwich jamón crudo y rúcula",
@@ -648,7 +649,7 @@ const MENU_DATA = [
         "nombre": "Tostón de huevo revuelto con J&Q integrado",
         "descripcion": "",
         "precio": 6600,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/IMG_1741.JPEG"
       },
     ]
   },
