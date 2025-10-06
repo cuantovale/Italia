@@ -459,7 +459,7 @@ const MENU_DATA = [
         "nombre": "Combo Para dos",
         "descripcion": "Café + 2 medialunas + 2 tostadas con dips + porción de pastafrola o tarta de coco con dulce de leche + 100g de chipá + jugo de naranja",
         "precio": 23700,
-        "img": "/images/productos/combo doble.JPEG"
+        "img": "/images/productos/combo doble.jpg"
       }
     ]
   },
