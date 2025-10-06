@@ -81,7 +81,7 @@ const MENU_DATA = [
         "nombre": "Café Irlandés",
         "descripcion": "Espresso con whisky, crema chantilly y salsa de caramelo. (Medida: 240 ml)",
         "precio": 6900,
-        "img": "/images/productos/irlandes.JPEG"
+        "img": "/images/productos/irlandes.jpg"
       },
       {
         "nombre": "Café Affogato",
@@ -666,13 +666,13 @@ const MENU_DATA = [
         "nombre": "Queso Adicional",
         "descripcion": "",
         "precio": 1100,
-        "img": "/images/productos/IMG_1457-Photoroom.png"
+        "img": "/images/productos/queso.png"
       },
       {
         "nombre": "Jamón Adicional",
         "descripcion": "",
         "precio": 1100,
-        "img": "/images/productos/IMG_1458-Photoroom.png"
+        "img": "/images/productos/jamon.png"
       },
       {
         "nombre": "Jamón crudo Adicional",
