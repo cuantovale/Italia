@@ -105,7 +105,7 @@ const MENU_DATA = [
         "nombre": "Café bombón",
         "descripcion": "Café batido con leche condensada y leche fría. (Medida: 240 ml)",
         "precio": 6200,
-        "img": "/images/productos/cafe bombon.JPEG"
+        "img": "/images/productos/bombon.jpg"
       },
       {
         "nombre": "Cappuccino",
