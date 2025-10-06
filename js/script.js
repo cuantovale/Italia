@@ -575,6 +575,12 @@ const MENU_DATA = [
         "img": "/images/productos/IMG_1396.JPEG"
       },
       {
+        "nombre": "Porción de Tarta del Bosque",
+        "descripcion": "Crema pastelera de naranja, reducción de arandanos y ganache de chocolate blanco",
+        "precio": 7500,
+        "img": "/images/productos/WhatsApp Image 2025-10-06 at 20.20.42_fdf28e7b.jpg"
+      },
+      {
         "nombre": "Lemon Pie",
         "descripcion": "",
         "precio": 45000,
