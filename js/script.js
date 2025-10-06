@@ -311,19 +311,19 @@ const MENU_DATA = [
         "nombre": "Brusqueta Siena",
         "descripcion": "Pan de campo, Crema de nuestro Cheesecake con Reducción de Frutos Rojos",
         "precio": 5700,
-        "img": "/images/productos/IMG_1752.JPEG"
+        "img": "/images/productos/default.svg"
       },
       {
         "nombre": "Opción Keto",
         "descripcion": "",
         "precio": 6400,
-        "img": "/images/productos/opci_n_keto_1759338229231-Photoroom.png"
+        "img": "/images/productos/IMG_1752.JPEG"
       },
       {
         "nombre": "Pancakes Roma",
         "descripcion": "2 Pancakes Tibios con Frutas de Estación, Miel o Salsa y Coco",
         "precio": 6700,
-        "img": "/images/productos/IMG_1414.JPEG"
+        "img": "/images/productos/roma.png"
       }
     ]
   },
@@ -334,13 +334,13 @@ const MENU_DATA = [
         "nombre": "Licuado con agua",
         "descripcion": "Medida: 500 ml (Sabores: Frutilla, Durazno o Banana)",
         "precio": 4300,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/bd0f25bd-9e56-4f0f-a800-c9d985ba0688.jpg"
       },
       {
         "nombre": "Licuado con leche",
         "descripcion": "Medida: 500 ml (Sabores: Frutilla, Durazno o Banana)",
         "precio": 4900,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/cf21e786-3179-4fe4-b5fb-b10031aa4aaf.jpg"
       },
       {
         "nombre": "Milkshake",
@@ -352,7 +352,7 @@ const MENU_DATA = [
         "nombre": "Smoothies",
         "descripcion": "Medida: 360 ml (Sabores Varios)",
         "precio": 5400,
-        "img": "/images/productos/cf21e786-3179-4fe4-b5fb-b10031aa4aaf.jpg"
+        "img": "/images/productos/8f1bc3c3-1914-4759-8547-0359fa502729.JPEG"
       },
       {
         "nombre": "Jarra de limonada",
