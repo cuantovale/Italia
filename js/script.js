@@ -441,7 +441,7 @@ const MENU_DATA = [
         "nombre": "Combo Fit",
         "descripcion": "Café + yogurt con granola, frutas, miel y coco + jugo de naranja",
         "precio": 10800,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/combo fit.jpg"
       },
       {
         "nombre": "Combo Italia",
@@ -493,7 +493,7 @@ const MENU_DATA = [
       {
         "nombre": "Porción de Alfajores de Maicena",
         "descripcion": "",
-        "precio": 7500,
+        "precio": 3300,
         "img": "/images/productos/porci_n_de_alfajores_de_maicena_1759337932431.JPEG"
       },
 
@@ -501,7 +501,7 @@ const MENU_DATA = [
         "nombre": "Bowl frutas de estación, miel y coco",
         "descripcion": "",
         "precio": 6500,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/bow de frutas.jpg"
       },
       {
         "nombre": "Waffles con miel o salsa",
