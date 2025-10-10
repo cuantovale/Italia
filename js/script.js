@@ -1,5 +1,324 @@
 const MENU_DATA = [
   {
+    "categoria": "Especialidades",
+    "productos": [
+      {
+        "nombre": "Sandwich Génova",
+        "descripcion": "Pan de Molde, Queso Crema, Jamón, Queso y Omelet de huevo, relleno de queso.",
+        "precio": 7600,
+        "img": "/images/productos/genova.JPEG"
+      },
+      {
+        "nombre": "Opción Keto",
+        "descripcion": "",
+        "precio": 9000,
+        "img": "/images/productos/IMG_1463.JPEG"
+      },
+      {
+        "nombre": "Brusqueta Sicilia",
+        "descripcion": "Pan de Campo, Queso Crema con Cebollita de Verdeo, Rúcula, Tomates Confitados y Cerdo Ahumado",
+        "precio": 6500,
+        "img": "/images/productos/sicilia.png"
+      },
+      {
+        "nombre": "Opción Keto",
+        "descripcion": "",
+        "precio": 7200,
+        "img": "/images/productos/IMG_1753.JPEG"
+      },
+      {
+        "nombre": "Brusqueta Turín",
+        "descripcion": "Pan de Campo, Queso Crema, Palta, Tomates Confitados y Huevo",
+        "precio": 7600,
+        "img": "/images/productos/Generated Image October 02, 2025 - 12_30AM.png"
+      },
+      {
+        "nombre": "Opción Keto",
+        "descripcion": "",
+        "precio": 8300,
+        "img": "/images/productos/IMG_1450.JPEG"
+      },
+      {
+        "nombre": "Brusqueta Capri",
+        "descripcion": "Pan de Campo, Queso Crema, Frutas de Estación, Miel y Granola",
+        "precio": 6000,
+        "img": "/images/productos/Generated Image October 02, 2025 - 12_51AM.jpg"
+      },
+      {
+        "nombre": "Opción Keto",
+        "descripcion": "",
+        "precio": 6700,
+        "img": "/images/productos/Generated Image October 02, 2025 - 12_04AM.jpg"
+      },
+      {
+        "nombre": "Brusqueta Siena",
+        "descripcion": "Pan de campo, Crema de nuestro Cheesecake con Reducción de Frutos Rojos",
+        "precio": 5700,
+        "img": "/images/productos/default.svg"
+      },
+      {
+        "nombre": "Opción Keto",
+        "descripcion": "",
+        "precio": 6400,
+        "img": "/images/productos/IMG_1752.JPEG"
+      },
+      {
+        "nombre": "Pancakes Roma",
+        "descripcion": "2 Pancakes Tibios con Frutas de Estación, Miel o Salsa y Coco",
+        "precio": 6700,
+        "img": "/images/productos/roma.png"
+      }
+    ]
+  },
+  {
+    "categoria": "Desayuno Ejecutivo",
+    "productos": [
+      {
+        "nombre": "Combo 1",
+        "descripcion": "Café o té + 2 Medialunas",
+        "precio": 6500,
+        "img": "/images/productos/combo 1.jpg"
+      },
+      {
+        "nombre": "Combo 2",
+        "descripcion": "Café o té + 2 Waffle con miel o salsa",
+        "precio": 6500,
+        "img": "/images/productos/combo 2.jpg"
+      },
+      {
+        "nombre": "Combo 3",
+        "descripcion": "Café o té + Pastafrola o tarta de coco con dulce de leche",
+        "precio": 7000,
+        "img": "/images/productos/combo 3.jpg"
+      },
+      {
+        "nombre": "Combo 4",
+        "descripcion": "Café o té + 2 Tostadas con 2 dips (Queso crema y Mermelada)",
+        "precio": 6500,
+        "img": "/images/productos/combo 4.jpg"
+      },
+      {
+        "nombre": "Combo 5",
+        "descripcion": "Café o té + 100gr de chipá",
+        "precio": 4800,
+        "img": "/images/productos/combo 5.jpg"
+      },
+      {
+        "nombre": "Combo 6",
+        "descripcion": "Café o té + 1 Medialuna de jamón y queso",
+        "precio": 6500,
+        "img": "/images/productos/combo 7.jpg"
+      },
+      {
+        "nombre": "Combo 7",
+        "descripcion": "Café o té + 1 Tostada con 1 feta de jamón y queso",
+        "precio": 6500,
+        "img": "/images/productos/combo 6.jpg"
+      },
+      {
+        "nombre": "Combo 8",
+        "descripcion": "Café o té + 1 Tostada con rúcula y jamón crudo",
+        "precio": 6500,
+        "img": "/images/productos/combo 8.jpg"
+      },
+      {
+        "nombre": "Combo 9",
+        "descripcion": "Café o té + 1 Huevo revuelto con o sin semillas",
+        "precio": 5400,
+        "img": "/images/productos/1d4b2ffd-e489-47b0-ae85-6bba2f5dc643.jpg"
+      },
+      {
+        "nombre": "Combo 10",
+        "descripcion": "Yogurt con granola, frutas, miel y coco (sin infusión)",
+        "precio": 5400,
+        "img": "/images/productos/cb0ab5ec-271b-4b66-be20-280b11e251de.jpg"
+      },
+      {
+        "nombre": "Combo 11",
+        "descripcion": "Café o té + 150gr bizcochos",
+        "precio": 4800,
+        "img": "/images/productos/combo 11.jpg"
+      },
+      {
+        "nombre": "Cambio de infusión por jugo de naranja mediano",
+        "descripcion": "",
+        "precio": 1100,
+        "img": "/images/productos/cambio infusion.jpg"
+      }
+    ]
+  },
+  {
+    "categoria": "Combos",
+    "productos": [
+      {
+        "nombre": "Combo Clásico",
+        "descripcion": "Café + 2 Medialunas o 150gr bizcochos +  jugo de naranja",
+        "precio": 7000,
+        "img": "/images/productos/combo clasi.JPEG"
+      },
+      {
+        "nombre": "Combo Chipá",
+        "descripcion": "Café + 100g de chipá + jugo de naranja",
+        "precio": 6900,
+        "img": "/images/productos/combo chipa.JPEG"
+      },
+      {
+        "nombre": "Combo Proteico",
+        "descripcion": "Café + tostón de J&Q y huevo revuelto + jugo de naranja mediano",
+        "precio": 13000,
+        "img": "/images/productos/combo_proteico_1759337968932.JPEG"
+      },
+      {
+        "nombre": "Combo Fit",
+        "descripcion": "Café + yogurt con granola, frutas, miel y coco + jugo de naranja",
+        "precio": 10800,
+        "img": "/images/productos/combo fit.jpg"
+      },
+      {
+        "nombre": "Combo Italia",
+        "descripcion": "Café + porción de torta/tarta + jugo de naranja",
+        "precio": 12400,
+        "img": "/images/productos/combo italia.JPEG"
+      },
+      {
+        "nombre": "Combo Mbejú",
+        "descripcion": "Café + Mbejú relleno de J&Q",
+        "precio": 11300,
+        "img": "/images/productos/combo mbeju.JPEG"
+      },
+      {
+        "nombre": "Combo Para dos",
+        "descripcion": "Café + 2 medialunas + 2 tostadas con dips + porción de pastafrola o tarta de coco con dulce de leche + 100g de chipá + jugo de naranja",
+        "precio": 23700,
+        "img": "/images/productos/combo doble.jpg"
+      }
+    ]
+  },
+  {
+    "categoria": "Mbejú",
+    "productos": [
+      {
+        "nombre": "Mbejú Relleno de J&Q",
+        "descripcion": "",
+        "precio": 8600,
+        "img": "/images/productos/mbej_relleno_de_j_q_1759335335454.JPEG"
+      },
+      {
+        "nombre": "Mbejú Relleno de Rúcula y Jamón Crudo",
+        "descripcion": "",
+        "precio": 10500,
+        "img": "/images/productos/mbejú.JPEG"
+      },
+      {
+        "nombre": "Mbejú Relleno de Rúcula, Palta, Huevo Revuelto y Tomates Confitados",
+        "descripcion": "",
+        "precio": 10500,
+        "img": "/images/productos/mbeju1.JPEG"
+      },
+      {
+        "nombre": "Mbejú Relleno de Rúcula, Cerdo Ahumado y Tomates Confitados",
+        "descripcion": "",
+        "precio": 10500,
+        "img": "/images/productos/mbeju2.JPEG"
+      },
+      {
+        "nombre": "Mbejú Relleno de Palta y Huevo Revuelto",
+        "descripcion": "",
+        "precio": 9000,
+        "img": "/images/productos/WhatsApp Image 2025-09-30 at 18.48.42_1ad85218.jpg"
+      },
+      {
+        "nombre": "Mbejú Relleno de Jamón, Rúcula y Tomates Confitados",
+        "descripcion": "",
+        "precio": 9000,
+        "img": "/images/productos/mbeju3.JPEG"
+      },
+      {
+        "nombre": "Mbejú Italia",
+        "descripcion": "Masa de Mbejú + 3 Ingredientes a Elección (tomates confitados, huevo revuelto, palta, jamón, rúcula, cerdo ahumado, queso o jamón crudo)",
+        "precio": 10500,
+        "img": "/images/productos/IMG_1439.JPEG"
+      }
+    ]
+  },
+  {
+    "categoria": "Tortas/Tartas",
+    "productos": [
+      {
+        "nombre": "Porción de Cheesecake",
+        "descripcion": "",
+        "precio": 7500,
+        "img": "/images/productos/IMG_1423.JPEG"
+      },
+      {
+        "nombre": "Porción de Pastafrola",
+        "descripcion": "",
+        "precio": 7500,
+        "img": "/images/productos/porci_n_de_pastafrola_1759337916810.JPEG"
+      },
+      {
+        "nombre": "Porción de Lemon Pie",
+        "descripcion": "",
+        "precio": 7500,
+        "img": "/images/productos/porci_n_de_lemon_pie_1759338049884.JPEG"
+      },
+      {
+        "nombre": "Porción de Patagonia",
+        "descripcion": "Chocolate blanco con frutos rojos",
+        "precio": 7500,
+        "img": "/images/productos/porci_n_de_no_se_que_de_frutos_rojos_1759338036959.JPEG"
+      },
+      {
+        "nombre": "Porción de Chocotorta",
+        "descripcion": "",
+        "precio": 7500,
+        "img": "/images/productos/porci_n_de_chocotorta_1759338083767.JPEG"
+      },
+      {
+        "nombre": "Porción de Tiramisú",
+        "descripcion": "",
+        "precio": 7500,
+        "img": "/images/productos/porci_n_de_tiramis_1759338099812.JPEG"
+      },
+      {
+        "nombre": "Porción de Havannet",
+        "descripcion": "",
+        "precio": 7500,
+        "img": "/images/productos/porci_n_de_el_coso_de_dulce_de_leche_1759338158027.JPEG"
+      },
+      {
+        "nombre": "Porción de Tarta de Coco",
+        "descripcion": "",
+        "precio": 7500,
+        "img": "/images/productos/porci_n_de_tarta_de_coco_1759337876968.JPEG"
+      },
+      {
+        "nombre": "Porción de Matilda",
+        "descripcion": "",
+        "precio": 7500,
+        "img": "/images/productos/IMG_1396.JPEG"
+      },
+      {
+        "nombre": "Porción de Tarta del Bosque",
+        "descripcion": "Crema pastelera de naranja, reducción de arandanos y ganache de chocolate blanco",
+        "precio": 7500,
+        "img": "/images/productos/WhatsApp Image 2025-10-06 at 20.20.42_fdf28e7b.jpg"
+      },
+      {
+        "nombre": "Lemon Pie",
+        "descripcion": "",
+        "precio": 45000,
+        "img": "/images/productos/tortas_enteras_1759335487429.JPEG"
+      },
+      {
+        "nombre": "Tartas Enteras",
+        "descripcion": "",
+        "precio": 45000,
+        "img": "/images/productos/default.svg"
+      }
+    ]
+  },
+    {
     "categoria": "Cafetería",
     "productos": [
       {
@@ -180,151 +499,122 @@ const MENU_DATA = [
     "hasSubcategories": true
   },
   {
-    "categoria": "Desayuno Ejecutivo",
+    "categoria": "Dulces",
     "productos": [
       {
-        "nombre": "Combo 1",
-        "descripcion": "Café o té + 2 Medialunas",
-        "precio": 6500,
-        "img": "/images/productos/combo 1.jpg"
-      },
-      {
-        "nombre": "Combo 2",
-        "descripcion": "Café o té + 2 Waffle con miel o salsa",
-        "precio": 6500,
-        "img": "/images/productos/combo 2.jpg"
-      },
-      {
-        "nombre": "Combo 3",
-        "descripcion": "Café o té + Pastafrola o tarta de coco con dulce de leche",
-        "precio": 7000,
-        "img": "/images/productos/combo 3.jpg"
-      },
-      {
-        "nombre": "Combo 4",
-        "descripcion": "Café o té + 2 Tostadas con 2 dips (Queso crema y Mermelada)",
-        "precio": 6500,
-        "img": "/images/productos/combo 4.jpg"
-      },
-      {
-        "nombre": "Combo 5",
-        "descripcion": "Café o té + 100gr de chipá",
-        "precio": 4800,
-        "img": "/images/productos/combo 5.jpg"
-      },
-      {
-        "nombre": "Combo 6",
-        "descripcion": "Café o té + 1 Medialuna de jamón y queso",
-        "precio": 6500,
-        "img": "/images/productos/combo 7.jpg"
-      },
-      {
-        "nombre": "Combo 7",
-        "descripcion": "Café o té + 1 Tostada con 1 feta de jamón y queso",
-        "precio": 6500,
-        "img": "/images/productos/combo 6.jpg"
-      },
-      {
-        "nombre": "Combo 8",
-        "descripcion": "Café o té + 1 Tostada con rúcula y jamón crudo",
-        "precio": 6500,
-        "img": "/images/productos/combo 8.jpg"
-      },
-      {
-        "nombre": "Combo 9",
-        "descripcion": "Café o té + 1 Huevo revuelto con o sin semillas",
-        "precio": 5400,
-        "img": "/images/productos/1d4b2ffd-e489-47b0-ae85-6bba2f5dc643.jpg"
-      },
-      {
-        "nombre": "Combo 10",
-        "descripcion": "Yogurt con granola, frutas, miel y coco (sin infusión)",
-        "precio": 5400,
-        "img": "/images/productos/cb0ab5ec-271b-4b66-be20-280b11e251de.jpg"
-      },
-      {
-        "nombre": "Combo 11",
-        "descripcion": "Café o té + 150gr bizcochos",
-        "precio": 4800,
-        "img": "/images/productos/combo 11.jpg"
-      },
-      {
-        "nombre": "Cambio de infusión por jugo de naranja mediano",
+        "nombre": "Medialuna Dulce",
         "descripcion": "",
-        "precio": 1100,
-        "img": "/images/productos/cambio infusion.jpg"
+        "precio": 1600,
+        "img": "/images/productos/medialuna dulce.jpg"
+      },
+      {
+        "nombre": "Porción de Pepas",
+        "descripcion": "Porción de 5 unidades.",
+        "precio": 3500,
+        "img": "/images/productos/porci_n_de_pepas_1759338017636.JPEG"
+      },
+      {
+        "nombre": "Tostadas pan de molde con 2 dips",
+        "descripcion": "Mermelada de frutilla/naranja, dulce de leche y queso crema",
+        "precio": 6000,
+        "img": "/images/productos/IMG_1764.JPEG"
+      },
+      {
+        "nombre": "Alfajores de la casa",
+        "descripcion": "(2 unidades)",
+        "precio": 3300,
+        "img": "/images/productos/alfajores_de_la_casa_1759337949426.JPEG"
+      },
+      {
+        "nombre": "Porción de Alfajores de Maicena",
+        "descripcion": "",
+        "precio": 3300,
+        "img": "/images/productos/porci_n_de_alfajores_de_maicena_1759337932431.JPEG"
+      },
+
+      {
+        "nombre": "Bowl frutas de estación, miel y coco",
+        "descripcion": "",
+        "precio": 6500,
+        "img": "/images/productos/bow de frutas.jpg"
+      },
+      {
+        "nombre": "Waffles con miel o salsa",
+        "descripcion": "(2 Unidades)",
+        "precio": 4300,
+        "img": "/images/productos/Generated Image October 02, 2025 - 3_23PM.png"
+      },
+      {
+        "nombre": "Waffles",
+        "descripcion": "Waffles con 2 bochas de helado, crema chantilly y salsa a elección (2 Unidades)",
+        "precio": 6700,
+        "img": "/images/productos/Generated Image October 01, 2025 - 11_54PM.png"
       }
     ]
   },
   {
-    "categoria": "Especialidades",
+    "categoria": "Salados",
     "productos": [
       {
-        "nombre": "Sandwich Génova",
-        "descripcion": "Pan de Molde, Queso Crema, Jamón, Queso y Omelet de huevo, relleno de queso.",
-        "precio": 7600,
-        "img": "/images/productos/genova.JPEG"
-      },
-      {
-        "nombre": "Opción Keto",
+        "nombre": "Chipá (100gr)",
         "descripcion": "",
-        "precio": 9000,
-        "img": "/images/productos/IMG_1463.JPEG"
+        "precio": 3000,
+        "img": "/images/productos/chipa.JPEG"
       },
       {
-        "nombre": "Brusqueta Sicilia",
-        "descripcion": "Pan de Campo, Queso Crema con Cebollita de Verdeo, Rúcula, Tomates Confitados y Cerdo Ahumado",
-        "precio": 6500,
-        "img": "/images/productos/sicilia.png"
-      },
-      {
-        "nombre": "Opción Keto",
+        "nombre": "Bizcochos de grasa (100gr)",
         "descripcion": "",
-        "precio": 7200,
-        "img": "/images/productos/IMG_1753.JPEG"
+        "precio": 1800,
+        "img": "/images/productos/IMG_1437.JPEG"
       },
       {
-        "nombre": "Brusqueta Turín",
-        "descripcion": "Pan de Campo, Queso Crema, Palta, Tomates Confitados y Huevo",
-        "precio": 7600,
-        "img": "/images/productos/Generated Image October 02, 2025 - 12_30AM.png"
-      },
-      {
-        "nombre": "Opción Keto",
+        "nombre": "Bizcochos de grasa (150)",
         "descripcion": "",
-        "precio": 8300,
-        "img": "/images/productos/IMG_1450.JPEG"
+        "precio": 2500,
+        "img": "/images/productos/IMG_1431.JPEG"
       },
       {
-        "nombre": "Brusqueta Capri",
-        "descripcion": "Pan de Campo, Queso Crema, Frutas de Estación, Miel y Granola",
-        "precio": 6000,
-        "img": "/images/productos/Generated Image October 02, 2025 - 12_51AM.jpg"
-      },
-      {
-        "nombre": "Opción Keto",
+        "nombre": "Bizcochos de grasa (250gr)",
         "descripcion": "",
-        "precio": 6700,
-        "img": "/images/productos/Generated Image October 02, 2025 - 12_04AM.jpg"
+        "precio": 3800,
+        "img": "/images/productos/IMG_1426.JPEG"
       },
       {
-        "nombre": "Brusqueta Siena",
-        "descripcion": "Pan de campo, Crema de nuestro Cheesecake con Reducción de Frutos Rojos",
-        "precio": 5700,
-        "img": "/images/productos/default.svg"
-      },
-      {
-        "nombre": "Opción Keto",
+        "nombre": "Sandwich J&Q + Queso Crema en pan de campo",
         "descripcion": "",
-        "precio": 6400,
-        "img": "/images/productos/IMG_1752.JPEG"
+        "precio": 6800,
+        "img": "/images/productos/IMG_1769.JPEG"
       },
       {
-        "nombre": "Pancakes Roma",
-        "descripcion": "2 Pancakes Tibios con Frutas de Estación, Miel o Salsa y Coco",
-        "precio": 6700,
-        "img": "/images/productos/roma.png"
-      }
+        "nombre": "Sandwich jamón crudo y rúcula",
+        "descripcion": "",
+        "precio": 10000,
+        "img": "/images/productos/WhatsApp Image 2025-09-30 at 19.11.31_6b4a5d80.jpg"
+      },
+      {
+        "nombre": "Tostón con huevos revueltos J&Q",
+        "descripcion": "1 Tostada +  2 Huevos revueltos +  Rollitos de J&Q",
+        "precio": 7000,
+        "img": "/images/productos/tost_n_con_huevos_revueltos_j_q_1759338003337.JPEG"
+      },
+      {
+        "nombre": "Medialuna Salada",
+        "descripcion": "",
+        "precio": 1600,
+        "img": "/images/productos/medialuna salada.jpg"
+      },
+      {
+        "nombre": "Medialuna con J&Q",
+        "descripcion": "Opcional: Medialuna salada/dulce",
+        "precio": 4800,
+        "img": "/images/productos/medialuna.jpg"
+      },
+      {
+        "nombre": "Tostón de huevo revuelto con J&Q integrado",
+        "descripcion": "",
+        "precio": 6600,
+        "img": "/images/productos/IMG_1741.JPEG"
+      },
     ]
   },
   {
@@ -417,249 +707,6 @@ const MENU_DATA = [
     ]
   },
   {
-    "categoria": "Combos",
-    "productos": [
-      {
-        "nombre": "Combo Clásico",
-        "descripcion": "Café + 2 Medialunas o 150gr bizcochos +  jugo de naranja",
-        "precio": 7000,
-        "img": "/images/productos/combo clasi.JPEG"
-      },
-      {
-        "nombre": "Combo Chipá",
-        "descripcion": "Café + 100g de chipá + jugo de naranja",
-        "precio": 6900,
-        "img": "/images/productos/combo chipa.JPEG"
-      },
-      {
-        "nombre": "Combo Proteico",
-        "descripcion": "Café + tostón de J&Q y huevo revuelto + jugo de naranja mediano",
-        "precio": 13000,
-        "img": "/images/productos/combo_proteico_1759337968932.JPEG"
-      },
-      {
-        "nombre": "Combo Fit",
-        "descripcion": "Café + yogurt con granola, frutas, miel y coco + jugo de naranja",
-        "precio": 10800,
-        "img": "/images/productos/combo fit.jpg"
-      },
-      {
-        "nombre": "Combo Italia",
-        "descripcion": "Café + porción de torta/tarta + jugo de naranja",
-        "precio": 12400,
-        "img": "/images/productos/combo italia.JPEG"
-      },
-      {
-        "nombre": "Combo Mbejú",
-        "descripcion": "Café + Mbejú relleno de J&Q",
-        "precio": 11300,
-        "img": "/images/productos/combo mbeju.JPEG"
-      },
-      {
-        "nombre": "Combo Para dos",
-        "descripcion": "Café + 2 medialunas + 2 tostadas con dips + porción de pastafrola o tarta de coco con dulce de leche + 100g de chipá + jugo de naranja",
-        "precio": 23700,
-        "img": "/images/productos/combo doble.jpg"
-      }
-    ]
-  },
-  {
-    "categoria": "Dulces",
-    "productos": [
-      {
-        "nombre": "Medialuna Dulce",
-        "descripcion": "",
-        "precio": 1600,
-        "img": "/images/productos/medialuna dulce.JPEG"
-      },
-      {
-        "nombre": "Porción de Pepas",
-        "descripcion": "Porción de 5 unidades.",
-        "precio": 3500,
-        "img": "/images/productos/porci_n_de_pepas_1759338017636.JPEG"
-      },
-      {
-        "nombre": "Tostadas pan de molde con 2 dips",
-        "descripcion": "Mermelada de frutilla/naranja, dulce de leche y queso crema",
-        "precio": 6000,
-        "img": "/images/productos/IMG_1764.JPEG"
-      },
-      {
-        "nombre": "Alfajores de la casa",
-        "descripcion": "(2 unidades)",
-        "precio": 3300,
-        "img": "/images/productos/alfajores_de_la_casa_1759337949426.JPEG"
-      },
-      {
-        "nombre": "Porción de Alfajores de Maicena",
-        "descripcion": "",
-        "precio": 3300,
-        "img": "/images/productos/porci_n_de_alfajores_de_maicena_1759337932431.JPEG"
-      },
-
-      {
-        "nombre": "Bowl frutas de estación, miel y coco",
-        "descripcion": "",
-        "precio": 6500,
-        "img": "/images/productos/bow de frutas.jpg"
-      },
-      {
-        "nombre": "Waffles con miel o salsa",
-        "descripcion": "(2 Unidades)",
-        "precio": 4300,
-        "img": "/images/productos/Generated Image October 02, 2025 - 3_23PM.png"
-      },
-      {
-        "nombre": "Waffles",
-        "descripcion": "Waffles con 2 bochas de helado, crema chantilly y salsa a elección (2 Unidades)",
-        "precio": 6700,
-        "img": "/images/productos/Generated Image October 01, 2025 - 11_54PM.png"
-      }
-    ]
-  },
-  {
-    "categoria": "Tortas/Tartas",
-    "productos": [
-      {
-        "nombre": "Porción de Cheesecake",
-        "descripcion": "",
-        "precio": 7500,
-        "img": "/images/productos/IMG_1423.JPEG"
-      },
-      {
-        "nombre": "Porción de Pastafrola",
-        "descripcion": "",
-        "precio": 7500,
-        "img": "/images/productos/porci_n_de_pastafrola_1759337916810.JPEG"
-      },
-      {
-        "nombre": "Porción de Lemon Pie",
-        "descripcion": "",
-        "precio": 7500,
-        "img": "/images/productos/porci_n_de_lemon_pie_1759338049884.JPEG"
-      },
-      {
-        "nombre": "Porción de Patagonia",
-        "descripcion": "Chocolate blanco con frutos rojos",
-        "precio": 7500,
-        "img": "/images/productos/porci_n_de_no_se_que_de_frutos_rojos_1759338036959.JPEG"
-      },
-      {
-        "nombre": "Porción de Chocotorta",
-        "descripcion": "",
-        "precio": 7500,
-        "img": "/images/productos/porci_n_de_chocotorta_1759338083767.JPEG"
-      },
-      {
-        "nombre": "Porción de Tiramisú",
-        "descripcion": "",
-        "precio": 7500,
-        "img": "/images/productos/porci_n_de_tiramis_1759338099812.JPEG"
-      },
-      {
-        "nombre": "Porción de Havannet",
-        "descripcion": "",
-        "precio": 7500,
-        "img": "/images/productos/porci_n_de_el_coso_de_dulce_de_leche_1759338158027.JPEG"
-      },
-      {
-        "nombre": "Porción de Tarta de Coco",
-        "descripcion": "",
-        "precio": 7500,
-        "img": "/images/productos/porci_n_de_tarta_de_coco_1759337876968.JPEG"
-      },
-      {
-        "nombre": "Porción de Matilda",
-        "descripcion": "",
-        "precio": 7500,
-        "img": "/images/productos/IMG_1396.JPEG"
-      },
-      {
-        "nombre": "Porción de Tarta del Bosque",
-        "descripcion": "Crema pastelera de naranja, reducción de arandanos y ganache de chocolate blanco",
-        "precio": 7500,
-        "img": "/images/productos/WhatsApp Image 2025-10-06 at 20.20.42_fdf28e7b.jpg"
-      },
-      {
-        "nombre": "Lemon Pie",
-        "descripcion": "",
-        "precio": 45000,
-        "img": "/images/productos/tortas_enteras_1759335487429.JPEG"
-      },
-      {
-        "nombre": "Tartas Enteras",
-        "descripcion": "",
-        "precio": 45000,
-        "img": "/images/productos/default.svg"
-      }
-    ]
-  },
-  {
-    "categoria": "Salados",
-    "productos": [
-      {
-        "nombre": "Chipá (100gr)",
-        "descripcion": "",
-        "precio": 3000,
-        "img": "/images/productos/chipa.JPEG"
-      },
-      {
-        "nombre": "Bizcochos de grasa (100gr)",
-        "descripcion": "",
-        "precio": 1800,
-        "img": "/images/productos/IMG_1437.JPEG"
-      },
-      {
-        "nombre": "Bizcochos de grasa (150)",
-        "descripcion": "",
-        "precio": 2500,
-        "img": "/images/productos/IMG_1431.JPEG"
-      },
-      {
-        "nombre": "Bizcochos de grasa (250gr)",
-        "descripcion": "",
-        "precio": 3800,
-        "img": "/images/productos/IMG_1426.JPEG"
-      },
-      {
-        "nombre": "Sandwich J&Q + Queso Crema en pan de campo",
-        "descripcion": "",
-        "precio": 6800,
-        "img": "/images/productos/IMG_1769.JPEG"
-      },
-      {
-        "nombre": "Sandwich jamón crudo y rúcula",
-        "descripcion": "",
-        "precio": 10000,
-        "img": "/images/productos/WhatsApp Image 2025-09-30 at 19.11.31_6b4a5d80.jpg"
-      },
-      {
-        "nombre": "Tostón con huevos revueltos J&Q",
-        "descripcion": "1 Tostada +  2 Huevos revueltos +  Rollitos de J&Q",
-        "precio": 7000,
-        "img": "/images/productos/tost_n_con_huevos_revueltos_j_q_1759338003337.JPEG"
-      },
-      {
-        "nombre": "Medialuna Salada",
-        "descripcion": "",
-        "precio": 1600,
-        "img": "/images/productos/IMG_1444.JPEG"
-      },
-      {
-        "nombre": "Medialuna con J&Q",
-        "descripcion": "Opcional: Medialuna salada/dulce",
-        "precio": 4800,
-        "img": "/images/productos/medialuna.jpg"
-      },
-      {
-        "nombre": "Tostón de huevo revuelto con J&Q integrado",
-        "descripcion": "",
-        "precio": 6600,
-        "img": "/images/productos/IMG_1741.JPEG"
-      },
-    ]
-  },
-  {
     "categoria": "Adicionales",
     "productos": [
       {
@@ -727,53 +774,6 @@ const MENU_DATA = [
         "descripcion": "",
         "precio": 1700,
         "img": "/images/productos/opci_n_keto_1759338229231-Photoroom.png"
-      }
-    ]
-  },
-  {
-    "categoria": "Mbejú",
-    "productos": [
-      {
-        "nombre": "Mbejú Relleno de J&Q",
-        "descripcion": "",
-        "precio": 8600,
-        "img": "/images/productos/mbej_relleno_de_j_q_1759335335454.JPEG"
-      },
-      {
-        "nombre": "Mbejú Relleno de Rúcula y Jamón Crudo",
-        "descripcion": "",
-        "precio": 10500,
-        "img": "/images/productos/mbejú.JPEG"
-      },
-      {
-        "nombre": "Mbejú Relleno de Rúcula, Palta, Huevo Revuelto y Tomates Confitados",
-        "descripcion": "",
-        "precio": 10500,
-        "img": "/images/productos/mbeju1.JPEG"
-      },
-      {
-        "nombre": "Mbejú Relleno de Rúcula, Cerdo Ahumado y Tomates Confitados",
-        "descripcion": "",
-        "precio": 10500,
-        "img": "/images/productos/mbeju2.JPEG"
-      },
-      {
-        "nombre": "Mbejú Relleno de Palta y Huevo Revuelto",
-        "descripcion": "",
-        "precio": 9000,
-        "img": "/images/productos/WhatsApp Image 2025-09-30 at 18.48.42_1ad85218.jpg"
-      },
-      {
-        "nombre": "Mbejú Relleno de Jamón, Rúcula y Tomates Confitados",
-        "descripcion": "",
-        "precio": 9000,
-        "img": "/images/productos/mbeju3.JPEG"
-      },
-      {
-        "nombre": "Mbejú Italia",
-        "descripcion": "Masa de Mbejú + 3 Ingredientes a Elección (tomates confitados, huevo revuelto, palta, jamón, rúcula, cerdo ahumado, queso o jamón crudo)",
-        "precio": 10500,
-        "img": "/images/productos/IMG_1439.JPEG"
       }
     ]
   }
