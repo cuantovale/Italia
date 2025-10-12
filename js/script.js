@@ -821,6 +821,13 @@ function isStoreOpen() {
   return todaysSchedule.some(slot => currentTime >= slot.open && currentTime < slot.close);
 }
 
+function isExecutiveBreakfastTime() {
+  const now = new Date(new Date().toLocaleString("en-US", { timeZone: "America/Argentina/Buenos_Aires" }));
+  const currentTime = now.getHours() + now.getMinutes() / 60;
+  // Horario: 7:30 a 9:30
+  return currentTime >= 7.5 && currentTime < 9.5;
+}
+
 function renderAllProducts() {
   const container = document.getElementById("menu-container");
   // Guardamos los mensajes persistentes
@@ -857,6 +864,14 @@ function createProductSection(catData) {
   const h2 = createElement("h2", { text: catData.categoria });
   section.appendChild(h2);
 
+  if (catData.categoria === "Desayuno Ejecutivo") {
+    const note = createElement("p", {
+        className: "category-note",
+        html: '<i class="fas fa-info-circle"></i> Disponible únicamente de <strong>7:30 a 9:30 hs</strong>.'
+    });
+    section.appendChild(note);
+  }
+
   if (catData.hasSubcategories) {
     catData.productos.forEach(item => {
       if (item.subcategoria) {
@@ -866,13 +881,13 @@ function createProductSection(catData) {
         const subSubheader = createElement("h4", { className: "menu-sub-subcategory", text: item.sub_subcategoria });
         section.appendChild(subSubheader);
       } else {
-        const productItem = createProductItem(item);
+        const productItem = createProductItem(item, catData.categoria);
         section.appendChild(productItem);
       }
     });
   } else {
     catData.productos.forEach((product) => {
-      const item = createProductItem(product);
+      const item = createProductItem(product, catData.categoria);
       section.appendChild(item);
     });
   }
@@ -880,13 +895,22 @@ function createProductSection(catData) {
   return section;
 }
 
-function createAddToCartButton(product) {
+function createAddToCartButton(product, categoryName) {
   const button = createElement("button", {
     className: "add-to-cart-btn",
     html: '<i class="fas fa-plus"></i> Añadir',
   });
+
+  const isBreakfastCategory = categoryName === "Desayuno Ejecutivo";
+  if (isBreakfastCategory && !isExecutiveBreakfastTime()) {
+    button.disabled = true;
+    button.innerHTML = '<i class="fas fa-clock"></i> Fuera de horario';
+    button.classList.add("disabled-permanent");
+  }
+
   button.addEventListener("click", (e) => {
     e.stopPropagation();
+
     if (!isStoreOpen()) {
       const originalHTML = button.innerHTML;
       button.innerHTML = '<i class="fas fa-times"></i> Cerrado';
@@ -898,14 +922,13 @@ function createAddToCartButton(product) {
       return;
     }
 
-    e.stopPropagation();
-    addToCart(product);
+    addToCart({ nombre: product.nombre, precio: product.precio, descripcion: product.descripcion, categoria: product.categoria });
     button.innerHTML = '<i class="fas fa-check"></i> Añadido';
   });
   return button;
 }
 
-function createProductItem({ nombre, descripcion, precio, img } = {}) {
+function createProductItem({ nombre, descripcion, precio, img } = {}, categoryName) {
   const item = createElement("article", { className: "menu-item" });
 
   const info = createElement("div", { className: "product-info" });
@@ -920,7 +943,7 @@ function createProductItem({ nombre, descripcion, precio, img } = {}) {
     info.appendChild(priceEl);
   }
   if (precio !== null && precio !== undefined) {
-    const addButton = createAddToCartButton({ nombre, precio, descripcion });
+    const addButton = createAddToCartButton({ nombre, precio, descripcion, categoria: categoryName }, categoryName);
     info.appendChild(addButton);
   }
 

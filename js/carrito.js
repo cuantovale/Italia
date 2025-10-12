@@ -10,6 +10,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const deliveryOptionsContainer = document.querySelector(".delivery-options-container");
   const closedStoreOverlay = document.getElementById("closed-store-overlay");
   const deliverySlider = document.querySelector(".delivery-slider");
+  const deliveryNoticeContainer = document.getElementById("delivery-notice-container");
   const deliveryButtons = document.querySelectorAll(".delivery-option-btn");
 
   const STORE_SCHEDULE = {
@@ -120,6 +121,35 @@ document.addEventListener("DOMContentLoaded", () => {
       deliveryTimeNotice.innerHTML = '<i class="fas fa-times-circle"></i> Los envíos no están disponibles en este momento.';
     }
   }
+
+  function checkExecutiveBreakfastInCart() {
+    const cart = getCart();
+    const hasExecutiveBreakfast = cart.some(item => item.categoria === "Desayuno Ejecutivo");
+
+    if (hasExecutiveBreakfast) {
+      const pickupButton = document.querySelector('.delivery-option-btn[data-value="pickup"]');
+      const deliveryButton = document.querySelector('.delivery-option-btn[data-value="delivery"]');
+
+      // Forzar selección de "Envío"
+      if (pickupButton) pickupButton.disabled = true;
+      if (deliveryButton) {
+        deliveryButton.click(); // Simula el click para activar la opción de envío
+        deliveryButton.classList.add('active');
+        pickupButton.classList.remove('active');
+      }
+
+      // Mostrar nota informativa
+      if (deliveryNoticeContainer) {
+        const notice = document.createElement('div');
+        notice.className = 'delivery-notice executive-breakfast-notice';
+        notice.innerHTML = `<i class="fas fa-info-circle"></i> El Desayuno Ejecutivo solo está disponible para envío a domicilio.`;
+        // Insertar al principio del contenedor de noticias
+        deliveryNoticeContainer.prepend(notice);
+      }
+    }
+    // Si no hay desayuno ejecutivo, no hacemos nada y dejamos que el usuario elija.
+  }
+
 
   function renderCart() {
     const cart = getCart();
@@ -283,6 +313,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   renderCart();
   checkDeliveryAvailability();
+  checkExecutiveBreakfastInCart();
 
   // Mostrar mensaje de tienda cerrada y ocultar carrito si es necesario
   if (!isStoreOpen()) {
