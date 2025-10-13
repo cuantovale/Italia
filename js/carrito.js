@@ -178,6 +178,7 @@ document.addEventListener("DOMContentLoaded", () => {
       const itemElement = document.createElement("div");
       itemElement.className = "cart-item";
       itemElement.innerHTML = `
+        <img src="${item.img}" alt="${item.nombre}" class="cart-item-img" loading="lazy" draggable="false" oncontextmenu="return false;">
         <div class="cart-item-details">
           <div>
             <span class="item-name">${item.nombre}</span>

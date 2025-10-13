@@ -922,7 +922,7 @@ function createAddToCartButton(product, categoryName) {
       return;
     }
 
-    addToCart({ nombre: product.nombre, precio: product.precio, descripcion: product.descripcion, categoria: product.categoria });
+    addToCart({ nombre: product.nombre, precio: product.precio, descripcion: product.descripcion, img: product.img, categoria: product.categoria });
     button.innerHTML = '<i class="fas fa-check"></i> Añadido';
   });
   return button;
@@ -943,7 +943,7 @@ function createProductItem({ nombre, descripcion, precio, img } = {}, categoryNa
     info.appendChild(priceEl);
   }
   if (precio !== null && precio !== undefined) {
-    const addButton = createAddToCartButton({ nombre, precio, descripcion, categoria: categoryName }, categoryName);
+    const addButton = createAddToCartButton({ nombre, precio, descripcion, img, categoria: categoryName }, categoryName);
     info.appendChild(addButton);
   }
 
