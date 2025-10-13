@@ -42,7 +42,7 @@ body::-webkit-scrollbar-thumb {
 
 .header {
   background: var(--color-bg-header);
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/images/banner.png');
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), url('/images/banner.webp');
   background-size: cover;
   background-position: center;
   padding: 16px 24px;
