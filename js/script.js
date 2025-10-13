@@ -971,6 +971,9 @@ function createProductItem({ nombre, descripcion, precio, img } = {}, categoryNa
           ? "default"
           : `foto`,
       loading: "lazy",
+      decoding: "async",
+      width: "130",
+      height: "110",
       draggable: "false",
     },
   });

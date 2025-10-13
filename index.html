@@ -69,9 +69,22 @@
 </script>
 
 <link rel="icon" href="https://italiacafe.com.ar/images/logo.webp" type="image/png" />
+<link rel="preload" as="image" href="/images/banner.webp" imagesrcset="/images/banner.webp" imagesizes="100vw" fetchpriority="high">
 
-<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" />
-<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" />
+<link rel="preconnect" href="https://fonts.googleapis.com" crossorigin>
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preconnect" href="https://cdnjs.cloudflare.com" crossorigin>
+<link rel="preconnect" href="https://www.googletagmanager.com" crossorigin>
+
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap">
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet" media="print" onload="this.media='all'">
+<noscript><link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet"></noscript>
+
+<link rel="preload" as="style" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" media="print" onload="this.media='all'" />
+<noscript><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer" /></noscript>
+
+<link rel="preload" as="style" href="css/style.css">
 <link rel="stylesheet" href="css/style.css" />
 </head>
 
@@ -86,7 +99,7 @@
 <body>
 <header class="header">
   <div class="header-brand">
-    <img src="images/logo.webp" alt="italia cafe" class="logo" draggable="false" oncontextmenu="return false;" />
+    <img src="images/logo.webp" alt="italia cafe" class="logo" draggable="false" oncontextmenu="return false;" width="104" height="104" decoding="async" fetchpriority="high" />
     <h1 class="title">Italia Café</h1>
   </div>
 
@@ -186,43 +199,43 @@
   </div>
   <nav class="category-bar" aria-label="Categorías del menú">
     <button class="category" type="button" data-category-name="Especialidades">
-      <span class="category-icon-wrapper"><img src="images/category/especialidades.jpg" alt="Icono de Especialidades" draggable="false"></span>
+      <span class="category-icon-wrapper"><img src="images/category/especialidades.jpg" alt="Icono de Especialidades" draggable="false" loading="lazy" decoding="async" width="56" height="56"></span>
       <span class="category-text">Especialidades</span>
     </button>
     <button class="category" type="button" data-category-name="Desayuno Ejecutivo">
-      <span class="category-icon-wrapper"><img src="images/category/desayuno.jpg" alt="Icono de Desayuno Ejecutivo" draggable="false"></span>
+      <span class="category-icon-wrapper"><img src="images/category/desayuno.jpg" alt="Icono de Desayuno Ejecutivo" draggable="false" loading="lazy" decoding="async" width="56" height="56"></span>
       <span class="category-text">Desayuno Ejecutivo</span>
     </button>
     <button class="category" type="button" data-category-name="Combos">
-      <span class="category-icon-wrapper"><img src="images/category/combos.jpg" alt="Icono de Combos" draggable="false"></span>
+      <span class="category-icon-wrapper"><img src="images/category/combos.jpg" alt="Icono de Combos" draggable="false" loading="lazy" decoding="async" width="56" height="56"></span>
       <span class="category-text">Combos</span>
     </button>
     <button class="category" type="button" data-category-name="Mbejú">
-      <span class="category-icon-wrapper"><img src="images/category/mbeju.jpg" alt="Icono de Mbejú" draggable="false"></span>
+      <span class="category-icon-wrapper"><img src="images/category/mbeju.jpg" alt="Icono de Mbejú" draggable="false" loading="lazy" decoding="async" width="56" height="56"></span>
       <span class="category-text">Mbejú</span>
     </button>
     <button class="category" type="button" data-category-name="Tortas/Tartas">
-      <span class="category-icon-wrapper"><img src="images/category/tortas.jpg" alt="Icono de Tortas Enteras" draggable="false"></span>
+      <span class="category-icon-wrapper"><img src="images/category/tortas.jpg" alt="Icono de Tortas Enteras" draggable="false" loading="lazy" decoding="async" width="56" height="56"></span>
       <span class="category-text">Tortas/Tartas</span>
     </button>
     <button class="category" type="button" data-category-name="Cafetería">
-      <span class="category-icon-wrapper"><img src="images/category/cafeteria.jpg" alt="Icono de Cafetería" draggable="false"></span>
+      <span class="category-icon-wrapper"><img src="images/category/cafeteria.jpg" alt="Icono de Cafetería" draggable="false" loading="lazy" decoding="async" width="56" height="56"></span>
       <span class="category-text">Cafetería</span>
     </button>    
     <button class="category" type="button" data-category-name="Dulces">
-      <span class="category-icon-wrapper"><img src="images/category/dulces.jpg" alt="Icono de Dulces" draggable="false"></span>
+      <span class="category-icon-wrapper"><img src="images/category/dulces.jpg" alt="Icono de Dulces" draggable="false" loading="lazy" decoding="async" width="56" height="56"></span>
       <span class="category-text">Dulces</span>
     </button>
     <button class="category" type="button" data-category-name="Salados">
-      <span class="category-icon-wrapper"><img src="images/category/salados.jpg" alt="Icono de Salados" draggable="false"></span>
+      <span class="category-icon-wrapper"><img src="images/category/salados.jpg" alt="Icono de Salados" draggable="false" loading="lazy" decoding="async" width="56" height="56"></span>
       <span class="category-text">Salados</span>
     </button>
     <button class="category" type="button" data-category-name="Bebidas">
-      <span class="category-icon-wrapper"><img src="images/category/bebidas.jpg" alt="Icono de Bebidas" draggable="false"></span>
+      <span class="category-icon-wrapper"><img src="images/category/bebidas.jpg" alt="Icono de Bebidas" draggable="false" loading="lazy" decoding="async" width="56" height="56"></span>
       <span class="category-text">Bebidas</span>
     </button>
     <button class="category" type="button" data-category-name="Adicionales">
-      <span class="category-icon-wrapper"><img src="images/category/adicionales.jpg" alt="Icono de Adicionales" draggable="false"></span>
+      <span class="category-icon-wrapper"><img src="images/category/adicionales.jpg" alt="Icono de Adicionales" draggable="false" loading="lazy" decoding="async" width="56" height="56"></span>
       <span class="category-text">Adicionales</span>
     </button>
   </nav>
@@ -239,7 +252,7 @@
   <div class="footer-content">
     <div class="footer-info">
       <div class="footer-brand">
-        <img src="images/logo.webp" alt="Logo Italia Café" class="footer-logo" draggable="false" oncontextmenu="return false;" />
+        <img src="images/logo.webp" alt="Logo Italia Café" class="footer-logo" draggable="false" oncontextmenu="return false;" width="60" height="60" loading="lazy" decoding="async" />
         <h3 class="footer-title">Italia Café</h3>
       </div>
       <p class="footer-address">
@@ -256,7 +269,7 @@
       </div>
     </div>
     <div class="footer-map">
-      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14643.821669070395!2d-58.979492!3d-27.452379!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9458edaeec798f5f%3A0x0!2sC.%20Don%20Bosco%20485%2C%20Resistencia%2C%20Chaco!5e0!3m2!1ses!2sar!4v1695670000000" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+      <iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d14643.821669070395!2d-58.979492!3d-27.452379!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x9458edaeec798f5f%3A0x0!2sC.%20Don%20Bosco%20485%2C%20Resistencia%2C%20Chaco!5e0!3m2!1ses!2sar!4v1695670000000" width="100%" height="100%" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade" decoding="async"></iframe>
     </div>
   </div>
   <div class="footer-copyright">
@@ -272,20 +285,21 @@
   aria-label="Imagen del producto ampliada"
 >
   <button id="lightbox-close" class="lightbox-close" aria-label="Cerrar imagen ampliada">&times;</button>
-  <img id="lightbox-img" src="" alt="Imagen ampliada del producto con bordes redondeados" draggable="false" oncontextmenu="return false;" />
+  <img id="lightbox-img" src="" alt="Imagen ampliada del producto con bordes redondeados" draggable="false" oncontextmenu="return false;" decoding="async" />
 </div>
 
 <div id="mobile-info-overlay" class="mobile-info-overlay"></div>
 
 <a href="#" class="scroll-up" id="scroll-up" aria-label="Volver arriba">
-  <i class="fas fa-arrow-up"></i>
+  <i class="fas fa-arrow-up" aria-hidden="true"></i>
 </a>
 
 <a href="carrito.html" id="cart-bar" class="cart-float-button hidden" aria-label="Ver carrito de compras">
-  <i class="fas fa-shopping-cart"></i>
+  <i class="fas fa-shopping-cart" aria-hidden="true"></i>
   <span id="cart-item-count-text">Ver Carrito (0)</span>
 </a>
 
-<script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js"></script>
-<script src="js/script.js"></script>
+<link rel="preload" as="script" href="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js">
+<script src="https://cdn.jsdelivr.net/npm/@studio-freight/lenis@1.0.42/dist/lenis.min.js" defer></script>
+<script src="js/script.js" defer></script>
 </body>
