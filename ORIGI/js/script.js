@@ -253,19 +253,19 @@ const MENU_DATA = [
       {
         "nombre": "Porción de Pastafrola",
         "descripcion": "",
-        "precio": 7500,
+        "precio": 5400,
         "img": "/images/productos/porci_n_de_pastafrola_1759337916810.webp"
       },
       {
         "nombre": "Porción de Lemon Pie",
         "descripcion": "",
-        "precio": 7500,
+        "precio": 6500,
         "img": "/images/productos/porci_n_de_lemon_pie_1759338049884.webp"
       },
       {
         "nombre": "Porción de Patagonia",
         "descripcion": "Chocolate blanco con frutos rojos",
-        "precio": 7500,
+        "precio": 6500,
         "img": "/images/productos/porci_n_de_no_se_que_de_frutos_rojos_1759338036959.webp"
       },
       {
@@ -283,13 +283,13 @@ const MENU_DATA = [
       {
         "nombre": "Porción de Havannet",
         "descripcion": "",
-        "precio": 7500,
+        "precio": 6500,
         "img": "/images/productos/porci_n_de_el_coso_de_dulce_de_leche_1759338158027.webp"
       },
       {
         "nombre": "Porción de Tarta de Coco",
         "descripcion": "",
-        "precio": 7500,
+        "precio": 6500,
         "img": "/images/productos/porci_n_de_tarta_de_coco_1759337876968.webp"
       },
       {
@@ -301,21 +301,21 @@ const MENU_DATA = [
       {
         "nombre": "Porción de Tarta del Bosque",
         "descripcion": "Crema pastelera de naranja, reducción de arandanos y ganache de chocolate blanco",
-        "precio": 7500,
+        "precio": 6500,
         "img": "/images/productos/WhatsApp Image 2025-10-06 at 20.20.42_fdf28e7b.webp"
       },
       {
         "nombre": "Lemon Pie",
         "descripcion": "",
-        "precio": 45000,
+        "precio": 28000,
         "img": "/images/productos/tortas_enteras_1759335487429.webp"
       },
       {
-        "nombre": "Tartas Enteras",
+        "nombre": "Cheesecake",
         "descripcion": "",
-        "precio": 45000,
-        "img": "/images/productos/default.svg"
-      }
+        "precio": 30000,
+        "img": "/images/productos/cheesecake.webp"
+      },
     ]
   },
     {
