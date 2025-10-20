@@ -76,7 +76,7 @@ const MENU_DATA = [
       {
         "nombre": "Combo 1",
         "descripcion": "Café o té + 2 Medialunas",
-        "precio": 6500,
+        "precio": 6600,
         "img": "/images/productos/combo 1.webp"
       },
       {
@@ -100,13 +100,13 @@ const MENU_DATA = [
       {
         "nombre": "Combo 5",
         "descripcion": "Café o té + 100gr de chipá",
-        "precio": 4800,
+        "precio": 4900,
         "img": "/images/productos/combo 5.webp"
       },
       {
         "nombre": "Combo 6",
         "descripcion": "Café o té + 1 Medialuna de jamón y queso",
-        "precio": 6500,
+        "precio": 6600,
         "img": "/images/productos/combo 7.webp"
       },
       {
@@ -136,7 +136,7 @@ const MENU_DATA = [
       {
         "nombre": "Combo 11",
         "descripcion": "Café o té + 150gr bizcochos",
-        "precio": 4800,
+        "precio": 4900,
         "img": "/images/productos/combo 11.webp"
       },
       {
@@ -153,13 +153,13 @@ const MENU_DATA = [
       {
         "nombre": "Combo Clásico",
         "descripcion": "Café + 2 Medialunas o 150gr bizcochos +  jugo de naranja",
-        "precio": 7000,
+        "precio": 7200,
         "img": "/images/productos/combo clasi.webp"
       },
       {
         "nombre": "Combo Chipá",
         "descripcion": "Café + 100g de chipá + jugo de naranja",
-        "precio": 6900,
+        "precio": 7000,
         "img": "/images/productos/combo chipa.webp"
       },
       {
@@ -189,7 +189,7 @@ const MENU_DATA = [
       {
         "nombre": "Combo Para dos",
         "descripcion": "Café + 2 medialunas + 2 tostadas con dips + porción de pastafrola o tarta de coco con dulce de leche + 100g de chipá + jugo de naranja",
-        "precio": 23700,
+        "precio": 24000,
         "img": "/images/productos/combo doble.webp"
       }
     ]
@@ -504,7 +504,7 @@ const MENU_DATA = [
       {
         "nombre": "Medialuna Dulce",
         "descripcion": "",
-        "precio": 1600,
+        "precio": 1700,
         "img": "/images/productos/medialuna dulce.webp"
       },
       {
@@ -558,25 +558,25 @@ const MENU_DATA = [
       {
         "nombre": "Chipá (100gr)",
         "descripcion": "",
-        "precio": 3000,
+        "precio": 3100,
         "img": "/images/productos/chipa.webp"
       },
       {
         "nombre": "Bizcochos de grasa (100gr)",
         "descripcion": "",
-        "precio": 1800,
+        "precio": 1900,
         "img": "/images/productos/IMG_1437.webp"
       },
       {
         "nombre": "Bizcochos de grasa (150)",
         "descripcion": "",
-        "precio": 2500,
+        "precio": 2600,
         "img": "/images/productos/IMG_1431.webp"
       },
       {
         "nombre": "Bizcochos de grasa (250gr)",
         "descripcion": "",
-        "precio": 3800,
+        "precio": 3900,
         "img": "/images/productos/IMG_1426.webp"
       },
       {
@@ -600,13 +600,13 @@ const MENU_DATA = [
       {
         "nombre": "Medialuna Salada",
         "descripcion": "",
-        "precio": 1600,
+        "precio": 1700,
         "img": "/images/productos/medialuna salada.webp"
       },
       {
         "nombre": "Medialuna con J&Q",
         "descripcion": "Opcional: Medialuna salada/dulce",
-        "precio": 4800,
+        "precio": 4900,
         "img": "/images/productos/medialuna.webp"
       },
       {
