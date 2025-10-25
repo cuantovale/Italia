@@ -140,6 +140,12 @@ const MENU_DATA = [
         "img": "/images/productos/combo 11.webp"
       },
       {
+        "nombre": "Combo 12",
+        "descripcion": "Ensalada de frutas (sin infusión)",
+        "precio": 4500,
+        "img": "/images/productos/IMG_0159.webp"
+      },
+      {
         "nombre": "Cambio de infusión por jugo de naranja mediano",
         "descripcion": "",
         "precio": 1100,
@@ -260,13 +266,13 @@ const MENU_DATA = [
         "nombre": "Porción de Lemon Pie",
         "descripcion": "",
         "precio": 6500,
-        "img": "/images/productos/porci_n_de_lemon_pie_1759338049884.webp"
+        "img": "/images/productos/IMG_0156.webp"
       },
       {
         "nombre": "Porción de Patagonia",
         "descripcion": "Chocolate blanco con frutos rojos",
         "precio": 6500,
-        "img": "/images/productos/porci_n_de_no_se_que_de_frutos_rojos_1759338036959.webp"
+        "img": "/images/productos/IMG_0157.webp"
       },
       {
         "nombre": "Porción de Chocotorta",
@@ -284,7 +290,7 @@ const MENU_DATA = [
         "nombre": "Porción de Havannet",
         "descripcion": "",
         "precio": 6500,
-        "img": "/images/productos/porci_n_de_el_coso_de_dulce_de_leche_1759338158027.webp"
+        "img": "/images/productos/IMG_0169.webp"
       },
       {
         "nombre": "Porción de Tarta de Coco",
@@ -549,6 +555,12 @@ const MENU_DATA = [
         "descripcion": "Waffles con 2 bochas de helado, crema chantilly y salsa a elección (2 Unidades)",
         "precio": 6700,
         "img": "/images/productos/Generated Image October 01, 2025 - 11_54PM.webp"
+      },
+      {
+        "nombre": "Ensalada de frutas",
+        "descripcion": "",
+        "precio": 4500,
+        "img": "/images/productos/IMG_0159.webp"
       }
     ]
   },
