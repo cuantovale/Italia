@@ -715,6 +715,30 @@ const MENU_DATA = [
         "descripcion": "",
         "precio": 2700,
         "img": "/images/productos/default.svg"
+      },
+      {
+        "nombre": "Cerveza regular 330ml",
+        "descripcion": "",
+        "precio": 3800,
+        "img": "/images/productos/default.svg"
+      },
+      {
+        "nombre": "Cerveza regular 600ml",
+        "descripcion": "",
+        "precio": 5400,
+        "img": "/images/productos/default.svg"
+      },
+      {
+        "nombre": "Cerveza premium 330ml",
+        "descripcion": "",
+        "precio": 4300,
+        "img": "/images/productos/default.svg"
+      },
+      {
+        "nombre": "Cerveza premium sin alcohol 330ml",
+        "descripcion": "",
+        "precio": 4300,
+        "img": "/images/productos/default.svg"
       }
     ]
   },
