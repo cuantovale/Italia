@@ -372,7 +372,7 @@ const MENU_DATA = [
       {
         "nombre": "Café - Doble",
         "descripcion": "",
-        "precio": 2500,
+        "precio": 3800,
         "img": "/images/productos/cafe doble.webp"
       },
       {
