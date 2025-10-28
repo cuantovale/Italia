@@ -9,7 +9,7 @@ const MENU_DATA = [
         "img": "/images/productos/genova.webp"
       },
       {
-        "nombre": "Opción Keto",
+        "nombre": "Opción Keto - Sandwich Génova",
         "descripcion": "",
         "precio": 9000,
         "img": "/images/productos/IMG_1463.webp"
@@ -21,7 +21,7 @@ const MENU_DATA = [
         "img": "/images/productos/sicilia.webp"
       },
       {
-        "nombre": "Opción Keto",
+        "nombre": "Opción Keto - Brusqueta Sicilia",
         "descripcion": "",
         "precio": 7200,
         "img": "/images/productos/IMG_1753.webp"
@@ -33,7 +33,7 @@ const MENU_DATA = [
         "img": "/images/productos/Generated Image October 02, 2025 - 12_30AM.webp"
       },
       {
-        "nombre": "Opción Keto",
+        "nombre": "Opción Keto - Brusqueta Turín",
         "descripcion": "",
         "precio": 8300,
         "img": "/images/productos/IMG_1450.webp"
@@ -45,7 +45,7 @@ const MENU_DATA = [
         "img": "/images/productos/Generated Image October 02, 2025 - 12_51AM.webp"
       },
       {
-        "nombre": "Opción Keto",
+        "nombre": "Opción Keto - Brusqueta Capri",
         "descripcion": "",
         "precio": 6700,
         "img": "/images/productos/Generated Image October 02, 2025 - 12_04AM.webp"
@@ -57,7 +57,7 @@ const MENU_DATA = [
         "img": "/images/productos/default.svg"
       },
       {
-        "nombre": "Opción Keto",
+        "nombre": "Opción Keto - Brusqueta Siena",
         "descripcion": "",
         "precio": 6400,
         "img": "/images/productos/IMG_1752.webp"
@@ -400,6 +400,21 @@ const MENU_DATA = [
         "img": "/images/productos/cafe con crema.webp"
       },
       {
+        "sub_subcategoria": "Tamaño XL"
+      },
+      {
+      "nombre": "Café - Tazón XL",
+      "descripcion": "",
+      "precio": 6000,
+      "img": "/images/productos/default.svg"
+      },
+      {
+        "nombre": "Café con Leche - Tazón XL",
+        "descripcion": "",
+        "precio": 6500,
+        "img": "/images/productos/default.svg"
+      },
+      {
         "sub_subcategoria": "Otras Variedades"
       },
       {
@@ -452,6 +467,12 @@ const MENU_DATA = [
         "descripcion": "Medida: 240 ml",
         "precio": 3600,
         "img": "/images/productos/chocolate.webp"
+      },
+      {
+        "nombre": "Chocolatada (fría o caliente)",
+        "descripcion": "Hecho en nuestro Tazón XL",
+        "precio": 5500,
+        "img": "/images/productos/default.svg"
       },
       {
         "nombre": "Submarino",
