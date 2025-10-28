@@ -12,6 +12,12 @@
   <link rel="stylesheet" href="css/reservas.css"/>
   <link rel="icon" href="images/logo.webp" type="image/png" />
 </head>
+<style>
+  /* Agrega espacio a la derecha en los select para que el texto no se superponga con la flecha */
+  .checkout-form select {
+    padding-right: 2rem;
+  }
+</style>
 <body>
 
 <div class="reservas-container">
@@ -41,15 +47,74 @@
     </div>
   </div>
 
-<a href="https://wa.me/5493624688355?text=Hola!%20Quisiera%20consultar%20por%20una%20reserva%20para%20el%20salón%20de%20eventos." target="_blank" rel="noopener noreferrer" class="checkout-btn" style="text-align: center; text-decoration: none; display: block; margin: 2rem 0;">
-  <i class="fab fa-whatsapp"></i> Consultar Disponibilidad
-</a>
+  <div class="form-container">
+    <h2>Completa para consultar tu reserva</h2>
+    <div class="form-reminder">
+      <i class="fas fa-info-circle"></i>
+      Completar este formulario <strong>no confirma</strong> la reserva. Nos pondremos en contacto por WhatsApp para confirmar la disponibilidad.
+    </div>
+    <form id="reserva-form" class="checkout-form" novalidate>
+      <div class="form-group">
+        <label for="customer-name">Nombre y Apellido</label>
+        <input type="text" id="customer-name" required placeholder="Ej: Juan Pérez">
+        <span class="error-message" aria-live="polite"></span>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="event-date">Fecha del Evento</label>
+          <input type="text" id="event-date" required placeholder="Selecciona una fecha">
+          <span class="error-message" aria-live="polite"></span>
+        </div>
+        <div class="form-group">
+          <label for="event-time">Franja Horaria</label>
+          <select id="event-time" required>
+            <option value="" disabled selected>Elige una opción</option>
+            <option value="Mañana (07:00 a 12:30)">Mañana (07:00 a 12:30)</option>
+            <option value="Tarde (17:00 a 21:00)">Tarde (17:00 a 21:00)</option>
+          </select>
+          <span class="error-message" aria-live="polite"></span>
+        </div>
+        <div class="form-group hidden" id="specific-time-group">
+            <label for="specific-time">Hora de inicio (aprox.)</label>
+            <input type="text" id="specific-time" required placeholder="Selecciona una hora">
+            <span class="error-message" aria-live="polite"></span>
+        </div>
+      </div>
+
+      <div class="form-row">
+        <div class="form-group">
+          <label for="people-count">Cantidad de Personas (aprox.)</label>
+          <input type="number" id="people-count" required min="1" placeholder="Ej: 10">
+          <span class="error-message" aria-live="polite"></span>
+        </div>
+        <div class="form-group">
+          <label for="event-reason">Motivo del Evento</label>
+          <input type="text" id="event-reason" required placeholder="Ej: Cumpleaños, Reunión/Capacitación..">
+          <span class="error-message" aria-live="polite"></span>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="cake-order">Reserva de torta o producto (opcional)</label>
+        <textarea id="cake-order" rows="3" placeholder="Ej: Torta Cheesecake de Frutos Rojos, 12 medialunas, etc."></textarea>
+      </div>
+
+      <button type="submit" class="checkout-btn">
+        <i class="fab fa-whatsapp"></i> Consultar por WhatsApp
+      </button>
+    </form>
+  </div>
 
 
   <a href="index.html" class="back-btn">
     <i class="fas fa-arrow-left"></i> Volver al Menú
   </a>
 </div>
+
+<script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+<script src="https://npmcdn.com/flatpickr/dist/l10n/es.js"></script>
+<script src="js/reservas.js"></script>
 
 </body>
 </html>
