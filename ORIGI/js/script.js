@@ -54,7 +54,7 @@ const MENU_DATA = [
         "nombre": "Brusqueta Siena",
         "descripcion": "Pan de campo, Crema de nuestro Cheesecake con Reducción de Frutos Rojos",
         "precio": 5700,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/siena.webp"
       },
       {
         "nombre": "Opción Keto - Brusqueta Siena",
@@ -463,14 +463,14 @@ const MENU_DATA = [
         "subcategoria": "Chocolate"
       },
       {
-        "nombre": "Chocolatada (fría o caliente)",
-        "descripcion": "Medida: 240 ml",
+        "nombre": "Chocolatada - 240ml",
+        "descripcion": "Medida: 240 ml (fría o caliente)",
         "precio": 3600,
         "img": "/images/productos/chocolate.webp"
       },
       {
-        "nombre": "Chocolatada (fría o caliente)",
-        "descripcion": "Hecho en nuestro Tazón XL",
+        "nombre": "Chocolatada - Tazón XL",
+        "descripcion": "Hecho en nuestro Tazón XL (fría o caliente)",
         "precio": 5500,
         "img": "/images/productos/default.svg"
       },
@@ -735,7 +735,7 @@ const MENU_DATA = [
         "nombre": "Gaseosa 500 ml",
         "descripcion": "",
         "precio": 2700,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/gaseosas.webp"
       },
       {
         "nombre": "Cerveza regular 330ml",
