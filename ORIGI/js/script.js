@@ -100,7 +100,7 @@ const MENU_DATA = [
       {
         "nombre": "Combo 5",
         "descripcion": "Café o té + 100gr de chipá",
-        "precio": 4900,
+        "precio": 6000,
         "img": "/images/productos/combo 5.webp"
       },
       {
@@ -136,7 +136,7 @@ const MENU_DATA = [
       {
         "nombre": "Combo 11",
         "descripcion": "Café o té + 150gr bizcochos",
-        "precio": 4900,
+        "precio": 5600,
         "img": "/images/productos/combo 11.webp"
       },
       {
