@@ -406,13 +406,13 @@ const MENU_DATA = [
       "nombre": "Café - Tazón XL",
       "descripcion": "",
       "precio": 6000,
-      "img": "/images/productos/default.svg"
+      "img": "/images/productos/tazon cafe.webp"
       },
       {
         "nombre": "Café con Leche - Tazón XL",
         "descripcion": "",
         "precio": 6500,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/tazon cafe con leche.webp"
       },
       {
         "sub_subcategoria": "Otras Variedades"
@@ -472,7 +472,7 @@ const MENU_DATA = [
         "nombre": "Chocolatada - Tazón XL",
         "descripcion": "Hecho en nuestro Tazón XL (fría o caliente)",
         "precio": 5500,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/chocolatadaxl.webp"
       },
       {
         "nombre": "Submarino",
@@ -623,6 +623,24 @@ const MENU_DATA = [
         "descripcion": "",
         "precio": 10000,
         "img": "/images/productos/WhatsApp Image 2025-09-30 at 19.11.31_6b4a5d80.webp"
+      },
+      {
+        "nombre": "Omelette Jamon y Queso",
+        "descripcion": "",
+        "precio": 6500,
+        "img": "/images/productos/ojyq.webp"
+      },
+      {
+        "nombre": "Omelette Rucula, Palta y Tomate",
+        "descripcion": "",
+        "precio": 6500,
+        "img": "/images/productos/rucula palta tomate.webp"
+      },
+      {
+        "nombre": "Omelette Rucula y Jamon crudo",
+        "descripcion": "",
+        "precio": 8000,
+        "img": "/images/productos/rucula tomate y crudo.webp"
       },
       {
         "nombre": "Tostón con huevos revueltos J&Q",
