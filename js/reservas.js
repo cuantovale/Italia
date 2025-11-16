@@ -30,7 +30,7 @@ document.addEventListener("DOMContentLoaded", () => {
       specificTimeGroup.classList.remove("hidden");
       timePicker = flatpickr("#specific-time", {
         enableTime: true, noCalendar: true, dateFormat: "H:i", time_24hr: true,
-        minTime: "07:00", maxTime: "12:30", minuteIncrement: 15,
+        minTime: "07:00", maxTime: "12:00", minuteIncrement: 15,
         disableMobile: "true"
       });
     } else if (selectedValue.includes("Tarde")) {

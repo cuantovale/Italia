@@ -16,14 +16,14 @@ document.addEventListener("DOMContentLoaded", () => {
   const STORE_SCHEDULE = {
     // DO: Cerrado
     0: null,
-    // LU-VI: 07:00-12:30 y 17:00-21:00
-    1: [{ open: "07:00", close: "12:30" }, { open: "17:00", close: "21:00" }],
-    2: [{ open: "07:00", close: "12:30" }, { open: "17:00", close: "21:00" }],
-    3: [{ open: "07:00", close: "12:30" }, { open: "17:00", close: "21:00" }],
-    4: [{ open: "07:00", close: "12:30" }, { open: "17:00", close: "21:00" }],
-    5: [{ open: "07:00", close: "12:30" }, { open: "17:00", close: "21:00" }],
-    // SA: 09:00-12:30 y 17:00-21:00
-    6: [{ open: "09:00", close: "12:30" }, { open: "17:00", close: "21:00" }],
+    // LU-VI: 07:00-12:00 y 17:00-21:00
+    1: [{ open: "07:00", close: "12:00" }, { open: "17:00", close: "21:00" }],
+    2: [{ open: "07:00", close: "12:00" }, { open: "17:00", close: "21:00" }],
+    3: [{ open: "07:00", close: "12:00" }, { open: "17:00", close: "21:00" }],
+    4: [{ open: "07:00", close: "12:00" }, { open: "17:00", close: "21:00" }],
+    5: [{ open: "07:00", close: "12:00" }, { open: "17:00", close: "21:00" }],
+    // SA: 09:00-12:00 y 17:00-21:00
+    6: [{ open: "09:00", close: "12:00" }, { open: "17:00", close: "21:00" }],
   };
 
   function isStoreOpen() {
