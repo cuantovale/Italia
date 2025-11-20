@@ -299,6 +299,12 @@ const MENU_DATA = [
         "img": "/images/productos/porci_n_de_tarta_de_coco_1759337876968.webp"
       },
       {
+        "nombre": "Porción de Tarta de Pistachos",
+        "descripcion": "",
+        "precio": 8000,
+        "img": "/images/productos/pistacho.webp"
+      },
+      {
         "nombre": "Porción de Matilda",
         "descripcion": "",
         "precio": 7500,
