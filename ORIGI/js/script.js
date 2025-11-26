@@ -676,7 +676,7 @@ const MENU_DATA = [
         "nombre": "Medialuna con Crema de Pistacho",
         "descripcion": "",
         "precio": 4500,
-        "img": "/images/productos/medialuna salada.webp"
+        "img": "/images/productos/medialunapistacho.webp"
       },
       {
         "nombre": "Medialuna con J&Q",
