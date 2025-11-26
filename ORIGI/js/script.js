@@ -18,7 +18,7 @@ const MENU_DATA = [
         "nombre": "Brusqueta Sicilia",
         "descripcion": "Pan de Campo, Queso Crema con Cebollita de Verdeo, Rúcula, Tomates Confitados y Cerdo Ahumado",
         "precio": 6500,
-        "img": "/images/productos/sicilia.webp"
+        "img": "/images/productos/siciliaa.webp"
       },
       {
         "nombre": "Opción Keto - Brusqueta Sicilia",
@@ -30,7 +30,7 @@ const MENU_DATA = [
         "nombre": "Brusqueta Turín",
         "descripcion": "Pan de Campo, Queso Crema, Palta, Tomates Confitados y Huevo",
         "precio": 7600,
-        "img": "/images/productos/Generated Image October 02, 2025 - 12_30AM.webp"
+        "img": "/images/productos/turinn.webp"
       },
       {
         "nombre": "Opción Keto - Brusqueta Turín",
@@ -178,7 +178,7 @@ const MENU_DATA = [
         "nombre": "Combo Fit",
         "descripcion": "Café + yogurt con granola, frutas, miel y coco + jugo de naranja",
         "precio": 10800,
-        "img": "/images/productos/combo fit.webp"
+        "img": "/images/productos/combofit.webp"
       },
       {
         "nombre": "Combo Italia",
@@ -315,6 +315,18 @@ const MENU_DATA = [
         "descripcion": "Crema pastelera de naranja, reducción de arandanos y ganache de chocolate blanco",
         "precio": 6500,
         "img": "/images/productos/WhatsApp Image 2025-10-06 at 20.20.42_fdf28e7b.webp"
+      },
+      {
+        "nombre": "Porción de Tarta de Frutilla",
+        "descripcion": "",
+        "precio": 6500,
+        "img": "/images/productos/tartafrutilla.webp"
+      },
+      {
+        "nombre": "Porción de Tarta de Frutas",
+        "descripcion": "",
+        "precio": 6500,
+        "img": "/images/productos/tartafrutas.webp"
       },
       {
         "nombre": "Lemon Pie",
@@ -526,7 +538,7 @@ const MENU_DATA = [
         "nombre": "Yogurt con granola, frutas y miel",
         "descripcion": "",
         "precio": 6300,
-        "img": "/images/productos/Generated Image October 02, 2025 - 12_32AM.webp"
+        "img": "/images/productos/yogurtgranolas.webp"
       }
     ],
     "hasSubcategories": true
@@ -661,6 +673,12 @@ const MENU_DATA = [
         "img": "/images/productos/medialuna salada.webp"
       },
       {
+        "nombre": "Medialuna con Crema de Pistacho",
+        "descripcion": "",
+        "precio": 4500,
+        "img": "/images/productos/medialuna salada.webp"
+      },
+      {
         "nombre": "Medialuna con J&Q",
         "descripcion": "Opcional: Medialuna salada/dulce",
         "precio": 4900,
@@ -702,10 +720,16 @@ const MENU_DATA = [
         "img": "/images/productos/8f1bc3c3-1914-4759-8547-0359fa502729.webp"
       },
       {
-        "nombre": "Jarra de limonada",
+        "nombre": "Jarra de Limonada",
         "descripcion": "Medida: 2 lts (Opcional: Menta y Jengibre)",
         "precio": 11500,
         "img": "/images/productos/jarralimonada.webp"
+      },
+      {
+        "nombre": "Jarra de Jugo de Naranja",
+        "descripcion": "Medida: 2 lts ",
+        "precio": 11500,
+        "img": "/images/productos/jarranaranja.webp"
       },
       {
         "nombre": "Limonada mediana",
