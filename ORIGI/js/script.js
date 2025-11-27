@@ -342,7 +342,7 @@ const MENU_DATA = [
       },
     ]
   },
-    {
+  {
     "categoria": "Cafetería",
     "productos": [
       {
@@ -421,10 +421,10 @@ const MENU_DATA = [
         "sub_subcategoria": "Tamaño XL"
       },
       {
-      "nombre": "Café - Tazón XL",
-      "descripcion": "",
-      "precio": 6000,
-      "img": "/images/productos/tazon cafe.webp"
+        "nombre": "Café - Tazón XL",
+        "descripcion": "",
+        "precio": 6000,
+        "img": "/images/productos/tazon cafe.webp"
       },
       {
         "nombre": "Café con Leche - Tazón XL",
@@ -743,12 +743,12 @@ const MENU_DATA = [
         "precio": 3800,
         "img": "/images/productos/limonada grande.webp"
       },
-            {
+      {
         "nombre": "Jugo de naranja mediano",
         "descripcion": "Medida: 360 ml",
         "precio": 3600,
         "img": "/images/productos/jugo naranja 360.webp"
-      },      
+      },
       {
         "nombre": "Jugo de naranja grande",
         "descripcion": "Medida: 500 ml",
@@ -782,7 +782,7 @@ const MENU_DATA = [
       {
         "nombre": "Gaseosa 500 ml",
         "descripcion": "",
-        "precio": 2700,
+        "precio": 3000,
         "img": "/images/productos/gaseosas.webp"
       },
       {
@@ -792,9 +792,9 @@ const MENU_DATA = [
         "img": "/images/productos/default.svg"
       },
       {
-        "nombre": "Cerveza regular 600ml",
+        "nombre": "Cerveza regular 710ml",
         "descripcion": "",
-        "precio": 5400,
+        "precio": 6800,
         "img": "/images/productos/default.svg"
       },
       {
@@ -941,7 +941,7 @@ function renderAllProducts() {
   container.innerHTML = '';
   // Re-insertamos los mensajes al principio
   persistentMessages.forEach(msg => container.appendChild(msg));
-  
+
   MENU_DATA.forEach((catData) => {
     if (catData.categoria.includes("Nuestra Cocina") && catData.productos.length === 0) {
       const note = createElement("section", { className: "menu-section" });
@@ -971,8 +971,8 @@ function createProductSection(catData) {
 
   if (catData.categoria === "Desayuno Ejecutivo") {
     const note = createElement("p", {
-        className: "category-note",
-        html: '<i class="fas fa-info-circle"></i> Disponible únicamente de <strong>7:30 a 9:30 hs</strong>.'
+      className: "category-note",
+      html: '<i class="fas fa-info-circle"></i> Disponible únicamente de <strong>7:30 a 9:30 hs</strong>.'
     });
     section.appendChild(note);
   }
@@ -1058,7 +1058,7 @@ function createProductItem({ nombre, descripcion, precio, img } = {}, categoryNa
     className: "product-img-container",
     attrs: { tabindex: "0", role: "button", "aria-label": `Ver imagen del producto ${nombre}` },
   });
-  
+
   if (categoryName === 'Adicionales' && img && (img.toLowerCase().endsWith('.webp') || img.toLowerCase().endsWith('.png'))) {
     imgContainer.classList.add('is-png');
   }
@@ -1319,7 +1319,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
   if (!isStoreOpen()) {
     const closedMessage = document.getElementById("closed-store-message");
-    if(closedMessage) closedMessage.classList.remove("hidden");
+    if (closedMessage) closedMessage.classList.remove("hidden");
   }
 
   const searchInput = document.getElementById("search-input");
