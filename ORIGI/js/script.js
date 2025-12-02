@@ -576,7 +576,12 @@ const MENU_DATA = [
         "precio": 3300,
         "img": "/images/productos/porci_n_de_alfajores_de_maicena_1759337932431.webp"
       },
-
+      {
+        "nombre": "Alfajores de Pistacho",
+        "descripcion": "(Por unidad)",
+        "precio": 3300,
+        "img": "/images/productos/alfajor de pistacho.webp"
+      },
       {
         "nombre": "Bowl frutas de estación, miel y coco",
         "descripcion": "",
