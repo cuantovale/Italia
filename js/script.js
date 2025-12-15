@@ -1,1 +1,1447 @@
-const _0x2c8321 = _0x33d0; (function (_0x1856a1, _0x4f35aa) { const _0xeb4029 = _0x33d0, _0x5a1358 = _0x1856a1(); while (!![]) { try { const _0x538880 = parseInt(_0xeb4029(0x384)) / 0x1 * (parseInt(_0xeb4029(0x28d)) / 0x2) + parseInt(_0xeb4029(0x23b)) / 0x3 * (-parseInt(_0xeb4029(0x24e)) / 0x4) + -parseInt(_0xeb4029(0x235)) / 0x5 + parseInt(_0xeb4029(0x2f4)) / 0x6 + parseInt(_0xeb4029(0x21a)) / 0x7 * (parseInt(_0xeb4029(0x326)) / 0x8) + -parseInt(_0xeb4029(0x2cd)) / 0x9 * (parseInt(_0xeb4029(0x2ca)) / 0xa) + parseInt(_0xeb4029(0x231)) / 0xb; if (_0x538880 === _0x4f35aa) break; else _0x5a1358['push'](_0x5a1358['shift']()); } catch (_0x368719) { _0x5a1358['push'](_0x5a1358['shift']()); } } }(_0x1a58, 0x5b3ee)); const MENU_DATA = [{ 'categoria': _0x2c8321(0x2fd), 'productos': [{ 'nombre': 'Sandwich\x20Génova', 'descripcion': _0x2c8321(0x2d9), 'precio': 0x1db0, 'img': _0x2c8321(0x36a) }, { 'nombre': _0x2c8321(0x304), 'descripcion': '', 'precio': 0x2328, 'img': _0x2c8321(0x32d) }, { 'nombre': _0x2c8321(0x2f3), 'descripcion': _0x2c8321(0x229), 'precio': 0x1964, 'img': '/images/productos/siciliaa.webp' }, { 'nombre': _0x2c8321(0x288), 'descripcion': '', 'precio': 0x1c20, 'img': _0x2c8321(0x310) }, { 'nombre': _0x2c8321(0x341), 'descripcion': 'Pan\x20de\x20Campo,\x20Queso\x20Crema,\x20Palta,\x20Tomates\x20Confitados\x20y\x20Huevo', 'precio': 0x1db0, 'img': '/images/productos/turinn.webp' }, { 'nombre': _0x2c8321(0x211), 'descripcion': '', 'precio': 0x206c, 'img': _0x2c8321(0x253) }, { 'nombre': _0x2c8321(0x2d0), 'descripcion': _0x2c8321(0x283), 'precio': 0x1770, 'img': _0x2c8321(0x324) }, { 'nombre': _0x2c8321(0x1fb), 'descripcion': '', 'precio': 0x1a2c, 'img': _0x2c8321(0x2b8) }, { 'nombre': _0x2c8321(0x32c), 'descripcion': _0x2c8321(0x34d), 'precio': 0x1644, 'img': '/images/productos/siena.webp' }, { 'nombre': 'Opción\x20Keto\x20-\x20Brusqueta\x20Siena', 'descripcion': '', 'precio': 0x1900, 'img': _0x2c8321(0x34f) }, { 'nombre': _0x2c8321(0x22a), 'descripcion': '2\x20Pancakes\x20Tibios\x20con\x20Frutas\x20de\x20Estación,\x20Miel\x20o\x20Salsa\x20y\x20Coco', 'precio': 0x1a2c, 'img': _0x2c8321(0x36e) }] }, { 'categoria': _0x2c8321(0x244), 'productos': [{ 'nombre': 'Combo\x201', 'descripcion': _0x2c8321(0x1e2), 'precio': 0x19c8, 'img': '/images/productos/combo\x201.webp' }, { 'nombre': _0x2c8321(0x2ef), 'descripcion': _0x2c8321(0x35f), 'precio': 0x1964, 'img': _0x2c8321(0x382) }, { 'nombre': _0x2c8321(0x210), 'descripcion': _0x2c8321(0x28c), 'precio': 0x1b58, 'img': '/images/productos/combo\x203.webp' }, { 'nombre': _0x2c8321(0x1fe), 'descripcion': _0x2c8321(0x354), 'precio': 0x1964, 'img': _0x2c8321(0x34a) }, { 'nombre': _0x2c8321(0x309), 'descripcion': 'Café\x20o\x20té\x20+\x20100gr\x20de\x20chipá', 'precio': 0x1770, 'img': _0x2c8321(0x344) }, { 'nombre': _0x2c8321(0x2ed), 'descripcion': _0x2c8321(0x25a), 'precio': 0x19c8, 'img': _0x2c8321(0x2f8) }, { 'nombre': 'Combo\x207', 'descripcion': _0x2c8321(0x317), 'precio': 0x1964, 'img': _0x2c8321(0x2ec) }, { 'nombre': _0x2c8321(0x23d), 'descripcion': _0x2c8321(0x30d), 'precio': 0x1964, 'img': _0x2c8321(0x297) }, { 'nombre': _0x2c8321(0x35c), 'descripcion': _0x2c8321(0x27b), 'precio': 0x1518, 'img': _0x2c8321(0x27d) }, { 'nombre': _0x2c8321(0x21d), 'descripcion': 'Yogurt\x20con\x20granola,\x20frutas,\x20miel\x20y\x20coco\x20(sin\x20infusión)', 'precio': 0x1518, 'img': _0x2c8321(0x228) }, { 'nombre': _0x2c8321(0x2ac), 'descripcion': 'Café\x20o\x20té\x20+\x20150gr\x20bizcochos', 'precio': 0x15e0, 'img': _0x2c8321(0x327) }, { 'nombre': _0x2c8321(0x24b), 'descripcion': _0x2c8321(0x1f9), 'precio': 0x1194, 'img': '/images/productos/IMG_0159.webp' }, { 'nombre': _0x2c8321(0x2c0), 'descripcion': '', 'precio': 0x44c, 'img': _0x2c8321(0x2de) }] }, { 'categoria': 'Combos', 'productos': [{ 'nombre': 'Combo\x20Clásico', 'descripcion': _0x2c8321(0x2cf), 'precio': 0x1c20, 'img': _0x2c8321(0x1fa) }, { 'nombre': 'Combo\x20Chipá', 'descripcion': _0x2c8321(0x2ea), 'precio': 0x1b58, 'img': _0x2c8321(0x30a) }, { 'nombre': 'Combo\x20Proteico', 'descripcion': 'Café\x20+\x20tostón\x20de\x20J&Q\x20y\x20huevo\x20revuelto\x20+\x20jugo\x20de\x20naranja\x20mediano', 'precio': 0x32c8, 'img': '/images/productos/combo_proteico_1759337968932.webp' }, { 'nombre': 'Combo\x20Fit', 'descripcion': _0x2c8321(0x2bf), 'precio': 0x2a30, 'img': _0x2c8321(0x2a9) }, { 'nombre': _0x2c8321(0x230), 'descripcion': _0x2c8321(0x258), 'precio': 0x3070, 'img': _0x2c8321(0x1e6) }, { 'nombre': _0x2c8321(0x27c), 'descripcion': _0x2c8321(0x29a), 'precio': 0x2c24, 'img': '/images/productos/combo\x20mbeju.webp' }, { 'nombre': _0x2c8321(0x240), 'descripcion': _0x2c8321(0x35a), 'precio': 0x5dc0, 'img': _0x2c8321(0x255) }] }, { 'categoria': 'Mbejú', 'productos': [{ 'nombre': _0x2c8321(0x29c), 'descripcion': '', 'precio': 0x2198, 'img': _0x2c8321(0x319) }, { 'nombre': _0x2c8321(0x273), 'descripcion': '', 'precio': 0x2904, 'img': _0x2c8321(0x2fb) }, { 'nombre': _0x2c8321(0x285), 'descripcion': '', 'precio': 0x2904, 'img': '/images/productos/mbeju1.webp' }, { 'nombre': _0x2c8321(0x2a7), 'descripcion': '', 'precio': 0x2904, 'img': _0x2c8321(0x34c) }, { 'nombre': _0x2c8321(0x259), 'descripcion': '', 'precio': 0x2328, 'img': _0x2c8321(0x203) }, { 'nombre': _0x2c8321(0x364), 'descripcion': '', 'precio': 0x2328, 'img': _0x2c8321(0x277) }, { 'nombre': 'Mbejú\x20Italia', 'descripcion': 'Masa\x20de\x20Mbejú\x20+\x203\x20Ingredientes\x20a\x20Elección\x20(tomates\x20confitados,\x20huevo\x20revuelto,\x20palta,\x20jamón,\x20rúcula,\x20cerdo\x20ahumado,\x20queso\x20o\u00a0jamón\u00a0crudo)', 'precio': 0x2904, 'img': _0x2c8321(0x2c6) }] }, { 'categoria': _0x2c8321(0x2a5), 'productos': [{ 'nombre': 'Porción\x20de\x20Cheesecake', 'descripcion': '', 'precio': 0x1d4c, 'img': _0x2c8321(0x26d) }, { 'nombre': _0x2c8321(0x270), 'descripcion': '', 'precio': 0x1518, 'img': _0x2c8321(0x292) }, { 'nombre': _0x2c8321(0x35b), 'descripcion': '', 'precio': 0x1964, 'img': _0x2c8321(0x26c) }, { 'nombre': _0x2c8321(0x2be), 'descripcion': _0x2c8321(0x2e1), 'precio': 0x1964, 'img': _0x2c8321(0x374) }, { 'nombre': _0x2c8321(0x34e), 'descripcion': '', 'precio': 0x1d4c, 'img': '/images/productos/porci_n_de_chocotorta_1759338083767.webp' }, { 'nombre': 'Porción\x20de\x20Tiramisú', 'descripcion': '', 'precio': 0x1d4c, 'img': _0x2c8321(0x352) }, { 'nombre': _0x2c8321(0x212), 'descripcion': '', 'precio': 0x1964, 'img': '/images/productos/IMG_0169.webp' }, { 'nombre': 'Porción\x20de\x20Tarta\x20de\x20Coco', 'descripcion': '', 'precio': 0x1964, 'img': _0x2c8321(0x37e) }, { 'nombre': 'Porción\x20de\x20Tarta\x20de\x20Pistachos', 'descripcion': '', 'precio': 0x1f40, 'img': '/images/productos/pistacho.webp' }, { 'nombre': _0x2c8321(0x242), 'descripcion': '', 'precio': 0x1d4c, 'img': _0x2c8321(0x31c) }, { 'nombre': _0x2c8321(0x2b6), 'descripcion': _0x2c8321(0x2d8), 'precio': 0x1964, 'img': _0x2c8321(0x376) }, { 'nombre': _0x2c8321(0x33d), 'descripcion': '', 'precio': 0x1964, 'img': _0x2c8321(0x2aa) }, { 'nombre': _0x2c8321(0x287), 'descripcion': '', 'precio': 0x1964, 'img': '/images/productos/tartafrutas.webp' }, { 'nombre': 'Lemon\x20Pie', 'descripcion': '', 'precio': 0x6d60, 'img': '/images/productos/tortas_enteras_1759335487429.webp' }, { 'nombre': _0x2c8321(0x1f8), 'descripcion': '', 'precio': 0x7530, 'img': '/images/productos/cheesecake.webp' }] }, { 'categoria': 'Cafetería', 'productos': [{ 'subcategoria': _0x2c8321(0x276) }, { 'sub_subcategoria': 'Tamaño\x20Espresso' }, { 'nombre': _0x2c8321(0x385), 'descripcion': '', 'precio': 0x9c4, 'img': _0x2c8321(0x1f1) }, { 'sub_subcategoria': 'Tamaño\x20Jarrita' }, { 'nombre': _0x2c8321(0x278), 'descripcion': '', 'precio': 0x9c4, 'img': _0x2c8321(0x2fa) }, { 'nombre': _0x2c8321(0x252), 'descripcion': '', 'precio': 0xaf0, 'img': _0x2c8321(0x32b) }, { 'nombre': 'Café\x20Cortado\x20-\x20Jarrita', 'descripcion': '', 'precio': 0xaf0, 'img': '/images/productos/cortado\x20jarrita.webp' }, { 'nombre': _0x2c8321(0x2b2), 'descripcion': _0x2c8321(0x33a), 'precio': 0xb54, 'img': _0x2c8321(0x20b) }, { 'sub_subcategoria': 'Tamaño\x20Doble' }, { 'nombre': _0x2c8321(0x215), 'descripcion': '', 'precio': 0xed8, 'img': _0x2c8321(0x2af) }, { 'nombre': 'Café\x20con\x20Leche\x20-\x20Doble', 'descripcion': '', 'precio': 0x1194, 'img': _0x2c8321(0x282) }, { 'nombre': 'Café\x20Cortado\x20-\x20Doble', 'descripcion': '', 'precio': 0x1194, 'img': '/images/productos/cortado\x20doble.webp' }, { 'nombre': _0x2c8321(0x201), 'descripcion': _0x2c8321(0x33a), 'precio': 0x125c, 'img': _0x2c8321(0x2c2) }, { 'nombre': 'Café\x20con\x20Crema\x20-\x20Doble', 'descripcion': _0x2c8321(0x206), 'precio': 0x1644, 'img': _0x2c8321(0x296) }, { 'sub_subcategoria': _0x2c8321(0x24c) }, { 'nombre': _0x2c8321(0x25c), 'descripcion': '', 'precio': 0x1770, 'img': _0x2c8321(0x26e) }, { 'nombre': _0x2c8321(0x281), 'descripcion': '', 'precio': 0x1964, 'img': _0x2c8321(0x2c4) }, { 'sub_subcategoria': _0x2c8321(0x1fc) }, { 'nombre': _0x2c8321(0x36f), 'descripcion': _0x2c8321(0x1ee), 'precio': 0x1af4, 'img': _0x2c8321(0x30f) }, { 'nombre': _0x2c8321(0x379), 'descripcion': 'Espresso\x20servido\x20con\x20helado\x20a\x20elección\x20(vainilla\x20o\x20dulce\x20de\x20leche),\x20garrapiñada\x20y\x20salsa\x20de\x20caramelo.\x20(Medida:\x20240\x20ml)', 'precio': 0x157c, 'img': _0x2c8321(0x2a3) }, { 'nombre': 'Iced\x20coffee', 'descripcion': _0x2c8321(0x22e), 'precio': 0xed8, 'img': _0x2c8321(0x222) }, { 'nombre': _0x2c8321(0x306), 'descripcion': _0x2c8321(0x293), 'precio': 0x1194, 'img': _0x2c8321(0x24a) }, { 'nombre': 'Café\x20bombón', 'descripcion': _0x2c8321(0x370), 'precio': 0x1838, 'img': _0x2c8321(0x318) }, { 'nombre': _0x2c8321(0x2ad), 'descripcion': _0x2c8321(0x37f), 'precio': 0x1450, 'img': _0x2c8321(0x21b) }, { 'nombre': 'Café\x20Freddo', 'descripcion': _0x2c8321(0x32e), 'precio': 0x16a8, 'img': _0x2c8321(0x316) }, { 'subcategoria': _0x2c8321(0x220) }, { 'nombre': _0x2c8321(0x311), 'descripcion': _0x2c8321(0x353), 'precio': 0xe10, 'img': '/images/productos/chocolate.webp' }, { 'nombre': _0x2c8321(0x1e0), 'descripcion': _0x2c8321(0x263), 'precio': 0x157c, 'img': _0x2c8321(0x250) }, { 'nombre': _0x2c8321(0x36b), 'descripcion': _0x2c8321(0x2ce), 'precio': 0x125c, 'img': _0x2c8321(0x356) }, { 'subcategoria': 'Té' }, { 'nombre': _0x2c8321(0x337), 'descripcion': '', 'precio': 0xc80, 'img': _0x2c8321(0x366) }, { 'nombre': 'Té\x20con\x20leche', 'descripcion': '', 'precio': 0xed8, 'img': '/images/productos/IMG_1733.webp' }, { 'nombre': _0x2c8321(0x224), 'descripcion': '', 'precio': 0x10cc, 'img': '/images/productos/IMG_1287.webp' }, { 'nombre': _0x2c8321(0x2c5), 'descripcion': '', 'precio': 0xa8c, 'img': _0x2c8321(0x37c) }, { 'nombre': _0x2c8321(0x332), 'descripcion': '', 'precio': 0xc80, 'img': _0x2c8321(0x342) }, { 'subcategoria': _0x2c8321(0x223) }, { 'nombre': 'Yogurt\x20con\x20granola,\x20frutas\x20y\x20miel', 'descripcion': '', 'precio': 0x189c, 'img': _0x2c8321(0x286) }], 'hasSubcategories': !![] }, { 'categoria': 'Dulces', 'productos': [{ 'nombre': _0x2c8321(0x301), 'descripcion': '', 'precio': 0x6a4, 'img': _0x2c8321(0x22c) }, { 'nombre': _0x2c8321(0x2d1), 'descripcion': _0x2c8321(0x361), 'precio': 0xdac, 'img': _0x2c8321(0x2a1) }, { 'nombre': _0x2c8321(0x289), 'descripcion': _0x2c8321(0x314), 'precio': 0x1770, 'img': _0x2c8321(0x31e) }, { 'nombre': _0x2c8321(0x237), 'descripcion': _0x2c8321(0x202), 'precio': 0xce4, 'img': _0x2c8321(0x226) }, { 'nombre': _0x2c8321(0x1f3), 'descripcion': '', 'precio': 0xce4, 'img': _0x2c8321(0x372) }, { 'nombre': _0x2c8321(0x221), 'descripcion': _0x2c8321(0x320), 'precio': 0xce4, 'img': _0x2c8321(0x2dd) }, { 'nombre': 'Bowl\x20frutas\x20de\x20estación,\x20miel\x20y\x20coco', 'descripcion': '', 'precio': 0x1964, 'img': _0x2c8321(0x29f) }, { 'nombre': _0x2c8321(0x336), 'descripcion': _0x2c8321(0x2e3), 'precio': 0x10cc, 'img': '/images/productos/Generated\x20Image\x20October\x2002,\x202025\x20-\x203_23PM.webp' }, { 'nombre': _0x2c8321(0x300), 'descripcion': _0x2c8321(0x26b), 'precio': 0x1a2c, 'img': '/images/productos/Generated\x20Image\x20October\x2001,\x202025\x20-\x2011_54PM.webp' }, { 'nombre': _0x2c8321(0x1f4), 'descripcion': '', 'precio': 0x1194, 'img': _0x2c8321(0x333) }] }, { 'categoria': _0x2c8321(0x34b), 'productos': [{ 'nombre': _0x2c8321(0x2d3), 'descripcion': '', 'precio': 0xc1c, 'img': '/images/productos/chipa.webp' }, { 'nombre': _0x2c8321(0x280), 'descripcion': '', 'precio': 0x76c, 'img': _0x2c8321(0x26a) }, { 'nombre': _0x2c8321(0x247), 'descripcion': '', 'precio': 0xa28, 'img': '/images/productos/IMG_1431.webp' }, { 'nombre': _0x2c8321(0x265), 'descripcion': '', 'precio': 0xf3c, 'img': '/images/productos/IMG_1426.webp' }, { 'nombre': _0x2c8321(0x2f0), 'descripcion': '', 'precio': 0x1a90, 'img': _0x2c8321(0x369) }, { 'nombre': _0x2c8321(0x254), 'descripcion': '', 'precio': 0x2710, 'img': '/images/productos/WhatsApp\x20Image\x202025-09-30\x20at\x2019.11.31_6b4a5d80.webp' }, { 'nombre': _0x2c8321(0x29d), 'descripcion': '', 'precio': 0x1964, 'img': _0x2c8321(0x2a2) }, { 'nombre': 'Omelette\x20Rucula,\x20Palta\x20y\x20Tomate', 'descripcion': '', 'precio': 0x1964, 'img': '/images/productos/rucula\x20palta\x20tomate.webp' }, { 'nombre': _0x2c8321(0x1f7), 'descripcion': '', 'precio': 0x1f40, 'img': '/images/productos/rucula\x20tomate\x20y\x20crudo.webp' }, { 'nombre': 'Tostón\x20con\x20huevos\x20revueltos\x20J&Q', 'descripcion': _0x2c8321(0x334), 'precio': 0x1b58, 'img': _0x2c8321(0x25f) }, { 'nombre': _0x2c8321(0x2ee), 'descripcion': '', 'precio': 0x6a4, 'img': _0x2c8321(0x1ef) }, { 'nombre': 'Medialuna\x20con\x20Crema\x20de\x20Pistacho', 'descripcion': '', 'precio': 0x1194, 'img': _0x2c8321(0x256) }, { 'nombre': _0x2c8321(0x294), 'descripcion': 'Opcional:\x20Medialuna\x20salada/dulce', 'precio': 0x1324, 'img': _0x2c8321(0x348) }, { 'nombre': 'Tostón\x20de\x20huevo\x20revuelto\x20con\x20J&Q\x20integrado', 'descripcion': '', 'precio': 0x19c8, 'img': _0x2c8321(0x31b) }] }, { 'categoria': 'Bebidas', 'productos': [{ 'nombre': _0x2c8321(0x248), 'descripcion': _0x2c8321(0x251), 'precio': 0x10cc, 'img': _0x2c8321(0x31a) }, { 'nombre': _0x2c8321(0x269), 'descripcion': _0x2c8321(0x251), 'precio': 0x1324, 'img': _0x2c8321(0x2fe) }, { 'nombre': _0x2c8321(0x2e2), 'descripcion': 'Medida:\x20500\x20ml\x20(Sabores:\x20Vainilla,\x20Dulce\x20de\x20Leche\x20o\x20Frutilla.\x20Con\x20salsa\x20de\x20chocolate\x20o\x20caramelo\x20y\x20crema\x20chantilly)', 'precio': 0x1518, 'img': '/images/productos/IMG_1736.webp' }, { 'nombre': _0x2c8321(0x2c8), 'descripcion': _0x2c8321(0x363), 'precio': 0x1518, 'img': _0x2c8321(0x2d7) }, { 'nombre': _0x2c8321(0x377), 'descripcion': _0x2c8321(0x217), 'precio': 0x2cec, 'img': _0x2c8321(0x2bc) }, { 'nombre': _0x2c8321(0x2f1), 'descripcion': _0x2c8321(0x360), 'precio': 0x2cec, 'img': _0x2c8321(0x1de) }, { 'nombre': _0x2c8321(0x380), 'descripcion': 'Medida:\x20360\x20ml', 'precio': 0xce4, 'img': '/images/productos/limonada\x20mediana.webp' }, { 'nombre': 'Limonada\x20grande', 'descripcion': 'Medida:\x20500\x20ml', 'precio': 0xed8, 'img': _0x2c8321(0x264) }, { 'nombre': _0x2c8321(0x2b5), 'descripcion': _0x2c8321(0x2bb), 'precio': 0xe10, 'img': '/images/productos/jugo\x20naranja\x20360.webp' }, { 'nombre': 'Jugo\x20de\x20naranja\x20grande', 'descripcion': _0x2c8321(0x322), 'precio': 0x10cc, 'img': _0x2c8321(0x308) }, { 'nombre': _0x2c8321(0x208), 'descripcion': '', 'precio': 0x708, 'img': _0x2c8321(0x272) }, { 'nombre': _0x2c8321(0x2e7), 'descripcion': '', 'precio': 0x7d0, 'img': _0x2c8321(0x2da) }, { 'nombre': 'Agua\x20saborizada\x20500\x20ml', 'descripcion': '', 'precio': 0x960, 'img': '/images/productos/default.svg' }, { 'nombre': _0x2c8321(0x239), 'descripcion': '', 'precio': 0xa8c, 'img': '/images/productos/agua\x20tonica.webp' }, { 'nombre': 'Gaseosa\x20500\x20ml', 'descripcion': '', 'precio': 0xbb8, 'img': _0x2c8321(0x20f) }, { 'nombre': 'Cerveza\x20regular\x20330ml', 'descripcion': '', 'precio': 0xed8, 'img': '/images/productos/default.svg' }, { 'nombre': _0x2c8321(0x290), 'descripcion': '', 'precio': 0x1a90, 'img': _0x2c8321(0x30b) }, { 'nombre': _0x2c8321(0x20d), 'descripcion': '', 'precio': 0x10cc, 'img': '/images/productos/default.svg' }, { 'nombre': _0x2c8321(0x27e), 'descripcion': '', 'precio': 0x10cc, 'img': _0x2c8321(0x30b) }] }, { 'categoria': _0x2c8321(0x338), 'productos': [{ 'nombre': _0x2c8321(0x2e8), 'descripcion': '', 'precio': 0x35c, 'img': _0x2c8321(0x2f7) }, { 'nombre': _0x2c8321(0x35d), 'descripcion': '', 'precio': 0x44c, 'img': _0x2c8321(0x22b) }, { 'nombre': _0x2c8321(0x1e8), 'descripcion': '', 'precio': 0x44c, 'img': '/images/productos/jamon.webp' }, { 'nombre': _0x2c8321(0x2e0), 'descripcion': '', 'precio': 0x6a4, 'img': '/images/productos/IMG_1466-Photoroom.webp' }, { 'nombre': _0x2c8321(0x307), 'descripcion': '', 'precio': 0x578, 'img': _0x2c8321(0x2ab) }, { 'nombre': _0x2c8321(0x351), 'descripcion': '', 'precio': 0x4b0, 'img': _0x2c8321(0x29b) }, { 'nombre': _0x2c8321(0x2fc), 'descripcion': _0x2c8321(0x1f5), 'precio': 0x898, 'img': _0x2c8321(0x291) }, { 'nombre': 'Vaso\x20de\x20soda\x20mediano\x20Adicional', 'descripcion': _0x2c8321(0x2bb), 'precio': 0x44c, 'img': '/images/productos/Generated\x20Image\x20October\x2001,\x202025\x20-\x2011_40PM-Photoroom.webp' }, { 'nombre': 'Helado\x20/\x20Frutas\x20Adicional', 'descripcion': '', 'precio': 0x640, 'img': '/images/productos/Generated\x20Image\x20October\x2001,\x202025\x20-\x2011_22PM-Photoroom.webp' }, { 'nombre': 'Miel\x20/\x20Salsa\x20Adicional', 'descripcion': '', 'precio': 0x28a, 'img': '/images/productos/image-Photoroom\x20(1).webp' }, { 'nombre': _0x2c8321(0x20a), 'descripcion': '', 'precio': 0x6a4, 'img': '/images/productos/opci_n_keto_1759338229231-Photoroom.webp' }] }]; function formatPrice(_0x32f3d7) { const _0x4a13f5 = _0x2c8321; if (_0x32f3d7 === null || _0x32f3d7 === undefined) return ''; return new Intl[(_0x4a13f5(0x330))]('es-AR', { 'style': 'currency', 'currency': _0x4a13f5(0x25d), 'minimumFractionDigits': 0x0 })['format'](_0x32f3d7); } function createElement(_0x321464, _0x8f7fcc = {}) { const _0x3209cb = _0x2c8321, _0x5f2f45 = document[_0x3209cb(0x323)](_0x321464); if (_0x8f7fcc[_0x3209cb(0x2b7)]) _0x5f2f45['className'] = _0x8f7fcc[_0x3209cb(0x2b7)]; if (_0x8f7fcc[_0x3209cb(0x1e1)]) _0x5f2f45[_0x3209cb(0x331)] = _0x8f7fcc['text']; if (_0x8f7fcc['html']) _0x5f2f45[_0x3209cb(0x298)] = _0x8f7fcc[_0x3209cb(0x378)]; return _0x8f7fcc['attrs'] && Object[_0x3209cb(0x2cc)](_0x8f7fcc[_0x3209cb(0x2e5)])[_0x3209cb(0x214)](([_0xf9fd0a, _0x1acc9f]) => _0x5f2f45['setAttribute'](_0xf9fd0a, _0x1acc9f)), _0x5f2f45; } const STORE_SCHEDULE = { 0x0: null, 0x1: [{ 'open': _0x2c8321(0x1f2), 'close': _0x2c8321(0x21e) }, { 'open': _0x2c8321(0x371), 'close': _0x2c8321(0x359) }], 0x2: [{ 'open': _0x2c8321(0x1f2), 'close': '12:00' }, { 'open': _0x2c8321(0x371), 'close': _0x2c8321(0x359) }], 0x3: [{ 'open': _0x2c8321(0x1f2), 'close': _0x2c8321(0x21e) }, { 'open': _0x2c8321(0x371), 'close': _0x2c8321(0x359) }], 0x4: [{ 'open': '07:00', 'close': _0x2c8321(0x21e) }, { 'open': _0x2c8321(0x371), 'close': '21:00' }], 0x5: [{ 'open': _0x2c8321(0x1f2), 'close': '12:00' }, { 'open': '17:00', 'close': _0x2c8321(0x359) }], 0x6: [{ 'open': _0x2c8321(0x36d), 'close': _0x2c8321(0x21e) }, { 'open': _0x2c8321(0x371), 'close': '21:00' }] }; function isStoreOpen() { const _0x282bb4 = _0x2c8321, _0x1b1af5 = new Date(new Date()['toLocaleString'](_0x282bb4(0x2db), { 'timeZone': _0x282bb4(0x2d5) })), _0x39b4d3 = _0x1b1af5[_0x282bb4(0x216)](), _0x31ca3b = _0x1b1af5['getHours']()[_0x282bb4(0x365)]()[_0x282bb4(0x23f)](0x2, '0') + ':' + _0x1b1af5[_0x282bb4(0x284)]()[_0x282bb4(0x365)]()[_0x282bb4(0x23f)](0x2, '0'), _0x44c830 = STORE_SCHEDULE[_0x39b4d3]; if (!_0x44c830) return ![]; return _0x44c830[_0x282bb4(0x27f)](_0x221f81 => _0x31ca3b >= _0x221f81[_0x282bb4(0x299)] && _0x31ca3b < _0x221f81['close']); } function isExecutiveBreakfastTime() { const _0x4ccbf0 = _0x2c8321, _0x39c344 = new Date(new Date()[_0x4ccbf0(0x2d4)]('en-US', { 'timeZone': _0x4ccbf0(0x2d5) })), _0x5d6dc3 = _0x39c344[_0x4ccbf0(0x37b)]() + _0x39c344[_0x4ccbf0(0x284)]() / 0x3c; return _0x5d6dc3 >= 7.5 && _0x5d6dc3 < 9.5; } function renderAllProducts() { const _0x1b41b5 = _0x2c8321, _0x4ce4cc = document['getElementById'](_0x1b41b5(0x315)), _0x1b2b55 = _0x4ce4cc[_0x1b41b5(0x21c)](_0x1b41b5(0x303)); _0x4ce4cc[_0x1b41b5(0x298)] = '', _0x1b2b55['forEach'](_0x3c7036 => _0x4ce4cc[_0x1b41b5(0x367)](_0x3c7036)), MENU_DATA['forEach'](_0x4e63f7 => { const _0x362b6c = _0x1b41b5; if (_0x4e63f7[_0x362b6c(0x2ff)]['includes'](_0x362b6c(0x1e3)) && _0x4e63f7[_0x362b6c(0x2a0)][_0x362b6c(0x2a6)] === 0x0) { const _0x2892d9 = createElement('section', { 'className': _0x362b6c(0x22f) }), _0x1996de = createElement('h2', { 'html': '<u><strong>' + _0x4e63f7[_0x362b6c(0x2ff)] + _0x362b6c(0x1f6) }); _0x2892d9[_0x362b6c(0x367)](_0x1996de), _0x4ce4cc[_0x362b6c(0x367)](_0x2892d9); return; } if (_0x4e63f7[_0x362b6c(0x2a0)][_0x362b6c(0x2a6)] === 0x0) return; const _0x56ba9b = createProductSection(_0x4e63f7); _0x4ce4cc[_0x362b6c(0x367)](_0x56ba9b); }); } function _0x1a58() { const _0x74ef23 = ['article', 'offsetTop', 'Bizcochos\x20de\x20grasa\x20(150)', 'Licuado\x20con\x20agua', 'menu-sub-subcategory', '/images/productos/iced\x20lattee.webp', 'Combo\x2012', 'Tamaño\x20XL', 'add-to-cart-btn', '1252xBKepq', 'product-name', '/images/productos/chocolatadaxl.webp', 'Medida:\x20500\x20ml\x20(Sabores:\x20Frutilla,\x20Durazno\x20o\x20Banana)', 'Café\x20con\x20Leche\x20-\x20Jarrita', '/images/productos/IMG_1450.webp', 'Sandwich\x20jamón\x20crudo\x20y\x20rúcula', '/images/productos/combo\x20doble.webp', '/images/productos/medialunapistacho.webp', 'closed-store-message', 'Café\x20+\x20porción\x20de\x20torta/tarta\x20+\x20jugo\x20de\x20naranja', 'Mbejú\x20Relleno\x20de\x20Palta\x20y\x20Huevo\x20Revuelto', 'Café\x20o\x20té\x20+\x201\x20Medialuna\x20de\x20jamón\x20y\x20queso', 'Ver\x20imagen\x20del\x20producto\x20', 'Café\x20-\x20Tazón\x20XL', 'ARS', 'button', '/images/productos/tost_n_con_huevos_revueltos_j_q_1759338003337.webp', 'scroll', 'product-img-container', 'more-info-toggle', 'Hecho\x20en\x20nuestro\x20Tazón\x20XL\x20(fría\x20o\x20caliente)', '/images/productos/limonada\x20grande.webp', 'Bizcochos\x20de\x20grasa\x20(250gr)', 'scrollY', 'from', 'dataset', 'Licuado\x20con\x20leche', '/images/productos/IMG_1437.webp', 'Waffles\x20con\x202\x20bochas\x20de\x20helado,\x20crema\x20chantilly\x20y\x20salsa\u00a0a\u00a0elección\x20(2\x20Unidades)', '/images/productos/IMG_0156.webp', '/images/productos/IMG_1423.webp', '/images/productos/tazon\x20cafe.webp', 'lightbox-img', 'Porción\x20de\x20Pastafrola', 'sub_subcategoria', '/images/productos/agua.webp', 'Mbejú\x20Relleno\x20de\x20Rúcula\x20y\x20Jamón\x20Crudo', 'nombre', 'parse', 'Café', '/images/productos/mbeju3.webp', 'Café\x20-\x20Jarrita', 'categoryName', '.category-bar', 'Café\x20o\x20té\x20+\x201\x20Huevo\x20revuelto\x20con\x20o\x20sin\x20semillas', 'Combo\x20Mbejú', '/images/productos/1d4b2ffd-e489-47b0-ae85-6bba2f5dc643.webp', 'Cerveza\x20premium\x20sin\x20alcohol\x20330ml', 'some', 'Bizcochos\x20de\x20grasa\x20(100gr)', 'Café\x20con\x20Leche\x20-\x20Tazón\x20XL', '/images/productos/caf_con_leche_1759338139087.webp', 'Pan\x20de\x20Campo,\x20Queso\x20Crema,\x20Frutas\x20de\x20Estación,\x20Miel\x20y\x20Granola', 'getMinutes', 'Mbejú\x20Relleno\x20de\x20Rúcula,\x20Palta,\x20Huevo\x20Revuelto\x20y\x20Tomates\x20Confitados', '/images/productos/yogurtgranolas.webp', 'Porción\x20de\x20Tarta\x20de\x20Frutas', 'Opción\x20Keto\x20-\x20Brusqueta\x20Sicilia', 'Tostadas\x20pan\x20de\x20molde\x20con\x202\x20dips', 'observe', 'stringify', 'Café\x20o\x20té\x20+\x20Pastafrola\x20o\x20tarta\x20de\x20coco\x20con\x20dulce\x20de\x20leche', '1299926xQRpgU', 'pow', 'subcategoria', 'Cerveza\x20regular\x20710ml', '/images/productos/jugo_de_naranja_en_combo_1759338067307-Photoroom.webp', '/images/productos/porci_n_de_pastafrola_1759337916810.webp', 'Leche\x20fría\x20con\x20café\x20batido\x20y\x20salsa\x20de\x20caramelo.\x20(Medida:\x20360\x20ml)', 'Medialuna\x20con\x20J&Q', 'none', '/images/productos/cafe\x20con\x20crema.webp', '/images/productos/combo\x208.webp', 'innerHTML', 'open', 'Café\x20+\x20Mbejú\x20relleno\x20de\x20J&Q', '/images/productos/Generated\x20Image\x20October\x2001,\x202025\x20-\x2011_20PM-Photoroom.webp', 'Mbejú\x20Relleno\x20de\x20J&Q', 'Omelette\x20Jamon\x20y\x20Queso', 'nextElementSibling', '/images/productos/bow\x20de\x20frutas.webp', 'productos', '/images/productos/porci_n_de_pepas_1759338017636.webp', '/images/productos/ojyq.webp', '/images/productos/WhatsApp\x20Image\x202025-09-30\x20at\x2019.11.27_70e3659d.webp', 'endsWith', 'Tortas/Tartas', 'length', 'Mbejú\x20Relleno\x20de\x20Rúcula,\x20Cerdo\x20Ahumado\x20y\x20Tomates\x20Confitados', 'key', '/images/productos/combofit.webp', '/images/productos/tartafrutilla.webp', '/images/productos/IMG_1465-Photoroom.webp', 'Combo\x2011', 'Cappuccino', 'scrollTo', '/images/productos/cafe\x20doble.webp', 'src', 'mobile-info-overlay', 'Café\x20Lágrima\x20-\x20Jarrita', 'value', 'nozoom', 'Jugo\x20de\x20naranja\x20mediano', 'Porción\x20de\x20Tarta\x20del\x20Bosque', 'className', '/images/productos/Generated\x20Image\x20October\x2002,\x202025\x20-\x2012_04AM.webp', '<i\x20class=\x22fas\x20fa-info-circle\x22></i>\x20Disponible\x20únicamente\x20de\x20<strong>7:30\x20a\x209:30\x20hs</strong>.', 'is-visible', 'Medida:\x20360\x20ml', '/images/productos/jarralimonada.webp', 'lazy', 'Porción\x20de\x20Patagonia', 'Café\x20+\x20yogurt\x20con\x20granola,\x20frutas,\x20miel\x20y\x20coco\x20+\x20jugo\x20de\x20naranja', 'Cambio\x20de\x20infusión\x20por\x20jugo\x20de\x20naranja\x20mediano', 'style', '/images/productos/lagrima\x20doble.webp', 'toLowerCase', '/images/productos/tazon\x20cafe\x20con\x20leche.webp', 'Mate\x20cocido', '/images/productos/IMG_1439.webp', 'Enter', 'Smoothies', 'true', '1490670nEhGWQ', 'desktop-hours-panel', 'entries', '9RaPIfp', 'Barra\x20de\x20chocolate\x20Águila\x20con\x20leche\x20caliente.\x20(Medida:\x20240\x20ml)', 'Café\x20+\x202\x20Medialunas\x20o\x20150gr\x20bizcochos\x20+\x20\x20jugo\x20de\x20naranja', 'Brusqueta\x20Capri', 'Porción\x20de\x20Pepas', 'push', 'Chipá\x20(100gr)', 'toLocaleString', 'America/Argentina/Buenos_Aires', 'nearest', '/images/productos/8f1bc3c3-1914-4759-8547-0359fa502729.webp', 'Crema\x20pastelera\x20de\x20naranja,\x20reducción\x20de\x20arandanos\x20y\x20ganache\x20de\x20chocolate\u00a0blanco', 'Pan\x20de\x20Molde,\x20Queso\x20Crema,\x20Jamón,\x20Queso\x20y\x20Omelet\x20de\x20huevo,\x20relleno\x20de\x20queso.', '/images/productos/agua\x20con\x20gas.webp', 'en-US', 'mobile-hours-panel', '/images/productos/alfajor\x20de\x20pistacho.webp', '/images/productos/cambio\x20infusion.webp', '<i\x20class=\x22fas\x20fa-plus\x22></i>\x20Añadir', 'Jamón\x20crudo\x20Adicional', 'Chocolate\x20blanco\x20con\x20frutos\x20rojos', 'Milkshake', '(2\x20Unidades)', 'Ver\x20Carrito\x20(', 'attrs', '<i\x20class=\x22fas\x20fa-check\x22></i>\x20Añadido', 'Agua\x20con\x20gas\x20500\x20ml', 'Huevo\x20Adicional', 'toggle', 'Café\x20+\x20100g\x20de\x20chipá\x20+\x20jugo\x20de\x20naranja', '130', '/images/productos/combo\x206.webp', 'Combo\x206', 'Medialuna\x20Salada', 'Combo\x202', 'Sandwich\x20J&Q\x20+\x20Queso\x20Crema\x20en\x20pan\x20de\x20campo', 'Jarra\x20de\x20Jugo\x20de\x20Naranja', 'open-status\x20', 'Brusqueta\x20Sicilia', '2453478gaaMHS', '.png', 'preventDefault', '/images/productos/image-Photoroom.webp', '/images/productos/combo\x207.webp', 'more-info-panel', '/images/productos/IMG_1419.webp', '/images/productos/mbejú.webp', 'Jugo\x20de\x20naranja\x20en\x20combo\x20Adicional', 'Especialidades', '/images/productos/cf21e786-3179-4fe4-b5fb-b10031aa4aaf.webp', 'categoria', 'Waffles', 'Medialuna\x20Dulce', 'div', '.no-results-message,\x20.closed-store-message', 'Opción\x20Keto\x20-\x20Sandwich\x20Génova', 'contains', 'Iced\x20latte', 'Dip\x20Adicional', '/images/productos/jugo\x20naranja\x20500.webp', 'Combo\x205', '/images/productos/combo\x20chipa.webp', '/images/productos/default.svg', 'is-open', 'Café\x20o\x20té\x20+\x201\x20Tostada\x20con\x20rúcula\x20y\x20jamón\x20crudo', 'hidden', '/images/productos/irlandes.webp', '/images/productos/IMG_1753.webp', 'Chocolatada\x20-\x20240ml', 'italiaCafeCart', '\x20con\x20bordes\x20redondeados', 'Mermelada\x20de\x20frutilla/naranja,\x20dulce\x20de\x20leche\x20y\x20queso\x20crema', 'menu-container', '/images/productos/fredo.webp', 'Café\x20o\x20té\x20+\x201\x20Tostada\x20con\x201\x20feta\x20de\x20jamón\x20y\x20queso', '/images/productos/bombon.webp', '/images/productos/mbej_relleno_de_j_q_1759335335454.webp', '/images/productos/bd0f25bd-9e56-4f0f-a800-c9d985ba0688.webp', '/images/productos/IMG_1741.webp', '/images/productos/IMG_1396.webp', 'category', '/images/productos/IMG_1764.webp', 'getElementById', '(Por\x20unidad)', 'category-active', 'Medida:\x20500\x20ml', 'createElement', '/images/productos/Generated\x20Image\x20October\x2002,\x202025\x20-\x2012_51AM.webp', 'body', '114456OvdwqU', '/images/productos/combo\x2011.webp', 'smooth', 'NFD', '.product-desc', '/images/productos/IMG_1388.webp', 'Brusqueta\x20Siena', '/images/productos/IMG_1463.webp', 'Leche\x20fría\x20con\x20chocolate\x20Águila,\x20café\x20batido,\x20crema\x20chantilly\x20y\x20salsa\x20de\x20chocolate.\x20(Medida:\x20240\x20ml)', 'img', 'NumberFormat', 'textContent', 'Mate\x20cocido\x20con\x20leche', '/images/productos/IMG_0159.webp', '1\x20Tostada\x20+\x20\x202\x20Huevos\x20revueltos\x20+\x20\x20Rollitos\x20de\x20J&Q', 'descripcion', 'Waffles\x20con\x20miel\x20o\x20salsa', 'Té\x20negro', 'Adicionales', 'remove', 'Leche\x20caliente\x20con\x20un\x20suave\x20toque\x20de\x20café.', 'Cerrado', 'display', 'Porción\x20de\x20Tarta\x20de\x20Frutilla', 'querySelector', 'addEventListener', 'keydown', 'Brusqueta\x20Turín', '/images/productos/IMG_1728.webp', 'default', '/images/productos/combo\x205.webp', 'setAttribute', 'click', 'add', '/images/productos/medialuna.webp', 'mobile-hours-toggle', '/images/productos/combo\x204.webp', 'Salados', '/images/productos/mbeju2.webp', 'Pan\x20de\x20campo,\x20Crema\x20de\x20nuestro\x20Cheesecake\x20con\x20Reducción\x20de\x20Frutos\x20Rojos', 'Porción\x20de\x20Chocotorta', '/images/productos/IMG_1752.webp', 'no-results-message', 'Crema\x20chantilly\x20Adicional', '/images/productos/porci_n_de_tiramis_1759338099812.webp', 'Medida:\x20240\x20ml\x20(fría\x20o\x20caliente)', 'Café\x20o\x20té\x20+\x202\x20Tostadas\x20con\x202\x20dips\x20(Queso\x20crema\x20y\x20Mermelada)', 'is-png-lightbox', '/images/productos/IMG_1407.webp', 'min', 'product-info', '21:00', 'Café\x20+\x202\x20medialunas\x20+\x202\x20tostadas\x20con\x20dips\x20+\x20porción\x20de\x20pastafrola\x20o\x20tarta\x20de\x20coco\x20con\x20dulce\x20de\x20leche\x20+\x20100g\x20de\x20chipá\x20+\x20jugo\x20de\x20naranja', 'Porción\x20de\x20Lemon\x20Pie', 'Combo\x209', 'Queso\x20Adicional', 'precio', 'Café\x20o\x20té\x20+\x202\x20Waffle\x20con\x20miel\x20o\x20salsa', 'Medida:\x202\x20lts\x20', 'Porción\x20de\x205\x20unidades.', 'trim', 'Medida:\x20360\x20ml\x20(Sabores\x20Varios)', 'Mbejú\x20Relleno\x20de\x20Jamón,\x20Rúcula\x20y\x20Tomates\x20Confitados', 'toString', '/images/productos/IMG_1731.webp', 'appendChild', 'replace', '/images/productos/IMG_1769.webp', '/images/productos/genova.webp', 'Submarino', 'center', '09:00', '/images/productos/roma.webp', 'Café\x20Irlandés', 'Leche\x20condensada,\x20espuma\x20de\x20café\x20helada,\x20espuma\x20de\x20leche\x20y\u00a0cacao\u00a0amargo.\x20(Medida:\x20240\x20ml)', '17:00', '/images/productos/porci_n_de_alfajores_de_maicena_1759337932431.webp', 'raf', '/images/productos/IMG_0157.webp', 'hasSubcategories', '/images/productos/WhatsApp\x20Image\x202025-10-06\x20at\x2020.20.42_fdf28e7b.webp', 'Jarra\x20de\x20Limonada', 'html', 'Café\x20Affogato', '.category-bar\x20.category', 'getHours', '/images/productos/IMG_1730.webp', 'show-scroll', '/images/productos/porci_n_de_tarta_de_coco_1759337876968.webp', 'Espresso\x20con\x20leche\x20caliente,\x20terminado\x20con\x20canela\x20o\x20cacao\x20amargo.\x20(Medida:\x20240\x20ml)', 'Limonada\x20mediana', '<i\x20class=\x22fas\x20fa-clock\x22></i>\x20Fuera\x20de\x20horario', '/images/productos/combo\x202.webp', 'overflow', '1bQJCkp', 'Café\x20-\x20Espresso', 'cart-item-count-text', '/images/productos/jarranaranja.webp', 'scroll-up', 'Chocolatada\x20-\x20Tazón\x20XL', 'text', 'Café\x20o\x20té\x20+\x202\x20Medialunas', 'Nuestra\x20Cocina', 'getItem', 'disabled-permanent', '/images/productos/combo\x20italia.webp', 'aria-expanded', 'Jamón\x20Adicional', 'aria-pressed', 'target', 'activeElement', 'product-img', 'product-price', 'Espresso\x20con\x20whisky,\x20crema\x20chantilly\x20y\x20salsa\x20de\x20caramelo.\x20(Medida:\x20240\x20ml)', '/images/productos/medialuna\x20salada.webp', 'mobile-open-status-indicator', '/images/productos/IMG_1382.webp', '07:00', 'Porción\x20de\x20Alfajores\x20de\x20Maicena', 'Ensalada\x20de\x20frutas', 'Medida:\x20100\x20ml', '</strong></u>', 'Omelette\x20Rucula\x20y\x20Jamon\x20crudo', 'Cheesecake', 'Ensalada\x20de\x20frutas\x20(sin\x20infusión)', '/images/productos/combo\x20clasi.webp', 'Opción\x20Keto\x20-\x20Brusqueta\x20Capri', 'Otras\x20Variedades', 'scrollIntoView', 'Combo\x204', 'search-input', 'input', 'Café\x20Lágrima\x20-\x20Doble', '(2\x20unidades)', '/images/productos/WhatsApp\x20Image\x202025-09-30\x20at\x2018.48.42_1ad85218.webp', 'Imagen\x20ampliada\x20del\x20producto\x20', 'is-active', 'Café\x20negro\x20acompañado\x20de\x20crema\x20chantilly.', 'classList', 'Agua\x20600\x20ml', 'close-mobile-hours', 'Pan\x20Keto\x20(unidad)\x20Adicional', '/images/productos/lagrima\x20jarrita.webp', 'category-note', 'Cerveza\x20premium\x20330ml', 'stopPropagation', '/images/productos/gaseosas.webp', 'Combo\x203', 'Opción\x20Keto\x20-\x20Brusqueta\x20Turín', 'Porción\x20de\x20Havannet', 'disabled', 'forEach', 'Café\x20-\x20Doble', 'getDay', 'Medida:\x202\x20lts\x20(Opcional:\x20Menta\x20y\x20Jengibre)', 'false', 'DOMContentLoaded', '21LnpNFT', '/images/productos/IMG_1399.webp', 'querySelectorAll', 'Combo\x2010', '12:00', '.menu-section', 'Chocolate', 'Alfajores\x20de\x20Pistacho', '/images/productos/iced\x20coffee.webp', 'Otros', 'Té\x20especiales', 'lightbox-close', '/images/productos/alfajores_de_la_casa_1759337949426.webp', 'sticky-controls', '/images/productos/cb0ab5ec-271b-4b66-be20-280b11e251de.webp', 'Pan\x20de\x20Campo,\x20Queso\x20Crema\x20con\x20Cebollita\x20de\x20Verdeo,\x20Rúcula,\x20Tomates\x20Confitados\x20y\x20Cerdo\x20Ahumado', 'Pancakes\x20Roma', '/images/productos/queso.webp', '/images/productos/medialuna\x20dulce.webp', 'disabled-temp', 'Doble\x20café\x20frío\x20con\x20base\x20de\x20salsa\x20de\x20caramelo.\x20(Medida:\x20240\x20ml)', 'menu-section', 'Combo\x20Italia', '2432914gUUGRM', 'menu-subcategory', 'foto', 'focus', '585980XlIqWh', 'lightbox', 'Alfajores\x20de\x20la\x20casa', 'normalize', 'Agua\x20tónica\x20375\x20ml', 'includes', '6546UyoMSp', '<i\x20class=\x22fas\x20fa-times\x22></i>\x20Cerrado', 'Combo\x208', '.webp', 'padStart', 'Combo\x20Para\x20dos', '.menu-item,\x20.menu-subcategory,\x20.menu-sub-subcategory', 'Porción\x20de\x20Matilda', 'menu-item', 'Desayuno\x20Ejecutivo']; _0x1a58 = function () { return _0x74ef23; }; return _0x1a58(); } function createProductSection(_0x14379c) { const _0x57129a = _0x2c8321, _0xbe45e3 = _0x14379c['categoria']['replace'](/\s+/g, '-')[_0x57129a(0x368)](/\//g, '-')[_0x57129a(0x2c3)](), _0x378a6d = createElement('section', { 'className': _0x57129a(0x22f), 'attrs': { 'id': _0xbe45e3, 'data-category': _0x14379c[_0x57129a(0x2ff)] } }), _0x5b3597 = createElement('h2', { 'text': _0x14379c[_0x57129a(0x2ff)] }); _0x378a6d[_0x57129a(0x367)](_0x5b3597); if (_0x14379c[_0x57129a(0x2ff)] === _0x57129a(0x244)) { const _0x40ee24 = createElement('p', { 'className': _0x57129a(0x20c), 'html': _0x57129a(0x2b9) }); _0x378a6d[_0x57129a(0x367)](_0x40ee24); } return _0x14379c[_0x57129a(0x375)] ? _0x14379c[_0x57129a(0x2a0)][_0x57129a(0x214)](_0x54cb9a => { const _0x7c0437 = _0x57129a; if (_0x54cb9a[_0x7c0437(0x28f)]) { const _0x3721e2 = createElement('h3', { 'className': _0x7c0437(0x232), 'text': _0x54cb9a['subcategoria'] }); _0x378a6d['appendChild'](_0x3721e2); } else { if (_0x54cb9a[_0x7c0437(0x271)]) { const _0x45ea2d = createElement('h4', { 'className': 'menu-sub-subcategory', 'text': _0x54cb9a[_0x7c0437(0x271)] }); _0x378a6d[_0x7c0437(0x367)](_0x45ea2d); } else { const _0x372f4e = createProductItem(_0x54cb9a, _0x14379c[_0x7c0437(0x2ff)]); _0x378a6d['appendChild'](_0x372f4e); } } }) : _0x14379c[_0x57129a(0x2a0)][_0x57129a(0x214)](_0x231240 => { const _0x5a8388 = createProductItem(_0x231240, _0x14379c['categoria']); _0x378a6d['appendChild'](_0x5a8388); }), _0x378a6d; } function createAddToCartButton(_0x9bbbb3, _0x4ec0e1) { const _0x22f9ec = _0x2c8321, _0x45f9b2 = createElement('button', { 'className': _0x22f9ec(0x24d), 'html': _0x22f9ec(0x2df) }), _0x12e9cf = _0x4ec0e1 === _0x22f9ec(0x244); return _0x12e9cf && !isExecutiveBreakfastTime() && (_0x45f9b2[_0x22f9ec(0x213)] = !![], _0x45f9b2[_0x22f9ec(0x298)] = _0x22f9ec(0x381), _0x45f9b2[_0x22f9ec(0x207)][_0x22f9ec(0x347)](_0x22f9ec(0x1e5))), _0x45f9b2[_0x22f9ec(0x33f)](_0x22f9ec(0x346), _0x35cc09 => { const _0x3710a7 = _0x22f9ec; _0x35cc09[_0x3710a7(0x20e)](); if (!isStoreOpen()) { const _0x219520 = _0x45f9b2[_0x3710a7(0x298)]; _0x45f9b2[_0x3710a7(0x298)] = _0x3710a7(0x23c), _0x45f9b2[_0x3710a7(0x207)][_0x3710a7(0x347)](_0x3710a7(0x22d)), setTimeout(() => { const _0xd1b728 = _0x3710a7; _0x45f9b2[_0xd1b728(0x207)]['remove'](_0xd1b728(0x22d)), _0x45f9b2[_0xd1b728(0x298)] = _0x219520; }, 0x7d0); return; } addToCart({ 'nombre': _0x9bbbb3[_0x3710a7(0x274)], 'precio': _0x9bbbb3[_0x3710a7(0x35e)], 'descripcion': _0x9bbbb3[_0x3710a7(0x335)], 'img': _0x9bbbb3[_0x3710a7(0x32f)], 'categoria': _0x9bbbb3['categoria'] }), _0x45f9b2[_0x3710a7(0x298)] = _0x3710a7(0x2e6); }), _0x45f9b2; } function createProductItem({ nombre: _0x31970f, descripcion: _0x57bb63, precio: _0x26baa7, img: _0x50b80a } = {}, _0x5b2267) { const _0x1b3f78 = _0x2c8321, _0x3221ba = createElement(_0x1b3f78(0x245), { 'className': _0x1b3f78(0x243) }), _0xcbceb0 = createElement('div', { 'className': _0x1b3f78(0x358) }), _0x2c0664 = createElement('h3', { 'className': _0x1b3f78(0x24f), 'text': _0x31970f }); _0xcbceb0[_0x1b3f78(0x367)](_0x2c0664); if (_0x57bb63 && _0x57bb63[_0x1b3f78(0x362)]() !== '') { const _0x5e5b66 = createElement('p', { 'className': 'product-desc', 'text': _0x57bb63 }); _0xcbceb0[_0x1b3f78(0x367)](_0x5e5b66); } if (_0x26baa7 !== null && _0x26baa7 !== undefined) { const _0x56b2f9 = createElement(_0x1b3f78(0x302), { 'className': _0x1b3f78(0x1ed), 'text': formatPrice(_0x26baa7) }); _0xcbceb0['appendChild'](_0x56b2f9); } if (_0x26baa7 !== null && _0x26baa7 !== undefined) { const _0x87edb = createAddToCartButton({ 'nombre': _0x31970f, 'precio': _0x26baa7, 'descripcion': _0x57bb63, 'img': _0x50b80a, 'categoria': _0x5b2267 }, _0x5b2267); _0xcbceb0[_0x1b3f78(0x367)](_0x87edb); } _0x3221ba[_0x1b3f78(0x367)](_0xcbceb0); const _0x3128ad = createElement(_0x1b3f78(0x302), { 'className': _0x1b3f78(0x261), 'attrs': { 'tabindex': '0', 'role': _0x1b3f78(0x25e), 'aria-label': _0x1b3f78(0x25b) + _0x31970f } }); _0x5b2267 === _0x1b3f78(0x338) && _0x50b80a && (_0x50b80a[_0x1b3f78(0x2c3)]()['endsWith']('.webp') || _0x50b80a[_0x1b3f78(0x2c3)]()[_0x1b3f78(0x2a4)](_0x1b3f78(0x2f5))) && _0x3128ad[_0x1b3f78(0x207)]['add']('is-png'); _0x50b80a === '/images/productos/default.svg' && _0x3128ad['classList'][_0x1b3f78(0x347)](_0x1b3f78(0x2b4)); const _0x35610f = createElement('img', { 'className': _0x1b3f78(0x1ec), 'attrs': { 'src': _0x50b80a, 'alt': _0x50b80a === _0x1b3f78(0x30b) ? _0x1b3f78(0x343) : _0x1b3f78(0x233), 'loading': _0x1b3f78(0x2bd), 'decoding': 'async', 'width': _0x1b3f78(0x2eb), 'height': '110', 'draggable': 'false' } }); return _0x3128ad[_0x1b3f78(0x367)](_0x35610f), _0x3221ba[_0x1b3f78(0x367)](_0x3128ad), _0x50b80a !== '/images/productos/default.svg' && (_0x3128ad[_0x1b3f78(0x33f)](_0x1b3f78(0x346), () => openLightbox(_0x50b80a, _0x31970f, _0x5b2267)), _0x3128ad[_0x1b3f78(0x33f)](_0x1b3f78(0x340), _0x5f22d2 => { const _0x161b8d = _0x1b3f78; (_0x5f22d2[_0x161b8d(0x2a8)] === _0x161b8d(0x2c7) || _0x5f22d2['key'] === '\x20') && (_0x5f22d2[_0x161b8d(0x2f6)](), openLightbox(_0x50b80a, _0x31970f, _0x5b2267)); })), _0x3221ba; } function normalizeText(_0x1a986d) { const _0x1771dc = _0x2c8321; if (!_0x1a986d) return ''; return _0x1a986d['toLowerCase']()[_0x1771dc(0x238)](_0x1771dc(0x329))[_0x1771dc(0x368)](/[\u0300-\u036f]/g, ''); } function filterProducts() { const _0x194c5b = _0x2c8321, _0x2ac65f = normalizeText(document[_0x194c5b(0x31f)](_0x194c5b(0x1ff))[_0x194c5b(0x2b3)]), _0x44c9f0 = document[_0x194c5b(0x31f)](_0x194c5b(0x350)); if (_0x2ac65f[_0x194c5b(0x2a6)] === 0x0) { showAllProductsAndCategories(), _0x44c9f0[_0x194c5b(0x207)][_0x194c5b(0x347)]('hidden'); return; } const _0xaa4733 = document['querySelectorAll'](_0x194c5b(0x21f)); let _0x5a5387 = ![]; _0xaa4733[_0x194c5b(0x214)](_0x1489cc => { const _0x14305e = _0x194c5b, _0x2eea0a = Array[_0x14305e(0x267)](_0x1489cc['children']); let _0x3c6165 = ![]; _0x2eea0a[_0x14305e(0x214)](_0x466e48 => { const _0x46754d = _0x14305e; if (_0x466e48['classList'][_0x46754d(0x305)](_0x46754d(0x243))) { const _0x5d1851 = _0x466e48[_0x46754d(0x33e)]('.product-name'); if (!_0x5d1851) return; const _0x39e4cb = normalizeText(_0x5d1851[_0x46754d(0x331)]), _0x31826a = normalizeText(_0x466e48[_0x46754d(0x33e)](_0x46754d(0x32a))?.[_0x46754d(0x331)] || ''), _0x675953 = _0x39e4cb['includes'](_0x2ac65f) || _0x31826a[_0x46754d(0x23a)](_0x2ac65f); _0x466e48[_0x46754d(0x2c1)]['display'] = _0x675953 ? '' : _0x46754d(0x295), _0x675953 && (_0x3c6165 = !![], _0x5a5387 = !![]); } }), _0x2eea0a[_0x14305e(0x214)](_0x3e8b8b => { const _0x411dda = _0x14305e; if (_0x3e8b8b[_0x411dda(0x207)][_0x411dda(0x305)](_0x411dda(0x232)) || _0x3e8b8b[_0x411dda(0x207)]['contains']('menu-sub-subcategory')) { let _0x569e54 = _0x3e8b8b[_0x411dda(0x29e)], _0x3e48db = ![]; while (_0x569e54 && !_0x569e54['classList']['contains'](_0x411dda(0x232)) && !_0x569e54[_0x411dda(0x207)][_0x411dda(0x305)](_0x411dda(0x249))) { if (_0x569e54[_0x411dda(0x207)][_0x411dda(0x305)](_0x411dda(0x243)) && _0x569e54[_0x411dda(0x2c1)][_0x411dda(0x33c)] !== _0x411dda(0x295)) { _0x3e48db = !![]; break; } _0x569e54 = _0x569e54[_0x411dda(0x29e)]; } _0x3e8b8b[_0x411dda(0x2c1)][_0x411dda(0x33c)] = _0x3e48db ? '' : _0x411dda(0x295); } }), _0x1489cc['style'][_0x14305e(0x33c)] = _0x3c6165 ? '' : _0x14305e(0x295); }), _0x44c9f0['classList'][_0x194c5b(0x2e9)](_0x194c5b(0x30e), _0x5a5387); } let lastScrollY = window[_0x2c8321(0x266)]; function handleScroll() { const _0x3fedc6 = _0x2c8321, _0x48ea25 = document[_0x3fedc6(0x31f)](_0x3fedc6(0x227)), _0xd90585 = _0x48ea25['querySelector'](_0x3fedc6(0x27a)), _0x4d3189 = window[_0x3fedc6(0x266)]; window['innerWidth'] <= 0x300 && (_0x4d3189 > lastScrollY && _0x4d3189 > _0x48ea25[_0x3fedc6(0x246)] + 0x32 ? _0xd90585['classList'][_0x3fedc6(0x347)]('hidden-on-scroll') : _0xd90585[_0x3fedc6(0x207)][_0x3fedc6(0x339)]('hidden-on-scroll')), lastScrollY = _0x4d3189 <= 0x0 ? 0x0 : _0x4d3189; } function createScrollspy() { const _0x44ea11 = _0x2c8321, _0x27ec6c = document[_0x44ea11(0x21c)]('.menu-section'), _0x59e392 = new IntersectionObserver(_0x459a2f => { const _0x5063ea = _0x44ea11; _0x459a2f[_0x5063ea(0x214)](_0x53b53c => { const _0x446c07 = _0x5063ea; if (_0x53b53c['isIntersecting']) { const _0x1d08a6 = _0x53b53c[_0x446c07(0x1ea)][_0x446c07(0x268)][_0x446c07(0x31d)]; updateActiveCategory(_0x1d08a6); } }); }, { 'rootMargin': '-40%\x200px\x20-60%\x200px' }); _0x27ec6c['forEach'](_0x31ec71 => { const _0x1cbc96 = _0x44ea11; _0x31ec71['dataset'][_0x1cbc96(0x31d)] && _0x59e392[_0x1cbc96(0x28a)](_0x31ec71); }); } function updateActiveCategory(_0x418609) { const _0x926fc5 = _0x2c8321; categoryButtons[_0x926fc5(0x214)](_0x5b8fa5 => { const _0x38f05e = _0x926fc5, _0x480477 = _0x5b8fa5['dataset'][_0x38f05e(0x279)]; _0x480477 === _0x418609 ? (_0x5b8fa5[_0x38f05e(0x207)][_0x38f05e(0x347)](_0x38f05e(0x321)), _0x5b8fa5[_0x38f05e(0x345)](_0x38f05e(0x1e9), _0x38f05e(0x2c9)), _0x5b8fa5[_0x38f05e(0x1fd)]({ 'behavior': _0x38f05e(0x328), 'inline': _0x38f05e(0x36c), 'block': _0x38f05e(0x2d6) })) : (_0x5b8fa5[_0x38f05e(0x207)][_0x38f05e(0x339)](_0x38f05e(0x321)), _0x5b8fa5[_0x38f05e(0x345)]('aria-pressed', 'false')); }); } const lightbox = document['getElementById'](_0x2c8321(0x236)), lightboxImg = document[_0x2c8321(0x31f)](_0x2c8321(0x26f)), lightboxClose = document[_0x2c8321(0x31f)](_0x2c8321(0x225)); function openLightbox(_0x35000a, _0x467535, _0x4d283a) { const _0x1759fc = _0x2c8321; lightboxImg['src'] = _0x35000a, lightboxImg['alt'] = _0x1759fc(0x204) + _0x467535 + _0x1759fc(0x313), lightbox[_0x1759fc(0x207)][_0x1759fc(0x347)](_0x1759fc(0x2ba)), _0x4d283a === 'Adicionales' && _0x35000a && (_0x35000a[_0x1759fc(0x2c3)]()[_0x1759fc(0x2a4)](_0x1759fc(0x23e)) || _0x35000a[_0x1759fc(0x2c3)]()['endsWith'](_0x1759fc(0x2f5))) ? lightbox[_0x1759fc(0x207)][_0x1759fc(0x347)](_0x1759fc(0x355)) : lightbox[_0x1759fc(0x207)][_0x1759fc(0x339)]('is-png-lightbox'), document['body'][_0x1759fc(0x2c1)][_0x1759fc(0x383)] = _0x1759fc(0x30e), lightboxClose[_0x1759fc(0x234)](); } function closeLightbox() { const _0x51f047 = _0x2c8321; lightbox[_0x51f047(0x207)][_0x51f047(0x339)](_0x51f047(0x2ba)), lightboxImg[_0x51f047(0x2b0)] = '', document['body']['style'][_0x51f047(0x383)] = '', document[_0x51f047(0x1eb)]['blur'](); } function getCart() { const _0x45a013 = _0x2c8321; return JSON[_0x45a013(0x275)](localStorage[_0x45a013(0x1e4)](_0x45a013(0x312))) || []; } function saveCart(_0x391fd9) { const _0x1f6bc5 = _0x2c8321; localStorage['setItem'](_0x1f6bc5(0x312), JSON[_0x1f6bc5(0x28b)](_0x391fd9)), updateCartUI(); } function addToCart(_0x1208f3) { const _0x50ced7 = _0x2c8321, _0x41b01a = getCart(); _0x41b01a[_0x50ced7(0x2d2)](_0x1208f3), saveCart(_0x41b01a); } function updateCartUI() { const _0x55a4ff = _0x2c8321, _0x4d7d4f = getCart(), _0x5e4dc4 = document[_0x55a4ff(0x31f)]('cart-bar'), _0x51c5d2 = document[_0x55a4ff(0x31f)](_0x55a4ff(0x386)); if (!_0x5e4dc4 || !_0x51c5d2) return; _0x4d7d4f['length'] > 0x0 ? (_0x51c5d2[_0x55a4ff(0x331)] = _0x55a4ff(0x2e4) + _0x4d7d4f[_0x55a4ff(0x2a6)] + ')', _0x5e4dc4[_0x55a4ff(0x207)][_0x55a4ff(0x339)](_0x55a4ff(0x30e))) : _0x5e4dc4['classList'][_0x55a4ff(0x347)](_0x55a4ff(0x30e)); } lightboxClose[_0x2c8321(0x33f)](_0x2c8321(0x346), closeLightbox), lightbox[_0x2c8321(0x33f)]('click', _0x565fb6 => { const _0x273ebd = _0x2c8321; if (_0x565fb6[_0x273ebd(0x1ea)] === lightbox) closeLightbox(); }), document[_0x2c8321(0x33f)]('keydown', _0x3c4f15 => { const _0x58bbe5 = _0x2c8321; _0x3c4f15[_0x58bbe5(0x2a8)] === 'Escape' && lightbox[_0x58bbe5(0x207)][_0x58bbe5(0x305)]('is-visible') && closeLightbox(); }); const categoryButtons = document[_0x2c8321(0x21c)](_0x2c8321(0x37a)); categoryButtons[_0x2c8321(0x214)](_0x10a368 => { const _0x385a03 = _0x2c8321; _0x10a368[_0x385a03(0x33f)]('click', () => { const _0x20ff51 = _0x385a03, _0xb74a07 = _0x10a368['dataset'][_0x20ff51(0x279)]; if (!_0xb74a07) return; const _0x4c9bf7 = _0xb74a07['replace'](/\s+/g, '-')[_0x20ff51(0x368)](/\//g, '-')[_0x20ff51(0x2c3)](), _0x10a5bd = document[_0x20ff51(0x31f)](_0x4c9bf7); _0x10a5bd && (window['removeEventListener']('scroll', handleScroll, { 'passive': !![] }), document[_0x20ff51(0x31f)](_0x20ff51(0x1ff))[_0x20ff51(0x2b3)] = '', lenis[_0x20ff51(0x2ae)](_0x10a5bd, { 'offset': -0x96 }), showAllProductsAndCategories(), updateActiveCategory(_0xb74a07), setTimeout(() => window[_0x20ff51(0x33f)]('scroll', handleScroll, { 'passive': !![] }), 0x3e8)); }); }); function _0x33d0(_0x17cbb0, _0x2cf69a) { const _0x1a58b0 = _0x1a58(); return _0x33d0 = function (_0x33d011, _0x165cbb) { _0x33d011 = _0x33d011 - 0x1de; let _0x175e8c = _0x1a58b0[_0x33d011]; return _0x175e8c; }, _0x33d0(_0x17cbb0, _0x2cf69a); } let lenis; function showAllProductsAndCategories() { const _0xb92de9 = _0x2c8321, _0xeaf447 = document['querySelectorAll'](_0xb92de9(0x21f)); _0xeaf447[_0xb92de9(0x214)](_0x55ec0d => { const _0x188209 = _0xb92de9; _0x55ec0d[_0x188209(0x2c1)]['display'] = ''; const _0x2bc8ab = _0x55ec0d[_0x188209(0x21c)](_0x188209(0x241)); _0x2bc8ab[_0x188209(0x214)](_0x5d17e9 => { const _0x326da4 = _0x188209; _0x5d17e9['style'][_0x326da4(0x33c)] = ''; }); }), document[_0xb92de9(0x31f)]('no-results-message')[_0xb92de9(0x207)]['add'](_0xb92de9(0x30e)); } document[_0x2c8321(0x33f)](_0x2c8321(0x219), () => { const _0x2e5302 = _0x2c8321; renderAllProducts(), updateCartUI(), createScrollspy(); if (!isStoreOpen()) { const _0x4efeeb = document[_0x2e5302(0x31f)](_0x2e5302(0x257)); if (_0x4efeeb) _0x4efeeb['classList'][_0x2e5302(0x339)]('hidden'); } const _0x3a2e28 = document[_0x2e5302(0x31f)](_0x2e5302(0x1ff)); _0x3a2e28['addEventListener'](_0x2e5302(0x200), () => { const _0x3307e3 = _0x2e5302, _0x526782 = _0x3a2e28[_0x3307e3(0x2b3)][_0x3307e3(0x362)](); filterProducts(); }), window[_0x2e5302(0x33f)]('scroll', handleScroll, { 'passive': !![] }), lenis = new Lenis({ 'duration': 1.2, 'easing': _0x194b7f => Math[_0x2e5302(0x357)](0x1, 1.001 - Math[_0x2e5302(0x28e)](0x2, -0xa * _0x194b7f)) }); function _0x4ec4b1(_0x446fac) { const _0x4249c4 = _0x2e5302; lenis[_0x4249c4(0x373)](_0x446fac), requestAnimationFrame(_0x4ec4b1); } requestAnimationFrame(_0x4ec4b1); const _0x1f339d = document[_0x2e5302(0x31f)](_0x2e5302(0x262)), _0x2c3677 = document[_0x2e5302(0x31f)](_0x2e5302(0x2f9)), _0x1c2d8b = document[_0x2e5302(0x31f)](_0x2e5302(0x2b1)), _0x1ad03e = document[_0x2e5302(0x31f)]('close-more-info'); function _0x3f1293() { const _0x50c78c = _0x2e5302; _0x1f339d['setAttribute'](_0x50c78c(0x1e7), _0x50c78c(0x2c9)), _0x2c3677[_0x50c78c(0x207)][_0x50c78c(0x347)](_0x50c78c(0x30c)), _0x1c2d8b[_0x50c78c(0x207)][_0x50c78c(0x347)](_0x50c78c(0x205)), document['body'][_0x50c78c(0x2c1)][_0x50c78c(0x383)] = 'hidden'; } function _0x599a70() { const _0x175070 = _0x2e5302; _0x1f339d[_0x175070(0x345)]('aria-expanded', _0x175070(0x218)), _0x2c3677[_0x175070(0x207)][_0x175070(0x339)](_0x175070(0x30c)), _0x1c2d8b[_0x175070(0x207)][_0x175070(0x339)](_0x175070(0x205)), document[_0x175070(0x325)][_0x175070(0x2c1)][_0x175070(0x383)] = ''; } _0x1f339d && _0x2c3677 && _0x1c2d8b && _0x1ad03e && (_0x1f339d[_0x2e5302(0x33f)](_0x2e5302(0x346), _0x45c4fe => { const _0x3379d2 = _0x2e5302; _0x45c4fe['stopPropagation'](); const _0x1cd188 = _0x2c3677['classList'][_0x3379d2(0x305)]('is-open'); _0x1cd188 ? _0x599a70() : _0x3f1293(); }), _0x1c2d8b[_0x2e5302(0x33f)](_0x2e5302(0x346), _0x599a70), _0x1ad03e[_0x2e5302(0x33f)](_0x2e5302(0x346), _0x599a70)); const _0x27e851 = document['getElementById'](_0x2e5302(0x349)), _0xa6f146 = document[_0x2e5302(0x31f)](_0x2e5302(0x2dc)), _0x42fbd2 = document[_0x2e5302(0x31f)](_0x2e5302(0x209)); function _0xd12446() { const _0x1d6f98 = _0x2e5302; _0xa6f146[_0x1d6f98(0x207)][_0x1d6f98(0x347)](_0x1d6f98(0x30c)), _0x27e851[_0x1d6f98(0x345)](_0x1d6f98(0x1e7), _0x1d6f98(0x2c9)); } function _0x26bd16() { const _0x57c59f = _0x2e5302; _0xa6f146[_0x57c59f(0x207)][_0x57c59f(0x339)](_0x57c59f(0x30c)), _0x27e851[_0x57c59f(0x345)](_0x57c59f(0x1e7), 'false'); } _0x27e851 && _0xa6f146 && _0x42fbd2 && (_0x27e851['addEventListener'](_0x2e5302(0x346), _0x2066d4 => { _0x2066d4['stopPropagation'](), _0xd12446(); }), _0x42fbd2[_0x2e5302(0x33f)](_0x2e5302(0x346), _0x26bd16), _0x1c2d8b[_0x2e5302(0x33f)](_0x2e5302(0x346), _0x26bd16)); const _0x28e809 = document[_0x2e5302(0x31f)]('desktop-hours-toggle'), _0x33ba2e = document[_0x2e5302(0x31f)](_0x2e5302(0x2cb)), _0xdf29bb = document['getElementById']('close-desktop-hours'); _0x28e809 && _0x33ba2e && _0xdf29bb && (_0x28e809[_0x2e5302(0x33f)](_0x2e5302(0x346), _0x3872c5 => { const _0x4300b2 = _0x2e5302; _0x3872c5[_0x4300b2(0x20e)](); const _0x43b4d0 = _0x33ba2e[_0x4300b2(0x207)][_0x4300b2(0x2e9)]('is-open'); _0x28e809[_0x4300b2(0x345)]('aria-expanded', _0x43b4d0); }), _0xdf29bb['addEventListener'](_0x2e5302(0x346), () => { const _0x29d89d = _0x2e5302; _0x33ba2e[_0x29d89d(0x207)][_0x29d89d(0x339)](_0x29d89d(0x30c)), _0x28e809[_0x29d89d(0x345)](_0x29d89d(0x1e7), 'false'); }), document[_0x2e5302(0x33f)]('click', _0x466519 => { const _0x5ad47f = _0x2e5302; _0x33ba2e[_0x5ad47f(0x207)]['contains'](_0x5ad47f(0x30c)) && !_0x33ba2e[_0x5ad47f(0x305)](_0x466519[_0x5ad47f(0x1ea)]) && !_0x28e809[_0x5ad47f(0x305)](_0x466519[_0x5ad47f(0x1ea)]) && (_0x33ba2e[_0x5ad47f(0x207)]['remove'](_0x5ad47f(0x30c)), _0x28e809[_0x5ad47f(0x345)]('aria-expanded', _0x5ad47f(0x218))); })); function _0x3e0218() { const _0x3674da = _0x2e5302, _0x52aa82 = isStoreOpen(), _0x169281 = document[_0x3674da(0x31f)]('open-status-indicator'), _0x3e1303 = document[_0x3674da(0x31f)](_0x3674da(0x1f0)), _0x3a879d = (_0x31ad27, _0x44db6f) => { const _0x3953dd = _0x3674da; if (!_0x31ad27) return; _0x31ad27[_0x3953dd(0x331)] = _0x44db6f ? 'Abierto' : _0x3953dd(0x33b), _0x31ad27[_0x3953dd(0x2b7)] = _0x3953dd(0x2f2) + (_0x44db6f ? _0x3953dd(0x30c) : 'is-closed'); }; _0x3a879d(_0x169281, _0x52aa82), _0x3a879d(_0x3e1303, _0x52aa82); } _0x3e0218(), setInterval(_0x3e0218, 0xea60); const _0x4d5505 = document[_0x2e5302(0x31f)](_0x2e5302(0x1df)); function _0x510892() { const _0x2e26ee = _0x2e5302; _0x4d5505[_0x2e26ee(0x207)][_0x2e26ee(0x2e9)](_0x2e26ee(0x37d), window[_0x2e26ee(0x266)] >= 0x15e); } window['addEventListener'](_0x2e5302(0x260), _0x510892), _0x4d5505[_0x2e5302(0x33f)](_0x2e5302(0x346), _0x40fc82 => { const _0x27ff9e = _0x2e5302; _0x40fc82[_0x27ff9e(0x2f6)](), lenis[_0x27ff9e(0x2ae)](0x0); }); });
+const MENU_DATA = [
+    {
+        "categoria": "Especialidades",
+        "productos": [
+            {
+                "nombre": "Sandwich Génova",
+                "descripcion": "Pan de Molde, Queso Crema, Jamón, Queso y Omelet de huevo, relleno de queso.",
+                "precio": 7600,
+                "img": "/images/productos/genova.webp"
+            },
+            {
+                "nombre": "Opción Keto - Sandwich Génova",
+                "descripcion": "",
+                "precio": 9000,
+                "img": "/images/productos/IMG_1463.webp"
+            },
+            {
+                "nombre": "Brusqueta Sicilia",
+                "descripcion": "Pan de Campo, Queso Crema con Cebollita de Verdeo, Rúcula, Tomates Confitados y Cerdo Ahumado",
+                "precio": 6500,
+                "img": "/images/productos/siciliaa.webp"
+            },
+            {
+                "nombre": "Opción Keto - Brusqueta Sicilia",
+                "descripcion": "",
+                "precio": 7200,
+                "img": "/images/productos/IMG_1753.webp"
+            },
+            {
+                "nombre": "Brusqueta Turín",
+                "descripcion": "Pan de Campo, Queso Crema, Palta, Tomates Confitados y Huevo",
+                "precio": 7600,
+                "img": "/images/productos/turinn.webp"
+            },
+            {
+                "nombre": "Opción Keto - Brusqueta Turín",
+                "descripcion": "",
+                "precio": 8300,
+                "img": "/images/productos/IMG_1450.webp"
+            },
+            {
+                "nombre": "Brusqueta Capri",
+                "descripcion": "Pan de Campo, Queso Crema, Frutas de Estación, Miel y Granola",
+                "precio": 6000,
+                "img": "/images/productos/Generated Image October 02, 2025 - 12_51AM.webp"
+            },
+            {
+                "nombre": "Opción Keto - Brusqueta Capri",
+                "descripcion": "",
+                "precio": 6700,
+                "img": "/images/productos/Generated Image October 02, 2025 - 12_04AM.webp"
+            },
+            {
+                "nombre": "Brusqueta Siena",
+                "descripcion": "Pan de campo, Crema de nuestro Cheesecake con Reducción de Frutos Rojos",
+                "precio": 5700,
+                "img": "/images/productos/siena.webp"
+            },
+            {
+                "nombre": "Opción Keto - Brusqueta Siena",
+                "descripcion": "",
+                "precio": 6400,
+                "img": "/images/productos/IMG_1752.webp"
+            },
+            {
+                "nombre": "Pancakes Roma",
+                "descripcion": "2 Pancakes Tibios con Frutas de Estación, Miel o Salsa y Coco",
+                "precio": 6700,
+                "img": "/images/productos/roma.webp"
+            }
+        ]
+    },
+    {
+        "categoria": "Desayuno Ejecutivo",
+        "productos": [
+            {
+                "nombre": "Combo 1",
+                "descripcion": "Café o té + 2 Medialunas",
+                "precio": 6600,
+                "img": "/images/productos/combo 1.webp"
+            },
+            {
+                "nombre": "Combo 2",
+                "descripcion": "Café o té + 2 Waffle con miel o salsa",
+                "precio": 6500,
+                "img": "/images/productos/combo 2.webp"
+            },
+            {
+                "nombre": "Combo 3",
+                "descripcion": "Café o té + Pastafrola o tarta de coco con dulce de leche",
+                "precio": 7000,
+                "img": "/images/productos/combo 3.webp"
+            },
+            {
+                "nombre": "Combo 4",
+                "descripcion": "Café o té + 2 Tostadas con 2 dips (Queso crema y Mermelada)",
+                "precio": 6500,
+                "img": "/images/productos/combo 4.webp"
+            },
+            {
+                "nombre": "Combo 5",
+                "descripcion": "Café o té + 100gr de chipá",
+                "precio": 6000,
+                "img": "/images/productos/combo 5.webp"
+            },
+            {
+                "nombre": "Combo 6",
+                "descripcion": "Café o té + 1 Medialuna de jamón y queso",
+                "precio": 6600,
+                "img": "/images/productos/combo 7.webp"
+            },
+            {
+                "nombre": "Combo 7",
+                "descripcion": "Café o té + 1 Tostada con 1 feta de jamón y queso",
+                "precio": 6500,
+                "img": "/images/productos/combo 6.webp"
+            },
+            {
+                "nombre": "Combo 8",
+                "descripcion": "Café o té + 1 Tostada con rúcula y jamón crudo",
+                "precio": 6500,
+                "img": "/images/productos/combo 8.webp"
+            },
+            {
+                "nombre": "Combo 9",
+                "descripcion": "Café o té + 1 Huevo revuelto con o sin semillas",
+                "precio": 5400,
+                "img": "/images/productos/1d4b2ffd-e489-47b0-ae85-6bba2f5dc643.webp"
+            },
+            {
+                "nombre": "Combo 10",
+                "descripcion": "Yogurt con granola, frutas, miel y coco (sin infusión)",
+                "precio": 5400,
+                "img": "/images/productos/cb0ab5ec-271b-4b66-be20-280b11e251de.webp"
+            },
+            {
+                "nombre": "Combo 11",
+                "descripcion": "Café o té + 150gr bizcochos",
+                "precio": 5600,
+                "img": "/images/productos/combo 11.webp"
+            },
+            {
+                "nombre": "Combo 12",
+                "descripcion": "Ensalada de frutas (sin infusión)",
+                "precio": 4500,
+                "img": "/images/productos/IMG_0159.webp"
+            },
+            {
+                "nombre": "Cambio de infusión por jugo de naranja mediano",
+                "descripcion": "",
+                "precio": 1100,
+                "img": "/images/productos/cambio infusion.webp"
+            }
+        ]
+    },
+    {
+        "categoria": "Combos",
+        "productos": [
+            {
+                "nombre": "Combo Clásico",
+                "descripcion": "Café + 2 Medialunas o 150gr bizcochos +  jugo de naranja",
+                "precio": 7200,
+                "img": "/images/productos/combo clasi.webp"
+            },
+            {
+                "nombre": "Combo Chipá",
+                "descripcion": "Café + 100g de chipá + jugo de naranja",
+                "precio": 7000,
+                "img": "/images/productos/combo chipa.webp"
+            },
+            {
+                "nombre": "Combo Proteico",
+                "descripcion": "Café + tostón de J&Q y huevo revuelto + jugo de naranja mediano",
+                "precio": 13000,
+                "img": "/images/productos/combo_proteico_1759337968932.webp"
+            },
+            {
+                "nombre": "Combo Fit",
+                "descripcion": "Café + yogurt con granola, frutas, miel y coco + jugo de naranja",
+                "precio": 10800,
+                "img": "/images/productos/combofit.webp"
+            },
+            {
+                "nombre": "Combo Italia",
+                "descripcion": "Café + porción de torta/tarta + jugo de naranja",
+                "precio": 12400,
+                "img": "/images/productos/combo italia.webp"
+            },
+            {
+                "nombre": "Combo Mbejú",
+                "descripcion": "Café + Mbejú relleno de J&Q",
+                "precio": 11300,
+                "img": "/images/productos/combo mbeju.webp"
+            },
+            {
+                "nombre": "Combo Para dos",
+                "descripcion": "Café + 2 medialunas + 2 tostadas con dips + porción de pastafrola o tarta de coco con dulce de leche + 100g de chipá + jugo de naranja",
+                "precio": 24000,
+                "img": "/images/productos/combo doble.webp"
+            }
+        ]
+    },
+    {
+        "categoria": "Mbejú",
+        "productos": [
+            {
+                "nombre": "Mbejú Relleno de J&Q",
+                "descripcion": "",
+                "precio": 8600,
+                "img": "/images/productos/mbej_relleno_de_j_q_1759335335454.webp"
+            },
+            {
+                "nombre": "Mbejú Relleno de Rúcula y Jamón Crudo",
+                "descripcion": "",
+                "precio": 10500,
+                "img": "/images/productos/mbejú.webp"
+            },
+            {
+                "nombre": "Mbejú Relleno de Rúcula, Palta, Huevo Revuelto y Tomates Confitados",
+                "descripcion": "",
+                "precio": 10500,
+                "img": "/images/productos/mbeju1.webp"
+            },
+            {
+                "nombre": "Mbejú Relleno de Rúcula, Cerdo Ahumado y Tomates Confitados",
+                "descripcion": "",
+                "precio": 10500,
+                "img": "/images/productos/mbeju2.webp"
+            },
+            {
+                "nombre": "Mbejú Relleno de Palta y Huevo Revuelto",
+                "descripcion": "",
+                "precio": 9000,
+                "img": "/images/productos/WhatsApp Image 2025-09-30 at 18.48.42_1ad85218.webp"
+            },
+            {
+                "nombre": "Mbejú Relleno de Jamón, Rúcula y Tomates Confitados",
+                "descripcion": "",
+                "precio": 9000,
+                "img": "/images/productos/mbeju3.webp"
+            },
+            {
+                "nombre": "Mbejú Italia",
+                "descripcion": "Masa de Mbejú + 3 Ingredientes a Elección (tomates confitados, huevo revuelto, palta, jamón, rúcula, cerdo ahumado, queso o jamón crudo)",
+                "precio": 10500,
+                "img": "/images/productos/IMG_1439.webp"
+            }
+        ]
+    },
+    {
+        "categoria": "Tortas/Tartas",
+        "productos": [
+            {
+                "nombre": "Porción de Cheesecake",
+                "descripcion": "",
+                "precio": 7500,
+                "img": "/images/productos/IMG_1423.webp"
+            },
+            {
+                "nombre": "Porción de Pastafrola",
+                "descripcion": "",
+                "precio": 5400,
+                "img": "/images/productos/porci_n_de_pastafrola_1759337916810.webp"
+            },
+            {
+                "nombre": "Porción de Lemon Pie",
+                "descripcion": "",
+                "precio": 6500,
+                "img": "/images/productos/IMG_0156.webp"
+            },
+            {
+                "nombre": "Porción de Patagonia",
+                "descripcion": "Chocolate blanco con frutos rojos",
+                "precio": 6500,
+                "img": "/images/productos/IMG_0157.webp"
+            },
+            {
+                "nombre": "Porción de Chocotorta",
+                "descripcion": "",
+                "precio": 7500,
+                "img": "/images/productos/porci_n_de_chocotorta_1759338083767.webp"
+            },
+            {
+                "nombre": "Porción de Tiramisú",
+                "descripcion": "",
+                "precio": 7500,
+                "img": "/images/productos/porci_n_de_tiramis_1759338099812.webp"
+            },
+            {
+                "nombre": "Porción de Havannet",
+                "descripcion": "",
+                "precio": 6500,
+                "img": "/images/productos/IMG_0169.webp"
+            },
+            {
+                "nombre": "Porción de Tarta de Coco",
+                "descripcion": "",
+                "precio": 6500,
+                "img": "/images/productos/porci_n_de_tarta_de_coco_1759337876968.webp"
+            },
+            {
+                "nombre": "Porción de Tarta de Pistachos",
+                "descripcion": "",
+                "precio": 8000,
+                "img": "/images/productos/pistacho.webp"
+            },
+            {
+                "nombre": "Porción de Matilda",
+                "descripcion": "",
+                "precio": 7500,
+                "img": "/images/productos/IMG_1396.webp"
+            },
+            {
+                "nombre": "Porción de Tarta del Bosque",
+                "descripcion": "Crema pastelera de naranja, reducción de arandanos y ganache de chocolate blanco",
+                "precio": 6500,
+                "img": "/images/productos/WhatsApp Image 2025-10-06 at 20.20.42_fdf28e7b.webp"
+            },
+            {
+                "nombre": "Porción de Tarta de Frutilla",
+                "descripcion": "",
+                "precio": 6500,
+                "img": "/images/productos/tartafrutilla.webp"
+            },
+            {
+                "nombre": "Porción de Tarta de Frutas",
+                "descripcion": "",
+                "precio": 6500,
+                "img": "/images/productos/tartafrutas.webp"
+            },
+            {
+                "nombre": "Lemon Pie",
+                "descripcion": "",
+                "precio": 28000,
+                "img": "/images/productos/tortas_enteras_1759335487429.webp"
+            },
+            {
+                "nombre": "Cheesecake",
+                "descripcion": "",
+                "precio": 30000,
+                "img": "/images/productos/cheesecake.webp"
+            },
+        ]
+    },
+    {
+        "categoria": "Cafetería",
+        "productos": [
+            {
+                "subcategoria": "Café"
+            },
+            {
+                "sub_subcategoria": "Tamaño Espresso"
+            },
+            {
+                "nombre": "Café - Espresso",
+                "descripcion": "",
+                "precio": 2500,
+                "img": "/images/productos/IMG_1382.webp"
+            },
+            {
+                "sub_subcategoria": "Tamaño Jarrita"
+            },
+            {
+                "nombre": "Café - Jarrita",
+                "descripcion": "",
+                "precio": 2500,
+                "img": "/images/productos/IMG_1419.webp"
+            },
+            {
+                "nombre": "Café con Leche - Jarrita",
+                "descripcion": "",
+                "precio": 2800,
+                "img": "/images/productos/IMG_1388.webp"
+            },
+            {
+                "nombre": "Café Cortado - Jarrita",
+                "descripcion": "",
+                "precio": 2800,
+                "img": "/images/productos/cortado jarrita.webp"
+            },
+            {
+                "nombre": "Café Lágrima - Jarrita",
+                "descripcion": "Leche caliente con un suave toque de café.",
+                "precio": 2900,
+                "img": "/images/productos/lagrima jarrita.webp"
+            },
+            {
+                "sub_subcategoria": "Tamaño Doble"
+            },
+            {
+                "nombre": "Café - Doble",
+                "descripcion": "",
+                "precio": 3800,
+                "img": "/images/productos/cafe doble.webp"
+            },
+            {
+                "nombre": "Café con Leche - Doble",
+                "descripcion": "",
+                "precio": 4500,
+                "img": "/images/productos/caf_con_leche_1759338139087.webp"
+            },
+            {
+                "nombre": "Café Cortado - Doble",
+                "descripcion": "",
+                "precio": 4500,
+                "img": "/images/productos/cortado doble.webp"
+            },
+            {
+                "nombre": "Café Lágrima - Doble",
+                "descripcion": "Leche caliente con un suave toque de café.",
+                "precio": 4700,
+                "img": "/images/productos/lagrima doble.webp"
+            },
+            {
+                "nombre": "Café con Crema - Doble",
+                "descripcion": "Café negro acompañado de crema chantilly.",
+                "precio": 5700,
+                "img": "/images/productos/cafe con crema.webp"
+            },
+            {
+                "sub_subcategoria": "Tamaño XL"
+            },
+            {
+                "nombre": "Café - Tazón XL",
+                "descripcion": "",
+                "precio": 6000,
+                "img": "/images/productos/tazon cafe.webp"
+            },
+            {
+                "nombre": "Café con Leche - Tazón XL",
+                "descripcion": "",
+                "precio": 6500,
+                "img": "/images/productos/tazon cafe con leche.webp"
+            },
+            {
+                "sub_subcategoria": "Otras Variedades"
+            },
+            {
+                "nombre": "Café Irlandés",
+                "descripcion": "Espresso con whisky, crema chantilly y salsa de caramelo. (Medida: 240 ml)",
+                "precio": 6900,
+                "img": "/images/productos/irlandes.webp"
+            },
+            {
+                "nombre": "Café Affogato",
+                "descripcion": "Espresso servido con helado a elección (vainilla o dulce de leche), garrapiñada y salsa de caramelo. (Medida: 240 ml)",
+                "precio": 5500,
+                "img": "/images/productos/WhatsApp Image 2025-09-30 at 19.11.27_70e3659d.webp"
+            },
+            {
+                "nombre": "Iced coffee",
+                "descripcion": "Doble café frío con base de salsa de caramelo. (Medida: 240 ml)",
+                "precio": 3800,
+                "img": "/images/productos/iced coffee.webp"
+            },
+            {
+                "nombre": "Iced latte",
+                "descripcion": "Leche fría con café batido y salsa de caramelo. (Medida: 360 ml)",
+                "precio": 4500,
+                "img": "/images/productos/iced lattee.webp"
+            },
+            {
+                "nombre": "Café bombón",
+                "descripcion": "Leche condensada, espuma de café helada, espuma de leche y cacao amargo. (Medida: 240 ml)",
+                "precio": 6200,
+                "img": "/images/productos/bombon.webp"
+            },
+            {
+                "nombre": "Cappuccino",
+                "descripcion": "Espresso con leche caliente, terminado con canela o cacao amargo. (Medida: 240 ml)",
+                "precio": 5200,
+                "img": "/images/productos/IMG_1399.webp"
+            },
+            {
+                "nombre": "Café Freddo",
+                "descripcion": "Leche fría con chocolate Águila, café batido, crema chantilly y salsa de chocolate. (Medida: 240 ml)",
+                "precio": 5800,
+                "img": "/images/productos/fredo.webp"
+            },
+            {
+                "subcategoria": "Chocolate"
+            },
+            {
+                "nombre": "Chocolatada - 240ml",
+                "descripcion": "Medida: 240 ml (fría o caliente)",
+                "precio": 3600,
+                "img": "/images/productos/chocolate.webp"
+            },
+            {
+                "nombre": "Chocolatada - Tazón XL",
+                "descripcion": "Hecho en nuestro Tazón XL (fría o caliente)",
+                "precio": 5500,
+                "img": "/images/productos/chocolatadaxl.webp"
+            },
+            {
+                "nombre": "Submarino",
+                "descripcion": "Barra de chocolate Águila con leche caliente. (Medida: 240 ml)",
+                "precio": 4700,
+                "img": "/images/productos/IMG_1407.webp"
+            },
+            {
+                "subcategoria": "Té"
+            },
+            {
+                "nombre": "Té negro",
+                "descripcion": "",
+                "precio": 3200,
+                "img": "/images/productos/IMG_1731.webp"
+            },
+            {
+                "nombre": "Té con leche",
+                "descripcion": "",
+                "precio": 3800,
+                "img": "/images/productos/IMG_1733.webp"
+            },
+            {
+                "nombre": "Té especiales",
+                "descripcion": "",
+                "precio": 4300,
+                "img": "/images/productos/IMG_1287.webp"
+            },
+            {
+                "nombre": "Mate cocido",
+                "descripcion": "",
+                "precio": 2700,
+                "img": "/images/productos/IMG_1730.webp"
+            },
+            {
+                "nombre": "Mate cocido con leche",
+                "descripcion": "",
+                "precio": 3200,
+                "img": "/images/productos/IMG_1728.webp"
+            },
+            {
+                "subcategoria": "Otros"
+            },
+            {
+                "nombre": "Yogurt con granola, frutas y miel",
+                "descripcion": "",
+                "precio": 6300,
+                "img": "/images/productos/yogurtgranolas.webp"
+            }
+        ],
+        "hasSubcategories": true
+    },
+    {
+        "categoria": "Dulces",
+        "productos": [
+            {
+                "nombre": "Medialuna Dulce",
+                "descripcion": "",
+                "precio": 1700,
+                "img": "/images/productos/medialuna dulce.webp"
+            },
+            {
+                "nombre": "Porción de Pepas",
+                "descripcion": "Porción de 5 unidades.",
+                "precio": 3500,
+                "img": "/images/productos/porci_n_de_pepas_1759338017636.webp"
+            },
+            {
+                "nombre": "Tostadas pan de molde con 2 dips",
+                "descripcion": "Mermelada de frutilla/naranja, dulce de leche y queso crema",
+                "precio": 6000,
+                "img": "/images/productos/IMG_1764.webp"
+            },
+            {
+                "nombre": "Alfajores de la casa",
+                "descripcion": "(2 unidades)",
+                "precio": 3300,
+                "img": "/images/productos/alfajores_de_la_casa_1759337949426.webp"
+            },
+            {
+                "nombre": "Porción de Alfajores de Maicena",
+                "descripcion": "",
+                "precio": 3300,
+                "img": "/images/productos/porci_n_de_alfajores_de_maicena_1759337932431.webp"
+            },
+            {
+                "nombre": "Alfajores de Pistacho",
+                "descripcion": "(Por unidad)",
+                "precio": 3300,
+                "img": "/images/productos/alfajor de pistacho.webp"
+            },
+            {
+                "nombre": "Bowl frutas de estación, miel y coco",
+                "descripcion": "",
+                "precio": 6500,
+                "img": "/images/productos/bow de frutas.webp"
+            },
+            {
+                "nombre": "Waffles con miel o salsa",
+                "descripcion": "(2 Unidades)",
+                "precio": 4300,
+                "img": "/images/productos/Generated Image October 02, 2025 - 3_23PM.webp"
+            },
+            {
+                "nombre": "Waffles",
+                "descripcion": "Waffles con 2 bochas de helado, crema chantilly y salsa a elección (2 Unidades)",
+                "precio": 6700,
+                "img": "/images/productos/Generated Image October 01, 2025 - 11_54PM.webp"
+            },
+            {
+                "nombre": "Ensalada de frutas",
+                "descripcion": "",
+                "precio": 4500,
+                "img": "/images/productos/IMG_0159.webp"
+            }
+        ]
+    },
+    {
+        "categoria": "Salados",
+        "productos": [
+            {
+                "nombre": "Chipá (100gr)",
+                "descripcion": "",
+                "precio": 3100,
+                "img": "/images/productos/chipa.webp"
+            },
+            {
+                "nombre": "Bizcochos de grasa (100gr)",
+                "descripcion": "",
+                "precio": 1900,
+                "img": "/images/productos/IMG_1437.webp"
+            },
+            {
+                "nombre": "Bizcochos de grasa (150)",
+                "descripcion": "",
+                "precio": 2600,
+                "img": "/images/productos/IMG_1431.webp"
+            },
+            {
+                "nombre": "Bizcochos de grasa (250gr)",
+                "descripcion": "",
+                "precio": 3900,
+                "img": "/images/productos/IMG_1426.webp"
+            },
+            {
+                "nombre": "Sandwich J&Q + Queso Crema en pan de campo",
+                "descripcion": "",
+                "precio": 6800,
+                "img": "/images/productos/IMG_1769.webp"
+            },
+            {
+                "nombre": "Sandwich jamón crudo y rúcula",
+                "descripcion": "",
+                "precio": 10000,
+                "img": "/images/productos/WhatsApp Image 2025-09-30 at 19.11.31_6b4a5d80.webp"
+            },
+            {
+                "nombre": "Omelette Jamon y Queso",
+                "descripcion": "",
+                "precio": 6500,
+                "img": "/images/productos/ojyq.webp"
+            },
+            {
+                "nombre": "Omelette Rucula, Palta y Tomate",
+                "descripcion": "",
+                "precio": 6500,
+                "img": "/images/productos/rucula palta tomate.webp"
+            },
+            {
+                "nombre": "Omelette Rucula y Jamon crudo",
+                "descripcion": "",
+                "precio": 8000,
+                "img": "/images/productos/rucula tomate y crudo.webp"
+            },
+            {
+                "nombre": "Tostón con huevos revueltos J&Q",
+                "descripcion": "1 Tostada +  2 Huevos revueltos +  Rollitos de J&Q",
+                "precio": 7000,
+                "img": "/images/productos/tost_n_con_huevos_revueltos_j_q_1759338003337.webp"
+            },
+            {
+                "nombre": "Medialuna Salada",
+                "descripcion": "",
+                "precio": 1700,
+                "img": "/images/productos/medialuna salada.webp"
+            },
+            {
+                "nombre": "Medialuna con Crema de Pistacho",
+                "descripcion": "",
+                "precio": 4500,
+                "img": "/images/productos/medialunapistacho.webp"
+            },
+            {
+                "nombre": "Medialuna con J&Q",
+                "descripcion": "Opcional: Medialuna salada/dulce",
+                "precio": 4900,
+                "img": "/images/productos/medialuna.webp"
+            },
+            {
+                "nombre": "Tostón de huevo revuelto con J&Q integrado",
+                "descripcion": "",
+                "precio": 6600,
+                "img": "/images/productos/IMG_1741.webp"
+            },
+        ]
+    },
+    {
+        "categoria": "Bebidas",
+        "productos": [
+            {
+                "nombre": "Licuado con agua",
+                "descripcion": "Medida: 500 ml (Sabores: Frutilla, Durazno o Banana)",
+                "precio": 4300,
+                "img": "/images/productos/bd0f25bd-9e56-4f0f-a800-c9d985ba0688.webp"
+            },
+            {
+                "nombre": "Licuado con leche",
+                "descripcion": "Medida: 500 ml (Sabores: Frutilla, Durazno o Banana)",
+                "precio": 4900,
+                "img": "/images/productos/cf21e786-3179-4fe4-b5fb-b10031aa4aaf.webp"
+            },
+            {
+                "nombre": "Milkshake",
+                "descripcion": "Medida: 500 ml (Sabores: Vainilla, Dulce de Leche o Frutilla. Con salsa de chocolate o caramelo y crema chantilly)",
+                "precio": 5400,
+                "img": "/images/productos/IMG_1736.webp"
+            },
+            {
+                "nombre": "Smoothies",
+                "descripcion": "Medida: 360 ml (Sabores Varios)",
+                "precio": 5400,
+                "img": "/images/productos/8f1bc3c3-1914-4759-8547-0359fa502729.webp"
+            },
+            {
+                "nombre": "Jarra de Limonada",
+                "descripcion": "Medida: 2 lts (Opcional: Menta y Jengibre)",
+                "precio": 11500,
+                "img": "/images/productos/jarralimonada.webp"
+            },
+            {
+                "nombre": "Jarra de Jugo de Naranja",
+                "descripcion": "Medida: 2 lts ",
+                "precio": 11500,
+                "img": "/images/productos/jarranaranja.webp"
+            },
+            {
+                "nombre": "Limonada mediana",
+                "descripcion": "Medida: 360 ml",
+                "precio": 3300,
+                "img": "/images/productos/limonada mediana.webp"
+            },
+            {
+                "nombre": "Limonada grande",
+                "descripcion": "Medida: 500 ml",
+                "precio": 3800,
+                "img": "/images/productos/limonada grande.webp"
+            },
+            {
+                "nombre": "Jugo de naranja mediano",
+                "descripcion": "Medida: 360 ml",
+                "precio": 3600,
+                "img": "/images/productos/jugo naranja 360.webp"
+            },
+            {
+                "nombre": "Jugo de naranja grande",
+                "descripcion": "Medida: 500 ml",
+                "precio": 4300,
+                "img": "/images/productos/jugo naranja 500.webp"
+            },
+            {
+                "nombre": "Agua 600 ml",
+                "descripcion": "",
+                "precio": 1800,
+                "img": "/images/productos/agua.webp"
+            },
+            {
+                "nombre": "Agua con gas 500 ml",
+                "descripcion": "",
+                "precio": 2000,
+                "img": "/images/productos/agua con gas.webp"
+            },
+            {
+                "nombre": "Agua saborizada 500 ml",
+                "descripcion": "",
+                "precio": 2400,
+                "img": "/images/productos/default.svg"
+            },
+            {
+                "nombre": "Agua tónica 375 ml",
+                "descripcion": "",
+                "precio": 2700,
+                "img": "/images/productos/agua tonica.webp"
+            },
+            {
+                "nombre": "Gaseosa 500 ml",
+                "descripcion": "",
+                "precio": 3000,
+                "img": "/images/productos/gaseosas.webp"
+            },
+            {
+                "nombre": "Cerveza regular 330ml",
+                "descripcion": "",
+                "precio": 3800,
+                "img": "/images/productos/imperial.webp"
+            },
+            {
+                "nombre": "Cerveza regular 710ml",
+                "descripcion": "",
+                "precio": 6800,
+                "img": "/images/productos/corona.webp"
+            },
+            {
+                "nombre": "Cerveza premium 330ml",
+                "descripcion": "",
+                "precio": 4300,
+                "img": "/images/productos/default.svg"
+            },
+            {
+                "nombre": "Cerveza premium sin alcohol 330ml",
+                "descripcion": "",
+                "precio": 4300,
+                "img": "/images/productos/default.svg"
+            }
+        ]
+    },
+    {
+        "categoria": "Adicionales",
+        "productos": [
+            {
+                "nombre": "Huevo Adicional",
+                "descripcion": "",
+                "precio": 860,
+                "img": "/images/productos/image-Photoroom.webp"
+            },
+            {
+                "nombre": "Queso Adicional",
+                "descripcion": "",
+                "precio": 1100,
+                "img": "/images/productos/queso.webp"
+            },
+            {
+                "nombre": "Jamón Adicional",
+                "descripcion": "",
+                "precio": 1100,
+                "img": "/images/productos/jamon.webp"
+            },
+            {
+                "nombre": "Jamón crudo Adicional",
+                "descripcion": "",
+                "precio": 1700,
+                "img": "/images/productos/IMG_1466-Photoroom.webp"
+            },
+            {
+                "nombre": "Dip Adicional",
+                "descripcion": "",
+                "precio": 1400,
+                "img": "/images/productos/IMG_1465-Photoroom.webp"
+            },
+            {
+                "nombre": "Crema chantilly Adicional",
+                "descripcion": "",
+                "precio": 1200,
+                "img": "/images/productos/Generated Image October 01, 2025 - 11_20PM-Photoroom.webp"
+            },
+            {
+                "nombre": "Jugo de naranja en combo Adicional",
+                "descripcion": "Medida: 100 ml",
+                "precio": 2200,
+                "img": "/images/productos/jugo_de_naranja_en_combo_1759338067307-Photoroom.webp"
+            },
+            {
+                "nombre": "Vaso de soda mediano Adicional",
+                "descripcion": "Medida: 360 ml",
+                "precio": 1100,
+                "img": "/images/productos/Generated Image October 01, 2025 - 11_40PM-Photoroom.webp"
+            },
+            {
+                "nombre": "Helado / Frutas Adicional",
+                "descripcion": "",
+                "precio": 1600,
+                "img": "/images/productos/Generated Image October 01, 2025 - 11_22PM-Photoroom.webp"
+            },
+            {
+                "nombre": "Miel / Salsa Adicional",
+                "descripcion": "",
+                "precio": 650,
+                "img": "/images/productos/image-Photoroom (1).webp"
+            },
+            {
+                "nombre": "Pan Keto (unidad) Adicional",
+                "descripcion": "",
+                "precio": 1700,
+                "img": "/images/productos/opci_n_keto_1759338229231-Photoroom.webp"
+            }
+        ]
+    }
+];
+
+function formatPrice(num) {
+    if (num === null || num === undefined) return "";
+    return new Intl.NumberFormat("es-AR", {
+        style: "currency",
+        currency: "ARS",
+        minimumFractionDigits: 0,
+    }).format(num);
+}
+
+function createElement(type, options = {}) {
+    const el = document.createElement(type);
+    if (options.className) el.className = options.className;
+    if (options.text) el.textContent = options.text;
+    if (options.html) el.innerHTML = options.html;
+    if (options.attrs) {
+        Object.entries(options.attrs).forEach(([k, v]) => el.setAttribute(k, v));
+    }
+    return el;
+}
+
+const STORE_SCHEDULE = {
+    // DO: Cerrado
+    0: null,
+    // LU-VI: 07:00-12:00 y 17:00-21:00
+    1: [{ open: "07:00", close: "12:00" }, { open: "17:00", close: "21:00" }],
+    2: [{ open: "07:00", close: "12:00" }, { open: "17:00", close: "21:00" }],
+    3: [{ open: "07:00", close: "12:00" }, { open: "17:00", close: "21:00" }],
+    4: [{ open: "07:00", close: "12:00" }, { open: "17:00", close: "21:00" }],
+    5: [{ open: "07:00", close: "12:00" }, { open: "17:00", close: "21:00" }],
+    // SA: 09:00-12:00 y 17:00-21:00
+    6: [{ open: "09:00", close: "12:00" }, { open: "17:00", close: "21:00" }],
+};
+
+function isStoreOpen() {
+    const now = new Date(new Date().toLocaleString("en-US", { timeZone: "America/Argentina/Buenos_Aires" }));
+    const dayOfWeek = now.getDay();
+    const currentTime = now.getHours().toString().padStart(2, '0') + ":" + now.getMinutes().toString().padStart(2, '0');
+    const todaysSchedule = STORE_SCHEDULE[dayOfWeek];
+    if (!todaysSchedule) return false;
+    return todaysSchedule.some(slot => currentTime >= slot.open && currentTime < slot.close);
+}
+
+function isExecutiveBreakfastTime() {
+    const now = new Date(new Date().toLocaleString("en-US", { timeZone: "America/Argentina/Buenos_Aires" }));
+    const currentTime = now.getHours() + now.getMinutes() / 60;
+    // Horario: 7:30 a 9:30
+    return currentTime >= 7.5 && currentTime < 9.5;
+}
+
+function renderAllProducts() {
+    const container = document.getElementById("menu-container");
+    // Guardamos los mensajes persistentes
+    const persistentMessages = container.querySelectorAll('.no-results-message, .closed-store-message');
+    // Limpiamos solo los productos, no los mensajes
+    container.innerHTML = '';
+    // Re-insertamos los mensajes al principio
+    persistentMessages.forEach(msg => container.appendChild(msg));
+
+    MENU_DATA.forEach((catData) => {
+        if (catData.categoria.includes("Nuestra Cocina") && catData.productos.length === 0) {
+            const note = createElement("section", { className: "menu-section" });
+            const title = createElement("h2", {
+                html: `<u><strong>${catData.categoria}</strong></u>`,
+            });
+            note.appendChild(title);
+            container.appendChild(note);
+            return;
+        }
+
+        if (catData.productos.length === 0) return;
+
+        const section = createProductSection(catData);
+        container.appendChild(section);
+    });
+}
+
+function createProductSection(catData) {
+    const sectionId = catData.categoria.replace(/\s+/g, "-").replace(/\//g, "-").toLowerCase();
+    const section = createElement("section", {
+        className: "menu-section",
+        attrs: { id: sectionId, "data-category": catData.categoria },
+    });
+    const h2 = createElement("h2", { text: catData.categoria });
+    section.appendChild(h2);
+
+    if (catData.categoria === "Desayuno Ejecutivo") {
+        const note = createElement("p", {
+            className: "category-note",
+            html: '<i class="fas fa-info-circle"></i> Disponible únicamente de <strong>7:30 a 9:30 hs</strong>.'
+        });
+        section.appendChild(note);
+    }
+
+    if (catData.hasSubcategories) {
+        catData.productos.forEach(item => {
+            if (item.subcategoria) {
+                const subheader = createElement("h3", { className: "menu-subcategory", text: item.subcategoria });
+                section.appendChild(subheader);
+            } else if (item.sub_subcategoria) {
+                const subSubheader = createElement("h4", { className: "menu-sub-subcategory", text: item.sub_subcategoria });
+                section.appendChild(subSubheader);
+            } else {
+                const productItem = createProductItem(item, catData.categoria);
+                section.appendChild(productItem);
+            }
+        });
+    } else {
+        catData.productos.forEach((product) => {
+            const item = createProductItem(product, catData.categoria);
+            section.appendChild(item);
+        });
+    }
+
+    return section;
+}
+
+function createAddToCartButton(product, categoryName) {
+    const button = createElement("button", {
+        className: "add-to-cart-btn",
+        html: '<i class="fas fa-plus"></i> Añadir',
+    });
+
+    const isBreakfastCategory = categoryName === "Desayuno Ejecutivo";
+    if (isBreakfastCategory && !isExecutiveBreakfastTime()) {
+        button.disabled = true;
+        button.innerHTML = '<i class="fas fa-clock"></i> Fuera de horario';
+        button.classList.add("disabled-permanent");
+    }
+
+    button.addEventListener("click", (e) => {
+        e.stopPropagation();
+
+        if (!isStoreOpen()) {
+            const originalHTML = button.innerHTML;
+            button.innerHTML = '<i class="fas fa-times"></i> Cerrado';
+            button.classList.add("disabled-temp");
+            setTimeout(() => {
+                button.classList.remove("disabled-temp");
+                button.innerHTML = originalHTML;
+            }, 2000);
+            return;
+        }
+
+        addToCart({ nombre: product.nombre, precio: product.precio, descripcion: product.descripcion, img: product.img, categoria: product.categoria });
+        button.innerHTML = '<i class="fas fa-check"></i> Añadido';
+    });
+    return button;
+}
+
+function createProductItem({ nombre, descripcion, precio, img } = {}, categoryName) {
+    const item = createElement("article", { className: "menu-item" });
+
+    const info = createElement("div", { className: "product-info" });
+    const nameEl = createElement("h3", { className: "product-name", text: nombre });
+    info.appendChild(nameEl);
+    if (descripcion && descripcion.trim() !== "") {
+        const descEl = createElement("p", { className: "product-desc", text: descripcion });
+        info.appendChild(descEl);
+    }
+    if (precio !== null && precio !== undefined) {
+        const priceEl = createElement("div", { className: "product-price", text: formatPrice(precio) });
+        info.appendChild(priceEl);
+    }
+    if (precio !== null && precio !== undefined) {
+        const addButton = createAddToCartButton({ nombre, precio, descripcion, img, categoria: categoryName }, categoryName);
+        info.appendChild(addButton);
+    }
+
+    item.appendChild(info);
+
+    const imgContainer = createElement("div", {
+        className: "product-img-container",
+        attrs: { tabindex: "0", role: "button", "aria-label": `Ver imagen del producto ${nombre}` },
+    });
+
+    if (categoryName === 'Adicionales' && img && (img.toLowerCase().endsWith('.webp') || img.toLowerCase().endsWith('.png'))) {
+        imgContainer.classList.add('is-png');
+    }
+
+    if (img === "/images/productos/default.svg") {
+        imgContainer.classList.add("nozoom");
+    }
+
+    const imgEl = createElement("img", {
+        className: "product-img",
+        attrs: {
+            src: img,
+            alt:
+                img === "/images/productos/default.svg"
+                    ? "default"
+                    : `foto`,
+            loading: "lazy",
+            decoding: "async",
+            width: "130",
+            height: "110",
+            draggable: "false",
+        },
+    });
+    imgContainer.appendChild(imgEl);
+    item.appendChild(imgContainer);
+
+    if (img !== "/images/productos/default.svg") {
+        imgContainer.addEventListener("click", () => openLightbox(img, nombre, categoryName));
+        imgContainer.addEventListener("keydown", (e) => {
+            if (e.key === "Enter" || e.key === " ") {
+                e.preventDefault();
+                openLightbox(img, nombre, categoryName);
+            }
+        });
+    }
+
+    return item;
+}
+
+function normalizeText(text) {
+    if (!text) return "";
+    return text
+        .toLowerCase()
+        .normalize("NFD")
+        .replace(/[\u0300-\u036f]/g, "");
+}
+
+function filterProducts() {
+    const searchTerm = normalizeText(document.getElementById("search-input").value);
+    const noResultsMessage = document.getElementById("no-results-message");
+
+    if (searchTerm.length === 0) {
+        showAllProductsAndCategories();
+        noResultsMessage.classList.add("hidden");
+        return;
+    }
+
+    const sections = document.querySelectorAll(".menu-section");
+    let anyProductVisible = false;
+
+    sections.forEach((section) => {
+        const children = Array.from(section.children);
+        let sectionHasVisibleItems = false;
+
+        children.forEach((child) => {
+            if (child.classList.contains("menu-item")) {
+                const nameEl = child.querySelector(".product-name");
+                if (!nameEl) return;
+
+                const name = normalizeText(nameEl.textContent);
+                const desc = normalizeText(child.querySelector(".product-desc")?.textContent || "");
+                const isVisible = name.includes(searchTerm) || desc.includes(searchTerm);
+                child.style.display = isVisible ? "" : "none";
+                if (isVisible) {
+                    sectionHasVisibleItems = true;
+                    anyProductVisible = true;
+                }
+            }
+        });
+
+        children.forEach((child) => {
+            if (child.classList.contains("menu-subcategory") || child.classList.contains("menu-sub-subcategory")) {
+                let nextSibling = child.nextElementSibling;
+                let hasVisibleItemsFollowing = false;
+                while (nextSibling && !nextSibling.classList.contains("menu-subcategory") && !nextSibling.classList.contains("menu-sub-subcategory")) {
+                    if (nextSibling.classList.contains("menu-item") && nextSibling.style.display !== 'none') {
+                        hasVisibleItemsFollowing = true;
+                        break;
+                    }
+                    nextSibling = nextSibling.nextElementSibling;
+                }
+                child.style.display = hasVisibleItemsFollowing ? "" : "none";
+            }
+        });
+
+        section.style.display = sectionHasVisibleItems ? "" : "none";
+    });
+
+    noResultsMessage.classList.toggle("hidden", anyProductVisible);
+}
+
+
+let lastScrollY = window.scrollY;
+
+function handleScroll() {
+    const stickyControls = document.getElementById("sticky-controls");
+    const categoryBar = stickyControls.querySelector(".category-bar");
+    const currentScrollY = window.scrollY;
+
+    if (window.innerWidth <= 768) {
+        if (currentScrollY > lastScrollY && currentScrollY > stickyControls.offsetTop + 50) {
+            categoryBar.classList.add("hidden-on-scroll");
+        } else {
+            categoryBar.classList.remove("hidden-on-scroll");
+        }
+    }
+    lastScrollY = currentScrollY <= 0 ? 0 : currentScrollY;
+}
+
+function createScrollspy() {
+    const sections = document.querySelectorAll(".menu-section");
+    const observer = new IntersectionObserver(
+        (entries) => {
+            entries.forEach((entry) => {
+                if (entry.isIntersecting) {
+                    const categoryName = entry.target.dataset.category;
+                    updateActiveCategory(categoryName);
+                }
+            });
+        },
+        { rootMargin: "-40% 0px -60% 0px" }
+    );
+
+    sections.forEach((section) => {
+        if (section.dataset.category) {
+            observer.observe(section);
+        }
+    });
+}
+
+function updateActiveCategory(categoryName) {
+    categoryButtons.forEach((btn) => {
+        const btnCategoryName = btn.dataset.categoryName;
+        if (btnCategoryName === categoryName) {
+            btn.classList.add("category-active");
+            btn.setAttribute("aria-pressed", "true");
+            btn.scrollIntoView({ behavior: "smooth", inline: "center", block: "nearest" });
+        } else {
+            btn.classList.remove("category-active");
+            btn.setAttribute("aria-pressed", "false");
+        }
+    });
+}
+
+const lightbox = document.getElementById("lightbox");
+const lightboxImg = document.getElementById("lightbox-img");
+const lightboxClose = document.getElementById("lightbox-close");
+
+function openLightbox(src, nombre, categoryName) {
+    lightboxImg.src = src;
+    lightboxImg.alt = `Imagen ampliada del producto ${nombre} con bordes redondeados`;
+    lightbox.classList.add("is-visible");
+    if (categoryName === 'Adicionales' && src && (src.toLowerCase().endsWith('.webp') || src.toLowerCase().endsWith('.png'))) {
+        lightbox.classList.add('is-png-lightbox');
+    } else {
+        lightbox.classList.remove('is-png-lightbox');
+    }
+    document.body.style.overflow = "hidden";
+    lightboxClose.focus();
+}
+
+function closeLightbox() {
+    lightbox.classList.remove("is-visible");
+    lightboxImg.src = "";
+    document.body.style.overflow = "";
+    document.activeElement.blur();
+}
+
+function getCart() {
+    return JSON.parse(localStorage.getItem("italiaCafeCart")) || [];
+}
+
+function saveCart(cart) {
+    localStorage.setItem("italiaCafeCart", JSON.stringify(cart));
+    updateCartUI();
+}
+
+function addToCart(product) {
+    const cart = getCart();
+    cart.push(product);
+    saveCart(cart);
+}
+
+function updateCartUI() {
+    const cart = getCart();
+    const cartBar = document.getElementById("cart-bar");
+    const cartItemCountText = document.getElementById("cart-item-count-text");
+
+    if (!cartBar || !cartItemCountText) return;
+
+    if (cart.length > 0) {
+        cartItemCountText.textContent = `Ver Carrito (${cart.length})`;
+        cartBar.classList.remove("hidden");
+    } else {
+        cartBar.classList.add("hidden");
+    }
+}
+
+lightboxClose.addEventListener("click", closeLightbox);
+lightbox.addEventListener("click", (e) => {
+    if (e.target === lightbox) closeLightbox();
+});
+document.addEventListener("keydown", (e) => {
+    if (e.key === "Escape" && lightbox.classList.contains("is-visible")) {
+        closeLightbox();
+    }
+});
+
+const categoryButtons = document.querySelectorAll(".category-bar .category");
+categoryButtons.forEach((btn) => {
+    btn.addEventListener("click", () => {
+        const categoryName = btn.dataset.categoryName;
+        if (!categoryName) return;
+
+        const sectionId = categoryName.replace(/\s+/g, "-").replace(/\//g, "-").toLowerCase();
+        const sectionElement = document.getElementById(sectionId);
+        if (sectionElement) {
+            window.removeEventListener("scroll", handleScroll, { passive: true });
+            // Limpiamos la búsqueda para que no interfiera con el filtro de categoría
+            document.getElementById("search-input").value = "";
+            lenis.scrollTo(sectionElement, { offset: -150 });
+            showAllProductsAndCategories(); // Mostramos todo antes de que el scrollspy actualice
+            updateActiveCategory(categoryName);
+            setTimeout(() => window.addEventListener("scroll", handleScroll, { passive: true }), 1000);
+        }
+    });
+});
+
+let lenis;
+
+function showAllProductsAndCategories() {
+    const sections = document.querySelectorAll(".menu-section");
+    sections.forEach(section => {
+        section.style.display = "";
+        const items = section.querySelectorAll(".menu-item, .menu-subcategory, .menu-sub-subcategory");
+        items.forEach(item => {
+            item.style.display = "";
+        });
+    });
+    document.getElementById("no-results-message").classList.add("hidden");
+}
+
+
+document.addEventListener("DOMContentLoaded", () => {
+    renderAllProducts();
+    updateCartUI();
+    createScrollspy();
+
+    if (!isStoreOpen()) {
+        const closedMessage = document.getElementById("closed-store-message");
+        if (closedMessage) closedMessage.classList.remove("hidden");
+    }
+
+    const searchInput = document.getElementById("search-input");
+    searchInput.addEventListener("input", () => {
+        // Si el input está vacío, mostramos todo. Si no, filtramos.
+        const searchTerm = searchInput.value.trim();
+        filterProducts();
+    });
+    window.addEventListener("scroll", handleScroll, { passive: true });
+
+    lenis = new Lenis({
+        duration: 1.2,
+        easing: (t) => Math.min(1, 1.001 - Math.pow(2, -10 * t)),
+    });
+
+    function raf(time) {
+        lenis.raf(time);
+        requestAnimationFrame(raf);
+    }
+    requestAnimationFrame(raf);
+
+    const moreInfoToggle = document.getElementById("more-info-toggle");
+    const moreInfoPanel = document.getElementById("more-info-panel");
+    const mobileOverlay = document.getElementById("mobile-info-overlay");
+    const closeMoreInfoBtn = document.getElementById("close-more-info");
+
+    function openMobileInfo() {
+        moreInfoToggle.setAttribute("aria-expanded", "true");
+        moreInfoPanel.classList.add("is-open");
+        mobileOverlay.classList.add("is-active");
+        document.body.style.overflow = "hidden";
+    }
+
+    function closeMobileInfo() {
+        moreInfoToggle.setAttribute("aria-expanded", "false");
+        moreInfoPanel.classList.remove("is-open");
+        mobileOverlay.classList.remove("is-active");
+        document.body.style.overflow = "";
+    }
+
+    if (moreInfoToggle && moreInfoPanel && mobileOverlay && closeMoreInfoBtn) {
+        moreInfoToggle.addEventListener("click", (e) => {
+            e.stopPropagation();
+            const isExpanded = moreInfoPanel.classList.contains("is-open");
+            isExpanded ? closeMobileInfo() : openMobileInfo();
+        });
+        mobileOverlay.addEventListener("click", closeMobileInfo);
+        closeMoreInfoBtn.addEventListener("click", closeMobileInfo);
+    }
+
+    const mobileHoursToggle = document.getElementById("mobile-hours-toggle");
+    const mobileHoursPanel = document.getElementById("mobile-hours-panel");
+    const closeMobileHoursBtn = document.getElementById("close-mobile-hours");
+
+    function openMobileHours() {
+        mobileHoursPanel.classList.add("is-open");
+        mobileHoursToggle.setAttribute("aria-expanded", "true");
+    }
+
+    function closeMobileHours() {
+        mobileHoursPanel.classList.remove("is-open");
+        mobileHoursToggle.setAttribute("aria-expanded", "false");
+    }
+
+    if (mobileHoursToggle && mobileHoursPanel && closeMobileHoursBtn) {
+        mobileHoursToggle.addEventListener("click", (e) => {
+            e.stopPropagation();
+            openMobileHours();
+        });
+        closeMobileHoursBtn.addEventListener("click", closeMobileHours);
+        mobileOverlay.addEventListener("click", closeMobileHours);
+    }
+
+    const desktopHoursToggle = document.getElementById("desktop-hours-toggle");
+    const desktopHoursPanel = document.getElementById("desktop-hours-panel");
+    const closeDesktopHoursBtn = document.getElementById("close-desktop-hours");
+
+    if (desktopHoursToggle && desktopHoursPanel && closeDesktopHoursBtn) {
+        desktopHoursToggle.addEventListener("click", (e) => {
+            e.stopPropagation();
+            const isOpen = desktopHoursPanel.classList.toggle("is-open");
+            desktopHoursToggle.setAttribute("aria-expanded", isOpen);
+        });
+        closeDesktopHoursBtn.addEventListener("click", () => {
+            desktopHoursPanel.classList.remove("is-open");
+            desktopHoursToggle.setAttribute("aria-expanded", "false");
+        });
+        document.addEventListener("click", (e) => {
+            if (desktopHoursPanel.classList.contains("is-open") && !desktopHoursPanel.contains(e.target) && !desktopHoursToggle.contains(e.target)) {
+                desktopHoursPanel.classList.remove("is-open");
+                desktopHoursToggle.setAttribute("aria-expanded", "false");
+            }
+        });
+    }
+
+    function checkOpenStatus() {
+        const isOpen = isStoreOpen();
+        const statusIndicator = document.getElementById("open-status-indicator");
+        const mobileStatusIndicator = document.getElementById("mobile-open-status-indicator");
+        const setStatus = (indicator, isOpen) => {
+            if (!indicator) return;
+            indicator.textContent = isOpen ? "Abierto" : "Cerrado";
+            indicator.className = `open-status ${isOpen ? "is-open" : "is-closed"}`;
+        };
+        setStatus(statusIndicator, isOpen);
+        setStatus(mobileStatusIndicator, isOpen);
+    }
+    checkOpenStatus();
+    setInterval(checkOpenStatus, 60000);
+
+    const scrollUpBtn = document.getElementById("scroll-up");
+    function toggleScrollUpButton() {
+        scrollUpBtn.classList.toggle("show-scroll", window.scrollY >= 350);
+    }
+    window.addEventListener("scroll", toggleScrollUpButton);
+    scrollUpBtn.addEventListener("click", (e) => {
+        e.preventDefault();
+        lenis.scrollTo(0);
+    });
+});

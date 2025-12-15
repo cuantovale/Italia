@@ -794,13 +794,13 @@ const MENU_DATA = [
         "nombre": "Cerveza regular 330ml",
         "descripcion": "",
         "precio": 3800,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/imperial.webp"
       },
       {
         "nombre": "Cerveza regular 710ml",
         "descripcion": "",
         "precio": 6800,
-        "img": "/images/productos/default.svg"
+        "img": "/images/productos/corona.webp"
       },
       {
         "nombre": "Cerveza premium 330ml",
