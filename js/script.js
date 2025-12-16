@@ -595,10 +595,16 @@ const MENU_DATA = [
                 "img": "/images/productos/Generated Image October 02, 2025 - 3_23PM.webp"
             },
             {
-                "nombre": "Waffles",
-                "descripcion": "Waffles con 2 bochas de helado, crema chantilly y salsa a elección (2 Unidades)",
+                "nombre": "Waffles con helado",
+                "descripcion": "Waffles con 2 bochas de helado, crema chantilly y salsa a elección (2 Unidades)",
                 "precio": 6700,
                 "img": "/images/productos/Generated Image October 01, 2025 - 11_54PM.webp"
+            },
+            {
+                "nombre": "Waffles con frutas",
+                "descripcion": "(2 Unidades)",
+                "precio": 6700,
+                "img": "/images/productos/wafflefruta.webp"
             },
             {
                 "nombre": "Ensalada de frutas",
