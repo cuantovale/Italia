@@ -1,1 +1,71 @@
-function _0x5c1e(_0x1ca450,_0x532bd5){const _0x9a586c=_0x9a58();return _0x5c1e=function(_0x5c1e0c,_0x459b9b){_0x5c1e0c=_0x5c1e0c-0x112;let _0x5435e9=_0x9a586c[_0x5c1e0c];return _0x5435e9;},_0x5c1e(_0x1ca450,_0x532bd5);}function _0x9a58(){const _0x1aae93=['73999DPOYLX','21988bUlLrE','random','beginPath','138BAnyRZ','fillStyle','786pFBuYa','directionY','width','innerWidth','3520013VnqQQC','arc','height','getContext','8VqOlQE','length','resize','DOMContentLoaded','rgba(48,\x2077,\x2058,\x200.5)','update','1937304rPuacp','size','color','849980sOUTmF','innerHeight','particle-canvas','8906380djhPOd','addEventListener','draw','1565xffuVM','getElementById','directionX','push','fill'];_0x9a58=function(){return _0x1aae93;};return _0x9a58();}const _0x30114e=_0x5c1e;(function(_0x2e2820,_0x19d6b0){const _0x541322=_0x5c1e,_0x420fc8=_0x2e2820();while(!![]){try{const _0x4236ee=-parseInt(_0x541322(0x113))/0x1+parseInt(_0x541322(0x114))/0x2*(-parseInt(_0x541322(0x117))/0x3)+-parseInt(_0x541322(0x12a))/0x4+-parseInt(_0x541322(0x130))/0x5*(parseInt(_0x541322(0x119))/0x6)+-parseInt(_0x541322(0x11d))/0x7*(-parseInt(_0x541322(0x121))/0x8)+-parseInt(_0x541322(0x127))/0x9+parseInt(_0x541322(0x12d))/0xa;if(_0x4236ee===_0x19d6b0)break;else _0x420fc8['push'](_0x420fc8['shift']());}catch(_0x1ee64e){_0x420fc8['push'](_0x420fc8['shift']());}}}(_0x9a58,0x543bc),document[_0x30114e(0x12e)](_0x30114e(0x124),()=>{const _0x5e03b0=_0x30114e,_0x48ff15=document[_0x5e03b0(0x131)](_0x5e03b0(0x12c)),_0x717354=_0x48ff15[_0x5e03b0(0x120)]('2d');_0x48ff15['width']=window[_0x5e03b0(0x11c)],_0x48ff15[_0x5e03b0(0x11f)]=window[_0x5e03b0(0x12b)];let _0x25f4be;class _0x559a68{constructor(_0x5a0562,_0x37dc48,_0x284c83,_0x731b65,_0x13a592,_0x945ba6){const _0x2eb0ed=_0x5e03b0;this['x']=_0x5a0562,this['y']=_0x37dc48,this[_0x2eb0ed(0x132)]=_0x284c83,this[_0x2eb0ed(0x11a)]=_0x731b65,this['size']=_0x13a592,this[_0x2eb0ed(0x129)]=_0x945ba6;}[_0x5e03b0(0x12f)](){const _0x53c2ea=_0x5e03b0;_0x717354[_0x53c2ea(0x116)](),_0x717354[_0x53c2ea(0x11e)](this['x'],this['y'],this[_0x53c2ea(0x128)],0x0,Math['PI']*0x2,![]),_0x717354[_0x53c2ea(0x118)]=this['color'],_0x717354[_0x53c2ea(0x112)]();}['update'](){const _0x1b6685=_0x5e03b0;(this['x']>_0x48ff15[_0x1b6685(0x11b)]||this['x']<0x0)&&(this['directionX']=-this[_0x1b6685(0x132)]),(this['y']>_0x48ff15[_0x1b6685(0x11f)]||this['y']<0x0)&&(this['directionY']=-this[_0x1b6685(0x11a)]),this['x']+=this['directionX'],this['y']+=this[_0x1b6685(0x11a)],this['draw']();}}function _0x5533a0(){const _0x828c8c=_0x5e03b0;_0x25f4be=[];const _0x1f1528=_0x48ff15['height']*_0x48ff15[_0x828c8c(0x11b)]/0x2328;for(let _0x3b1ca5=0x0;_0x3b1ca5<_0x1f1528;_0x3b1ca5++){const _0x5ca005=Math[_0x828c8c(0x115)]()*0x3+0x1,_0x2e6cac=Math[_0x828c8c(0x115)]()*(innerWidth-_0x5ca005*0x2-_0x5ca005*0x2)+_0x5ca005*0x2,_0x5ba7b0=Math[_0x828c8c(0x115)]()*(innerHeight-_0x5ca005*0x2-_0x5ca005*0x2)+_0x5ca005*0x2,_0x1b45a7=Math[_0x828c8c(0x115)]()*0.4-0.2,_0x2d1e35=Math[_0x828c8c(0x115)]()*0.4-0.2,_0x5ce92f=_0x828c8c(0x125);_0x25f4be[_0x828c8c(0x133)](new _0x559a68(_0x2e6cac,_0x5ba7b0,_0x1b45a7,_0x2d1e35,_0x5ca005,_0x5ce92f));}}function _0x1989c5(){const _0x378dda=_0x5e03b0;requestAnimationFrame(_0x1989c5),_0x717354['clearRect'](0x0,0x0,innerWidth,innerHeight);for(let _0x450ff3=0x0;_0x450ff3<_0x25f4be[_0x378dda(0x122)];_0x450ff3++){_0x25f4be[_0x450ff3][_0x378dda(0x126)]();}}_0x5533a0(),_0x1989c5(),window[_0x5e03b0(0x12e)](_0x5e03b0(0x123),()=>{const _0x535211=_0x5e03b0;_0x48ff15['width']=innerWidth,_0x48ff15[_0x535211(0x11f)]=innerHeight,_0x5533a0();});}));
+document.addEventListener('DOMContentLoaded', () => {
+    const canvas = document.getElementById('particle-canvas');
+    const ctx = canvas.getContext('2d');
+
+    canvas.width = window.innerWidth;
+    canvas.height = window.innerHeight;
+
+    let particlesArray;
+
+    // Particle class
+    class Particle {
+        constructor(x, y, directionX, directionY, size, color) {
+            this.x = x;
+            this.y = y;
+            this.directionX = directionX;
+            this.directionY = directionY;
+            this.size = size;
+            this.color = color;
+        }
+
+        draw() {
+            ctx.beginPath();
+            ctx.arc(this.x, this.y, this.size, 0, Math.PI * 2, false);
+            ctx.fillStyle = this.color;
+            ctx.fill();
+        }
+
+        update() {
+            if (this.x > canvas.width || this.x < 0) {
+                this.directionX = -this.directionX;
+            }
+            if (this.y > canvas.height || this.y < 0) {
+                this.directionY = -this.directionY;
+            }
+            this.x += this.directionX;
+            this.y += this.directionY;
+            this.draw();
+        }
+    }
+
+    function init() {
+        particlesArray = [];
+        const numberOfParticles = (canvas.height * canvas.width) / 9000;
+        for (let i = 0; i < numberOfParticles; i++) {
+            const size = (Math.random() * 3) + 1;
+            const x = (Math.random() * ((innerWidth - size * 2) - (size * 2)) + size * 2);
+            const y = (Math.random() * ((innerHeight - size * 2) - (size * 2)) + size * 2);
+            const directionX = (Math.random() * .4) - .2;
+            const directionY = (Math.random() * .4) - .2;
+            const color = 'rgba(48, 77, 58, 0.5)';
+            particlesArray.push(new Particle(x, y, directionX, directionY, size, color));
+        }
+    }
+
+    function animate() {
+        requestAnimationFrame(animate);
+        ctx.clearRect(0, 0, innerWidth, innerHeight);
+        for (let i = 0; i < particlesArray.length; i++) {
+            particlesArray[i].update();
+        }
+    }
+
+    init();
+    animate();
+
+    window.addEventListener('resize', () => {
+        canvas.width = innerWidth;
+        canvas.height = innerHeight;
+        init();
+    });
+});

@@ -1,1 +1,329 @@
-function _0x43d4(){const _0x3de8d9=['descripcion','es-AR','href','5493624688355','.delivery-options-container','name','\x22>&times;</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20','cart-item','reload','Envío\x20(No\x20disp.)','100%','img','index.html','¡Gracias\x20por\x20tu\x20pedido!\x20Serás\x20redirigido\x20a\x20WhatsApp\x20para\x20enviarlo.','format','classList','.decrease-btn','en-US','pickup','<p\x20class=\x22cart-item-desc\x22>','*Tipo\x20de\x20entrega:*\x20','Desayuno\x20Ejecutivo','delivery-notice-container','forEach','getMinutes','delivery','empty-cart-message','active','El\x20local\x20se\x20encuentra\x20cerrado\x20en\x20este\x20momento.\x20No\x20se\x20puede\x20enviar\x20el\x20pedido.','ARS','*Aclaraciones\x20de\x20retiro:*\x20','\x22>-</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22item-quantity\x22>','nombre','open','.increase-btn','382707TEPnNN','querySelectorAll','submit','textContent','toggle','addEventListener','prepend','¡Hola!\x20Quisiera\x20hacer\x20un\x20pedido:\x0a\x0a','\x22\x20alt=\x22','toLocaleString','6rXBhim','*Dirección:*\x20','.delivery-option-btn[data-value=\x22pickup\x22]','className','?text=','2BTzsOy','\x0a*Total:*\x20','<i\x20class=\x22fas\x20fa-times-circle\x22></i>\x20Los\x20envíos\x20no\x20están\x20disponibles\x20en\x20este\x20momento.','updateCartUI','\x0a\x20\x20\x20\x20\x20\x20\x20\x20<img\x20src=\x22','\x22\x20class=\x22cart-item-img\x22\x20loading=\x22lazy\x22\x20draggable=\x22false\x22\x20oncontextmenu=\x22return\x20false;\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22cart-item-details\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22item-name\x22>','Envío\x20a\x20domicilio','17:00','40EleLTs','quantity','value','getDay','delivery-time-notice','1029625ntDMeG','pickup-details','reduce','dataset','findIndex','09:00','995652QMjuAM','<i\x20class=\x22fas\x20fa-info-circle\x22></i>\x20Envío\x20gratis\x20de\x207:30\x20a\x209:30\x20hs.\x20Fuera\x20de\x20dicho\x20horario,\x20se\x20aplicará\x20costo\x20de\x20envío.','616662ytjXqr','some','padStart','address-details','</p>','close','target','preventDefault','DOMContentLoaded','address','click','add','div','hidden','italiaCafeCart','removeItem','Total:\x20','parse','disabled','.delivery-option-btn[data-value=\x22delivery\x22]','remove','closed-store-overlay','translateX(','pickup-fields','find','Tu\x20carrito\x20está\x20vacío.','querySelector','getHours','filter','Envío','precio','currency','appendChild','12:00','13575600OgPqfm','length','checkout-form','customer-name','innerHTML','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20','4HRnPCP','cart-total','\x0a*Pedido:*\x0a','6236065RIXtbt','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22quantity-btn\x20increase-btn\x22\x20data-name=\x22','21:00','\x22>+</button>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<span\x20class=\x22item-price\x22>','1417179DHQTcX','cart-items-container','getElementById','07:00','America/Argentina/Buenos_Aires','toString','</span>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22remove-item-btn\x22\x20data-name=\x22','_blank','16hxuZBW'];_0x43d4=function(){return _0x3de8d9;};return _0x43d4();}const _0x1ccb2b=_0x3631;function _0x3631(_0x198988,_0x26d553){const _0x43d40d=_0x43d4();return _0x3631=function(_0x3631d3,_0x3b8b5f){_0x3631d3=_0x3631d3-0xb7;let _0xd4954=_0x43d40d[_0x3631d3];return _0xd4954;},_0x3631(_0x198988,_0x26d553);}(function(_0x22a0f0,_0xe59c49){const _0x5afc3a=_0x3631,_0x163fe7=_0x22a0f0();while(!![]){try{const _0x30f0aa=-parseInt(_0x5afc3a(0xc8))/0x1*(parseInt(_0x5afc3a(0xd7))/0x2)+parseInt(_0x5afc3a(0x11b))/0x3*(-parseInt(_0x5afc3a(0x114))/0x4)+-parseInt(_0x5afc3a(0xe4))/0x5*(-parseInt(_0x5afc3a(0xd2))/0x6)+-parseInt(_0x5afc3a(0xea))/0x7*(-parseInt(_0x5afc3a(0x123))/0x8)+-parseInt(_0x5afc3a(0xec))/0x9*(-parseInt(_0x5afc3a(0xdf))/0xa)+-parseInt(_0x5afc3a(0x117))/0xb+parseInt(_0x5afc3a(0x10e))/0xc;if(_0x30f0aa===_0xe59c49)break;else _0x163fe7['push'](_0x163fe7['shift']());}catch(_0x3e9c6e){_0x163fe7['push'](_0x163fe7['shift']());}}}(_0x43d4,0x73a9a),document['addEventListener'](_0x1ccb2b(0xf4),()=>{const _0x4e3fa4=_0x1ccb2b,_0xf5fb00=document[_0x4e3fa4(0x11d)](_0x4e3fa4(0x11c)),_0x41fc96=document[_0x4e3fa4(0x11d)](_0x4e3fa4(0x115)),_0x41dd93=document[_0x4e3fa4(0x11d)](_0x4e3fa4(0x110)),_0x349535=document[_0x4e3fa4(0x11d)]('address-fields'),_0x31e5c5=document[_0x4e3fa4(0x11d)](_0x4e3fa4(0x103)),_0x3dd038=document[_0x4e3fa4(0x11d)](_0x4e3fa4(0xbf)),_0x3c4fb0=document[_0x4e3fa4(0x11d)]('cart-summary'),_0x4906ad=document[_0x4e3fa4(0x11d)](_0x4e3fa4(0xe3)),_0x6d75da=document['querySelector'](_0x4e3fa4(0x128)),_0x268fe7=document['getElementById'](_0x4e3fa4(0x101)),_0x211c6e=document[_0x4e3fa4(0x106)]('.delivery-slider'),_0x23bb66=document['getElementById'](_0x4e3fa4(0xbb)),_0x158dbc=document[_0x4e3fa4(0xc9)]('.delivery-option-btn'),_0x1f378a={0x0:null,0x1:[{'open':_0x4e3fa4(0x11e),'close':_0x4e3fa4(0x10d)},{'open':'17:00','close':_0x4e3fa4(0x119)}],0x2:[{'open':'07:00','close':_0x4e3fa4(0x10d)},{'open':'17:00','close':'21:00'}],0x3:[{'open':_0x4e3fa4(0x11e),'close':_0x4e3fa4(0x10d)},{'open':_0x4e3fa4(0xde),'close':_0x4e3fa4(0x119)}],0x4:[{'open':_0x4e3fa4(0x11e),'close':_0x4e3fa4(0x10d)},{'open':'17:00','close':_0x4e3fa4(0x119)}],0x5:[{'open':'07:00','close':_0x4e3fa4(0x10d)},{'open':_0x4e3fa4(0xde),'close':_0x4e3fa4(0x119)}],0x6:[{'open':_0x4e3fa4(0xe9),'close':_0x4e3fa4(0x10d)},{'open':_0x4e3fa4(0xde),'close':'21:00'}]};function _0x2ff818(){const _0x4190fb=_0x4e3fa4,_0x36f8f5=new Date(new Date()[_0x4190fb(0xd1)](_0x4190fb(0x135),{'timeZone':'America/Argentina/Buenos_Aires'})),_0x3e91de=_0x36f8f5[_0x4190fb(0xe2)](),_0x523a32=_0x36f8f5['getHours']()['toString']()['padStart'](0x2,'0')+':'+_0x36f8f5[_0x4190fb(0xbd)]()[_0x4190fb(0x120)]()[_0x4190fb(0xee)](0x2,'0'),_0x398487=_0x1f378a[_0x3e91de];if(!_0x398487)return![];return _0x398487[_0x4190fb(0xed)](_0x48d6b6=>_0x523a32>=_0x48d6b6['open']&&_0x523a32<_0x48d6b6['close']);}function _0x49b234(_0x17d805){const _0x423a8d=_0x4e3fa4;if(_0x17d805===null||_0x17d805===undefined)return'';return new Intl['NumberFormat'](_0x423a8d(0x125),{'style':_0x423a8d(0x10b),'currency':_0x423a8d(0xc2),'minimumFractionDigits':0x0})[_0x423a8d(0x132)](_0x17d805);}function _0x30aca8(){const _0x5a667b=_0x4e3fa4;return JSON[_0x5a667b(0xfd)](localStorage['getItem'](_0x5a667b(0xfa)))||[];}function _0xdd1d65(_0x26c92a){const _0x4b49e3=_0x4e3fa4;localStorage['setItem'](_0x4b49e3(0xfa),JSON['stringify'](_0x26c92a)),_0x120a89(),window['updateCartUI']&&window[_0x4b49e3(0xda)]();}function _0x388e45(_0x2ec27e){const _0x1ed503=_0x30aca8();_0x1ed503['push'](_0x2ec27e),_0xdd1d65(_0x1ed503);}function _0x3ee30d(_0x3a8eb5){const _0x45e655=_0x4e3fa4,_0x17dddb=_0x30aca8(),_0x409318=_0x17dddb[_0x45e655(0xe8)](_0x4d3028=>_0x4d3028['nombre']===_0x3a8eb5);_0x409318>-0x1&&(_0x17dddb['splice'](_0x409318,0x1),_0xdd1d65(_0x17dddb));}function _0x431f35(_0x3b83a1){const _0x404437=_0x4e3fa4;let _0x3a266b=_0x30aca8();_0x3a266b=_0x3a266b[_0x404437(0x108)](_0x2d6f5f=>_0x2d6f5f[_0x404437(0xc5)]!==_0x3b83a1),_0xdd1d65(_0x3a266b);}function _0x5307a6(){const _0x5779b5=_0x4e3fa4,_0x10aa24=document[_0x5779b5(0x106)]('.delivery-option-btn[data-value=\x22delivery\x22]');if(!_0x10aa24)return;const _0x2fad1b={0x0:null,0x1:[{'open':0x7,'close':12.5},{'open':0x11,'close':0x15}],0x6:[{'open':9.25,'close':12.5},{'open':0x11,'close':0x15}]},_0x304d68=new Date(new Date()[_0x5779b5(0xd1)](_0x5779b5(0x135),{'timeZone':_0x5779b5(0x11f)})),_0x1b3c98=_0x304d68['getDay'](),_0x2b8ec9=_0x304d68[_0x5779b5(0x107)](),_0x47cb63=_0x304d68['getMinutes'](),_0x5517a3=_0x2b8ec9+_0x47cb63/0x3c,_0x149191=_0x2fad1b[_0x1b3c98]||_0x2fad1b[0x1];let _0x2c184d=![];if(_0x149191)for(const _0x4d51c2 of _0x149191){if(_0x5517a3>=_0x4d51c2['open']&&_0x5517a3<_0x4d51c2[_0x5779b5(0xf1)]){_0x2c184d=!![];break;}}const _0x5a55a7=_0x5517a3>=7.5&&_0x5517a3<9.5;_0x2c184d?(_0x10aa24[_0x5779b5(0xfe)]=![],_0x10aa24[_0x5779b5(0xcb)]=_0x5779b5(0x109),_0x4906ad[_0x5779b5(0x112)]=_0x5a55a7?'<i\x20class=\x22fas\x20fa-check-circle\x22\x20style=\x22color:\x20var(--color-price);\x22></i>\x20Envío\x20gratis\x20disponible\x20ahora\x20(de\x207:30\x20a\x209:30\x20hs).':_0x5779b5(0xeb)):(_0x10aa24[_0x5779b5(0xfe)]=!![],_0x10aa24['textContent']=_0x5779b5(0x12d),_0x4906ad[_0x5779b5(0x112)]=_0x5779b5(0xd9));}function _0x1e297c(){const _0xf48fd4=_0x4e3fa4,_0x4b64a6=_0x30aca8(),_0x451e9b=_0x4b64a6['some'](_0xd77363=>_0xd77363['categoria']===_0xf48fd4(0xba));if(_0x451e9b){const _0x41f544=document[_0xf48fd4(0x106)](_0xf48fd4(0xd4)),_0x474090=document[_0xf48fd4(0x106)](_0xf48fd4(0xff));if(_0x41f544)_0x41f544[_0xf48fd4(0xfe)]=!![];_0x474090&&(_0x474090['click'](),_0x474090[_0xf48fd4(0x133)]['add'](_0xf48fd4(0xc0)),_0x41f544[_0xf48fd4(0x133)][_0xf48fd4(0x100)]('active'));if(_0x23bb66){const _0x4c7770=document['createElement'](_0xf48fd4(0xf8));_0x4c7770[_0xf48fd4(0xd5)]='delivery-notice\x20executive-breakfast-notice',_0x4c7770[_0xf48fd4(0x112)]='<i\x20class=\x22fas\x20fa-info-circle\x22></i>\x20El\x20Desayuno\x20Ejecutivo\x20solo\x20está\x20disponible\x20para\x20envío\x20a\x20domicilio.',_0x23bb66[_0xf48fd4(0xce)](_0x4c7770);}}}function _0x120a89(){const _0x3e05e4=_0x4e3fa4,_0x1742cd=_0x30aca8();_0xf5fb00['innerHTML']='';if(_0x1742cd['length']===0x0){_0x3dd038[_0x3e05e4(0x133)][_0x3e05e4(0x100)](_0x3e05e4(0xf9)),_0x3c4fb0['classList'][_0x3e05e4(0xf7)](_0x3e05e4(0xf9));return;}_0x3dd038[_0x3e05e4(0x133)][_0x3e05e4(0xf7)](_0x3e05e4(0xf9)),_0x3c4fb0[_0x3e05e4(0x133)][_0x3e05e4(0x100)](_0x3e05e4(0xf9));const _0x377b17=_0x1742cd[_0x3e05e4(0xe6)]((_0x4f47ee,_0x1c91bc)=>{const _0x19fc59=_0x3e05e4;return!_0x4f47ee[_0x1c91bc[_0x19fc59(0xc5)]]&&(_0x4f47ee[_0x1c91bc[_0x19fc59(0xc5)]]={..._0x1c91bc,'quantity':0x0}),_0x4f47ee[_0x1c91bc[_0x19fc59(0xc5)]]['quantity']++,_0x4f47ee;},{});let _0x73d9c9=0x0;Object['values'](_0x377b17)[_0x3e05e4(0xbc)](_0x19f75f=>{const _0x5e4b7c=_0x3e05e4,_0x5d4c2a=document['createElement'](_0x5e4b7c(0xf8));_0x5d4c2a['className']=_0x5e4b7c(0x12b),_0x5d4c2a['innerHTML']=_0x5e4b7c(0xdb)+_0x19f75f[_0x5e4b7c(0x12f)]+_0x5e4b7c(0xd0)+_0x19f75f['nombre']+_0x5e4b7c(0xdc)+_0x19f75f[_0x5e4b7c(0xc5)]+_0x5e4b7c(0x113)+(_0x19f75f[_0x5e4b7c(0x124)]?_0x5e4b7c(0xb8)+_0x19f75f['descripcion']+_0x5e4b7c(0xf0):'')+'\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20</div>\x0a\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22cart-item-actions\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<div\x20class=\x22item-quantity-controls\x22>\x0a\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20\x20<button\x20class=\x22quantity-btn\x20decrease-btn\x22\x20data-name=\x22'+_0x19f75f[_0x5e4b7c(0xc5)]+_0x5e4b7c(0xc4)+_0x19f75f[_0x5e4b7c(0xe0)]+_0x5e4b7c(0x118)+_0x19f75f['nombre']+_0x5e4b7c(0x11a)+_0x49b234(_0x19f75f[_0x5e4b7c(0x10a)]*_0x19f75f[_0x5e4b7c(0xe0)])+_0x5e4b7c(0x121)+_0x19f75f[_0x5e4b7c(0xc5)]+_0x5e4b7c(0x12a),_0xf5fb00[_0x5e4b7c(0x10c)](_0x5d4c2a),_0x73d9c9+=_0x19f75f[_0x5e4b7c(0x10a)]*_0x19f75f[_0x5e4b7c(0xe0)];}),_0x41fc96[_0x3e05e4(0xcb)]=_0x3e05e4(0xfc)+_0x49b234(_0x73d9c9),document[_0x3e05e4(0xc9)]('.remove-item-btn')[_0x3e05e4(0xbc)](_0x479d3e=>{const _0x420019=_0x3e05e4;_0x479d3e[_0x420019(0xcd)](_0x420019(0xf6),_0x2511ee=>{const _0x3a62ad=_0x420019,_0x534bdb=_0x2511ee[_0x3a62ad(0xf2)][_0x3a62ad(0xe7)]['name'];_0x431f35(_0x534bdb);});}),document[_0x3e05e4(0xc9)](_0x3e05e4(0xc7))[_0x3e05e4(0xbc)](_0x22d535=>{const _0x2f1bbd=_0x3e05e4;_0x22d535[_0x2f1bbd(0xcd)]('click',_0x3330de=>{const _0x3d515c=_0x2f1bbd,_0x1faa35=_0x3330de[_0x3d515c(0xf2)][_0x3d515c(0xe7)][_0x3d515c(0x129)],_0x55b65b=_0x30aca8(),_0x2357d1=_0x55b65b[_0x3d515c(0x104)](_0x57844d=>_0x57844d[_0x3d515c(0xc5)]===_0x1faa35);_0x2357d1&&_0x388e45(_0x2357d1);});}),document[_0x3e05e4(0xc9)](_0x3e05e4(0x134))[_0x3e05e4(0xbc)](_0x4b978c=>{const _0x225d80=_0x3e05e4;_0x4b978c[_0x225d80(0xcd)](_0x225d80(0xf6),_0x518886=>{const _0x4588b0=_0x225d80,_0x4d9dfa=_0x518886[_0x4588b0(0xf2)][_0x4588b0(0xe7)][_0x4588b0(0x129)];_0x3ee30d(_0x4d9dfa);});});}let _0x6cd7d0=_0x4e3fa4(0xb7);_0x158dbc[_0x4e3fa4(0xbc)](_0x1dc745=>{const _0x215be8=_0x4e3fa4;_0x1dc745[_0x215be8(0xcd)](_0x215be8(0xf6),()=>{const _0x1547f2=_0x215be8;if(_0x1dc745[_0x1547f2(0xfe)])return;_0x158dbc[_0x1547f2(0xbc)](_0x172526=>_0x172526['classList'][_0x1547f2(0x100)]('active')),_0x1dc745[_0x1547f2(0x133)]['add'](_0x1547f2(0xc0)),_0x6cd7d0=_0x1dc745['dataset'][_0x1547f2(0xe1)];const _0x51bd10=_0x6cd7d0===_0x1547f2(0xbe);_0x211c6e['style']['transform']=_0x1547f2(0x102)+(_0x51bd10?_0x1547f2(0x12e):'0')+')',_0x349535[_0x1547f2(0x133)][_0x1547f2(0xcc)]('hidden',!_0x51bd10),_0x31e5c5[_0x1547f2(0x133)][_0x1547f2(0xcc)]('hidden',_0x51bd10),document[_0x1547f2(0x11d)](_0x1547f2(0xf5))['required']=_0x51bd10;});}),_0x41dd93[_0x4e3fa4(0xcd)](_0x4e3fa4(0xca),_0x1ce12a=>{const _0x459a0b=_0x4e3fa4;_0x1ce12a[_0x459a0b(0xf3)]();if(!_0x2ff818()){alert(_0x459a0b(0xc1)),location[_0x459a0b(0x12c)]();return;}const _0x3a5dd3=_0x30aca8();if(_0x3a5dd3[_0x459a0b(0x10f)]===0x0){alert(_0x459a0b(0x105));return;}const _0x472970=document[_0x459a0b(0x11d)](_0x459a0b(0x111))[_0x459a0b(0xe1)],_0x4b2fe9=_0x6cd7d0==='pickup'?'Retirar\x20en\x20el\x20local':_0x459a0b(0xdd);let _0x11f093=_0x459a0b(0xcf);_0x11f093+='*Nombre\x20y\x20Apellido:*\x20'+_0x472970+'\x0a',_0x11f093+=_0x459a0b(0xb9)+_0x4b2fe9+'\x0a';if(_0x6cd7d0===_0x459a0b(0xb7)){const _0x27e5af=document['getElementById'](_0x459a0b(0xe5))[_0x459a0b(0xe1)];_0x27e5af&&(_0x11f093+=_0x459a0b(0xc3)+_0x27e5af+'\x0a');}if(_0x6cd7d0===_0x459a0b(0xbe)){const _0x5d49d4=document[_0x459a0b(0x11d)](_0x459a0b(0xf5))[_0x459a0b(0xe1)],_0x328a12=document['getElementById'](_0x459a0b(0xef))['value'];_0x11f093+=_0x459a0b(0xd3)+_0x5d49d4+'\x0a',_0x328a12&&(_0x11f093+='*Aclaraciones:*\x20'+_0x328a12+'\x0a');}_0x11f093+=_0x459a0b(0x116);const _0x56fa01=_0x3a5dd3['reduce']((_0x411319,_0x395778)=>{const _0x472e1d=_0x459a0b;return!_0x411319[_0x395778[_0x472e1d(0xc5)]]&&(_0x411319[_0x395778[_0x472e1d(0xc5)]]={..._0x395778,'quantity':0x0}),_0x411319[_0x395778['nombre']][_0x472e1d(0xe0)]++,_0x411319;},{});let _0x539fe1=0x0;Object['values'](_0x56fa01)['forEach'](_0x53a58e=>{const _0x6c2b99=_0x459a0b;_0x11f093+='-\x20'+_0x53a58e[_0x6c2b99(0xe0)]+'x\x20'+_0x53a58e[_0x6c2b99(0xc5)]+'\x20('+_0x49b234(_0x53a58e[_0x6c2b99(0x10a)]*_0x53a58e[_0x6c2b99(0xe0)])+')\x0a',_0x539fe1+=_0x53a58e['precio']*_0x53a58e[_0x6c2b99(0xe0)];}),_0x11f093+=_0x459a0b(0xd8)+_0x49b234(_0x539fe1);const _0xd4a65b=_0x459a0b(0x127),_0x2b0380='https://wa.me/'+_0xd4a65b+_0x459a0b(0xd6)+encodeURIComponent(_0x11f093);localStorage[_0x459a0b(0xfb)]('italiaCafeCart'),window[_0x459a0b(0xc6)](_0x2b0380,_0x459a0b(0x122)),alert(_0x459a0b(0x131)),setTimeout(()=>{const _0x1cc6d2=_0x459a0b;window['location'][_0x1cc6d2(0x126)]=_0x1cc6d2(0x130);},0x7d0);}),_0x120a89(),_0x5307a6(),_0x1e297c();if(!_0x2ff818()){if(_0x268fe7)_0x268fe7[_0x4e3fa4(0x133)][_0x4e3fa4(0x100)](_0x4e3fa4(0xf9));if(_0xf5fb00)_0xf5fb00[_0x4e3fa4(0x133)][_0x4e3fa4(0xf7)](_0x4e3fa4(0xf9));if(_0x3c4fb0)_0x3c4fb0['classList'][_0x4e3fa4(0xf7)]('hidden');if(_0x3dd038)_0x3dd038[_0x4e3fa4(0x133)]['add'](_0x4e3fa4(0xf9));if(_0x6d75da)_0x6d75da['parentElement']['classList'][_0x4e3fa4(0xf7)](_0x4e3fa4(0xf9));}else{if(_0x268fe7)_0x268fe7['classList'][_0x4e3fa4(0xf7)](_0x4e3fa4(0xf9));}}));
+document.addEventListener("DOMContentLoaded", () => {
+  const cartItemsContainer = document.getElementById("cart-items-container");
+  const cartTotalElement = document.getElementById("cart-total");
+  const checkoutForm = document.getElementById("checkout-form");
+  const addressFields = document.getElementById("address-fields");
+  const pickupFields = document.getElementById("pickup-fields");
+  const emptyCartMessage = document.getElementById("empty-cart-message");
+  const cartSummary = document.getElementById("cart-summary");
+  const deliveryTimeNotice = document.getElementById("delivery-time-notice");
+  const deliveryOptionsContainer = document.querySelector(".delivery-options-container");
+  const closedStoreOverlay = document.getElementById("closed-store-overlay");
+  const deliverySlider = document.querySelector(".delivery-slider");
+  const deliveryNoticeContainer = document.getElementById("delivery-notice-container");
+  const deliveryButtons = document.querySelectorAll(".delivery-option-btn");
+
+  const STORE_SCHEDULE = {
+    // DO: Cerrado
+    0: null,
+    // LU-VI: 07:00-12:00 y 17:00-21:00
+    1: [{ open: "07:00", close: "12:00" }, { open: "17:00", close: "21:00" }],
+    2: [{ open: "07:00", close: "12:00" }, { open: "17:00", close: "21:00" }],
+    3: [{ open: "07:00", close: "12:00" }, { open: "17:00", close: "21:00" }],
+    4: [{ open: "07:00", close: "12:00" }, { open: "17:00", close: "21:00" }],
+    5: [{ open: "07:00", close: "12:00" }, { open: "17:00", close: "21:00" }],
+    // SA: 09:00-12:00 y 17:00-21:00
+    6: [{ open: "09:00", close: "12:00" }, { open: "17:00", close: "21:00" }],
+  };
+
+  function isStoreOpen() {
+    // Usamos el timezone de Argentina para asegurar la hora correcta.
+    const now = new Date(new Date().toLocaleString("en-US", { timeZone: "America/Argentina/Buenos_Aires" }));
+    const dayOfWeek = now.getDay();
+    const currentTime = now.getHours().toString().padStart(2, '0') + ":" + now.getMinutes().toString().padStart(2, '0');
+    const todaysSchedule = STORE_SCHEDULE[dayOfWeek];
+    if (!todaysSchedule) return false;
+    return todaysSchedule.some(slot => currentTime >= slot.open && currentTime < slot.close);
+  }
+
+  function formatPrice(num) {
+    if (num === null || num === undefined) return "";
+    return new Intl.NumberFormat("es-AR", {
+      style: "currency",
+      currency: "ARS",
+      minimumFractionDigits: 0,
+    }).format(num);
+  }
+
+  function getCart() {
+    return JSON.parse(localStorage.getItem("italiaCafeCart")) || [];
+  }
+
+  function saveCart(cart) {
+    localStorage.setItem("italiaCafeCart", JSON.stringify(cart));
+    renderCart();
+    if (window.updateCartUI) {
+      window.updateCartUI();
+    }
+  }
+
+  function addItemToCart(product) {
+    const cart = getCart();
+    cart.push(product);
+    saveCart(cart);
+  }
+
+  function removeOneItemFromCart(productName) {
+    const cart = getCart();
+    const indexToRemove = cart.findIndex(item => item.nombre === productName);
+    if (indexToRemove > -1) {
+      cart.splice(indexToRemove, 1);
+      saveCart(cart);
+    }
+  }
+
+  function removeAllItemsByName(productName) {
+    let cart = getCart();
+    cart = cart.filter(item => item.nombre !== productName);
+    saveCart(cart);
+  }
+
+  function checkDeliveryAvailability() {
+    const deliveryOptionEl = document.querySelector('.delivery-option-btn[data-value="delivery"]');
+    if (!deliveryOptionEl) return;
+
+    const schedule = {
+      0: null,
+      1: [{ open: 7, close: 12.5 }, { open: 17, close: 21 }],
+      6: [{ open: 9.25, close: 12.5 }, { open: 17, close: 21 }],
+    };
+
+    const now = new Date(new Date().toLocaleString("en-US", {timeZone: "America/Argentina/Buenos_Aires"}));
+
+    const dayOfWeek = now.getDay();
+    const currentHour = now.getHours();
+    const currentMinutes = now.getMinutes();
+    const currentTime = currentHour + currentMinutes / 60;
+
+    const todaysSchedule = schedule[dayOfWeek] || schedule[1];
+
+    let isOpen = false;
+    if (todaysSchedule) {
+      for (const slot of todaysSchedule) {
+        if (currentTime >= slot.open && currentTime < slot.close) {
+          isOpen = true;
+          break;
+        }
+      }
+    }
+
+    const isDeliveryTime = currentTime >= 7.5 && currentTime < 9.5;
+
+    if (isOpen) {
+      deliveryOptionEl.disabled = false;
+      deliveryOptionEl.textContent = "Envío";
+      deliveryTimeNotice.innerHTML = isDeliveryTime
+        ? '<i class="fas fa-check-circle" style="color: var(--color-price);"></i> Envío gratis disponible ahora (de 7:30 a 9:30 hs).'
+        : '<i class="fas fa-info-circle"></i> Envío gratis de 7:30 a 9:30 hs. Fuera de dicho horario, se aplicará costo de envío.';
+    } else {
+      deliveryOptionEl.disabled = true;
+      deliveryOptionEl.textContent = "Envío (No disp.)";
+      deliveryTimeNotice.innerHTML = '<i class="fas fa-times-circle"></i> Los envíos no están disponibles en este momento.';
+    }
+  }
+
+  function checkExecutiveBreakfastInCart() {
+    const cart = getCart();
+    const hasExecutiveBreakfast = cart.some(item => item.categoria === "Desayuno Ejecutivo");
+
+    if (hasExecutiveBreakfast) {
+      const pickupButton = document.querySelector('.delivery-option-btn[data-value="pickup"]');
+      const deliveryButton = document.querySelector('.delivery-option-btn[data-value="delivery"]');
+
+      // Forzar selección de "Envío"
+      if (pickupButton) pickupButton.disabled = true;
+      if (deliveryButton) {
+        deliveryButton.click(); // Simula el click para activar la opción de envío
+        deliveryButton.classList.add('active');
+        pickupButton.classList.remove('active');
+      }
+
+      // Mostrar nota informativa
+      if (deliveryNoticeContainer) {
+        const notice = document.createElement('div');
+        notice.className = 'delivery-notice executive-breakfast-notice';
+        notice.innerHTML = `<i class="fas fa-info-circle"></i> El Desayuno Ejecutivo solo está disponible para envío a domicilio.`;
+        // Insertar al principio del contenedor de noticias
+        deliveryNoticeContainer.prepend(notice);
+      }
+    }
+    // Si no hay desayuno ejecutivo, no hacemos nada y dejamos que el usuario elija.
+  }
+
+
+  function renderCart() {
+    const cart = getCart();
+    cartItemsContainer.innerHTML = "";
+
+    if (cart.length === 0) {
+      emptyCartMessage.classList.remove("hidden");
+      cartSummary.classList.add("hidden");
+      return;
+    }
+
+    emptyCartMessage.classList.add("hidden");
+    cartSummary.classList.remove("hidden");
+
+    const groupedCart = cart.reduce((acc, item) => {
+      if (!acc[item.nombre]) {
+        acc[item.nombre] = { ...item, quantity: 0 };
+      }
+      acc[item.nombre].quantity++;
+      return acc;
+    }, {});
+
+    let total = 0;
+
+    Object.values(groupedCart).forEach((item) => {
+      const itemElement = document.createElement("div");
+      itemElement.className = "cart-item";
+      itemElement.innerHTML = `
+        <img src="${item.img}" alt="${item.nombre}" class="cart-item-img" loading="lazy" draggable="false" oncontextmenu="return false;">
+        <div class="cart-item-details">
+          <div>
+            <span class="item-name">${item.nombre}</span>
+            ${item.descripcion ? `<p class="cart-item-desc">${item.descripcion}</p>` : ''}
+          </div>
+        </div>
+        <div class="cart-item-actions">
+          <div class="item-quantity-controls">
+            <button class="quantity-btn decrease-btn" data-name="${item.nombre}">-</button>
+            <span class="item-quantity">${item.quantity}</span>
+            <button class="quantity-btn increase-btn" data-name="${item.nombre}">+</button>
+          </div>
+          <span class="item-price">${formatPrice(item.precio * item.quantity)}</span>
+          <button class="remove-item-btn" data-name="${item.nombre}">&times;</button>
+        </div>
+      `;
+      cartItemsContainer.appendChild(itemElement);
+      total += item.precio * item.quantity;
+    });
+
+    cartTotalElement.textContent = `Total: ${formatPrice(total)}`;
+
+    document.querySelectorAll(".remove-item-btn").forEach((button) => {
+      button.addEventListener("click", (e) => {
+        const itemName = e.target.dataset.name;
+        removeAllItemsByName(itemName);
+      });
+    });
+
+    document.querySelectorAll(".increase-btn").forEach((button) => {
+      button.addEventListener("click", (e) => {
+        const itemName = e.target.dataset.name;
+        const cart = getCart();
+        const itemToAdd = cart.find(p => p.nombre === itemName);
+        if (itemToAdd) {
+          addItemToCart(itemToAdd);
+        }
+      });
+    });
+
+    document.querySelectorAll(".decrease-btn").forEach((button) => {
+      button.addEventListener("click", (e) => {
+        const itemName = e.target.dataset.name;
+        removeOneItemFromCart(itemName);
+      });
+    });
+  }
+
+  let currentDeliveryOption = 'pickup';
+  deliveryButtons.forEach(button => {
+    button.addEventListener('click', () => {
+      if (button.disabled) return;
+      deliveryButtons.forEach(btn => btn.classList.remove('active'));
+      button.classList.add('active');
+      currentDeliveryOption = button.dataset.value;
+      const isDelivery = currentDeliveryOption === 'delivery';
+      
+      deliverySlider.style.transform = `translateX(${isDelivery ? '100%' : '0'})`;
+      addressFields.classList.toggle('hidden', !isDelivery);
+      pickupFields.classList.toggle('hidden', isDelivery);
+      document.getElementById("address").required = isDelivery;
+    });
+  });
+
+  checkoutForm.addEventListener("submit", (e) => {
+    e.preventDefault();
+
+    if (!isStoreOpen()) {
+      alert("El local se encuentra cerrado en este momento. No se puede enviar el pedido.");
+      location.reload(); // Recargar para reflejar el estado deshabilitado
+      return;
+    }
+
+    const cart = getCart();
+    if (cart.length === 0) {
+      alert("Tu carrito está vacío.");
+      return;
+    }
+
+    const name = document.getElementById("customer-name").value;
+    const deliveryType = currentDeliveryOption === 'pickup' ? 'Retirar en el local' : 'Envío a domicilio';
+
+    let message = `¡Hola! Quisiera hacer un pedido:\n\n`;
+    message += `*Nombre y Apellido:* ${name}\n`;
+    message += `*Tipo de entrega:* ${deliveryType}\n`;
+
+    if (currentDeliveryOption === "pickup") {
+      const pickupDetails = document.getElementById("pickup-details").value;
+      if (pickupDetails) {
+        message += `*Aclaraciones de retiro:* ${pickupDetails}\n`;
+      }
+    }
+
+    if (currentDeliveryOption === "delivery") {
+      const address = document.getElementById("address").value;
+      const addressDetails = document.getElementById("address-details").value;
+      message += `*Dirección:* ${address}\n`;
+      if (addressDetails) {
+        message += `*Aclaraciones:* ${addressDetails}\n`;
+      }
+    }
+
+    message += `\n*Pedido:*\n`;
+
+    const groupedCart = cart.reduce((acc, item) => {
+      if (!acc[item.nombre]) {
+        acc[item.nombre] = { ...item, quantity: 0 };
+      }
+      acc[item.nombre].quantity++;
+      return acc;
+    }, {});
+
+    let total = 0;
+    Object.values(groupedCart).forEach(item => {
+      message += `- ${item.quantity}x ${item.nombre} (${formatPrice(item.precio * item.quantity)})\n`;
+      total += item.precio * item.quantity;
+    });
+
+    message += `\n*Total:* ${formatPrice(total)}`;
+
+    const whatsappNumber = "5493624688355";
+    const whatsappUrl = `https://wa.me/${whatsappNumber}?text=${encodeURIComponent(message)}`;
+
+    localStorage.removeItem("italiaCafeCart");
+
+    window.open(whatsappUrl, "_blank");
+
+    alert("¡Gracias por tu pedido! Serás redirigido a WhatsApp para enviarlo.");
+    setTimeout(() => {
+        window.location.href = 'index.html';
+    }, 2000);
+  });
+
+  renderCart();
+  checkDeliveryAvailability();
+  checkExecutiveBreakfastInCart();
+
+  // Mostrar mensaje de tienda cerrada y ocultar carrito si es necesario
+  if (!isStoreOpen()) {
+    if (closedStoreOverlay) closedStoreOverlay.classList.remove("hidden");
+    if (cartItemsContainer) cartItemsContainer.classList.add("hidden");
+    if (cartSummary) cartSummary.classList.add("hidden");
+    if (emptyCartMessage) emptyCartMessage.classList.add("hidden");
+    if (deliveryOptionsContainer) deliveryOptionsContainer.parentElement.classList.add("hidden");
+  } else {
+    if (closedStoreOverlay) closedStoreOverlay.classList.add("hidden");
+  }
+});
