@@ -14,20 +14,16 @@ document.addEventListener("DOMContentLoaded", () => {
   const deliveryButtons = document.querySelectorAll(".delivery-option-btn");
 
   const STORE_SCHEDULE = {
-    // DO: Cerrado
     0: null,
-    // LU-VI: 07:00-12:00 y 17:00-21:00
     1: [{ open: "07:00", close: "12:00" }, { open: "17:00", close: "21:00" }],
     2: [{ open: "07:00", close: "12:00" }, { open: "17:00", close: "21:00" }],
     3: [{ open: "07:00", close: "12:00" }, { open: "17:00", close: "21:00" }],
     4: [{ open: "07:00", close: "12:00" }, { open: "17:00", close: "21:00" }],
     5: [{ open: "07:00", close: "12:00" }, { open: "17:00", close: "21:00" }],
-    // SA: 09:00-12:00 y 17:00-21:00
     6: [{ open: "09:00", close: "12:00" }, { open: "17:00", close: "21:00" }],
   };
 
   function isStoreOpen() {
-    // Usamos el timezone de Argentina para asegurar la hora correcta.
     const now = new Date(new Date().toLocaleString("en-US", { timeZone: "America/Argentina/Buenos_Aires" }));
     const dayOfWeek = now.getDay();
     const currentTime = now.getHours().toString().padStart(2, '0') + ":" + now.getMinutes().toString().padStart(2, '0');
@@ -130,24 +126,19 @@ document.addEventListener("DOMContentLoaded", () => {
       const pickupButton = document.querySelector('.delivery-option-btn[data-value="pickup"]');
       const deliveryButton = document.querySelector('.delivery-option-btn[data-value="delivery"]');
 
-      // Forzar selección de "Envío"
       if (pickupButton) pickupButton.disabled = true;
       if (deliveryButton) {
-        deliveryButton.click(); // Simula el click para activar la opción de envío
+        deliveryButton.click();
         deliveryButton.classList.add('active');
         pickupButton.classList.remove('active');
       }
-
-      // Mostrar nota informativa
       if (deliveryNoticeContainer) {
         const notice = document.createElement('div');
         notice.className = 'delivery-notice executive-breakfast-notice';
         notice.innerHTML = `<i class="fas fa-info-circle"></i> El Desayuno Ejecutivo solo está disponible para envío a domicilio.`;
-        // Insertar al principio del contenedor de noticias
         deliveryNoticeContainer.prepend(notice);
       }
     }
-    // Si no hay desayuno ejecutivo, no hacemos nada y dejamos que el usuario elija.
   }
 
 
@@ -248,7 +239,7 @@ document.addEventListener("DOMContentLoaded", () => {
 
     if (!isStoreOpen()) {
       alert("El local se encuentra cerrado en este momento. No se puede enviar el pedido.");
-      location.reload(); // Recargar para reflejar el estado deshabilitado
+      location.reload();
       return;
     }
 
@@ -316,7 +307,6 @@ document.addEventListener("DOMContentLoaded", () => {
   checkDeliveryAvailability();
   checkExecutiveBreakfastInCart();
 
-  // Mostrar mensaje de tienda cerrada y ocultar carrito si es necesario
   if (!isStoreOpen()) {
     if (closedStoreOverlay) closedStoreOverlay.classList.remove("hidden");
     if (cartItemsContainer) cartItemsContainer.classList.add("hidden");

@@ -1,29 +1,24 @@
 document.addEventListener("DOMContentLoaded", () => {
-  // Inicializar Flatpickr para el campo de fecha
   flatpickr("#event-date", {
     locale: "es",
     dateFormat: "d/m/Y",
     minDate: "today",
-    disableMobile: "true", // Usar el calendario de flatpickr en móviles
+    disableMobile: "true",
     "disable": [
         function(date) {
-            // Deshabilitar Domingos (0)
             return (date.getDay() === 0);
         }
     ]
   });
 
-  // Elementos del formulario
   const form = document.getElementById("reserva-form");
   const eventTimeSelect = document.getElementById("event-time");
   const specificTimeGroup = document.getElementById("specific-time-group");
   const specificTimeInput = document.getElementById("specific-time");
   const eventReasonSelect = document.getElementById("event-reason");
 
-  // Inicializar Flatpickr para el campo de hora (se configurará al cambiar la franja)
   let timePicker = null;
 
-  // Lógica para mostrar/ocultar campo de hora específica
   eventTimeSelect.addEventListener("change", (e) => {
     const selectedValue = e.target.value;
     if (selectedValue.includes("Mañana")) {
@@ -65,7 +60,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
   const validateForm = (isSubmitting = false) => {
     let isValid = true;
-    // Seleccionar solo los inputs requeridos que NO están en un contenedor oculto
     const requiredInputs = form.querySelectorAll("input[required]:not(.hidden input), select[required]:not(.hidden select)");
     
     if (isSubmitting) {
@@ -97,7 +91,6 @@ document.addEventListener("DOMContentLoaded", () => {
       return;
     }
 
-    // Recopilar datos del formulario
     const name = document.getElementById("customer-name").value;
     const date = document.getElementById("event-date").value;
     const time = document.getElementById("event-time").value;
@@ -106,7 +99,6 @@ document.addEventListener("DOMContentLoaded", () => {
     const reason = document.getElementById("event-reason").value;
     const cakeOrder = document.getElementById("cake-order").value;
 
-    // Construir el mensaje de WhatsApp
     let message = `¡Hola! Quisiera consultar por una reserva para el salón de eventos:\n\n`;
     message += `*Nombre:* ${name}\n`;
     message += `*Fecha:* ${date}\n`;

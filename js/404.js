@@ -7,7 +7,6 @@ document.addEventListener('DOMContentLoaded', () => {
 
     let particlesArray;
 
-    // Particle class
     class Particle {
         constructor(x, y, directionX, directionY, size, color) {
             this.x = x;

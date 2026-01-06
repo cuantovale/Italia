@@ -916,15 +916,12 @@ function createElement(type, options = {}) {
 }
 
 const STORE_SCHEDULE = {
-    // DO: Cerrado
     0: null,
-    // LU-VI: 07:00-12:00 y 17:00-21:00
     1: [{ open: "07:00", close: "12:00" }, { open: "17:00", close: "21:00" }],
     2: [{ open: "07:00", close: "12:00" }, { open: "17:00", close: "21:00" }],
     3: [{ open: "07:00", close: "12:00" }, { open: "17:00", close: "21:00" }],
     4: [{ open: "07:00", close: "12:00" }, { open: "17:00", close: "21:00" }],
     5: [{ open: "07:00", close: "12:00" }, { open: "17:00", close: "21:00" }],
-    // SA: 09:00-12:00 y 17:00-21:00
     6: [{ open: "09:00", close: "12:00" }, { open: "17:00", close: "21:00" }],
 };
 
@@ -940,17 +937,13 @@ function isStoreOpen() {
 function isExecutiveBreakfastTime() {
     const now = new Date(new Date().toLocaleString("en-US", { timeZone: "America/Argentina/Buenos_Aires" }));
     const currentTime = now.getHours() + now.getMinutes() / 60;
-    // Horario: 7:30 a 9:30
     return currentTime >= 7.5 && currentTime < 9.5;
 }
 
 function renderAllProducts() {
     const container = document.getElementById("menu-container");
-    // Guardamos los mensajes persistentes
     const persistentMessages = container.querySelectorAll('.no-results-message, .closed-store-message');
-    // Limpiamos solo los productos, no los mensajes
     container.innerHTML = '';
-    // Re-insertamos los mensajes al principio
     persistentMessages.forEach(msg => container.appendChild(msg));
 
     MENU_DATA.forEach((catData) => {
@@ -1298,10 +1291,9 @@ categoryButtons.forEach((btn) => {
         const sectionElement = document.getElementById(sectionId);
         if (sectionElement) {
             window.removeEventListener("scroll", handleScroll, { passive: true });
-            // Limpiamos la búsqueda para que no interfiera con el filtro de categoría
             document.getElementById("search-input").value = "";
             lenis.scrollTo(sectionElement, { offset: -150 });
-            showAllProductsAndCategories(); // Mostramos todo antes de que el scrollspy actualice
+            showAllProductsAndCategories();
             updateActiveCategory(categoryName);
             setTimeout(() => window.addEventListener("scroll", handleScroll, { passive: true }), 1000);
         }
@@ -1335,7 +1327,6 @@ document.addEventListener("DOMContentLoaded", () => {
 
     const searchInput = document.getElementById("search-input");
     searchInput.addEventListener("input", () => {
-        // Si el input está vacío, mostramos todo. Si no, filtramos.
         const searchTerm = searchInput.value.trim();
         filterProducts();
     });
